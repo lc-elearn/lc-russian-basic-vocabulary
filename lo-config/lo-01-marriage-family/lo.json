@@ -1,0 +1,60 @@
+{
+  "title": "Marriage and family · Брак и семья",
+  "description": "Discuss marriage, divorce and having children, sharing domestic responsibilities and equal rights for men and women.",
+  "image": "images/lo-01-marriage-family/card.jpg",
+  "hero": {
+    "src": "images/lo-01-marriage-family/hero.png"
+  },
+  "sections": [
+    {
+      "id": "introduction",
+      "label": "Introduction · Введение",
+      "navLabel": "Introduction",
+      "blocks": ["00-intro", "01-outcomes"]
+    },
+    {
+      "id": "vocabulary",
+      "label": "Vocabulary · Словарь",
+      "navLabel": "Vocabulary",
+      "blocks": ["02-vocabulary-intro", "03-vocabulary", "03b-vocabulary-alphabetic"]
+    },
+    {
+      "id": "exercises",
+      "label": "Exercises · Упражнения",
+      "navLabel": "Exercises",
+      "exercises": [
+        "01-flashcards-verbs",
+        "02-flashcards-nouns",
+        "03-flashcards-adjectives",
+        "04-matching-words-1",
+        "05-matching-words-2",
+        "06-matching-words-3",
+        "07-multiple-choice",
+        "08-match-halves-1",
+        "09-match-halves-2",
+        "10-fill-gaps-1",
+        "11-fill-gaps-2",
+        "12-reconstruct-1",
+        "13-reconstruct-2"
+      ]
+    },
+    {
+      "id": "set-expressions",
+      "label": "Set expressions · Устойчивые выражения",
+      "navLabel": "Set expressions",
+      "blocks": ["04-dialogues"],
+      "exercises": ["14-set-expressions"]
+    },
+    {
+      "id": "reading",
+      "label": "Reading · Чтение",
+      "navLabel": "Reading",
+      "exercises": ["15-reading"]
+    },
+    {
+      "id": "credits",
+      "label": "Credits",
+      "blocks": ["06-credits"]
+    }
+  ]
+}

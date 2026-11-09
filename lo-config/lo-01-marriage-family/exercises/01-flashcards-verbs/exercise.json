@@ -1,0 +1,63 @@
+{
+  "type": "flashcards",
+  "title": "1. Flash cards: verbs",
+  "content": {
+    "cards": [
+      {
+        "target": "выходи́ть/вы́йти за́муж",
+        "native": "to marry (for a woman)",
+        "audio": "audio/lo-01-marriage-family/verbs/ruvoc_u1_dvocab_19.mp3"
+      },
+      {
+        "target": "жени́ться",
+        "native": "to marry (for a man)",
+        "audio": "audio/lo-01-marriage-family/verbs/ruvoc_u1_dvocab_20.mp3"
+      },
+      {
+        "target": "подде́рживать семью́",
+        "native": "to support family",
+        "audio": "audio/lo-01-marriage-family/verbs/ruvoc_u1_dvocab_21.mp3"
+      },
+      {
+        "target": "принима́ть реше́ния",
+        "native": "to make decisions",
+        "audio": "audio/lo-01-marriage-family/verbs/ruvoc_u1_dvocab_22.mp3"
+      },
+      {
+        "target": "меша́ть",
+        "native": "to interfere with",
+        "audio": "audio/lo-01-marriage-family/verbs/ruvoc_u1_dvocab_23.mp3"
+      },
+      {
+        "target": "относи́ться",
+        "native": "to have a certain attitude",
+        "audio": "audio/lo-01-marriage-family/verbs/ruvoc_u1_dvocab_24.mp3"
+      },
+      {
+        "target": "занима́ться хозя́йством",
+        "native": "to keep house",
+        "audio": "audio/lo-01-marriage-family/verbs/ruvoc_u1_dvocab_25.mp3"
+      },
+      {
+        "target": "беспоко́ить",
+        "native": "to worry",
+        "audio": "audio/lo-01-marriage-family/verbs/ruvoc_u1_dvocab_26.mp3"
+      },
+      {
+        "target": "боя́ться",
+        "native": "to be afraid of",
+        "audio": "audio/lo-01-marriage-family/verbs/ruvoc_u1_dvocab_27.mp3"
+      },
+      {
+        "target": "разводи́ться",
+        "native": "to divorce",
+        "audio": "audio/lo-01-marriage-family/verbs/ruvoc_u1_dvocab_28.mp3"
+      }
+    ],
+    "footnote": "Choose Russian to English or English to Russian, then mark each word as recognised or not."
+  },
+  "options": {
+    "shuffle": true,
+    "srs": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "type": "flashcards",
+  "title": "1. Flash cards: nouns",
+  "content": {
+    "cards": [
+      {
+        "target": "брак",
+        "native": "marriage",
+        "audio": "audio/lo-01-marriage-family/nouns/ruvoc_u1_dvocab_9.mp3"
+      },
+      {
+        "target": "сва́дьба",
+        "native": "wedding",
+        "audio": "audio/lo-01-marriage-family/nouns/ruvoc_u1_dvocab_10.mp3"
+      },
+      {
+        "target": "равнопра́вие",
+        "native": "equal rights",
+        "audio": "audio/lo-01-marriage-family/nouns/ruvoc_u1_dvocab_11.mp3"
+      },
+      {
+        "target": "обя́занности",
+        "native": "duties",
+        "audio": "audio/lo-01-marriage-family/nouns/ruvoc_u1_dvocab_12.mp3"
+      },
+      {
+        "target": "быт",
+        "native": "everyday routine",
+        "audio": "audio/lo-01-marriage-family/nouns/ruvoc_u1_dvocab_13.mp3"
+      },
+      {
+        "target": "супру́га",
+        "native": "spouse, wife",
+        "audio": "audio/lo-01-marriage-family/nouns/ruvoc_u1_dvocab_14.mp3"
+      },
+      {
+        "target": "о́бщество",
+        "native": "society",
+        "audio": "audio/lo-01-marriage-family/nouns/ruvoc_u1_dvocab_15.mp3"
+      },
+      {
+        "target": "свобо́да",
+        "native": "freedom",
+        "audio": "audio/lo-01-marriage-family/nouns/ruvoc_u1_dvocab_16.mp3"
+      },
+      {
+        "target": "отноше́ние",
+        "native": "attitude",
+        "audio": "audio/lo-01-marriage-family/nouns/ruvoc_u1_dvocab_17.mp3"
+      },
+      {
+        "target": "отноше́ния",
+        "native": "relationship",
+        "audio": "audio/lo-01-marriage-family/nouns/ruvoc_u1_dvocab_18.mp3"
+      }
+    ],
+    "footnote": "Choose Russian to English or English to Russian, then mark each word as recognised or not."
+  },
+  "options": {
+    "shuffle": true,
+    "srs": true
+  }
+}

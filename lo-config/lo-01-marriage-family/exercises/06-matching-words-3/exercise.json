@@ -1,0 +1,39 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "2. Matching words: part 3",
+  "content": {
+    "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+    "items": [
+      {
+        "text": "equal rights — [равноправие]"
+      },
+      {
+        "text": "to marry (for a man) — [жениться]"
+      },
+      {
+        "text": "negative — [отрицательный]"
+      },
+      {
+        "text": "to keep house — [вести хозяйство]"
+      },
+      {
+        "text": "wedding — [свадьба]"
+      },
+      {
+        "text": "to have a certain attitude — [относиться]"
+      },
+      {
+        "text": "unequal — [неравный]"
+      },
+      {
+        "text": "professional growth — [профессиональный рост]"
+      },
+      {
+        "text": "to worry — [беспокоить]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}
