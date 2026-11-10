@@ -241,6 +241,7 @@ as far as the tree is concerned.
 │       ├── before-pr/
 │       ├── build-for-upload/
 │       ├── change-theme/
+│       ├── check-learning-object/
 │       ├── culp-syllabus/
 │       └── sync-from-template/
 ├── .github/
