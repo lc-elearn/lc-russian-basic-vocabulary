@@ -1,0 +1,39 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "2. Matching words: part 1",
+  "content": {
+    "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+    "items": [
+      {
+        "text": "to wash up — [мыть посуду]"
+      },
+      {
+        "text": "facilities — [удобства]"
+      },
+      {
+        "text": "separate room — [отдельная комната]"
+      },
+      {
+        "text": "to vacuum-clean — [пылесосить]"
+      },
+      {
+        "text": "from another town — [иногородний]"
+      },
+      {
+        "text": "to rent a flat — [снимать квартиру]"
+      },
+      {
+        "text": "dining room — [столовая]"
+      },
+      {
+        "text": "responsibility — [ответственность]"
+      },
+      {
+        "text": "hob — [плита]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

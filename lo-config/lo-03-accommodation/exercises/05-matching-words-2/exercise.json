@@ -1,0 +1,39 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "2. Matching words: part 2",
+  "content": {
+    "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+    "items": [
+      {
+        "text": "religious faith — [вероисповедание]"
+      },
+      {
+        "text": "to let a flat — [сдать квартиру]"
+      },
+      {
+        "text": "to turn to — [обращаться]"
+      },
+      {
+        "text": "homeless — [бездомный]"
+      },
+      {
+        "text": "to quarrel — [ссориться]"
+      },
+      {
+        "text": "neighbours — [соседи]"
+      },
+      {
+        "text": "voting — [голосование]"
+      },
+      {
+        "text": "to socialise — [общаться]"
+      },
+      {
+        "text": "sink — [раковина]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}
