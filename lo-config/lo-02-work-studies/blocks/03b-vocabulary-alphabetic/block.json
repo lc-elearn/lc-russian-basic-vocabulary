@@ -44,7 +44,7 @@
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_8.mp3"
       },
       {
-        "term": "жить (на ́ Acc)",
+        "term": "жить (на + Acc)",
         "gloss": "to live on",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_9.mp3"
       },
@@ -94,7 +94,7 @@
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_18.mp3"
       },
       {
-        "term": "меша́ть/помеша́ть (́ Dat)",
+        "term": "меша́ть/помеша́ть (+ Dat)",
         "gloss": "to disturb, to interfere",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_19.mp3"
       },
@@ -134,17 +134,17 @@
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_26.mp3"
       },
       {
-        "term": "отка́зываться/отказа́ться (от ́ Gen)",
+        "term": "отка́зываться/отказа́ться (от + Gen)",
         "gloss": "to refuse",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_27.mp3"
       },
       {
-        "term": "пла́та (за ́ Acc)",
+        "term": "пла́та (за + Acc)",
         "gloss": "payment",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_28.mp3"
       },
       {
-        "term": "плати́ть/заплати́ть (за ́ Acc)",
+        "term": "плати́ть/заплати́ть (за + Acc)",
         "gloss": "to pay for smth.",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_29.mp3"
       },
@@ -174,12 +174,12 @@
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_34.mp3"
       },
       {
-        "term": "привыка́ть/привы́кнуть (к ́ Dat)",
+        "term": "привыка́ть/привы́кнуть (к + Dat)",
         "gloss": "to get used to",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_35.mp3"
       },
       {
-        "term": "приходи́ться/прийти́сь (́ Dat) (Студе́нтам прихо́дится подраба́тывать)",
+        "term": "приходи́ться/прийти́сь (+ Dat) (Студе́нтам прихо́дится подраба́тывать)",
         "gloss": "to have to do smth.",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_36.mp3"
       },
@@ -189,7 +189,7 @@
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_37.mp3"
       },
       {
-        "term": "рабо́та по специа́льности (по ́ Dat)",
+        "term": "рабо́та по специа́льности (по + Dat)",
         "gloss": "work in one’s profession",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_38.mp3"
       },
@@ -199,7 +199,7 @@
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_39.mp3"
       },
       {
-        "term": "равня́ться (impf only) (́ Dat)",
+        "term": "равня́ться (impf only) (+ Dat)",
         "gloss": "to equal",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_40.mp3"
       },
@@ -244,12 +244,12 @@
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_48.mp3"
       },
       {
-        "term": "тра́тить/потра́тить де́ньги (на ́ Acc)",
+        "term": "тра́тить/потра́тить де́ньги (на + Acc)",
         "gloss": "to spend money",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_49.mp3"
       },
       {
-        "term": "тре́бовать/потре́бовать (что́бы ́ inf)",
+        "term": "тре́бовать/потре́бовать (что́бы + inf)",
         "gloss": "to demand",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_50.mp3"
       },
@@ -279,7 +279,7 @@
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_55.mp3"
       },
       {
-        "term": "устава́ть/уста́ть (от ́ Gen)",
+        "term": "устава́ть/уста́ть (от + Gen)",
         "gloss": "to get tired",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_56.mp3"
       },
@@ -289,7 +289,7 @@
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_57.mp3"
       },
       {
-        "term": "учи́ться (́ where)",
+        "term": "учи́ться (+ where)",
         "gloss": "to study, to be a student",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_58.mp3"
       },
@@ -299,12 +299,12 @@
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_59.mp3"
       },
       {
-        "term": "хвата́ть/хвати́ть (́ Dat ́ Gen) (Студе́нтам не хвата́ет де́нег)",
+        "term": "хвата́ть/хвати́ть (+ Dat + Gen) (Студе́нтам не хвата́ет де́нег)",
         "gloss": "to have enough",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_60.mp3"
       },
       {
-        "term": "эконо́мить/сэконо́мить (на ́ Prep)",
+        "term": "эконо́мить/сэконо́мить (на + Prep)",
         "gloss": "to economise, to save",
         "audio": "audio/lo-02-work-studies/vocab-alphabetic/ruvoc_u2_avocab_61.mp3"
       }

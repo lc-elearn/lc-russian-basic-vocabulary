@@ -34,7 +34,7 @@
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_6.mp3"
       },
       {
-        "term": "плати́ть/заплати́ть (за ́ Acc)",
+        "term": "плати́ть/заплати́ть (за + Acc)",
         "gloss": "to pay for smth.",
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_7.mp3"
       },
@@ -54,7 +54,7 @@
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_10.mp3"
       },
       {
-        "term": "равня́ться (impf only) (́ Dat)",
+        "term": "равня́ться (impf only) (+ Dat)",
         "gloss": "to equal",
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_11.mp3"
       },
@@ -84,7 +84,7 @@
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_16.mp3"
       },
       {
-        "term": "отка́зываться/отказа́ться (от ́ Gen)",
+        "term": "отка́зываться/отказа́ться (от + Gen)",
         "gloss": "to refuse",
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_17.mp3"
       },
@@ -114,12 +114,12 @@
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_22.mp3"
       },
       {
-        "term": "устава́ть/уста́ть (от ́ Gen)",
+        "term": "устава́ть/уста́ть (от + Gen)",
         "gloss": "to get tired",
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_23.mp3"
       },
       {
-        "term": "меша́ть/помеша́ть (́ Dat)",
+        "term": "меша́ть/помеша́ть (+ Dat)",
         "gloss": "to disturb, to interfere",
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_24.mp3"
       },
@@ -204,12 +204,12 @@
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_40.mp3"
       },
       {
-        "term": "жить (на ́ Acc)",
+        "term": "жить (на + Acc)",
         "gloss": "to live on",
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_41.mp3"
       },
       {
-        "term": "тра́тить/потра́тить де́ньги (на ́ Acc)",
+        "term": "тра́тить/потра́тить де́ньги (на + Acc)",
         "gloss": "to spend money",
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_42.mp3"
       },
@@ -219,7 +219,7 @@
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_43.mp3"
       },
       {
-        "term": "хвата́ть/хвати́ть (́ Dat ́ Gen) (Студе́нтам не хвата́ет де́нег)",
+        "term": "хвата́ть/хвати́ть (+ Dat + Gen) (Студе́нтам не хвата́ет де́нег)",
         "gloss": "to have enough",
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_44.mp3"
       },
@@ -229,7 +229,7 @@
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_45.mp3"
       },
       {
-        "term": "тре́бовать/потре́бовать (что́бы ́ inf)",
+        "term": "тре́бовать/потре́бовать (что́бы + inf)",
         "gloss": "to demand",
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_46.mp3"
       },
@@ -259,17 +259,17 @@
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_51.mp3"
       },
       {
-        "term": "приходи́ться/прийти́сь (́ Dat) (Студе́нтам прихо́дится подраба́тывать)",
+        "term": "приходи́ться/прийти́сь (+ Dat) (Студе́нтам прихо́дится подраба́тывать)",
         "gloss": "to have to do smth.",
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_52.mp3"
       },
       {
-        "term": "привыка́ть/привы́кнуть (к ́ Dat)",
+        "term": "привыка́ть/привы́кнуть (к + Dat)",
         "gloss": "to get used to",
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_53.mp3"
       },
       {
-        "term": "эконо́мить/сэконо́мить (на ́ Prep)",
+        "term": "эконо́мить/сэконо́мить (на + Prep)",
         "gloss": "to economise, to save",
         "audio": "audio/lo-02-work-studies/vocab-semantic/ruvoc_u2_svocab_54.mp3"
       },
