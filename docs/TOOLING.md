@@ -237,6 +237,8 @@ is too low`, and the guard fails closed, so every Claude edit was blocked — an
   Reset restores it; the flip cue retires after three turns, stays retired after a
   reload, comes back with flashcards' Clear saved progress, and fades under reduced
   motion; a finished flashcards deck shows its done card and Reset does not move;
+  a typed gap marks a non-preferred answer right and a revealed miss lists the other
+  accepted answers, axe clean (`typed-answer-alternatives`);
   every debug page's nav lists all six and marks the current one (`debug-nav`); and the
   code style, CULP syllabi and Claude skills pages load cleanly and pass axe in both
   themes.
