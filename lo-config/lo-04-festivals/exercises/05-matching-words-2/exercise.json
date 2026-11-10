@@ -1,0 +1,39 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "2. Matching words: part 2",
+  "content": {
+    "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+    "items": [
+      {
+        "text": "orthodoxy — [православие]"
+      },
+      {
+        "text": "to decorate — [украшать]"
+      },
+      {
+        "text": "to become a thing of the past — [уходить в прошлое]"
+      },
+      {
+        "text": "jubilee — [юбилей]"
+      },
+      {
+        "text": "state — [государственный]"
+      },
+      {
+        "text": "to cause smb. to feel smth. — [вызывать эмоции]"
+      },
+      {
+        "text": "positive — [положительный]"
+      },
+      {
+        "text": "to welcome New Year in — [встречать Новый год]"
+      },
+      {
+        "text": "to mark — [отмечать]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

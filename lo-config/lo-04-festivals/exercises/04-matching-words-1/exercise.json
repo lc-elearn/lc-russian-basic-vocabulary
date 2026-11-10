@@ -1,0 +1,39 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "2. Matching words: part 1",
+  "content": {
+    "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+    "items": [
+      {
+        "text": "to be glad — [радоваться]"
+      },
+      {
+        "text": "hospitality — [гостеприимство]"
+      },
+      {
+        "text": "to preserve — [сохранять]"
+      },
+      {
+        "text": "alcoholic drinks — [выпивка]"
+      },
+      {
+        "text": "pagan — [языческий]"
+      },
+      {
+        "text": "according to Russian custom — [по русскому обычаю]"
+      },
+      {
+        "text": "to unite — [объединять]"
+      },
+      {
+        "text": "to give presents — [дарить подарки]"
+      },
+      {
+        "text": "to create — [создавать]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

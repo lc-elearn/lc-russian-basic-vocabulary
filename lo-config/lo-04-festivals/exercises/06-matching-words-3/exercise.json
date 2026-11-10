@@ -1,0 +1,39 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "2. Matching words: part 3",
+  "content": {
+    "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+    "items": [
+      {
+        "text": "it is customary — [принято]"
+      },
+      {
+        "text": "feast — [застолье]"
+      },
+      {
+        "text": "to send a card — [посылать открытку]"
+      },
+      {
+        "text": "negative — [отрицательный]"
+      },
+      {
+        "text": "to reflect — [отражать]"
+      },
+      {
+        "text": "to celebrate — [праздновать]"
+      },
+      {
+        "text": "generation — [поколение]"
+      },
+      {
+        "text": "reception (of guests) — [приём гостей]"
+      },
+      {
+        "text": "to arrange — [устраивать]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}
