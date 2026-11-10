@@ -1,0 +1,62 @@
+{
+  "type": "flashcards",
+  "title": "1. Flash cards: nouns",
+  "content": {
+    "cards": [
+      {
+        "target": "безрабо́тица",
+        "native": "unemployment",
+        "audio": "audio/lo-02-work-studies/nouns/ruvoc_u2_dvocab_11.mp3"
+      },
+      {
+        "target": "безрабо́тный",
+        "native": "unemployed",
+        "audio": "audio/lo-02-work-studies/nouns/ruvoc_u2_dvocab_12.mp3"
+      },
+      {
+        "target": "зарпла́та",
+        "native": "salary",
+        "audio": "audio/lo-02-work-studies/nouns/ruvoc_u2_dvocab_13.mp3"
+      },
+      {
+        "target": "о́пыт",
+        "native": "experience",
+        "audio": "audio/lo-02-work-studies/nouns/ruvoc_u2_dvocab_14.mp3"
+      },
+      {
+        "target": "дохо́д",
+        "native": "income",
+        "audio": "audio/lo-02-work-studies/nouns/ruvoc_u2_dvocab_15.mp3"
+      },
+      {
+        "target": "прожи́точный ми́нимум",
+        "native": "living wage, cost of living",
+        "audio": "audio/lo-02-work-studies/nouns/ruvoc_u2_dvocab_16.mp3"
+      },
+      {
+        "target": "расхо́ды",
+        "native": "expenses",
+        "audio": "audio/lo-02-work-studies/nouns/ruvoc_u2_dvocab_17.mp3"
+      },
+      {
+        "target": "спо́соб",
+        "native": "way, means",
+        "audio": "audio/lo-02-work-studies/nouns/ruvoc_u2_dvocab_18.mp3"
+      },
+      {
+        "target": "повыше́ние",
+        "native": "rise",
+        "audio": "audio/lo-02-work-studies/nouns/ruvoc_u2_dvocab_19.mp3"
+      },
+      {
+        "target": "специа́льность",
+        "native": "qualification, profession",
+        "audio": "audio/lo-02-work-studies/nouns/ruvoc_u2_dvocab_20.mp3"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true,
+    "srs": true
+  }
+}

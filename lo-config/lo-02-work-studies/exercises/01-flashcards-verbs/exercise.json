@@ -1,0 +1,62 @@
+{
+  "type": "flashcards",
+  "title": "1. Flash cards: verbs",
+  "content": {
+    "cards": [
+      {
+        "target": "зараба́тывать/зарабо́тать",
+        "native": "to earn",
+        "audio": "audio/lo-02-work-studies/verbs/ruvoc_u2_dvocab_1.mp3"
+      },
+      {
+        "target": "отка́зываться/отказа́ться (от ́ Gen)",
+        "native": "to refuse",
+        "audio": "audio/lo-02-work-studies/verbs/ruvoc_u2_dvocab_2.mp3"
+      },
+      {
+        "target": "повыша́ть/повы́сить",
+        "native": "to raise",
+        "audio": "audio/lo-02-work-studies/verbs/ruvoc_u2_dvocab_3.mp3"
+      },
+      {
+        "target": "подраба́тывать/подрабо́тать",
+        "native": "to get an extra job",
+        "audio": "audio/lo-02-work-studies/verbs/ruvoc_u2_dvocab_4.mp3"
+      },
+      {
+        "target": "привыка́ть/привы́кнуть (к ́ Dat)",
+        "native": "to get used to",
+        "audio": "audio/lo-02-work-studies/verbs/ruvoc_u2_dvocab_5.mp3"
+      },
+      {
+        "target": "студе́нтам не хвата́ет де́нег",
+        "native": "students don’t have enough money",
+        "audio": "audio/lo-02-work-studies/verbs/ruvoc_u2_dvocab_6.mp3"
+      },
+      {
+        "target": "тра́тить/потра́тить де́ньги",
+        "native": "to spend money",
+        "audio": "audio/lo-02-work-studies/verbs/ruvoc_u2_dvocab_7.mp3"
+      },
+      {
+        "target": "тре́бовать/потре́бовать (что́бы ́ inf)",
+        "native": "to demand",
+        "audio": "audio/lo-02-work-studies/verbs/ruvoc_u2_dvocab_8.mp3"
+      },
+      {
+        "target": "сокраща́ть/сократи́ть",
+        "native": "to reduce",
+        "audio": "audio/lo-02-work-studies/verbs/ruvoc_u2_dvocab_9.mp3"
+      },
+      {
+        "target": "устава́ть/уста́ть (от ́ Gen)",
+        "native": "to get tired",
+        "audio": "audio/lo-02-work-studies/verbs/ruvoc_u2_dvocab_10.mp3"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true,
+    "srs": true
+  }
+}

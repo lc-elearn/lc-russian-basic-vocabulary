@@ -1,0 +1,62 @@
+{
+  "type": "flashcards",
+  "title": "1. Flash cards: adjectives and adverbs",
+  "content": {
+    "cards": [
+      {
+        "target": "беспла́тно",
+        "native": "unpaid; free of charge",
+        "audio": "audio/lo-02-work-studies/adjectives/ruvoc_u2_dvocab_21.mp3"
+      },
+      {
+        "target": "вре́дный",
+        "native": "harmful",
+        "audio": "audio/lo-02-work-studies/adjectives/ruvoc_u2_dvocab_22.mp3"
+      },
+      {
+        "target": "бесполе́зный",
+        "native": "useless",
+        "audio": "audio/lo-02-work-studies/adjectives/ruvoc_u2_dvocab_23.mp3"
+      },
+      {
+        "target": "в сре́днем",
+        "native": "on average",
+        "audio": "audio/lo-02-work-studies/adjectives/ruvoc_u2_dvocab_24.mp3"
+      },
+      {
+        "target": "дополни́тельный",
+        "native": "additional",
+        "audio": "audio/lo-02-work-studies/adjectives/ruvoc_u2_dvocab_25.mp3"
+      },
+      {
+        "target": "основно́й",
+        "native": "main",
+        "audio": "audio/lo-02-work-studies/adjectives/ruvoc_u2_dvocab_26.mp3"
+      },
+      {
+        "target": "исключи́тельно",
+        "native": "exclusively, only",
+        "audio": "audio/lo-02-work-studies/adjectives/ruvoc_u2_dvocab_27.mp3"
+      },
+      {
+        "target": "ми́зерный",
+        "native": "paltry",
+        "audio": "audio/lo-02-work-studies/adjectives/ruvoc_u2_dvocab_28.mp3"
+      },
+      {
+        "target": "справедли́во",
+        "native": "fair",
+        "audio": "audio/lo-02-work-studies/adjectives/ruvoc_u2_dvocab_29.mp3"
+      },
+      {
+        "target": "фина́нсовый",
+        "native": "financial",
+        "audio": "audio/lo-02-work-studies/adjectives/ruvoc_u2_dvocab_30.mp3"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true,
+    "srs": true
+  }
+}
