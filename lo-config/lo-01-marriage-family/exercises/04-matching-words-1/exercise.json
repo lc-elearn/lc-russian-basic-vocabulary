@@ -1,0 +1,39 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "2. Matching words: part 1",
+  "content": {
+    "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+    "items": [
+      {
+        "text": "marriage — [брак]"
+      },
+      {
+        "text": "civil — [гражданский]"
+      },
+      {
+        "text": "obligation — [обязанность]"
+      },
+      {
+        "text": "to interfere with — [мешать]"
+      },
+      {
+        "text": "relationship — [отношения]"
+      },
+      {
+        "text": "to divorce — [разводиться]"
+      },
+      {
+        "text": "in love — [влюблённый]"
+      },
+      {
+        "text": "to provide for the family — [содержать семью]"
+      },
+      {
+        "text": "positive — [положительный]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

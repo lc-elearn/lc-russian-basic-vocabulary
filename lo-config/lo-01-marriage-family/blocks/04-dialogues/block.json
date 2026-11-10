@@ -1,0 +1,66 @@
+{
+  "type": "tabs",
+  "presentation": "card",
+  "title": "Dialogues · Диалоги",
+  "content": {
+    "label": "Dialogues",
+    "tabs": [
+      {
+        "label": "Диалог 1",
+        "instructions": "Listen to the dialogue and read along with the transcript.",
+        "media": {
+          "image": {
+            "kind": "portrait",
+            "src": "images/lo-01-marriage-family/dialogue1.png",
+            "alt": ""
+          },
+          "audio": {
+            "src": "audio/lo-01-marriage-family/dialogues/ruvoc_u1_dia1.mp3",
+            "label": "Диалог 1"
+          },
+          "transcript": [
+            "— Привет, Татьяна!",
+            "— Ой, здравствуй, Марина! Сто лет тебя не видела? Какие новости?",
+            "— Да у меня никаких. Ты слышала, у Светланы сын женился?",
+            "— Да ты что!",
+            "— Но только, наверное, разведутся скоро. Отношения ужасные. Живут как кошка с собакой.",
+            "— А из-за чего ссорятся?",
+            "— Он хочет, чтобы жена дома сидела, борщи ему варила. А она не желает быть домохозяйкой. Говорит, он ограничивает её свободу, не даёт ей развиваться как личности.",
+            "— Ну, если так, то им будет сложно понять друг друга."
+          ]
+        },
+        "text": [
+          "Notice the set expression with <em>жить</em> that describes how the couple get on."
+        ]
+      },
+      {
+        "label": "Диалог 2",
+        "instructions": "Listen to the dialogue and read along with the transcript.",
+        "media": {
+          "image": {
+            "kind": "portrait",
+            "src": "images/lo-01-marriage-family/dialogue2.png",
+            "alt": ""
+          },
+          "audio": {
+            "src": "audio/lo-01-marriage-family/dialogues/ruvoc_u1_dia2.mp3",
+            "label": "Диалог 2"
+          },
+          "transcript": [
+            "— Нина, здравствуй!",
+            "— Людмила, привет! Рада тебя видеть. Выглядишь прекрасно. Как дети?",
+            "— Спасибо. Всё хорошо. Младшая дочь замуж вышла.",
+            "— Поздравляю! И как они ладят?",
+            "— Прекрасно. Живут душа в душу. Всё делают вместе. Ни минуты не могут прожить друг без друга.",
+            "— Неужели и посуду вместе моют?",
+            "— Не поверишь, но да.",
+            "— Ну, повезло твоей дочери!"
+          ]
+        },
+        "text": [
+          "Notice the set expression with <em>жить</em> that describes how the couple get on."
+        ]
+      }
+    ]
+  }
+}

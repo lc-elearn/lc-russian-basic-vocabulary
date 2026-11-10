@@ -1,9 +1,9 @@
 {
-  "courseTitle": "Cambridge Spanish — Level 1",
-  "languageCode": "es",
+  "courseTitle": "Basic Russian Vocabulary",
+  "languageCode": "ru",
   "landingCopy": {
-    "heading": "Bienvenido",
-    "subheading": "Start your Spanish journey"
+    "heading": "Базовая лексика",
+    "subheading": "Build up and consolidate your Russian vocabulary, from beginner to intermediate level"
   },
   "logo": "logo.svg",
   "favicon": "favicon.svg"
