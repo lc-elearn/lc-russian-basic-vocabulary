@@ -60,6 +60,9 @@ instead.
 - Ordering: word-order, phrase-reorder, drag-fill-gaps
 - Study and reading: flashcards, reading, conjugation
 
+A typed answer (inline-gap, typed-transform, dictation, conjugation) may accept several
+forms split by `|`, the first preferred: `[fato|facto::hint]`, `"answer": "fato|facto"`.
+
 ## Notes
 
 - UI chrome strings resolve through `src/config/ui-strings.ts` (English by default);
