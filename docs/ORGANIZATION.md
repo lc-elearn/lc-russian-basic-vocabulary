@@ -1,8 +1,9 @@
 # GitHub Organisation — `lc-elearn`
 
 **The plan for moving this template into a GitHub organisation and giving each course its
-own repo.** Steps 1–5 (the organisation and the template) are done; steps 6–9 (the course
-repos and the colleagues) follow, top to bottom, on the course day.
+own repo.** Steps 1–7 (the organisation, the template, the course repos and their teams) are done,
+and step 9 (template updates into a course) is in use; the status below says what is
+next.
 
 > Status: 🟡 **In progress — steps 1–5 done 2026-11-04** (work iMac, starting commit
 > `d8008f8`); **steps 6–7 done 2026-11-05** (work iMac, course repos from `c2e6cbe`): three

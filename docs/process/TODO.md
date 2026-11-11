@@ -2897,6 +2897,15 @@ rather than the Language Centre's course factory; the maintainer took three smal
   (`e2e/debug/typed-answer-alternatives.spec.ts`). **Next:** each course takes it with
   its next update; the Russian course then restores the dropped alternatives in lessons
   3 and 4, checks lessons 1 and 2 against the 2015 units, and merges PR 8.
+- **E55 — a course of one lesson, with no landing page. DONE 2026-11-11** (PR 92, merged
+  as `cd14265`; spec
+  [`2026-11-10-standalone-lesson-design.md`](../specs/2026-11-10-standalone-lesson-design.md)).
+  A new `course.json` setting, `home`: `"landing"` (the default, today's behaviour) or
+  `"lesson"`, which makes `index.html` the one lesson's page. The build refuses
+  `"lesson"` when there is more than one lesson, and says to switch. `<slug>.html` is
+  still written, so the lesson keeps one address when the course later gains lessons.
+  Plan: [`2026-11-10-standalone-lesson-plan.md`](2026-11-10-standalone-lesson-plan.md). **Next:** each course takes it with its next update; a one-lesson course sets
+  `"home": "lesson"` in `course.json`.
 - **E16 — after the organisation move, file `ORGANIZATION.md` under `docs/process/`.**
   Once steps 1–9 are done it is a record, not a guide; course repos inherit the file,
   so moving it keeps their top-level docs to what a course needs. Fix the links that
@@ -3165,3 +3174,4 @@ build, so it cannot return. Two remain:
 | 2026-10-21 | `e573fdd` | **kebab-case module names** — eleven camelCase modules renamed; `file-names.test.ts` enforces the shapes (E27)                                                      |
 | 2026-10-21 | `35b36d6` | **third review's defects** — exercises checked at load, reserved page names, the playlist's gap; PR 31 (E28)                                                        |
 | 2026-11-10 | `5662951` | **typed answers accept more than one form** — `\|` means "or" in the four typed engines, the first preferred, the rest "Also accepted"; PR 90 (E54)                 |
+| 2026-11-11 | `cd14265` | **a course of one lesson** — `"home": "lesson"` in `course.json` makes `index.html` the lesson's page; the build refuses it with two lessons; PR 92 (E55)           |

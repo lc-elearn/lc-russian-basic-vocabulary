@@ -102,7 +102,8 @@ rejects existing content is a major version); a `CHANGELOG.md`; the sync skill r
 it and says what changed.
 
 **Start when** the organisation move is done (TODO §E2) and a second course repo syncs
-from the template.
+from the template. The second half has happened: French and Russian merged a template
+update on 2026-11-09.
 
 ## 4. Packaging for Moodle or another learning platform
 
