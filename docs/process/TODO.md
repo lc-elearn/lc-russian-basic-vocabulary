@@ -10,8 +10,8 @@ session, on either machine.
 | `2026-08-06-post-phase-d-handover.md` | state snapshot at end of Phase D, plus the §5 decision log |
 | [`../ROADMAP.md`](../ROADMAP.md)      | larger work beyond this queue, each with its trigger       |
 
-**Last updated:** 2026-11-10 · **HEAD:** see `git log` · **Suite:** 204 files · 2386 tests green
-(Vitest) · 108 Playwright tests (36 × 3 browsers, `bun run test:e2e`) plus 99 on a `DEBUG=1` build (33 × 3, `e2e/debug/`) · CI green · `main` protected since 2026-10-21 (job E1).
+**Last updated:** 2026-11-11 · **HEAD:** see `git log` · **Suite:** 213 files · 2602 tests green
+(Vitest) · 147 Playwright tests (49 × 3 browsers, `bun run test:e2e`; the 9 for the `home` mode not built skip) plus 111 on a `DEBUG=1` build (37 × 3, `e2e/debug/`) · CI green · `main` protected since 2026-10-21 (job E1).
 
 Non-negotiable constraints for every job below live in
 [`AGENTS.md` → "Hard constraints"](../../AGENTS.md) (they grew out of
@@ -157,6 +157,8 @@ left, in order:
     course repo (`pedbad-uol/lc-base-template` is 0 commits ahead and 218 behind, so
     deleting it loses nothing). The authors' GitHub usernames are collected, kept outside
     this repo; each still confirms their Cambridge email is verified.
+
+**Update, 2026-11-11 (work iMac): typed-answer alternatives (E54) and the one-lesson course (E55) go to the courses.** **Done 2026-11-10, recorded here:** the Russian course's author merged its PR 4 (15:15 UTC, `6617e55`), then lessons 1–3 as PR 5, 6 and 7 (`main` `bf86884`); lesson 4 is PR 8, open, waiting for E54. E54 (`d3b1cde`) went onto a fresh Russian `sync-template` (`3112b25`) with issue 9, "Template update ready (10 Nov 2026, typed answers)", from which the author opened PR 10 on 11 Nov (09:05 UTC). **Update branches pushed 2026-11-11**, each merging template `d33ecb5` (E54, E55 and the docs since) with `--no-ff` on top of the `sync-template` each already had (no new branch or issue), each passing the full gate and the `DEBUG=1` suite first: Spanish `1aa9318`, French `220dd76` and German `2be7b44` (2,478 tests, 111 e2e with E55's nine `home: "lesson"` tests skipped on a landing build, 105 debug e2e), and Russian `d4ba9ab` (2,493 tests with its own lessons, 129 e2e, 105 debug e2e). All four merges were clean: no course file overlaps the template's changes. French's PR 4 and Russian's PR 10 took the new commits as their head. The push dismissed the maintainer's approval of French PR 4 (ORGANIZATION step 6, case R11); once the checks passed on the new heads, the maintainer approved French PR 4 and Russian PR 10 (09:40 UTC). No new issue was opened. A comment saying the same link now also brings this update, its wording approved by the maintainer, went on Spanish and German issue 1, and a note on Russian PR 10 lists the author's steps after it merges (step 2 below). E55 applies to no course yet: none has exactly one lesson of its own. **Next, in order:** (1) Their author merges French PR 4 and Russian PR 10 with a merge commit; Spanish (R13) and German still open theirs from issue 1's link, which now brings this update too. (2) Once PR 10 is merged, Russian's author restores the seven `|` alternatives in lessons 3 and 4 (lesson 4 on PR 8), checks lessons 1 and 2 against the 2015 units, and merges PR 8.
 
 **Update, 2026-11-10 (work iMac): the CEFR grid goes to the courses, and a Windows fix follows.** **Done 2026-11-09, recorded here:** the Russian course's author took the 9 Nov update in both their courses: PR 2 in each, which they opened, the maintainer approved (14:31 UTC) and they merged with a merge commit (14:37 UTC; French `main` `5fed0d5`, Russian `4a93a61`). These are the first template updates merged in a course by step 9's route; R13 (Spanish's) has not run. **Update branches pushed 2026-11-10**, each merging template `0ca46ea` (E52) and each passing the full gate first (2,382 tests, 108 e2e): German (`f9077f0`) and Spanish (`626bb2a`) on top of their unopened `sync-template`, with a comment on each course's open issue 1; French (`459c73c`) and Russian (`bc0c3d1`) on a fresh `sync-template`, each with a new issue 3, "Template update ready (10 Nov 2026)", assigned to their author, who opened PR 4 in both that morning ("Template update (10 Nov 2026)", `Closes #3`). Russian's issue 3 was closed by hand (09:24 UTC) while its PR 4 is still open. **Template issue 85**, from the same author on Windows 11: `bun run guards`, and so the pre-push hook, fails on Windows (backslash paths). The fix is E53, PR 86, merged with Rebase and merge (11:24 UTC) as `0409ff9` once its CI passed; on `main` it has a new SHA, so use `0409ff9`, not the branch's `95aac09`. Until a course has it, authors on Windows use WSL; the two Windows guides in the shared folder said so that morning, and both carry Russian's update link. **Done later the same day:** `0409ff9` went onto `sync-template` in all four courses, merged with `--no-ff` on top of the branch each already had (no new branch or issue), each passing the full gate first (2,386 tests, 108 e2e): German `47b6737`, Spanish `9549723`, French `316cc50`, Russian `09be8e2`. All four merges were clean, and French's and Russian's PR 4 took the new commit as their head. A comment saying the same link now also brings the Windows fix, its wording approved by the maintainer, went on German issue 1, Spanish issue 1, French issue 3 and Russian PR 4 (its issue is closed). The maintainer approved both PR 4 (11:48 UTC) once their checks passed on the new commit; neither is merged yet. Issue 85 closed when PR 86 merged. PR 88 (`987c823`, `8ed9ef7`) switched the five inline path conversions to `toPosixPath()` and added ROADMAP item 8, a Windows CI job; no change in behaviour, so it waits for the next update to reach the courses. **The guides in the shared folder:** the WSL notice came out of both Windows guides (the maintainer's decision, before PR 4 merged); their section 0 now says that until the update is merged, `git push` from PowerShell is refused, and merging it needs only the browser. The Mac GitHub guide lists Russian's update link, not "nothing to do there". **Next, in order:** (1) The author merges each PR 4 with a merge commit; German and Spanish still open theirs from the issue's link (Spanish's is R13). (2) Once both PR 4 are merged, the Windows guides' section 0 can drop its PowerShell line. (3) The maintainer may post a one-line comment on issue 85 (closed) pointing its author to PR 4.
 
@@ -2906,6 +2908,84 @@ rather than the Language Centre's course factory; the maintainer took three smal
   still written, so the lesson keeps one address when the course later gains lessons.
   Plan: [`2026-11-10-standalone-lesson-plan.md`](2026-11-10-standalone-lesson-plan.md). **Next:** each course takes it with its next update; a one-lesson course sets
   `"home": "lesson"` in `course.json`.
+- **E56 — a per-lesson Credits link in the footer. DONE 2026-11-11** (PR 98, merged as
+  `bf016ac`; spec
+  [`2026-11-11-footer-credits-design.md`](../specs/2026-11-11-footer-credits-design.md),
+  plan [`2026-11-11-footer-credits-plan.md`](2026-11-11-footer-credits-plan.md)). After the
+  2015 Russian lessons: `"credits": "<modal id>"` in `lo.json` ends the footer's © line
+  with a "Credits" button (new UI string `credits`) that opens that popup. The build
+  refuses an id `modals` does not list. Popups, and only popups, may now hold one `<h3>`
+  as a whole entry (the dialog title is the h2); page prose refuses it and says why, the
+  one written exception to rich-text spec §14. Per lesson only, the maintainer's decision:
+  the landing page's footer is unchanged. `lo-00-example` has a placeholder credits popup
+  (paragraph, Team heading, role lines, Voices list), so a copied lesson starts with one
+  to fill in or delete. **Verify:** the gate in AGENTS.md, and
+  `DEBUG=1 bun run build && DEBUG=1 bun run test:e2e`; `e2e/footer-credits.spec.ts` and
+  the credits state in `e2e/axe-open-states.spec.ts`. **Next:** each course takes it with
+  its next update; the Russian course sets `credits` per lesson from the 2015 units.
+- **E57 — exercises in tabs: the exercise set. DONE 2026-11-11** (PR 99, branch
+  `feat/e57-tab-exercises`; spec
+  [`2026-11-11-tab-exercises-design.md`](../specs/2026-11-11-tab-exercises-design.md),
+  plan [`2026-11-11-tab-exercises-plan.md`](2026-11-11-tab-exercises-plan.md)). After the
+  2015 Russian lessons 6 and 7: a section's `exercises` list in `lo.json` may hold a set
+  (`title`, optional `instructions`, two or more `tabs` of `{ exercise, media? }`), shown
+  as one accordion, one instruction box and the tabs block's tab UI (now shared as
+  `TabSet`), each panel the tab's media then its exercise. The maintainer's decisions: a
+  set sits among the exercises, not in a tabs block (S1); one box above the tabs, the
+  engine's default copy only when every tab uses one engine (S2); a tab has no box unless
+  its exercise.json writes one (S3); Check, Reset, Show answers and score per tab (S4); tab
+  audio may come without a transcript (S5); every engine allowed and proven in a tab
+  (S6, all 15 pass); an exercise used once per lesson, plain refs included (S7);
+  `lo-00-example` and the exercise showcase show it (S8). **Verify:** the gate in
+  AGENTS.md, and `DEBUG=1 bun run build && DEBUG=1 bun run test:e2e`;
+  `e2e/exercise-set.spec.ts` and `e2e/debug/exercise-set-engines.spec.ts`. **Next:** the
+  Russian course uses it for lessons 6 ("Reconstruct the text") and 7 ("Set
+  expressions") with its next update. Merged as `64b878f`. **Found while building, fixed by E58:** the LO
+  envelope dropped engine-only options such as flashcards' `srs`, so a set of such decks
+  could not say so in its box; it now does, and a loader test proves it.
+- **E58 — a lesson's flashcards keep their own options. DONE 2026-11-11** (PR 100, branch
+  `fix/lo-engine-options`; found while building E57). The LO envelope's `options` was a
+  plain `z.object`, so Zod stripped every key it did not know, and what `assembleLo` hands
+  the page is the envelope's parse: a lesson's flashcards deck lost `srs`, `direction` and
+  `lockDirection` before its engine saw them. It neither saved progress nor kept its
+  direction, and the saved-progress line never showed. The showcase was unaffected (it
+  passes raw configs). Fixed in the LO envelope, not in `assembleLo`:
+  `LoExerciseConfigSchema`'s `options` is now loose, as its `content` is, so shared
+  options are still checked and defaulted there and the rest kept for the engine that owns
+  them, whose schema checks them (at load in the Node reader, at render in the engine).
+  Returning the engine's parse instead would have split the readers, since the browser
+  reader has no engine schemas, and the prerender would no longer match the first client
+  render. `ExerciseConfigSchema`, which every engine schema extends, stays closed, so a
+  fixture's option typo still fails to compile. Since any exercise can now carry a stray
+  `srs`, `savesProgress` also asks that the exercise be a deck. Every other engine was
+  checked: none adds options or top-level keys, and `labels` is shared and strict, so
+  nothing else was lost. A key no engine knows was kept and ignored, as it was dropped
+  before; E59 now refuses it at load. **Verify:** the gate in AGENTS.md; the tests are in
+  `src/config/lo-schema.test.ts`, `src/lo/assemble-lo.test.ts`,
+  `src/lo/lo-page-sections.test.tsx` and `src/exercises/lib/instructions.test.ts`. Unit
+  tests only: `lo-00-example` has no deck, so no browser test opens a lesson's deck.
+  **Next:** each course takes it with its next update; a lesson with a deck that sets
+  `srs` or a direction starts behaving as written, with no change to its files.
+- **E59 — a typo in an exercise's options fails the build. DONE 2026-11-11** (branch
+  `fix/strict-exercise-options`, stacked on E58's PR 100; follow-up E58 left open).
+  **Decision (maintainer, 2026-11-11): refuse unknown option keys at load.** Until now an
+  options key the engine does not know (`shufle`, `lockDirecton`, a deck's `srs` copied
+  onto a select) was ignored without a word. Courses take template updates by merge, so
+  the risk was a course's build failing on merge over a stray key; it was weighed first.
+  Every `exercise.json` on every branch of the four course repos (277 files) and the
+  example lesson was run through the new check: none fails. The keys in use are `shuffle`,
+  and `srs` on the Russian course's decks. The fix: `exerciseConfigSchema`
+  (`src/exercises/exercise-schemas.ts`), the check the Node reader runs at load, is each
+  engine's schema with its own `options` closed (the shared block, or flashcards'
+  extension of it), so the build and the dev page fail naming the file and the key. Only
+  at load: each engine's own schema, re-parsed at render, stays tolerant, and the LO
+  envelope stays loose so both readers still agree. `safeExtend`, not `extend`: some
+  engines refine the whole config, and Zod refuses to overwrite a key there. **Verify:**
+  the gate in AGENTS.md; the tests are in `src/exercises/exercise-schemas.test.ts` and
+  `src/lo/assemble-lo.test.ts`. **Next:** each course takes it with its next update; a
+  lesson written since, with a stray key, fails that update's build naming the file, and
+  the fix is the one line. Top-level keys of `exercise.json` are still stripped silently;
+  no one has asked for that to change.
 - **E16 — after the organisation move, file `ORGANIZATION.md` under `docs/process/`.**
   Once steps 1–9 are done it is a record, not a guide; course repos inherit the file,
   so moving it keeps their top-level docs to what a course needs. Fix the links that
@@ -3175,3 +3255,5 @@ build, so it cannot return. Two remain:
 | 2026-10-21 | `35b36d6` | **third review's defects** — exercises checked at load, reserved page names, the playlist's gap; PR 31 (E28)                                                        |
 | 2026-11-10 | `5662951` | **typed answers accept more than one form** — `\|` means "or" in the four typed engines, the first preferred, the rest "Also accepted"; PR 90 (E54)                 |
 | 2026-11-11 | `cd14265` | **a course of one lesson** — `"home": "lesson"` in `course.json` makes `index.html` the lesson's page; the build refuses it with two lessons; PR 92 (E55)           |
+| 2026-11-11 | `bf016ac` | **a Credits link in the footer** — `"credits": "<modal id>"` in `lo.json` adds a Credits button to the lesson footer; popups may hold one `<h3>`; PR 98 (E56)       |
+| 2026-11-11 | `64b878f` | **exercises in tabs** — a section's `exercises` in `lo.json` may hold a set: one accordion, one instruction box, a tab per exercise, any engine; PR 99 (E57)        |
