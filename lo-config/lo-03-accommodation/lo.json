@@ -16,7 +16,7 @@
       "id": "vocabulary",
       "label": "Vocabulary · Словарь",
       "navLabel": "Vocabulary",
-      "blocks": ["02-vocabulary-intro", "03-vocabulary", "03b-vocabulary-alphabetic"]
+      "blocks": ["02-vocabulary-intro", "03b-vocabulary-alphabetic", "03-vocabulary"]
     },
     {
       "id": "exercises",
