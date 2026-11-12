@@ -310,11 +310,22 @@ is too low`, and the guard fails closed, so every Claude edit was blocked — an
 **This is the one place the budget is written down.** Every other doc and comment that
 needs the number points here rather than restating it.
 
-| Asset        | Budget (gzipped) | Measured 2026-10-23 | Headroom |
+| Asset        | Budget (gzipped) | Measured 2026-11-11 | Headroom |
 | ------------ | ---------------- | ------------------- | -------- |
-| `main-*.js`  | **< 140 kB**     | 137.18 kB           | 2.82 kB  |
-| `main-*.css` | **< 19 kB**      | 17.96 kB            | 1.04 kB  |
+| `main-*.js`  | **< 140 kB**     | 134.59 kB           | 5.41 kB  |
+| `main-*.css` | **< 19 kB**      | 18.01 kB            | 0.99 kB  |
 
+- **Exercise sets (2026-11-11, TODO §E57): JS 137.90 → 134.59 kB, CSS 18.01 kB
+  unchanged**, against `main` built the same day. The drop is not a saving: the set's
+  schema made `lo-schema.ts` import the media schema, so Rollup moved shared schema and
+  rich-text code out of `main-*.js` into the shared chunk every page also loads (named
+  `lo-schema-*.js` before, `lang-*.js` now; 38.12 → 42.47 kB). The two together grew
+  176.02 → 177.06 kB (+1.04 kB): `TabSet` reused, the set's body, schema and loader
+  checks. The 5.41 kB headroom above is therefore partly that move.
+- **Footer credits (2026-11-11, TODO §E56): JS 137.23 → 137.86 kB, CSS 17.97 → 18.01
+  kB**, measured against `main` built the same day (it had drifted from 137.18 since
+  2026-10-23 with no entry here). The Credits button, the popup heading's parser and
+  its author-facing messages, which the page's own prose parser carries.
 - **Fourth review's fixes (2026-10-23, TODO §E34): JS 137.13 → 137.18 kB, CSS
   unchanged.** AudioManager, in every page, now keeps each player's own stop. The blank
   checks cost the main bundle nothing: they run in the engine schemas, which only the
