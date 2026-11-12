@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 2",
+  "content": {
+    "instructions": "Notice the saying Настя uses to reassure Питер about his present.",
+    "items": [
+      {
+        "text": "— Да не волнуйся ты так, Питер. Ведь [*дорог не подарок, а внимание|дарёному коню в зубы не смотрят|подарил колечко и забрал сердечко]."
+      }
+    ]
+  }
+}

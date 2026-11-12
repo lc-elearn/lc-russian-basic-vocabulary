@@ -1,14 +1,11 @@
 {
   "type": "inline-choice",
-  "title": "7. Set expressions",
+  "title": "Диалог 1",
   "content": {
-    "instructions": "Listen to the dialogues above, then choose the set expression that fits each line. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+    "instructions": "Notice the folk saying Лена uses to talk Игорь into coming.",
     "items": [
       {
         "text": "— Сбывались. Ты сам попробуй. И вообще, [С Новым годом! С Новым счастьем!|в зимней шубке и мороз – шутка|*как встретишь Новый год, так его и проведёшь]."
-      },
-      {
-        "text": "— Да не волнуйся ты так, Питер. Ведь [*дорог не подарок, а внимание|дарёному коню в зубы не смотрят|подарил колечко и забрал сердечко]."
       }
     ]
   }
