@@ -1,0 +1,39 @@
+{
+  "type": "inline-choice",
+  "title": "Part 1",
+  "content": {
+    "items": [
+      {
+        "text": "Недавно мы [перешли|*переехали|приехали] в новый дом."
+      },
+      {
+        "text": "Наша квартира находится [в|*на|за] первом этаже."
+      },
+      {
+        "text": "Никто не любит заниматься [*уборкой|уборку|с уборкой]."
+      },
+      {
+        "text": "В правительстве вопросы решаются [через голосование|с голосованием|*голосованием]."
+      },
+      {
+        "text": "[Делающий|*Делая|Сделав] ремонт, обязательно посоветуйтесь со своим партнёром."
+      },
+      {
+        "text": "Живущие в коммуналках мечтают об [ответственной|общей|*отдельной] квартире."
+      },
+      {
+        "text": "В [дешевле|*более дешёвой|дешёвее] квартире меньше удобств."
+      },
+      {
+        "text": "Англичанину не легко отказаться [для газона|*от газона|газона] перед домом."
+      },
+      {
+        "text": "В России зимой [с отоплением|*без отопления|для отопления] невозможно жить."
+      },
+      {
+        "text": "Я повесил фотографию [на потолок|на пол|*на стену]."
+      }
+    ],
+    "footnote": "Hints: 1. ‘moved over’; not on foot · 2. open space · 3. + Inst, no preposition · 4. + Inst, no preposition · 5. impf verbal adverb · 6. ‘separate’ · 7. long-form comparative in an attributive position · 8. от + Gen · 9. без + Gen · 10. on a wall; not on a ceiling or floor · 11. impf verbal adverb · 12. past passive participle · 13. ‘another person’s’ · 14. ‘under one roof’ · 15. subjunctive, i.e. past tense · 16. neuter GenPl · 17. GenPl · 18. за + Inst · 19. GenPl of -нин nouns · 20. ‘to turn to’, not ‘to turn out’ or ‘to refuse’ · 21. impf of ‘to be’ (over a long period of time)"
+  }
+}

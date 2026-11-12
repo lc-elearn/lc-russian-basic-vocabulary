@@ -23,39 +23,136 @@
       "label": "Exercises · Упражнения",
       "navLabel": "Exercises",
       "exercises": [
-        "01-flashcards-verbs",
-        "02-flashcards-nouns",
-        "03-flashcards-adjectives",
-        "04-matching-words-1",
-        "05-matching-words-2",
-        "06-matching-words-3",
-        "07-multiple-choice",
-        "08-match-halves-1",
-        "09-match-halves-2",
-        "10-fill-gaps-1",
-        "11-fill-gaps-2",
-        "12-reconstruct-1",
-        "13-reconstruct-2",
-        "14-reconstruct-3"
+        {
+          "title": "1. Flash cards",
+          "tabs": [
+            {
+              "exercise": "01-flashcards-verbs"
+            },
+            {
+              "exercise": "02-flashcards-nouns"
+            },
+            {
+              "exercise": "03-flashcards-adjectives"
+            }
+          ]
+        },
+        {
+          "title": "2. Matching words",
+          "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "04-matching-words-1"
+            },
+            {
+              "exercise": "05-matching-words-2"
+            },
+            {
+              "exercise": "06-matching-words-3"
+            }
+          ]
+        },
+        {
+          "title": "3. Multiple choice",
+          "instructions": "In the sentences below, choose the correct form. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "07-multiple-choice-1"
+            },
+            {
+              "exercise": "07b-multiple-choice-2"
+            }
+          ]
+        },
+        {
+          "title": "4. Match the halves",
+          "instructions": "Complete each sentence by dragging the matching half into it. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "08-match-halves-1"
+            },
+            {
+              "exercise": "09-match-halves-2"
+            }
+          ]
+        },
+        {
+          "title": "5. Fill in the gaps",
+          "tabs": [
+            {
+              "exercise": "10-fill-gaps-1"
+            },
+            {
+              "exercise": "11-fill-gaps-2"
+            }
+          ]
+        },
+        {
+          "title": "6. Reconstruct the text «Детский труд»",
+          "tabs": [
+            {
+              "exercise": "12-reconstruct-1"
+            },
+            {
+              "exercise": "13-reconstruct-2"
+            },
+            {
+              "exercise": "14-reconstruct-3"
+            }
+          ]
+        },
+        {
+          "title": "7. Set expressions",
+          "instructions": "In the dialogues below, choose the correct expression. You can use this exercise to practise your reading and listening. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "15-set-expressions-1",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-02-work-studies/dialogue1.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-02-work-studies/dialogues/ruvoc_u2_dia1.mp3",
+                  "label": "Диалог 1"
+                }
+              }
+            },
+            {
+              "exercise": "15b-set-expressions-2",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-02-work-studies/dialogue2.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-02-work-studies/dialogues/ruvoc_u2_dia2.mp3",
+                  "label": "Диалог 2"
+                }
+              }
+            },
+            {
+              "exercise": "15c-set-expressions-3",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-02-work-studies/dialogue3.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-02-work-studies/dialogues/ruvoc_u2_dia3.mp3",
+                  "label": "Диалог 3"
+                }
+              }
+            }
+          ]
+        },
+        "16-reading"
       ]
-    },
-    {
-      "id": "set-expressions",
-      "label": "Set expressions · Устойчивые выражения",
-      "navLabel": "Set expressions",
-      "blocks": ["04-dialogues"],
-      "exercises": ["15-set-expressions"]
-    },
-    {
-      "id": "reading",
-      "label": "Reading · Чтение",
-      "navLabel": "Reading",
-      "exercises": ["16-reading"]
-    },
-    {
-      "id": "credits",
-      "label": "Credits",
-      "blocks": ["06-credits"]
     }
-  ]
+  ],
+  "modals": ["credits"],
+  "credits": "credits"
 }
