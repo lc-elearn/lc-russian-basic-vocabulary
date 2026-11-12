@@ -1,6 +1,6 @@
 ---
 name: check-learning-object
-description: Use after adding or editing a lesson (a Learning Object under lo-config/), before committing it — "check this lesson", "check lo-04". Runs a script that finds stray stress accents, Latin letters inside Russian words and missing image or audio files, then lists what to review by eye. Read-only.
+description: Use after adding or editing a lesson (a Learning Object under lo-config/), before committing it — "check this lesson", "check lo-04". Runs a script that finds stray stress accents and Latin letters inside Russian words, then lists what to review by eye. Read-only.
 ---
 
 # Check a learning object
@@ -21,7 +21,6 @@ It reads every `.json` in `lo-config/lo-NN-slug/` and exits 1 on any of these:
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | **stray accent**              | A combining stress mark (U+0301) not on a Cyrillic vowel. Lesson 2 shipped `(на ́ Acc)` for `(на + Acc)` in 26 places.                    |
 | **mixed Latin/Cyrillic word** | A Latin look-alike letter inside a Russian word (`Дeлая`, `отдельнo`, Latin `ë`). Invisible on screen, but it breaks search and grading. |
-| **missing file**              | An `images/…` or `audio/…` path with no file under `public/`. Guard d does this too, but is blind on Windows until template PR #86.      |
 | **no card image / banner**    | `lo.json` lacks `image` or `hero.src`; every lesson has both.                                                                            |
 | **invalid JSON**              | The file does not parse.                                                                                                                 |
 

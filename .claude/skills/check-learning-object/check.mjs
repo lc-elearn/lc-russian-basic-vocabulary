@@ -34,9 +34,7 @@ const ACCENT = '\u0301';
 // Latin letters that look Cyrillic, inside an otherwise Cyrillic word.
 const MIXED =
   /[\p{Script=Cyrillic}\u0301]*[\p{Script=Cyrillic}][\p{Script=Cyrillic}\u0301]*[A-Za-zë][\p{L}\u0301]*|[A-Za-zë]+[\p{Script=Cyrillic}][\p{L}\u0301]*/gu;
-const ASSET = /(?:images|audio)\/[^"'\s<>)]+\.(?:mp3|m4a|ogg|wav|png|jpe?g|gif|webp|svg)/g;
 
-let assets = 0;
 for (const file of files) {
   let data;
   try {
@@ -63,20 +61,14 @@ for (const file of files) {
 
   // 2. Latin homoglyphs inside Russian words (Дeлая, отдельнo, Latin ë).
   for (const m of text.matchAll(MIXED)) report(file, 'mixed Latin/Cyrillic word', m[0]);
-
-  // 3. Every referenced image and recording exists under public/ (guard d is blind on Windows until template #86).
-  for (const m of text.matchAll(ASSET)) {
-    assets++;
-    if (!existsSync(join('public', m[0]))) report(file, 'missing file', `public/${m[0]}`);
-  }
 }
 
-// 4. Card and banner present, as every lesson has them.
+// 3. Card and banner present, as every lesson has them.
 const loJson = JSON.parse(readFileSync(join(root, 'lo.json'), 'utf8'));
 if (!loJson.image) report(join(root, 'lo.json'), 'no card image', 'add "image"');
 if (!loJson.hero?.src) report(join(root, 'lo.json'), 'no banner', 'add "hero.src"');
 
-console.log(`${lo}: ${files.length} files, ${assets} media references checked.`);
+console.log(`${lo}: ${files.length} files checked.`);
 if (problems.length) {
   console.log(`${problems.length} problem(s):`);
   for (const p of problems) console.log('  ' + p);
