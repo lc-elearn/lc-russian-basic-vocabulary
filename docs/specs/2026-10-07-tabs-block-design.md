@@ -16,15 +16,15 @@ Slice 1 is deliberately small. It ships the tabs and nothing they could later ho
 
 ## 2. Out of scope (later slices, agreed in the brainstorm)
 
-| Later                     | Decided so far                                                                 |
-| ------------------------- | ------------------------------------------------------------------------------ |
-| Panel entries beyond text | callout, media (image + audio + transcript), exercise by folder ref            |
-| Exercise state            | survives a tab switch (panels stay mounted — already true in slice 1)          |
-| Transcript                | both: inline disclosure (array) or existing popup (`{ "modal": id }`)          |
-| Phones                    | a dropdown — shipped 2026-10-13 (§5); slice 1 stacked the tabs                 |
-| Showcase page             | `ui-showcase.html` behind `DEBUG_ENTRY_FILES`                                  |
-| Further components        | word gloss, reveal box; slider and resizable wait for a lesson that needs them |
-| Nesting                   | depth 1: a tab never holds tabs                                                |
+| Later                     | Decided so far                                                                                                                                                                           |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Panel entries beyond text | callout, media (image + audio + transcript), exercise by folder ref (built instead as the exercise set, E57, [`2026-11-11-tab-exercises-design.md`](2026-11-11-tab-exercises-design.md)) |
+| Exercise state            | survives a tab switch (panels stay mounted — already true in slice 1)                                                                                                                    |
+| Transcript                | both: inline disclosure (array) or existing popup (`{ "modal": id }`)                                                                                                                    |
+| Phones                    | a dropdown — shipped 2026-10-13 (§5); slice 1 stacked the tabs                                                                                                                           |
+| Showcase page             | `ui-showcase.html` behind `DEBUG_ENTRY_FILES`                                                                                                                                            |
+| Further components        | word gloss, reveal box; slider and resizable wait for a lesson that needs them                                                                                                           |
+| Nesting                   | depth 1: a tab never holds tabs                                                                                                                                                          |
 
 _(Amended 2026-10-13: media has since shipped — slice 2a,
 [`2026-10-07-tabs-media-design.md`](2026-10-07-tabs-media-design.md). A tab takes an

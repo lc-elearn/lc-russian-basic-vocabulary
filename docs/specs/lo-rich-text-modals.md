@@ -470,6 +470,11 @@ block element, spanning the whole entry:
 - **A block element inside a paragraph is an error**, with a message saying it must be its
   own entry — never silently flattened.
 
+_(Amended 2026-11-11, TODO §E56:)_ a popup may also hold one `<h3>` as a whole entry, a
+heading below the dialog's own title; page prose may not, and says so. This is the one
+exception to "anything a popup accepts, page prose accepts" above:
+[`2026-11-11-footer-credits-design.md`](2026-11-11-footer-credits-design.md) §4.
+
 ### Node types
 
 The inline union (§4) is unchanged. Entries wrap it:
