@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 1",
+  "content": {
+    "instructions": "Notice the set expression with <em>жить</em> that describes how the couple get on.",
+    "items": [
+      {
+        "text": "— Но только, наверное, разведутся скоро. Отношения ужасные. Живут [как король с королевой|*как кошка с собакой|без забот]."
+      }
+    ]
+  }
+}

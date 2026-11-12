@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 3",
+  "content": {
+    "instructions": "Notice the set expression his mother uses for wasting money.",
+    "items": [
+      {
+        "text": "— Сыночек, это называется [деньги не грибы, можно и зимой найти|время – деньги|*бросать деньги на ветер]."
+      }
+    ]
+  }
+}

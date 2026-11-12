@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 1",
+  "content": {
+    "instructions": "Notice the proverb Витя uses to put off revising.",
+    "items": [
+      {
+        "text": "— Успею. [Кто не работает, тот не ест|Если есть работа, то и спать не хочется|*Работа не волк, в лес не убежит]."
+      }
+    ]
+  }
+}

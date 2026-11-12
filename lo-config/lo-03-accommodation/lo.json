@@ -22,6 +22,7 @@
       "id": "exercises",
       "label": "Exercises · Упражнения",
       "navLabel": "Exercises",
+      "blocks": ["05-intro"],
       "exercises": [
         {
           "title": "1. Flash cards",
@@ -52,21 +53,10 @@
             }
           ]
         },
-        {
-          "title": "3. Multiple choice",
-          "instructions": "In the sentences below, choose the correct form. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
-          "tabs": [
-            {
-              "exercise": "07-multiple-choice-1"
-            },
-            {
-              "exercise": "07b-multiple-choice-2"
-            }
-          ]
-        },
+        "07-multiple-choice",
         {
           "title": "4. Match the halves",
-          "instructions": "Complete each sentence by dragging the matching half into it. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "instructions": "Find the matching half of each sentence by moving the phrases in the right-hand column. Start from the top. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
           "tabs": [
             {
               "exercise": "08-match-halves-1"
@@ -103,10 +93,10 @@
         },
         {
           "title": "7. Set expressions",
-          "instructions": "In the dialogues below, choose the correct expression. You can use this exercise to practise your reading and listening. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "instructions": "Listen to each dialogue, then choose the set expression that fits the line. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
           "tabs": [
             {
-              "exercise": "15-set-expressions-1",
+              "exercise": "15-set-expressions",
               "media": {
                 "image": {
                   "kind": "portrait",
@@ -116,11 +106,22 @@
                 "audio": {
                   "src": "audio/lo-03-accommodation/dialogues/ruvoc_u3_dia1.mp3",
                   "label": "Диалог 1"
-                }
+                },
+                "transcript": [
+                  "— Привет, Лариса, как хорошо, что ты приехала.",
+                  "— Здравствуй, Ирина.",
+                  "— Проходи, не стой в дверях. Давай свой чемодан.",
+                  "— Спасибо. Я соскучилась ужасно.",
+                  "— Я тоже. Думала, не дождусь тебя. Мне с работы позвонили, сказали, что нужно срочно приехать.",
+                  "— Ну вот, так всегда. Можно подумать, к тебе лучшая подруга каждый день из Владивостока приезжает.",
+                  "— Ничего, мы с тобой потом поговорим. А ты пока отдыхай. Устала, наверное, с дороги? В ванной найдёшь полотенце, еда – в холодильнике, на плите – свежий борщ. В общем, не стесняйся, чувствуй себя как дома. Если будут вопросы, звони.",
+                  "— А ты скоро вернёшься?",
+                  "— Постараюсь быть к ужину."
+                ]
               }
             },
             {
-              "exercise": "15b-set-expressions-2",
+              "exercise": "16-set-expressions",
               "media": {
                 "image": {
                   "kind": "portrait",
@@ -130,11 +131,23 @@
                 "audio": {
                   "src": "audio/lo-03-accommodation/dialogues/ruvoc_u3_dia2.mp3",
                   "label": "Диалог 2"
-                }
+                },
+                "transcript": [
+                  "— Ну что, путешественница? Вернулась? Не забыла нас ещё? Как долетела?",
+                  "— Нормально.",
+                  "— Как Лариса?",
+                  "— Замечательно. Работает менеджером в банке.",
+                  "— Ого! Теперь она начальник! А где она сейчас живёт?",
+                  "— Они с мужем живут за городом. Далеко на работу ездить, но зато воздух чистый и места много.",
+                  "— И большой дом?",
+                  "— Двухэтажный, с гаражом, газоном и садом. У меня была отдельная комната. Представляешь, у Ларисы домработница хозяйство ведёт! Так что ни готовить, ни убирать не надо было.",
+                  "— Так ты, наверное, и возвращаться домой не хотела? (хе-хе)",
+                  "— Ну, что ты, наша квартирка хоть и маленькая, но такая уютная. И домработницы у нас нет. Но не зря говорят, в гостях хорошо, а дома лучше."
+                ]
               }
             },
             {
-              "exercise": "15c-set-expressions-3",
+              "exercise": "17-set-expressions",
               "media": {
                 "image": {
                   "kind": "portrait",
@@ -144,12 +157,27 @@
                 "audio": {
                   "src": "audio/lo-03-accommodation/dialogues/ruvoc_u3_dia3.mp3",
                   "label": "Диалог 3"
-                }
+                },
+                "transcript": [
+                  "<em>В агентстве недвижимости</em>",
+                  "— Здравствуйте, я хотел бы снять однокомнатную квартиру. Что вы можете мне предложить?",
+                  "— Выбор однокомнатных квартир сейчас небольшой. Минуточку, я посмотрю в базе данных. Та-а-а-к. Вот есть один вариант: однокомнатная квартира, на 5 этаже девятиэтажного дома. С балконом. Окна выходят на южную сторону.",
+                  "— Хм, звучит неплохо. С мебелью?",
+                  "— Да.",
+                  "— А стиральная машина есть?",
+                  "— Есть. В ванной и туалете недавно был сделан ремонт.",
+                  "— Отлично. И где находится квартира?",
+                  "— В новом микрорайоне. Метро там ещё нет. Но ходит автобус.",
+                  "— Это же целый час до работы! А поближе к центру есть что-нибудь?",
+                  "— Сейчас нет. Можете позвонить недели через две. Возможно, появятся другие варианты.",
+                  "— Нет, лучше синица в руках, чем журавль в небе. А могу я посмотреть эту квартиру?",
+                  "— Да, конечно."
+                ]
               }
             }
           ]
         },
-        "16-reading"
+        "18-reading"
       ]
     }
   ],

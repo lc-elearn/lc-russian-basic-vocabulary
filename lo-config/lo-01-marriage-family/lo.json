@@ -22,6 +22,7 @@
       "id": "exercises",
       "label": "Exercises · Упражнения",
       "navLabel": "Exercises",
+      "blocks": ["05-intro"],
       "exercises": [
         {
           "title": "1. Flash cards",
@@ -55,7 +56,7 @@
         "07-multiple-choice",
         {
           "title": "4. Match the halves",
-          "instructions": "Complete each sentence by dragging the matching half into it. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "instructions": "Find the matching half of each sentence by moving the phrases in the right-hand column. Start from the top. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
           "tabs": [
             {
               "exercise": "08-match-halves-1"
@@ -89,10 +90,10 @@
         },
         {
           "title": "7. Set expressions",
-          "instructions": "In the dialogues below, choose the correct expression. You can use this exercise to practise your reading and listening. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "instructions": "Listen to each dialogue, then choose the set expression that fits the line. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
           "tabs": [
             {
-              "exercise": "14-set-expressions-1",
+              "exercise": "14-set-expressions",
               "media": {
                 "image": {
                   "kind": "portrait",
@@ -102,11 +103,21 @@
                 "audio": {
                   "src": "audio/lo-01-marriage-family/dialogues/ruvoc_u1_dia1.mp3",
                   "label": "Диалог 1"
-                }
+                },
+                "transcript": [
+                  "— Привет, Татьяна!",
+                  "— Ой, здравствуй, Марина! Сто лет тебя не видела? Какие новости?",
+                  "— Да у меня никаких. Ты слышала, у Светланы сын женился?",
+                  "— Да ты что!",
+                  "— Но только, наверное, разведутся скоро. Отношения ужасные. Живут как кошка с собакой.",
+                  "— А из-за чего ссорятся?",
+                  "— Он хочет, чтобы жена дома сидела, борщи ему варила. А она не желает быть домохозяйкой. Говорит, он ограничивает её свободу, не даёт ей развиваться как личности.",
+                  "— Ну, если так, то им будет сложно понять друг друга."
+                ]
               }
             },
             {
-              "exercise": "14b-set-expressions-2",
+              "exercise": "15-set-expressions",
               "media": {
                 "image": {
                   "kind": "portrait",
@@ -116,12 +127,22 @@
                 "audio": {
                   "src": "audio/lo-01-marriage-family/dialogues/ruvoc_u1_dia2.mp3",
                   "label": "Диалог 2"
-                }
+                },
+                "transcript": [
+                  "— Нина, здравствуй!",
+                  "— Людмила, привет! Рада тебя видеть. Выглядишь прекрасно. Как дети?",
+                  "— Спасибо. Всё хорошо. Младшая дочь замуж вышла.",
+                  "— Поздравляю! И как они ладят?",
+                  "— Прекрасно. Живут душа в душу. Всё делают вместе. Ни минуты не могут прожить друг без друга.",
+                  "— Неужели и посуду вместе моют?",
+                  "— Не поверишь, но да.",
+                  "— Ну, повезло твоей дочери!"
+                ]
               }
             }
           ]
         },
-        "15-reading"
+        "16-reading"
       ]
     }
   ],

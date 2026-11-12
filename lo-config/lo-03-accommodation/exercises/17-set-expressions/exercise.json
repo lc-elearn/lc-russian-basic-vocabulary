@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 3",
+  "content": {
+    "instructions": "Notice the proverb the client uses to settle for the flat on offer.",
+    "items": [
+      {
+        "text": "— Нет, [лучше поздно, чем никогда|не откладывай на завтра то, что можно сделать сегодня|*лучше синица в руках, чем журавль в небе]. А могу я посмотреть эту квартиру?"
+      }
+    ]
+  }
+}
