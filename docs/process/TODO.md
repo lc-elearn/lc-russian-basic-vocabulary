@@ -10,7 +10,7 @@ session, on either machine.
 | `2026-08-06-post-phase-d-handover.md` | state snapshot at end of Phase D, plus the §5 decision log |
 | [`../ROADMAP.md`](../ROADMAP.md)      | larger work beyond this queue, each with its trigger       |
 
-**Last updated:** 2026-11-11 · **HEAD:** see `git log` · **Suite:** 213 files · 2602 tests green
+**Last updated:** 2026-11-12 · **HEAD:** see `git log` · **Suite:** 214 files · 2640 tests green
 (Vitest) · 147 Playwright tests (49 × 3 browsers, `bun run test:e2e`; the 9 for the `home` mode not built skip) plus 111 on a `DEBUG=1` build (37 × 3, `e2e/debug/`) · CI green · `main` protected since 2026-10-21 (job E1).
 
 Non-negotiable constraints for every job below live in
@@ -28,11 +28,11 @@ build served from a folder (`SERVE_PATH=/any/folder/ bun run test:e2e`) and unde
 bun run format && bun run lint && bun run lint:css && bun run test:coverage && bun run build && bun run test:e2e
 ```
 
-`bun run guards` (`vitest run src/guards`) is the fast subset — **214** tests in ~1s — for
+`bun run guards` (`vitest run src/guards`) is the fast subset — **254** tests in ~1s — for
 when you only want to know whether you broke a repo-wide invariant. It is a subset of
 `bun run test`, never a replacement for the gate above. It stayed at 211 when §B landed
 **on purpose**: the docs-freshness test lives in `src/docs/`, not `src/guards/`, because
-that glob means "the spec guards' sweeps" (b–h; guard a runs in its colocated schema
+that glob means "the spec guards' sweeps" (b–i; guard a runs in its colocated schema
 tests) and a stale-tree check is not one of them.
 
 **211 → 214 on 2026-09-11**, and the rise is the rule working rather than being bent.
@@ -42,7 +42,10 @@ authored as `image: { src, alt }` — the shape required once alt text is mandat
 walked straight past and the guard reported green having checked nothing. That is the
 staleness `asset-existence.ts`'s own header warns about, so `src` joined `ASSET_KEYS`.
 The outcomes block's OWN tests are not in this number: they live beside the code, which
-is exactly what the paragraph above is about.
+is exactly what the paragraph above is about. **216 on 2026-11-11:** E57 added two of
+guard **b**'s own (`7e85d63`): a set's exercises count as referenced, and a malformed set
+is read without throwing. **254 on 2026-11-12:** E60 added guard **i** (text integrity)
+and its 38 tests.
 
 `bun run test` (Vitest), **not** `bun test` — Bun's own runner throws on the
 `import.meta.glob` in `load-lo-glob.ts` and reports a false failure.
@@ -157,6 +160,16 @@ left, in order:
     course repo (`pedbad-uol/lc-base-template` is 0 commits ahead and 218 behind, so
     deleting it loses nothing). The authors' GitHub usernames are collected, kept outside
     this repo; each still confirms their Cambridge email is verified.
+
+**Latest, 2026-11-12 (work iMac): guard i (E60) merged.** A ninth guard, text integrity (`src/guards/text-integrity.ts`), fails a lesson whose text holds a mistake an editor does not show: an accent stored as a separate mark, a mark with no letter under it, a Latin letter inside a Russian word, and, for a `ru` course, a stress mark off a vowel. Built from the Russian course's `check-learning-object` script, which needed it by hand. Run over every course first: no hit today, and the 33 stray marks of Russian lesson 2 before its fix are caught. Merged as PR 109 (`1e201e8`). **Next:** it reaches each course with the next template update; once Russian has it, its author can drop the script's accent, Latin-letter and missing-file checks, keeping the card-and-banner rule (E60 below).
+
+**Later still, 2026-11-12 (work iMac): Russian lesson 4 (PR 8) approved.** The 10 Nov hold asked for the dropped typed-answer alternatives back; its author restored lesson 4's four on PR 8 (`5ae3544`: в кругу семьи, говорят тосты, состоятельные, богатые), lesson 3's three in PR 11 and ten more in lessons 1 and 2 in PR 12, and listed lessons 1–3's vocabulary alphabetically first in PR 13, as lesson 4 does; PRs 11, 12 and 13 are merged, `main` `7a255b1`. Checked before approving: PR 8 adds no engine and no block type. Its 16 exercises use five engines the exercise showcase already proves (`flashcards`, `drag-fill-gaps`, `inline-choice`, `inline-gap`, `reading`), and its blocks are lessons 1–3's (`intro`, `outcomes`, two `vocabulary`, `tabs`, `sources`). The one new piece is the course's own `check-learning-object` skill, a script that finds stray stress accents and Latin letters inside Russian words, which no template guard checks (it caught lesson 2's `(на ́ Acc)`). Not raised with its author yet: its missing-file check repeats guard d, and the reason it gives (guard d blind on Windows until PR 86) no longer holds; and its line in `STRUCTURE.md`, a template file, may conflict at the next update. Head `9d85f07` contains the 11 Nov update (`e3f16be`), so lesson 4 loads under E59's check on option keys, and the five checks are green on it. Approved at 11:51 UTC, pinned to `9d85f07`, replacing the "changes requested". It cannot merge yet: it is behind `main`, the course's rules require an up-to-date branch, and the push that brings it up to date dismisses the approval (case R11). Lessons 1–4 are still not in the 2015 shape: the parts of each exercise stand as separate exercises (14 in lesson 4) rather than exercise sets (E57), and the credits are a section with a `sources` block, not the footer popup (E56). **Next, in order:** (1) Its author merges `main` into PR 8; once the checks pass on the new head, the maintainer approves it again and the author merges it with a merge commit. (2) The author rebuilds lessons 1–4 in the 2015 shape (the 11 Nov step 2), in one pull request after PR 8 merges.
+
+**Later, 2026-11-12 (work iMac): Spanish's update approved, German begins, and a rule for AI-made media.** Spanish's author opened PR 3 from issue 1's link (10:50 UTC, `Closes #1`): pilot case R13. The same checks as French: six merge commits are the only commits that are not the template's (`c1e06d4` to `af192c0`, one per template update from `7bfb378` to `41f1e56`), the course's `main` is still `c2e6cbe` with no lesson of its own, so no lesson file changed, the branch's tree is identical to template `41f1e56`'s, only a merge commit is offered, and the five checks are green on `af192c0`. Approved at 11:25 UTC, pinned to `af192c0`. R13 passes once its author merges it and `git merge-base --is-ancestor 41f1e56 origin/main` exits 0. German's author has the lessons and `course.json` on a local branch, uncommitted, and asked first about media made with AI tools (synthetic speech from a consumer read-aloud service, generated images styled on old course headers), the course's icons, where the scripts that build the lessons belong, and a change to `vite.config.ts`. The maintainer's reply, drafted the same day (not yet sent when this was written): take the update from issue 1 before any lesson; regenerate or record the audio; images allowed under the new rule, sample first; keep the template's icons; scripts outside the course repo; the `vite.config.ts` change as a Template request. **New rule:** CONTRIBUTING's media rule now covers media made with an AI tool: allowed only when the tool's terms let us publish its output, credited as AI-generated in the lesson's Credits popup, with no Cambridge branding, its tool and prompt recorded outside the repo, and a sample shown to the maintainer before a course's first.
+
+**Update, 2026-11-12 (work iMac): Russian's update merged, French's approved, and pilot R1 opened.** Read on GitHub that morning. **Russian:** PR 10 (typed answers, E54) merged on 11 Nov (09:48 UTC) with a merge commit, `main` `b21e00e`. From issue 14's link its author opened PR 15, "Template update (11 Nov 2026, exercise sets and credits)" (`Closes #14`), at 09:21 UTC; `CODEOWNERS` requested the maintainer's review the same second. Checked before approving, on a fresh clone: base and head both in the course repo; head `6282270`, the merge pushed on 11 Nov, with no commit after it; its parents the course's current `main` (`b21e00e`) and template `40419ee`; no course-owned file changed (`course.json`, lessons 1–3, their images and audio); every other file identical to template `40419ee`; the five checks green on `6282270`. Approved at 10:11 UTC, pinned to that commit; its author merged it at 10:16 UTC with a merge commit, `e3f16be` (parents `b21e00e` and `6282270`), so `40419ee` is in the course's `main` and issue 14 closed. Russian has `40419ee`, not `41f1e56` like the other three: the difference is docs and one code comment, so it comes with the next update rather than a push that would dismiss the approval. Lesson 4 (PR 8) stays on hold under the maintainer's "changes requested" (10 Nov); PRs 11, 12 and 13, the author's own lesson fixes, are green and need no review. **French:** the same checks on PR 4: the only commits that are not the template's are the four merges (`459c73c`, `316cc50`, `220dd76`, `3b31f60`, one per template update since 9 Nov), the course's `main` is still `5fed0d5`, the branch's tree is identical to template `41f1e56`'s, and the five checks are green on `3b31f60`. Approved again at 10:14 UTC, pinned to `3b31f60` (the re-approval case R11 expects). French has no lesson of its own yet, and its `course.json` is still the template's Spanish default (its title, `languageCode` `es`); its author sets it before the first lesson. **Spanish:** its author opened PR 2, "test: pilot R1" (11 Nov, 09:29 UTC): one commit adding `lo-config/lo-01-test/` and one placeholder audio file under `public/audio/lo-01-test/`. The five checks passed, no review was requested, and it can merge: R1's expected result so far. R1 passes when its author merges it unaided, and ORGANIZATION's R1 row stays "pending rollout" until then. Spanish's update pull request (R13) is not opened. **German:** nothing open; its update pull request is not opened. **Next, in order:** (1) Its author merges French PR 4 with a merge commit; check it with `git merge-base --is-ancestor 41f1e56 origin/main`. (2) Russian's author merges `main` into PRs 8, 11, 12 and 13; lesson 4 has not yet loaded under E59's check on option keys, so watch PR 8's CI. (3) Spanish's author merges PR 2, and the maintainer records R1's evidence; Spanish and German open their update pull requests from issue 1's link.
+
+**Update, 2026-11-11 (work iMac): exercise sets and footer credits (E56–E59) go to the courses.** Template issue 97, from the Russian course's author (filed 10:03 UTC, before E56 and E57 existed), asked for exercise groups in one accordion, blocks among exercises and a lesson Credits link, after the maintainer's review of lesson 1 asked for the 2015 layout. E56 and E57 already cover it: a set tab's `media` holds each dialogue, so blocks among exercises are not needed; stacked flash cards were not built, and a set of three tabs stands in. A fresh Russian `sync-template` (`6282270`, merging template `40419ee` with `--no-ff` on `main` `b21e00e`, clean) passed the full gate and the `DEBUG=1` suite (2,617 tests, 156 e2e with 9 skipped, 111 debug e2e) and was pushed, with issue 14, "Template update ready (11 Nov 2026, exercise sets and credits)", assigned to the author. A reply on issue 97 maps each request to E56 or E57, shows lesson 1 in the 2015 shape, and closed it; both texts approved by the maintainer. **Later the same day**, template `41f1e56` (E56–E59 and the docs fixes of PR 103) went onto Spanish, French and German, merged with `--no-ff` on top of the `sync-template` each already had (no new branch or issue), each passing the full gate and the `DEBUG=1` suite first (2,602 tests, 138 e2e with 9 skipped, 111 debug e2e): Spanish `af192c0`, French `3b31f60`, German `33e577d`. All three merges were clean. A comment saying the same link now also brings this update, its wording approved by the maintainer, went on Spanish issue 1, German issue 1 and French issue 3. French PR 4 took `3b31f60` as its head, which reset the maintainer's approval (ORGANIZATION step 6, case R11). **Next, in order:** (1) The author opens the pull request from issue 14's link, the maintainer approves, and the author merges it with a merge commit. (2) The author merges `main` into the open branches (PR 8, 11, 12, 13) and rebuilds lessons 1–3 in the 2015 shape: three sections, one set per tabbed accordion, the credits as a popup. (3) Once French PR 4's checks pass on `3b31f60`, the maintainer approves it again and its author merges it; Spanish (R13) and German still open theirs from issue 1's link, which now brings this update too.
 
 **Update, 2026-11-11 (work iMac): typed-answer alternatives (E54) and the one-lesson course (E55) go to the courses.** **Done 2026-11-10, recorded here:** the Russian course's author merged its PR 4 (15:15 UTC, `6617e55`), then lessons 1–3 as PR 5, 6 and 7 (`main` `bf86884`); lesson 4 is PR 8, open, waiting for E54. E54 (`d3b1cde`) went onto a fresh Russian `sync-template` (`3112b25`) with issue 9, "Template update ready (10 Nov 2026, typed answers)", from which the author opened PR 10 on 11 Nov (09:05 UTC). **Update branches pushed 2026-11-11**, each merging template `d33ecb5` (E54, E55 and the docs since) with `--no-ff` on top of the `sync-template` each already had (no new branch or issue), each passing the full gate and the `DEBUG=1` suite first: Spanish `1aa9318`, French `220dd76` and German `2be7b44` (2,478 tests, 111 e2e with E55's nine `home: "lesson"` tests skipped on a landing build, 105 debug e2e), and Russian `d4ba9ab` (2,493 tests with its own lessons, 129 e2e, 105 debug e2e). All four merges were clean: no course file overlaps the template's changes. French's PR 4 and Russian's PR 10 took the new commits as their head. The push dismissed the maintainer's approval of French PR 4 (ORGANIZATION step 6, case R11); once the checks passed on the new heads, the maintainer approved French PR 4 and Russian PR 10 (09:40 UTC). No new issue was opened. A comment saying the same link now also brings this update, its wording approved by the maintainer, went on Spanish and German issue 1, and a note on Russian PR 10 lists the author's steps after it merges (step 2 below). E55 applies to no course yet: none has exactly one lesson of its own. **Next, in order:** (1) Their author merges French PR 4 and Russian PR 10 with a merge commit; Spanish (R13) and German still open theirs from issue 1's link, which now brings this update too. (2) Once PR 10 is merged, Russian's author restores the seven `|` alternatives in lessons 3 and 4 (lesson 4 on PR 8), checks lessons 1 and 2 against the 2015 units, and merges PR 8.
 
@@ -366,16 +379,17 @@ MacBook Pro (`docs/TOOLING.md`, "Browser tests").
 
 ---
 
-## A. Guards — 0 of 8 open — all eight guards live
+## A. Guards — 0 of 9 open — all nine guards live
 
 Guards **a** (config-schema, 19), **b** (naming + render-mirror, 20), **c** (asset-path,
 21), **d** (asset-existence, 22), **e** (registry, 23), **f** (token integrity, 24),
-**g** (CSS layer discipline, 25) and **h** (semantic DOM, 26) are all done. **Section A is
+**g** (CSS layer discipline, 25), **h** (semantic DOM, 26) and **i** (text integrity, E60,
+added 2026-11-12) are all done. **Section A is
 closed** — nothing here is open, and the per-guard notes below are kept only because each
 records a rule that is narrower than the spec sentence it came from, and that is worth
 reading before touching the guard or the code it protects.
 
-The ritual every one of them followed, in case a ninth is ever added: **write a
+The ritual every one of them followed, the ninth (i) included: **write a
 deliberately-broken fixture first, prove the guard blocks it, then make the real repo
 green** — and plant a real violation in source once, to see how many other test files stay
 quiet. A guard that was never seen to fail is a guard that might be asleep.
@@ -2914,8 +2928,8 @@ rather than the Language Centre's course factory; the maintainer took three smal
   plan [`2026-11-11-footer-credits-plan.md`](2026-11-11-footer-credits-plan.md)). After the
   2015 Russian lessons: `"credits": "<modal id>"` in `lo.json` ends the footer's © line
   with a "Credits" button (new UI string `credits`) that opens that popup. The build
-  refuses an id `modals` does not list. Popups, and only popups, may now hold one `<h3>`
-  as a whole entry (the dialog title is the h2); page prose refuses it and says why, the
+  refuses an id `modals` does not list. Popups, and only popups, may now have entries that
+  are each one `<h3>` (the dialog title is the h2); page prose refuses it and says why, the
   one written exception to rich-text spec §14. Per lesson only, the maintainer's decision:
   the landing page's footer is unchanged. `lo-00-example` has a placeholder credits popup
   (paragraph, Team heading, role lines, Voices list), so a copied lesson starts with one
@@ -2927,7 +2941,7 @@ rather than the Language Centre's course factory; the maintainer took three smal
   `feat/e57-tab-exercises`; spec
   [`2026-11-11-tab-exercises-design.md`](../specs/2026-11-11-tab-exercises-design.md),
   plan [`2026-11-11-tab-exercises-plan.md`](2026-11-11-tab-exercises-plan.md)). After the
-  2015 Russian lessons 6 and 7: a section's `exercises` list in `lo.json` may hold a set
+  2015 Russian lessons' exercises 6 and 7: a section's `exercises` list in `lo.json` may hold a set
   (`title`, optional `instructions`, two or more `tabs` of `{ exercise, media? }`), shown
   as one accordion, one instruction box and the tabs block's tab UI (now shared as
   `TabSet`), each panel the tab's media then its exercise. The maintainer's decisions: a
@@ -2939,12 +2953,12 @@ rather than the Language Centre's course factory; the maintainer took three smal
   `lo-00-example` and the exercise showcase show it (S8). **Verify:** the gate in
   AGENTS.md, and `DEBUG=1 bun run build && DEBUG=1 bun run test:e2e`;
   `e2e/exercise-set.spec.ts` and `e2e/debug/exercise-set-engines.spec.ts`. **Next:** the
-  Russian course uses it for lessons 6 ("Reconstruct the text") and 7 ("Set
-  expressions") with its next update. Merged as `64b878f`. **Found while building, fixed by E58:** the LO
+  Russian course uses it for exercises 6 ("Reconstruct the text") and 7 ("Set
+  expressions"), and every other tabbed exercise (2–5 and 8, template issue 97), with its next update. Merged as `64b878f`. **Found while building, fixed by E58:** the LO
   envelope dropped engine-only options such as flashcards' `srs`, so a set of such decks
   could not say so in its box; it now does, and a loader test proves it.
 - **E58 — a lesson's flashcards keep their own options. DONE 2026-11-11** (PR 100, branch
-  `fix/lo-engine-options`; found while building E57). The LO envelope's `options` was a
+  `fix/lo-engine-options`, rebase-merged as `221f364`; found while building E57). The LO envelope's `options` was a
   plain `z.object`, so Zod stripped every key it did not know, and what `assembleLo` hands
   the page is the envelope's parse: a lesson's flashcards deck lost `srs`, `direction` and
   `lockDirection` before its engine saw them. It neither saved progress nor kept its
@@ -2966,8 +2980,8 @@ rather than the Language Centre's course factory; the maintainer took three smal
   tests only: `lo-00-example` has no deck, so no browser test opens a lesson's deck.
   **Next:** each course takes it with its next update; a lesson with a deck that sets
   `srs` or a direction starts behaving as written, with no change to its files.
-- **E59 — a typo in an exercise's options fails the build. DONE 2026-11-11** (branch
-  `fix/strict-exercise-options`, stacked on E58's PR 100; follow-up E58 left open).
+- **E59 — a typo in an exercise's options fails the build. DONE 2026-11-11** (PR 101,
+  branch `fix/strict-exercise-options`, built on E58; rebase-merged as `40419ee`).
   **Decision (maintainer, 2026-11-11): refuse unknown option keys at load.** Until now an
   options key the engine does not know (`shufle`, `lockDirecton`, a deck's `srs` copied
   onto a select) was ignored without a word. Courses take template updates by merge, so
@@ -2986,6 +3000,32 @@ rather than the Language Centre's course factory; the maintainer took three smal
   lesson written since, with a stray key, fails that update's build naming the file, and
   the fix is the one line. Top-level keys of `exercise.json` are still stripped silently;
   no one has asked for that to change.
+- **E60 — guard i: no invisible text mistakes in lesson content. DONE 2026-11-12** (PR 109,
+  branch `feat/text-integrity-guard`; rebase-merged at 13:56 UTC as `ca923c4`, `ec95330`
+  and `1e201e8` once its five checks were green). The Russian course's author
+  wrote a course-only script, `check-learning-object` (course PR 8), after lesson 2
+  shipped `(на ‹U+0301› Acc)` for `(на + Acc)` 33 times; it is manual, untested and
+  Russian-only, and its missing-file check repeats guard d. **Decision (maintainer,
+  2026-11-12): a generic guard in the template, keyed on `course.json`'s `languageCode`.**
+  `src/guards/text-integrity.ts` checks every string in `lo-config/**/*.json` and
+  `course.json`: NFC, a combining mark with a letter under it, one word in one of Latin,
+  Cyrillic and Greek, and a per-language profile (only `ru`: U+0301 on a Cyrillic vowel,
+  `ё` included). Spec: `docs/specs/2026-11-12-text-integrity-guard-design.md`. **Run
+  before turning it on:** the example lesson (190 strings), Spanish's pilot lesson (318)
+  and every Russian branch (`lo-04-2015-shape`, 2,867 strings and 1,098 stress marks;
+  `main`, `lo-04-festivals`, `restructure-lessons-1-3`) have no hit; the two Russian
+  commits before the plus-sign fix (`8a61dc5`, `6308ce9`) have exactly the 33 stray marks
+  and nothing else. French and German have no lesson of their own yet. Asset paths are not
+  swept (guard d owns them, and a Finder file name is NFD by design). A review before the
+  pull request added three cases: a stress mark NFC composes onto к or г (Macedonian ќ,
+  ѓ) now fails under `ru`; modifier letters such as `ʲ` (`[дʲ]`) pass; a mark shown alone
+  may sit on a no-break space as well as `◌`. Known limits are in the spec's §4.
+  `loConfigFiles()` is now exported from `asset-existence.ts`, unchanged, so both guards
+  read the same files. **Verify:** the gate
+  in AGENTS.md; the tests are in `src/guards/text-integrity.test.ts`. **Next:** each course
+  takes it with its next update; once Russian has it, its author can drop the
+  script's accent and Latin-letter checks and its missing-file check, keeping the
+  card-and-banner rule.
 - **E16 — after the organisation move, file `ORGANIZATION.md` under `docs/process/`.**
   Once steps 1–9 are done it is a record, not a guide; course repos inherit the file,
   so moving it keeps their top-level docs to what a course needs. Fix the links that
@@ -3029,15 +3069,16 @@ the slice-1 scope and the open list live in
 - **F2a — media in a tab. DONE 2026-10-07** (`feat/tabs-media`). Portrait or figure
   image, audio player, Show/Hide transcript (`<details>`). Spec
   `2026-10-07-tabs-media-design.md`, plan `2026-10-07-tabs-media-plan.md`.
-- **F2 — remaining panel entries:** callout, exercise by folder ref; transcript in the
-  popup (`{ "modal": id }`); media as a standalone block. Verify: each entry in the
-  example LO, guards b–h green.
+- **F2 — remaining panel entries:** callout; transcript in the popup
+  (`{ "modal": id }`); media as a standalone block. Verify: each entry in the example LO,
+  guards b–h green. (The exercise by folder ref was built instead as the exercise set,
+  E57: [`2026-11-11-tab-exercises-design.md`](../specs/2026-11-11-tab-exercises-design.md).)
 - **F3 — phones. DONE 2026-10-13** (`22b637d`, docs `d72cd02`, `2d6f10c`). Below the block's
   `@3xl` container width (48rem) the tab row is hidden and the vendored shadcn `Select`
   stands in, sharing one `value` with the tabs; the narrow stack is gone. First built at
   `@xl` (36rem), where the example's four tabs wrapped between 36rem and ~43rem, so the
   switch moved up (maintainer); a lesson whose tabs outgrow 48rem wraps again, and the
-  fix then is to measure the row (`TabsBlock.tsx` header). JS 113.63 → 135.45
+  fix then is to measure the row (`TabSet.tsx` header, `TabsBlock.tsx` before E57). JS 113.63 → 135.45
   kB (Base UI Select and Floating UI join `main-*.js`; the select exercise had them
   only lazily), so the maintainer raised the JS cap 120 → 140 kB. CSS 18.09 → 18.03 kB.
   Browser: 320, 375, 768, 820, 840, 880, 1024 and 1440, light and dark: no sideways
@@ -3255,5 +3296,7 @@ build, so it cannot return. Two remain:
 | 2026-10-21 | `35b36d6` | **third review's defects** — exercises checked at load, reserved page names, the playlist's gap; PR 31 (E28)                                                        |
 | 2026-11-10 | `5662951` | **typed answers accept more than one form** — `\|` means "or" in the four typed engines, the first preferred, the rest "Also accepted"; PR 90 (E54)                 |
 | 2026-11-11 | `cd14265` | **a course of one lesson** — `"home": "lesson"` in `course.json` makes `index.html` the lesson's page; the build refuses it with two lessons; PR 92 (E55)           |
-| 2026-11-11 | `bf016ac` | **a Credits link in the footer** — `"credits": "<modal id>"` in `lo.json` adds a Credits button to the lesson footer; popups may hold one `<h3>`; PR 98 (E56)       |
+| 2026-11-11 | `bf016ac` | **a Credits link in the footer** — `"credits": "<modal id>"` in `lo.json` adds a Credits button to the lesson footer; a popup entry may be one `<h3>`; PR 98 (E56)  |
 | 2026-11-11 | `64b878f` | **exercises in tabs** — a section's `exercises` in `lo.json` may hold a set: one accordion, one instruction box, a tab per exercise, any engine; PR 99 (E57)        |
+| 2026-11-11 | `221f364` | **a lesson's flashcards keep their own options** — the LO envelope's `options` is loose, so `srs` and a direction reach the deck; PR 100 (E58)                      |
+| 2026-11-11 | `40419ee` | **a typo in an exercise's options fails the build** — the load check closes each engine's `options`, naming the file and the key; PR 101 (E59)                      |

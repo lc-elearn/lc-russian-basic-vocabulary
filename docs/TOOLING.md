@@ -69,8 +69,8 @@ to strongest:
    "Coverage") + `build`, then `test:e2e` in four browser jobs ("Browser tests"), on
    every PR to `main` and every push to `main`.
    The unbypassable wall: a
-   `--no-verify` commit still fails here before merge. (All eight guards run inside
-   `test`: b–h as the `src/guards/` sweeps, a through its colocated schema tests.)
+   `--no-verify` commit still fails here before merge. (All nine guards run inside
+   `test`: b–i as the `src/guards/` sweeps, a through its colocated schema tests.)
 
 Layer 1 is the carrot; layers 2–4 are the stick.
 
@@ -115,7 +115,8 @@ Layer 1 is the carrot; layers 2–4 are the stick.
 - **`bun run guards` — the fast subset** (`vitest run src/guards`). The guards are
   ordinary Vitest tests, so `bun run test` already enforces every one of them; this is
   the quick check you run before committing when you only want to know whether you broke a repo-wide
-  invariant. 214 tests in about a second against the full suite's ~10s.
+  invariant. It runs in about a second against the full suite's ~10s; how many tests it
+  holds is in the header of [`docs/process/TODO.md`](process/TODO.md).
   - **Why a path glob and not a list:** every guard's scanner module lives in
     `src/guards/`, so a new guard joins the script the moment its file exists. A
     hand-maintained list is the thing that silently goes stale — the same argument
@@ -125,7 +126,7 @@ Layer 1 is the carrot; layers 2–4 are the stick.
     enforced at runtime rather than by a sweep. Its contract tests are colocated unit
     tests of the schemas (`src/config/lo-schema.test.ts`), and every LO on disk is
     parsed end-to-end by `lo-rich-text.test.ts`, which loads them all through
-    `loadLo`. `bun run test` covers both; `bun run guards` covers the seven sweeps.
+    `loadLo`. `bun run test` covers both; `bun run guards` covers the eight sweeps.
   - **No separate CI step, on purpose.** CI runs `bun run test:coverage`, the whole
     suite and a strict superset — a `guards` step would run the same tests a second time
     for no extra signal.
@@ -950,6 +951,11 @@ stays on).`eslint.config.js` is locked by the config-protection hook, so it was
   into the schema. **Since 2026-10-21** the envelope stays loose, but the Node LO reader
   also checks each exercise against its engine's full schema at load
   (`src/exercises/exercise-schemas.ts`, TODO §E28), so bad content fails the build.
+  **Since 2026-11-11** an `exercises` entry may also be an exercise set, whose tabs name
+  refs (TODO §E57,
+  [`2026-11-11-tab-exercises-design.md`](specs/2026-11-11-tab-exercises-design.md)); the
+  LO envelope's `options` is loose too, so an engine's own options reach it (§E58), and
+  the load check closes each engine's `options`, so an unknown key fails the build (§E59).
 - **No slug field:** the folder name is the single source of truth; the URL slug
   strips the `lo-NN-` ordinal prefix (`lo-01-salutations` → `/salutations.html`).
   The schema neither stores nor derives it — `src/lo/lo-slug.ts` does, at build time.

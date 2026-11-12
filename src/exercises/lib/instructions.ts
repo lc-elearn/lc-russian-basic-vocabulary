@@ -134,7 +134,8 @@ export function resolveSetInstructions(
 
 /**
  * Shared Zod fragment for the optional per-exercise `instructions` override.
- * Spread into each engine's `content` schema so all 12 stay consistent. `''` is
+ * Spread into each engine's `content` schema (dictation and typed-transform through
+ * `text-entry-schema.ts`) so every engine stays consistent. `''` is
  * intentionally allowed — it means "suppress the box" (handled by the resolver).
  */
 export const instructionsField = { instructions: z.string().optional() };
