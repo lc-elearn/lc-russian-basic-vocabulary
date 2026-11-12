@@ -56,7 +56,7 @@
         "07-multiple-choice",
         {
           "title": "4. Match the halves",
-          "instructions": "Complete each sentence by dragging the matching half into it. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "instructions": "Find the matching half of each sentence by moving the phrases in the right-hand column. Start from the top. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
           "tabs": [
             {
               "exercise": "08-match-halves-1"
