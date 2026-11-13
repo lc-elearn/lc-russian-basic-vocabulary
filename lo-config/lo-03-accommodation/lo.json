@@ -22,40 +22,165 @@
       "id": "exercises",
       "label": "Exercises · Упражнения",
       "navLabel": "Exercises",
+      "blocks": ["05-intro"],
       "exercises": [
-        "01-flashcards-verbs",
-        "02-flashcards-nouns",
-        "03-flashcards-adjectives",
-        "04-matching-words-1",
-        "05-matching-words-2",
-        "06-matching-words-3",
+        {
+          "title": "1. Flash cards",
+          "tabs": [
+            {
+              "exercise": "01-flashcards-verbs"
+            },
+            {
+              "exercise": "02-flashcards-nouns"
+            },
+            {
+              "exercise": "03-flashcards-adjectives"
+            }
+          ]
+        },
+        {
+          "title": "2. Matching words",
+          "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "04-matching-words-1"
+            },
+            {
+              "exercise": "05-matching-words-2"
+            },
+            {
+              "exercise": "06-matching-words-3"
+            }
+          ]
+        },
         "07-multiple-choice",
-        "08-match-halves-1",
-        "09-match-halves-2",
-        "10-fill-gaps-1",
-        "11-fill-gaps-2",
-        "12-reconstruct-1",
-        "13-reconstruct-2",
-        "14-reconstruct-3"
+        {
+          "title": "4. Match the halves",
+          "instructions": "Find the matching half of each sentence by moving the phrases in the right-hand column. Start from the top. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "08-match-halves-1"
+            },
+            {
+              "exercise": "09-match-halves-2"
+            }
+          ]
+        },
+        {
+          "title": "5. Fill in the gaps",
+          "tabs": [
+            {
+              "exercise": "10-fill-gaps-1"
+            },
+            {
+              "exercise": "11-fill-gaps-2"
+            }
+          ]
+        },
+        {
+          "title": "6. Reconstruct the text «Квартира или общежитие?»",
+          "tabs": [
+            {
+              "exercise": "12-reconstruct-1"
+            },
+            {
+              "exercise": "13-reconstruct-2"
+            },
+            {
+              "exercise": "14-reconstruct-3"
+            }
+          ]
+        },
+        {
+          "title": "7. Set expressions",
+          "instructions": "Listen to each dialogue, then choose the set expression that fits the line. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "15-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-03-accommodation/dialogue1.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-03-accommodation/dialogues/ruvoc_u3_dia1.mp3",
+                  "label": "Диалог 1"
+                },
+                "transcript": [
+                  "— Привет, Лариса, как хорошо, что ты приехала.",
+                  "— Здравствуй, Ирина.",
+                  "— Проходи, не стой в дверях. Давай свой чемодан.",
+                  "— Спасибо. Я соскучилась ужасно.",
+                  "— Я тоже. Думала, не дождусь тебя. Мне с работы позвонили, сказали, что нужно срочно приехать.",
+                  "— Ну вот, так всегда. Можно подумать, к тебе лучшая подруга каждый день из Владивостока приезжает.",
+                  "— Ничего, мы с тобой потом поговорим. А ты пока отдыхай. Устала, наверное, с дороги? В ванной найдёшь полотенце, еда – в холодильнике, на плите – свежий борщ. В общем, не стесняйся, чувствуй себя как дома. Если будут вопросы, звони.",
+                  "— А ты скоро вернёшься?",
+                  "— Постараюсь быть к ужину."
+                ]
+              }
+            },
+            {
+              "exercise": "16-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-03-accommodation/dialogue2.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-03-accommodation/dialogues/ruvoc_u3_dia2.mp3",
+                  "label": "Диалог 2"
+                },
+                "transcript": [
+                  "— Ну что, путешественница? Вернулась? Не забыла нас ещё? Как долетела?",
+                  "— Нормально.",
+                  "— Как Лариса?",
+                  "— Замечательно. Работает менеджером в банке.",
+                  "— Ого! Теперь она начальник! А где она сейчас живёт?",
+                  "— Они с мужем живут за городом. Далеко на работу ездить, но зато воздух чистый и места много.",
+                  "— И большой дом?",
+                  "— Двухэтажный, с гаражом, газоном и садом. У меня была отдельная комната. Представляешь, у Ларисы домработница хозяйство ведёт! Так что ни готовить, ни убирать не надо было.",
+                  "— Так ты, наверное, и возвращаться домой не хотела? (хе-хе)",
+                  "— Ну, что ты, наша квартирка хоть и маленькая, но такая уютная. И домработницы у нас нет. Но не зря говорят, в гостях хорошо, а дома лучше."
+                ]
+              }
+            },
+            {
+              "exercise": "17-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-03-accommodation/dialogue3.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-03-accommodation/dialogues/ruvoc_u3_dia3.mp3",
+                  "label": "Диалог 3"
+                },
+                "transcript": [
+                  "<em>В агентстве недвижимости</em>",
+                  "— Здравствуйте, я хотел бы снять однокомнатную квартиру. Что вы можете мне предложить?",
+                  "— Выбор однокомнатных квартир сейчас небольшой. Минуточку, я посмотрю в базе данных. Та-а-а-к. Вот есть один вариант: однокомнатная квартира, на 5 этаже девятиэтажного дома. С балконом. Окна выходят на южную сторону.",
+                  "— Хм, звучит неплохо. С мебелью?",
+                  "— Да.",
+                  "— А стиральная машина есть?",
+                  "— Есть. В ванной и туалете недавно был сделан ремонт.",
+                  "— Отлично. И где находится квартира?",
+                  "— В новом микрорайоне. Метро там ещё нет. Но ходит автобус.",
+                  "— Это же целый час до работы! А поближе к центру есть что-нибудь?",
+                  "— Сейчас нет. Можете позвонить недели через две. Возможно, появятся другие варианты.",
+                  "— Нет, лучше синица в руках, чем журавль в небе. А могу я посмотреть эту квартиру?",
+                  "— Да, конечно."
+                ]
+              }
+            }
+          ]
+        },
+        "18-reading"
       ]
-    },
-    {
-      "id": "set-expressions",
-      "label": "Set expressions · Устойчивые выражения",
-      "navLabel": "Set expressions",
-      "blocks": ["04-dialogues"],
-      "exercises": ["15-set-expressions"]
-    },
-    {
-      "id": "reading",
-      "label": "Reading · Чтение",
-      "navLabel": "Reading",
-      "exercises": ["16-reading"]
-    },
-    {
-      "id": "credits",
-      "label": "Credits",
-      "blocks": ["06-credits"]
     }
-  ]
+  ],
+  "modals": ["credits"],
+  "credits": "credits"
 }

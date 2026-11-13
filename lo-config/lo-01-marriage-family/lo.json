@@ -22,39 +22,130 @@
       "id": "exercises",
       "label": "Exercises · Упражнения",
       "navLabel": "Exercises",
+      "blocks": ["05-intro"],
       "exercises": [
-        "01-flashcards-verbs",
-        "02-flashcards-nouns",
-        "03-flashcards-adjectives",
-        "04-matching-words-1",
-        "05-matching-words-2",
-        "06-matching-words-3",
+        {
+          "title": "1. Flash cards",
+          "tabs": [
+            {
+              "exercise": "01-flashcards-verbs"
+            },
+            {
+              "exercise": "02-flashcards-nouns"
+            },
+            {
+              "exercise": "03-flashcards-adjectives"
+            }
+          ]
+        },
+        {
+          "title": "2. Matching words",
+          "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "04-matching-words-1"
+            },
+            {
+              "exercise": "05-matching-words-2"
+            },
+            {
+              "exercise": "06-matching-words-3"
+            }
+          ]
+        },
         "07-multiple-choice",
-        "08-match-halves-1",
-        "09-match-halves-2",
-        "10-fill-gaps-1",
-        "11-fill-gaps-2",
-        "12-reconstruct-1",
-        "13-reconstruct-2"
+        {
+          "title": "4. Match the halves",
+          "instructions": "Find the matching half of each sentence by moving the phrases in the right-hand column. Start from the top. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "08-match-halves-1"
+            },
+            {
+              "exercise": "09-match-halves-2"
+            }
+          ]
+        },
+        {
+          "title": "5. Fill in the gaps",
+          "tabs": [
+            {
+              "exercise": "10-fill-gaps-1"
+            },
+            {
+              "exercise": "11-fill-gaps-2"
+            }
+          ]
+        },
+        {
+          "title": "6. Reconstruct the text «Брак: за и против»",
+          "tabs": [
+            {
+              "exercise": "12-reconstruct-1"
+            },
+            {
+              "exercise": "13-reconstruct-2"
+            }
+          ]
+        },
+        {
+          "title": "7. Set expressions",
+          "instructions": "Listen to each dialogue, then choose the set expression that fits the line. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "14-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-01-marriage-family/dialogue1.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-01-marriage-family/dialogues/ruvoc_u1_dia1.mp3",
+                  "label": "Диалог 1"
+                },
+                "transcript": [
+                  "— Привет, Татьяна!",
+                  "— Ой, здравствуй, Марина! Сто лет тебя не видела? Какие новости?",
+                  "— Да у меня никаких. Ты слышала, у Светланы сын женился?",
+                  "— Да ты что!",
+                  "— Но только, наверное, разведутся скоро. Отношения ужасные. Живут как кошка с собакой.",
+                  "— А из-за чего ссорятся?",
+                  "— Он хочет, чтобы жена дома сидела, борщи ему варила. А она не желает быть домохозяйкой. Говорит, он ограничивает её свободу, не даёт ей развиваться как личности.",
+                  "— Ну, если так, то им будет сложно понять друг друга."
+                ]
+              }
+            },
+            {
+              "exercise": "15-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-01-marriage-family/dialogue2.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-01-marriage-family/dialogues/ruvoc_u1_dia2.mp3",
+                  "label": "Диалог 2"
+                },
+                "transcript": [
+                  "— Нина, здравствуй!",
+                  "— Людмила, привет! Рада тебя видеть. Выглядишь прекрасно. Как дети?",
+                  "— Спасибо. Всё хорошо. Младшая дочь замуж вышла.",
+                  "— Поздравляю! И как они ладят?",
+                  "— Прекрасно. Живут душа в душу. Всё делают вместе. Ни минуты не могут прожить друг без друга.",
+                  "— Неужели и посуду вместе моют?",
+                  "— Не поверишь, но да.",
+                  "— Ну, повезло твоей дочери!"
+                ]
+              }
+            }
+          ]
+        },
+        "16-reading"
       ]
-    },
-    {
-      "id": "set-expressions",
-      "label": "Set expressions · Устойчивые выражения",
-      "navLabel": "Set expressions",
-      "blocks": ["04-dialogues"],
-      "exercises": ["14-set-expressions"]
-    },
-    {
-      "id": "reading",
-      "label": "Reading · Чтение",
-      "navLabel": "Reading",
-      "exercises": ["15-reading"]
-    },
-    {
-      "id": "credits",
-      "label": "Credits",
-      "blocks": ["06-credits"]
     }
-  ]
+  ],
+  "modals": ["credits"],
+  "credits": "credits"
 }

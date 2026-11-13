@@ -31,6 +31,11 @@ _(Amended 2026-10-13: media has since shipped — slice 2a,
 optional `media` (image and/or audio, with an optional transcript array) after its
 instructions; see `src/lo/blocks/tabs-block-schema.ts`. The other rows remain later.)_
 
+_(Amended 2026-11-11: "an optional transcript" above holds only for a tab without
+audio. A tabs-block tab's audio needs its transcript (`src/lo/blocks/media-schema.ts`);
+only an exercise set's tab may have audio without one (E57, S5,
+[`2026-11-11-tab-exercises-design.md`](2026-11-11-tab-exercises-design.md)).)_
+
 ## 3. Config shape
 
 ```json

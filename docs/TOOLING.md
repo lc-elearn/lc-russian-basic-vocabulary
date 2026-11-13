@@ -69,8 +69,8 @@ to strongest:
    "Coverage") + `build`, then `test:e2e` in four browser jobs ("Browser tests"), on
    every PR to `main` and every push to `main`.
    The unbypassable wall: a
-   `--no-verify` commit still fails here before merge. (All eight guards run inside
-   `test`: b–h as the `src/guards/` sweeps, a through its colocated schema tests.)
+   `--no-verify` commit still fails here before merge. (All nine guards run inside
+   `test`: b–i as the `src/guards/` sweeps, a through its colocated schema tests.)
 
 Layer 1 is the carrot; layers 2–4 are the stick.
 
@@ -115,7 +115,8 @@ Layer 1 is the carrot; layers 2–4 are the stick.
 - **`bun run guards` — the fast subset** (`vitest run src/guards`). The guards are
   ordinary Vitest tests, so `bun run test` already enforces every one of them; this is
   the quick check you run before committing when you only want to know whether you broke a repo-wide
-  invariant. 214 tests in about a second against the full suite's ~10s.
+  invariant. It runs in about a second against the full suite's ~10s; how many tests it
+  holds is in the header of [`docs/process/TODO.md`](process/TODO.md).
   - **Why a path glob and not a list:** every guard's scanner module lives in
     `src/guards/`, so a new guard joins the script the moment its file exists. A
     hand-maintained list is the thing that silently goes stale — the same argument
@@ -125,7 +126,7 @@ Layer 1 is the carrot; layers 2–4 are the stick.
     enforced at runtime rather than by a sweep. Its contract tests are colocated unit
     tests of the schemas (`src/config/lo-schema.test.ts`), and every LO on disk is
     parsed end-to-end by `lo-rich-text.test.ts`, which loads them all through
-    `loadLo`. `bun run test` covers both; `bun run guards` covers the seven sweeps.
+    `loadLo`. `bun run test` covers both; `bun run guards` covers the eight sweeps.
   - **No separate CI step, on purpose.** CI runs `bun run test:coverage`, the whole
     suite and a strict superset — a `guards` step would run the same tests a second time
     for no extra signal.
@@ -310,11 +311,17 @@ is too low`, and the guard fails closed, so every Claude edit was blocked — an
 **This is the one place the budget is written down.** Every other doc and comment that
 needs the number points here rather than restating it.
 
-| Asset        | Budget (gzipped) | Measured 2026-11-11 | Headroom |
+| Asset        | Budget (gzipped) | Measured 2026-11-13 | Headroom |
 | ------------ | ---------------- | ------------------- | -------- |
-| `main-*.js`  | **< 140 kB**     | 134.59 kB           | 5.41 kB  |
-| `main-*.css` | **< 19 kB**      | 18.01 kB            | 0.99 kB  |
+| `main-*.js`  | **< 140 kB**     | 137.46 kB           | 2.54 kB  |
+| `main-*.css` | **< 19 kB**      | 18.08 kB            | 0.92 kB  |
 
+- **Word bank, several topics (2026-11-13, TODO §E63): JS 137.22 → 137.46 kB, CSS
+  18.05 → 18.08 kB**: an entry's `topic` may be a list, and rows carry a key and a row id.
+- **Vocabulary word bank (2026-11-12, TODO §E63): JS 134.61 → 137.22 kB, CSS 18.01 →
+  18.05 kB**, against `main` built the same day: the word bank's views, letters,
+  self-test reducer and the split view; the block is not lazy, so all of it is in
+  `main-*.js`.
 - **Exercise sets (2026-11-11, TODO §E57): JS 137.90 → 134.59 kB, CSS 18.01 kB
   unchanged**, against `main` built the same day. The drop is not a saving: the set's
   schema made `lo-schema.ts` import the media schema, so Rollup moved shared schema and
@@ -950,6 +957,11 @@ stays on).`eslint.config.js` is locked by the config-protection hook, so it was
   into the schema. **Since 2026-10-21** the envelope stays loose, but the Node LO reader
   also checks each exercise against its engine's full schema at load
   (`src/exercises/exercise-schemas.ts`, TODO §E28), so bad content fails the build.
+  **Since 2026-11-11** an `exercises` entry may also be an exercise set, whose tabs name
+  refs (TODO §E57,
+  [`2026-11-11-tab-exercises-design.md`](specs/2026-11-11-tab-exercises-design.md)); the
+  LO envelope's `options` is loose too, so an engine's own options reach it (§E58), and
+  the load check closes each engine's `options`, so an unknown key fails the build (§E59).
 - **No slug field:** the folder name is the single source of truth; the URL slug
   strips the `lo-NN-` ordinal prefix (`lo-01-salutations` → `/salutations.html`).
   The schema neither stores nor derives it — `src/lo/lo-slug.ts` does, at build time.

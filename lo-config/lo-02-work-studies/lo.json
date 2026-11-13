@@ -22,40 +22,154 @@
       "id": "exercises",
       "label": "Exercises · Упражнения",
       "navLabel": "Exercises",
+      "blocks": ["05-intro"],
       "exercises": [
-        "01-flashcards-verbs",
-        "02-flashcards-nouns",
-        "03-flashcards-adjectives",
-        "04-matching-words-1",
-        "05-matching-words-2",
-        "06-matching-words-3",
+        {
+          "title": "1. Flash cards",
+          "tabs": [
+            {
+              "exercise": "01-flashcards-verbs"
+            },
+            {
+              "exercise": "02-flashcards-nouns"
+            },
+            {
+              "exercise": "03-flashcards-adjectives"
+            }
+          ]
+        },
+        {
+          "title": "2. Matching words",
+          "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "04-matching-words-1"
+            },
+            {
+              "exercise": "05-matching-words-2"
+            },
+            {
+              "exercise": "06-matching-words-3"
+            }
+          ]
+        },
         "07-multiple-choice",
-        "08-match-halves-1",
-        "09-match-halves-2",
-        "10-fill-gaps-1",
-        "11-fill-gaps-2",
-        "12-reconstruct-1",
-        "13-reconstruct-2",
-        "14-reconstruct-3"
+        {
+          "title": "4. Match the halves",
+          "instructions": "Find the matching half of each sentence by moving the phrases in the right-hand column. Start from the top. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "08-match-halves-1"
+            },
+            {
+              "exercise": "09-match-halves-2"
+            }
+          ]
+        },
+        {
+          "title": "5. Fill in the gaps",
+          "tabs": [
+            {
+              "exercise": "10-fill-gaps-1"
+            },
+            {
+              "exercise": "11-fill-gaps-2"
+            }
+          ]
+        },
+        {
+          "title": "6. Reconstruct the text «Детский труд»",
+          "tabs": [
+            {
+              "exercise": "12-reconstruct-1"
+            },
+            {
+              "exercise": "13-reconstruct-2"
+            },
+            {
+              "exercise": "14-reconstruct-3"
+            }
+          ]
+        },
+        {
+          "title": "7. Set expressions",
+          "instructions": "Listen to each dialogue, then choose the set expression that fits the line. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "15-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-02-work-studies/dialogue1.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-02-work-studies/dialogues/ruvoc_u2_dia1.mp3",
+                  "label": "Диалог 1"
+                },
+                "transcript": [
+                  "— Витя, ты начал готовиться к экзамену?",
+                  "— Ну, мам, времени ещё много. Экзамен только через неделю. Я лучше пока в Фейсбуке посижу.",
+                  "— Не успеешь подготовиться.",
+                  "— Успею. Работа не волк, в лес не убежит.",
+                  "— Смотри сам, ты уже взрослый. Я больше напоминать не буду."
+                ]
+              }
+            },
+            {
+              "exercise": "16-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-02-work-studies/dialogue2.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-02-work-studies/dialogues/ruvoc_u2_dia2.mp3",
+                  "label": "Диалог 2"
+                },
+                "transcript": [
+                  "<em>Прошла неделя. После экзамена.</em>",
+                  "— Ну как, Витя, сдал экзамен?",
+                  "— Ты знаешь, мам, все вопросы были какие-то странные. Я по некоторым вопросам вообще не знал, что писать.",
+                  "— Витя, это не вопросы были странные, а ты мало готовился. Если бы ты не сидел в социальных сетях, а делом занимался, то и настроение у тебя было бы сейчас другое.",
+                  "— Я думал, что всё будет легко и просто. А на самом деле…",
+                  "— А получилось, как в поговорке, что без труда не вытащить и рыбку из пруда. Ладно, не переживай, в следующий раз умнее будешь."
+                ]
+              }
+            },
+            {
+              "exercise": "17-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-02-work-studies/dialogue3.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-02-work-studies/dialogues/ruvoc_u2_dia3.mp3",
+                  "label": "Диалог 3"
+                },
+                "transcript": [
+                  "— Мам, дай мне денег.",
+                  "— Артём, папа тебе на прошлой неделе дал тысячу рублей.",
+                  "— Ну, это давно было.",
+                  "— На что ты их потратил?",
+                  "— А я что, помню?",
+                  "— Ну, не могли же деньги просто так исчезнуть. Или ты их потерял? Вспоминай.",
+                  "— Журнал купил, чтобы в метро не скучать, вчера пришлось такси брать – я на лекцию опаздывал, потом купил ручку и тетрадку – я всё дома забыл, на обед в столовой была очередь, а ждать было лень, и я заказал еду в баре. А там знаешь, как дорого!",
+                  "— Сыночек, это называется бросать деньги на ветер.",
+                  "— Мам, ну почему?",
+                  "— Вот когда сам будешь зарабатывать, тогда поймёшь."
+                ]
+              }
+            }
+          ]
+        },
+        "18-reading"
       ]
-    },
-    {
-      "id": "set-expressions",
-      "label": "Set expressions · Устойчивые выражения",
-      "navLabel": "Set expressions",
-      "blocks": ["04-dialogues"],
-      "exercises": ["15-set-expressions"]
-    },
-    {
-      "id": "reading",
-      "label": "Reading · Чтение",
-      "navLabel": "Reading",
-      "exercises": ["16-reading"]
-    },
-    {
-      "id": "credits",
-      "label": "Credits",
-      "blocks": ["06-credits"]
     }
-  ]
+  ],
+  "modals": ["credits"],
+  "credits": "credits"
 }

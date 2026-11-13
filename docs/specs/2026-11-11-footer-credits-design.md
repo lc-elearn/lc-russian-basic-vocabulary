@@ -10,7 +10,10 @@
 > returns focus: WebKit, like Safari, does not focus a button on a mouse click, so a click
 > leaves no focus to return. (3) The plan's phone check (320 × 568) passed with no change,
 > so popups keep their height. (4) Guard b's own test lists the example's modal folders,
-> so it gained `credits`; the guard itself is unchanged.
+> so it gained `credits`; the guard itself is unchanged. (5) §5: the button's classes are
+> `footer-licence-link footer-credits`; the button's own chrome is reset by a separate
+> `.footer-credits` rule in `footer.css`, inside the same `@layer components`, not in the
+> licence link's rule. (Recorded 2026-11-11, after the docs review.)
 
 ## 1. Why
 
