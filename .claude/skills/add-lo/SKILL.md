@@ -40,11 +40,17 @@ schemas check every lesson file when it loads, and `bun run test` runs them.
 4. **Fill it in.** Edit `lo.json`, then each `blocks/*/block.json` and
    `exercises/*/exercise.json`. Remove the blocks and exercises the lesson does not need,
    and keep the folder names in step with the config (`<ordinal>-<type>`,
-   [`STRUCTURE.md`](../../../STRUCTURE.md)). Rich-text tags are in
+   [`STRUCTURE.md`](../../../STRUCTURE.md)). The copy brings placeholder credits
+   (`modals/credits/`, named by `credits` in `lo.json`): fill them in, or delete the
+   folder with its `modals` entry and the `credits` key (CONTRIBUTING's **Credits**, in the
+   section linked above). Rich-text tags are in
    [`docs/specs/lo-rich-text-modals.md`](../../../docs/specs/lo-rich-text-modals.md).
    If the lesson comes from a teacher's document, the
    [`culp-syllabus`](../culp-syllabus/SKILL.md) skill can first check its level
    (optional).
+   A vocabulary block is a word bank: write each word once, and place it in the two
+   views with `topic` (one id or a list, for a word taught under two topics) and `only`
+   ([`CONTRIBUTING.md` → "Vocabulary block (word bank)"](../../../CONTRIBUTING.md#vocabulary-block-word-bank)).
 5. **Use existing kinds only.** If the user wants a kind of exercise or block that does
    not exist, stop and use the `add-exercise-engine` or `add-block-type` skill instead.
 6. **Media.** Ask who made each image and recording before adding it, and follow the
