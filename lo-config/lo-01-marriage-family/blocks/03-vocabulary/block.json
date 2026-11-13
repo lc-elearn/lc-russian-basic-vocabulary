@@ -1,282 +1,568 @@
 {
   "type": "vocabulary",
   "title": "Vocabulary organised semantically",
+  "options": {
+    "selfTest": true,
+    "letterHeadings": true
+  },
   "content": {
+    "topics": [
+      {
+        "id": "marriage",
+        "heading": "Marriage and weddings · Брак и сва́дьба"
+      },
+      {
+        "id": "roles",
+        "heading": "Family roles · Роли в семье́"
+      },
+      {
+        "id": "divorce",
+        "heading": "Divorce · Разво́д"
+      },
+      {
+        "id": "attitudes",
+        "heading": "Society and attitudes · О́бщество и отноше́ния"
+      }
+    ],
     "items": [
       {
         "term": "брак",
         "gloss": "marriage",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_1.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_1.mp3",
+        "topic": "marriage"
       },
       {
         "term": "вступа́ть/вступи́ть в брак",
         "gloss": "to marry (lit. to enter marriage)",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_2.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_2.mp3",
+        "topic": "marriage"
       },
       {
         "term": "гражда́нский брак",
         "gloss": "civil partnership",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_3.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_3.mp3",
+        "topic": "marriage",
+        "only": "topics"
       },
       {
         "term": "официа́льно зарегистри́рованный брак",
         "gloss": "officially registered partnership",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_4.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_4.mp3",
+        "topic": "marriage",
+        "only": "topics"
       },
       {
         "term": "де́ти рождённые вне бра́ка",
         "gloss": "children born outside marriage",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_5.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_5.mp3",
+        "topic": "marriage"
       },
       {
         "term": "выходи́ть/вы́йти за́муж (за + Acc)",
         "gloss": "to marry (for a woman)",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_6.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_6.mp3",
+        "topic": "marriage"
       },
       {
         "term": "жени́ться (на + Prep) (impf and pf)",
         "gloss": "to marry (for a man)",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_7.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_7.mp3",
+        "topic": "marriage"
       },
       {
         "term": "пожени́ться (pf only)",
         "gloss": "to marry (for a couple)",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_8.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_8.mp3",
+        "topic": "marriage"
       },
       {
         "term": "за́мужем (за + Instr)",
         "gloss": "married (to somebody) (for a woman)",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_9.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_9.mp3",
+        "topic": "marriage",
+        "only": "topics"
       },
       {
         "term": "жена́т (на + Prep)",
         "gloss": "married (to somebody) (for a man)",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_10.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_10.mp3",
+        "topic": "marriage",
+        "only": "topics"
       },
       {
         "term": "сва́дьба",
         "gloss": "wedding",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_11.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_11.mp3",
+        "topic": "marriage"
       },
       {
         "term": "жени́х",
         "gloss": "bridegroom, fiancé",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_12.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_12.mp3",
+        "topic": "marriage"
       },
       {
         "term": "неве́ста",
         "gloss": "bride, fiancée",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_13.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_13.mp3",
+        "topic": "marriage"
       },
       {
         "term": "молодожёны",
         "gloss": "newlyweds",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_14.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_14.mp3",
+        "topic": "marriage"
       },
       {
         "term": "супру́г/супру́га",
         "gloss": "spouse",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_15.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_15.mp3",
+        "topic": "marriage"
       },
       {
         "term": "супру́жеская па́ра",
         "gloss": "married couple",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_16.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_16.mp3",
+        "topic": "marriage"
       },
       {
         "term": "глава́ семьи́",
         "gloss": "head of family",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_17.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_17.mp3",
+        "topic": "roles"
       },
       {
         "term": "жить дру́жно",
         "gloss": "to live in harmony",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_18.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_18.mp3",
+        "topic": "roles"
       },
       {
         "term": "устра́ивать/устро́ить (сюрпри́зы/сканда́лы/ссо́ры)",
         "gloss": "to arrange",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_19.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_19.mp3",
+        "topic": "roles"
       },
       {
         "term": "угожда́ть/угоди́ть (+ Dat)",
         "gloss": "to please",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_20.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_20.mp3",
+        "topic": "roles"
       },
       {
         "term": "слу́шаться (+ Acc)",
         "gloss": "to do as (one is) told",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_21.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_21.mp3",
+        "topic": "roles"
       },
       {
         "term": "принима́ть/приня́ть реше́ния",
         "gloss": "to make decisions",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_22.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_22.mp3",
+        "topic": "roles"
       },
       {
         "term": "приноси́ть/принести́ в дом де́ньги",
         "gloss": "to bring home money (= to earn)",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_23.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_23.mp3",
+        "topic": "roles"
       },
       {
         "term": "содержа́ть семью́",
         "gloss": "to provide for the family",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_24.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_24.mp3",
+        "topic": "roles"
       },
       {
         "term": "подде́рживать/поддержа́ть семью́ материа́льно",
         "gloss": "to support family financially",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_25.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_25.mp3",
+        "topic": "roles"
       },
       {
         "term": "кома́ндовать (+ Instr)",
         "gloss": "to lord over",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_26.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_26.mp3",
+        "topic": "roles"
       },
       {
         "term": "занима́ться/заня́ться хозя́йством",
         "gloss": "to keep house, to do the chores",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_27.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_27.mp3",
+        "topic": "roles"
       },
       {
         "term": "вести́ хозя́йство",
         "gloss": "to keep house",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_28.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_28.mp3",
+        "topic": "roles"
       },
       {
         "term": "развива́ться/разви́ться как ли́чность",
         "gloss": "to develop as a person",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_29.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_29.mp3",
+        "topic": "roles"
       },
       {
         "term": "разво́д",
         "gloss": "divorce",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_30.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_30.mp3",
+        "topic": "divorce"
       },
       {
         "term": "разводи́ться/развести́сь (с +Instr)",
         "gloss": "to divorce",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_31.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_31.mp3",
+        "topic": "divorce",
+        "only": "topics"
       },
       {
         "term": "получа́ть/получи́ть разво́д",
         "gloss": "to get a divorce",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_32.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_32.mp3",
+        "topic": "divorce"
       },
       {
         "term": "конча́ться/ко́нчиться разво́дом",
         "gloss": "to end in divorce",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_33.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_33.mp3",
+        "topic": "divorce"
       },
       {
         "term": "совреме́нное о́бщество",
         "gloss": "modern society",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_34.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_34.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "беспоко́ить (+ Acc)",
         "gloss": "to worry",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_35.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_35.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "боя́ться (+ Gen)",
         "gloss": "to be afraid of",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_36.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_36.mp3",
+        "topic": "attitudes"
       },
       {
         "term": "нестаби́льность семьи́",
         "gloss": "family instability",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_37.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_37.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "растёт число́ (+ Gen)",
         "gloss": "the number (of…) is growing",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_38.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_38.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "мать-одино́чка / оте́ц-одино́чка",
         "gloss": "single mother/father",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_39.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_39.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "отноше́ние к (+ Dat)",
         "gloss": "attitude towards",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_40.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_40.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "семе́йные отноше́ния",
         "gloss": "family relationships",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_41.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_41.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "отрица́тельные/положи́тельные сто́роны бра́ка",
         "gloss": "negative/positive sides of marriage",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_42.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_42.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "меша́ть/помеша́ть (+ Dat) (профессиона́льному ро́сту/карье́ре)",
         "gloss": "to interfere with",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_43.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_43.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "ограни́чивать/ограни́чить ли́чную свобо́ду",
         "gloss": "to limit personal freedom",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_44.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_44.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "быть недово́льным (+ Instr)",
         "gloss": "to be dissatisfied with",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_45.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_45.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "тре́бовать/потре́бовать (много вре́мени/сил/де́нег)",
         "gloss": "to require (lots of time/effort/money)",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_46.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_46.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "быт",
         "gloss": "1. everyday life; 2. household chores",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_47.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_47.mp3",
+        "topic": "attitudes"
       },
       {
         "term": "мужски́е и же́нские обя́занности",
         "gloss": "male/female duties",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_48.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_48.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "пра́во (на + Acc)",
         "gloss": "right to",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_49.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_49.mp3",
+        "topic": "attitudes"
       },
       {
         "term": "равнопра́вие мужчи́н и же́нщин",
         "gloss": "equal rights of men and women",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_50.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_50.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "унижа́ть/уни́зить (мужско́е/же́нское) досто́инство",
         "gloss": "to demean (one’s) dignity",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_51.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_51.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "относи́ться/отнести́сь (к + Dat) КАК (терпи́мо/нетерпи́мо, крити́чески, положи́тельно/отрица́тельно)",
         "gloss": "to have a certain attitude to smth.",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_52.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_52.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "счита́ть (+ Acc + Inst)",
         "gloss": "to consider smth. as",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_53.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_53.mp3",
+        "topic": "attitudes"
       },
       {
         "term": "он/а (по́ уши) влюблён/влюблена́ (в + Acc)",
         "gloss": "he/she is (head over heels) in love",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_54.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_54.mp3",
+        "topic": "attitudes",
+        "only": "topics"
       },
       {
         "term": "они́ не мо́гут жить друг без дру́га",
         "gloss": "they cannot live without each other",
-        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_55.mp3"
+        "audio": "audio/lo-01-marriage-family/vocab-semantic/ruvoc_u1_svocab_55.mp3",
+        "topic": "attitudes",
+        "only": "topics"
+      },
+      {
+        "term": "безнра́вственный",
+        "gloss": "immoral",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_1.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "беспоко́ить",
+        "gloss": "to worry",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_2.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "влюблён/влюблена́ (по́ уши)",
+        "gloss": "to be (head over heels) in love",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_7.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "гражда́нский",
+        "gloss": "civil",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_11.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "дово́лен/дово́льна (+ Inst)",
+        "gloss": "satisfied with",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_13.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "мать-одино́чка",
+        "gloss": "single mother",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_20.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "меша́ть/помеша́ть (+ Dat) (профессиональному ро́сту/карье́ре)",
+        "gloss": "to interfere with",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_21.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "недово́лен/недово́льна (+ Inst)",
+        "gloss": "dissatisfied with",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_24.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "нестаби́льный",
+        "gloss": "unstable",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_25.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "нра́вственный",
+        "gloss": "moral",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_26.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "о́бщество",
+        "gloss": "society",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_27.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "обя́занность (f)",
+        "gloss": "duty, obligation",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_28.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "ограни́чивать/ограни́чить (ли́чную свобо́ду)",
+        "gloss": "to limit (personal freedom)",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_29.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "оте́ц-одино́чка",
+        "gloss": "single father",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_30.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "относи́ться/отнести́сь (к + Dat) КАК",
+        "gloss": "to have a certain attitude to smth.",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_31.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "отноше́ние (к + Dat)",
+        "gloss": "attitude towards",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_32.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "отноше́ния (pl)",
+        "gloss": "relationship",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_33.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "отрица́тельный",
+        "gloss": "negative",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_34.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "официа́льно зарегистри́рованный",
+        "gloss": "offically registered",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_35.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "положи́тельный",
+        "gloss": "positive",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_38.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "профессиона́льный рост",
+        "gloss": "professional development/growth",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_43.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "равнопра́вие",
+        "gloss": "equal rights",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_44.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "разводи́ться/развести́сь (с + Instr)",
+        "gloss": "to divorce",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_47.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "расти́/вы́расти",
+        "gloss": "to grow",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_48.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "растёт число́",
+        "gloss": "the number is growing",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_49.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "рост",
+        "gloss": "growth",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_50.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "совреме́нный",
+        "gloss": "modern",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_53.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "стаби́льный",
+        "gloss": "stable",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_55.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "тре́бовать/потре́бовать (вре́мени/сил/де́нег)",
+        "gloss": "to require, to demand",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_59.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "унижа́ть/уни́зить досто́инство",
+        "gloss": "to demean (one’s) dignity",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_62.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "хозя́йство",
+        "gloss": "household",
+        "audio": "audio/lo-01-marriage-family/vocab-alphabetic/ruvoc_u1_avocab_63.mp3",
+        "only": "alphabetical"
       }
     ]
   }
