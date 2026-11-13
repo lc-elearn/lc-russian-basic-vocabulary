@@ -1,412 +1,538 @@
 {
   "type": "vocabulary",
   "title": "Vocabulary organised semantically",
+  "options": {
+    "selfTest": true,
+    "letterHeadings": true
+  },
   "content": {
+    "topics": [
+      {
+        "id": "festivals",
+        "heading": "Festivals · Пра́здники"
+      },
+      {
+        "id": "traditions",
+        "heading": "Traditions and celebrations · Тради́ции и торжества́"
+      },
+      {
+        "id": "presents",
+        "heading": "Presents and preparations · Пода́рки и подгото́вка"
+      },
+      {
+        "id": "keeping",
+        "heading": "Keeping traditions · Сохране́ние тради́ций"
+      },
+      {
+        "id": "family",
+        "heading": "Family and friends · Семья́ и друзья́"
+      },
+      {
+        "id": "feelings",
+        "heading": "Feelings and values · Чу́вства и це́нности"
+      }
+    ],
     "items": [
       {
         "term": "пра́здник",
         "gloss": "holiday, festival",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_1.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_1.mp3",
+        "topic": "festivals"
       },
       {
         "term": "пра́здновать/отпра́здновать",
         "gloss": "to celebrate",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_2.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_2.mp3",
+        "topic": "festivals"
       },
       {
         "term": "пра́здничный",
         "gloss": "festive",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_3.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_3.mp3",
+        "topic": "festivals"
       },
       {
         "term": "отмеча́ть/отме́тить",
         "gloss": "to commemorate, to mark",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_4.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_4.mp3",
+        "topic": "festivals"
       },
       {
         "term": "собы́тие",
         "gloss": "event",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_5.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_5.mp3",
+        "topic": "festivals"
       },
       {
         "term": "почита́ть/почти́ть",
         "gloss": "to worship",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_6.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_6.mp3",
+        "topic": "festivals"
       },
       {
         "term": "Рождество́",
         "gloss": "Christmas",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_7.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_7.mp3",
+        "topic": "festivals",
+        "only": "topics"
       },
       {
         "term": "Па́сха",
         "gloss": "Easter",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_8.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_8.mp3",
+        "topic": "festivals"
       },
       {
         "term": "Ма́сленица",
         "gloss": "Shrovetide",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_9.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_9.mp3",
+        "topic": "festivals"
       },
       {
         "term": "День Побе́ды",
         "gloss": "Victory Day (9 May)",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_10.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_10.mp3",
+        "topic": "festivals"
       },
       {
         "term": "День Росси́и",
         "gloss": "Independence Day (12 June)",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_11.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_11.mp3",
+        "topic": "festivals"
       },
       {
         "term": "день рожде́ния",
         "gloss": "birthday",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_12.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_12.mp3",
+        "topic": "festivals",
+        "only": "topics"
       },
       {
         "term": "тради́ция",
         "gloss": "tradition",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_13.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_13.mp3",
+        "topic": "traditions"
       },
       {
         "term": "традицио́нный",
         "gloss": "traditional",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_14.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_14.mp3",
+        "topic": "traditions"
       },
       {
         "term": "обы́чай; по ру́сскому обы́чаю",
         "gloss": "custom; according to Russian custom",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_15.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_15.mp3",
+        "topic": "traditions"
       },
       {
         "term": "(не) при́нято (+ inf)",
         "gloss": "it is (un)usual; (un)conventional; (not)customary",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_16.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_16.mp3",
+        "topic": "traditions"
       },
       {
         "term": "гостеприи́мный",
         "gloss": "hospitable, welcoming",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_17.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_17.mp3",
+        "topic": "traditions"
       },
       {
         "term": "гостеприи́мство",
         "gloss": "hospitality",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_18.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_18.mp3",
+        "topic": "traditions"
       },
       {
         "term": "торжество́",
         "gloss": "celebration",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_19.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_19.mp3",
+        "topic": "traditions"
       },
       {
         "term": "юбиле́й",
         "gloss": "jubilee",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_20.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_20.mp3",
+        "topic": "traditions"
       },
       {
         "term": "приём госте́й",
         "gloss": "reception (of guests)",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_21.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_21.mp3",
+        "topic": "traditions"
       },
       {
         "term": "засто́лье",
         "gloss": "tableful; feast",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_22.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_22.mp3",
+        "topic": "traditions"
       },
       {
         "term": "вы́пивка",
         "gloss": "alcoholic drinks",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_23.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_23.mp3",
+        "topic": "traditions"
       },
       {
         "term": "гуля́нье",
         "gloss": "open-air party; revel",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_24.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_24.mp3",
+        "topic": "traditions"
       },
       {
         "term": "угоще́ние",
         "gloss": "food offered to guests",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_26.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_26.mp3",
+        "topic": "traditions"
       },
       {
         "term": "госуда́рственный",
         "gloss": "state",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_27.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_27.mp3",
+        "topic": "traditions"
       },
       {
         "term": "всенаро́дный",
         "gloss": "national, nationwide",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_28.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_28.mp3",
+        "topic": "traditions"
       },
       {
         "term": "религио́зный",
         "gloss": "religious",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_29.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_29.mp3",
+        "topic": "traditions"
       },
       {
         "term": "профессиона́льный",
         "gloss": "professional",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_30.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_30.mp3",
+        "topic": "traditions"
       },
       {
         "term": "правосла́вие; правосла́вный",
         "gloss": "orthodoxy; orthodox",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_31.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_31.mp3",
+        "topic": "traditions"
       },
       {
         "term": "язы́чество; язы́ческий",
         "gloss": "paganism; pagan",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_32.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_32.mp3",
+        "topic": "traditions",
+        "only": "topics"
       },
       {
         "term": "пода́рок",
         "gloss": "present",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_33.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_33.mp3",
+        "topic": "presents"
       },
       {
         "term": "дари́ть/подари́ть (пода́рок)",
         "gloss": "to give a present",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_34.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_34.mp3",
+        "topic": "presents"
       },
       {
         "term": "(не)уда́чный (пода́рок)",
         "gloss": "(in)appropriate (present)",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_35.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_35.mp3",
+        "topic": "presents"
       },
       {
         "term": "вкус",
         "gloss": "taste",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_36.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_36.mp3",
+        "topic": "presents"
       },
       {
         "term": "фанта́зия",
         "gloss": "fantasy, imagination",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_37.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_37.mp3",
+        "topic": "presents"
       },
       {
         "term": "жела́ть/пожела́ть (+ Gen)",
         "gloss": "to wish",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_38.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_38.mp3",
+        "topic": "presents"
       },
       {
         "term": "устра́ивать/устро́ить (пра́здник)",
         "gloss": "to arrange, to organise",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_39.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_39.mp3",
+        "topic": "presents"
       },
       {
         "term": "посыла́ть/посла́ть откры́тку",
         "gloss": "to send a card",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_40.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_40.mp3",
+        "topic": "presents"
       },
       {
         "term": "произноси́ть/произнести́ тост",
         "gloss": "to propose a toast (lit. to pronounce)",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_41.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_41.mp3",
+        "topic": "presents"
       },
       {
         "term": "провожа́ть/проводи́ть ста́рый год",
         "gloss": "to usher the Old year out",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_42.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_42.mp3",
+        "topic": "presents"
       },
       {
         "term": "встреча́ть/встре́тить Но́вый год",
         "gloss": "to welcome the New Year in",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_43.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_43.mp3",
+        "topic": "presents"
       },
       {
         "term": "украша́ть/укра́сить",
         "gloss": "to decorate",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_44.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_44.mp3",
+        "topic": "presents"
       },
       {
         "term": "украше́ние",
         "gloss": "1. decoration; 2. jewellery",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_45.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_45.mp3",
+        "topic": "presents"
       },
       {
         "term": "класть/положи́ть",
         "gloss": "to put, to place (horizontally)",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_46.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_46.mp3",
+        "topic": "presents"
       },
       {
         "term": "ста́вить/поста́вить",
         "gloss": "to put, to place (vertically)",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_47.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_47.mp3",
+        "topic": "presents"
       },
       {
         "term": "ве́шать/пове́сить",
         "gloss": "to hang",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_48.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_48.mp3",
+        "topic": "presents"
       },
       {
         "term": "соблюда́ть/соблюсти́ (пра́вила, обы́чаи и т.д.)",
         "gloss": "to observe (rules, customs, etc.)",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_49.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_49.mp3",
+        "topic": "keeping"
       },
       {
         "term": "сохраня́ть/сохрани́ть",
         "gloss": "to preserve",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_50.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_50.mp3",
+        "topic": "keeping"
       },
       {
         "term": "обяза́тельно",
         "gloss": "necessarily, obligatorily",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_51.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_51.mp3",
+        "topic": "keeping"
       },
       {
         "term": "появля́ться/появи́ться",
         "gloss": "to appear, to emerge",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_52.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_52.mp3",
+        "topic": "keeping"
       },
       {
         "term": "создава́ть/созда́ть",
         "gloss": "to create",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_53.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_53.mp3",
+        "topic": "keeping"
       },
       {
         "term": "исчеза́ть/исче́знуть",
         "gloss": "to disappear",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_54.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_54.mp3",
+        "topic": "keeping"
       },
       {
         "term": "уходи́ть/уйти́ в про́шлое",
         "gloss": "to become a thing of the past",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_55.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_55.mp3",
+        "topic": "keeping"
       },
       {
         "term": "ро́дственник",
         "gloss": "relative",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_56.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_56.mp3",
+        "topic": "family"
       },
       {
         "term": "родосло́вная",
         "gloss": "family tree, lineage",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_57.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_57.mp3",
+        "topic": "family"
       },
       {
         "term": "составля́ть/соста́вить семе́йное де́рево",
         "gloss": "to draw a family tree",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_58.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_58.mp3",
+        "topic": "family"
       },
       {
         "term": "семе́йный круг; в семе́йном кругу́",
         "gloss": "family circle; in the family circle",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_60.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_60.mp3",
+        "topic": "family"
       },
       {
         "term": "бли́зкий друг",
         "gloss": "close friend",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_61.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_61.mp3",
+        "topic": "family"
       },
       {
         "term": "ходи́ть в го́сти",
         "gloss": "to pay visits",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_62.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_62.mp3",
+        "topic": "family"
       },
       {
         "term": "вызыва́ть/вы́звать (эмо́ции)",
         "gloss": "to cause smb. to feel smth.",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_63.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_63.mp3",
+        "topic": "feelings"
       },
       {
         "term": "положи́тельные эмо́ции",
         "gloss": "positive",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_64.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_64.mp3",
+        "topic": "feelings"
       },
       {
         "term": "отрица́тельные эмо́ции",
         "gloss": "negative",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_65.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_65.mp3",
+        "topic": "feelings"
       },
       {
         "term": "ра́доваться/обра́доваться (+ Dat)",
         "gloss": "to be glad",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_66.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_66.mp3",
+        "topic": "feelings"
       },
       {
         "term": "развлека́ть(ся)/развле́чь(ся)",
         "gloss": "to entertain (oneself)",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_67.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_67.mp3",
+        "topic": "feelings"
       },
       {
         "term": "развлече́ние",
         "gloss": "entertainment",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_68.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_68.mp3",
+        "topic": "feelings"
       },
       {
         "term": "чу́вствовать/почу́вствовать себя́ ча́стью",
         "gloss": "to feel oneself to be a part (of)",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_69.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_69.mp3",
+        "topic": "feelings"
       },
       {
         "term": "объединя́ть/объедини́ть",
         "gloss": "to unite",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_70.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_70.mp3",
+        "topic": "feelings"
       },
       {
         "term": "вспомина́ть/вспо́мнить",
         "gloss": "to remember, to recall",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_71.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_71.mp3",
+        "topic": "feelings"
       },
       {
         "term": "принима́ть/приня́ть уча́стие (в + Prep)",
         "gloss": "to take part",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_72.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_72.mp3",
+        "topic": "feelings"
       },
       {
         "term": "уча́ствовать/поуча́ствовать (в + Prep)",
         "gloss": "to participate",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_73.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_73.mp3",
+        "topic": "feelings"
       },
       {
         "term": "переме́на",
         "gloss": "change",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_74.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_74.mp3",
+        "topic": "feelings"
       },
       {
         "term": "влия́ть/повлия́ть (на + Acc)",
         "gloss": "to influence",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_75.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_75.mp3",
+        "topic": "feelings"
       },
       {
         "term": "отража́ть/отрази́ть",
         "gloss": "to reflect",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_76.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_76.mp3",
+        "topic": "feelings"
       },
       {
         "term": "це́нность (f)",
         "gloss": "value",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_77.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_77.mp3",
+        "topic": "feelings"
       },
       {
         "term": "ощуще́ние",
         "gloss": "sensation; awareness",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_78.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_78.mp3",
+        "topic": "feelings"
       },
       {
         "term": "теплота́",
         "gloss": "warmth",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_79.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_79.mp3",
+        "topic": "feelings"
       },
       {
         "term": "уве́ренность (f)",
         "gloss": "confidence",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_80.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_80.mp3",
+        "topic": "feelings"
       },
       {
         "term": "споко́йствие",
         "gloss": "tranquillity; composure; evenness",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_81.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_81.mp3",
+        "topic": "feelings"
       },
       {
         "term": "дове́рие",
         "gloss": "trust",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_82.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_82.mp3",
+        "topic": "feelings"
       },
       {
         "term": "стаби́льность (f)",
         "gloss": "stability",
-        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_83.mp3"
+        "audio": "audio/lo-04-festivals/vocab-semantic/ruvoc_u4_svocab_83.mp3",
+        "topic": "feelings"
+      },
+      {
+        "term": "язы́ческий",
+        "gloss": "pagan",
+        "audio": "audio/lo-04-festivals/vocab-alphabetic/ruvoc_u4_avocab_83.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "язы́чество",
+        "gloss": "paganism",
+        "audio": "audio/lo-04-festivals/vocab-alphabetic/ruvoc_u4_avocab_84.mp3",
+        "only": "alphabetical"
       }
     ]
   }
