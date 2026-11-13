@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 3",
+  "content": {
+    "items": [
+      {
+        "text": "it is customary — [принято]"
+      },
+      {
+        "text": "feast — [застолье]"
+      },
+      {
+        "text": "to send a card — [посылать открытку]"
+      },
+      {
+        "text": "negative — [отрицательный]"
+      },
+      {
+        "text": "to reflect — [отражать]"
+      },
+      {
+        "text": "to celebrate — [праздновать]"
+      },
+      {
+        "text": "generation — [поколение]"
+      },
+      {
+        "text": "reception (of guests) — [приём гостей]"
+      },
+      {
+        "text": "to arrange — [устраивать]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

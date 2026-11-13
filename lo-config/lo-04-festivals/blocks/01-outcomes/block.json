@@ -1,0 +1,18 @@
+{
+  "type": "outcomes",
+  "presentation": "plain",
+  "content": {
+    "lead": "Once you have completed this unit, you should be able to discuss:",
+    "items": [
+      "festivals and commemoration days;",
+      "the importance of festivals;",
+      "national traditions and customs, and family traditions;",
+      "preserving old traditions and creating new ones;",
+      "giving and receiving presents."
+    ],
+    "image": {
+      "src": "images/lo-04-festivals/card.jpg",
+      "alt": ""
+    }
+  }
+}

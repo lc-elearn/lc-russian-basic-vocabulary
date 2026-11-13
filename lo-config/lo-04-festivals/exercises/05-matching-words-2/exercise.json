@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 2",
+  "content": {
+    "items": [
+      {
+        "text": "orthodoxy — [православие]"
+      },
+      {
+        "text": "to decorate — [украшать]"
+      },
+      {
+        "text": "to become a thing of the past — [уходить в прошлое]"
+      },
+      {
+        "text": "jubilee — [юбилей]"
+      },
+      {
+        "text": "state — [государственный]"
+      },
+      {
+        "text": "to cause smb. to feel smth. — [вызывать эмоции]"
+      },
+      {
+        "text": "positive — [положительный]"
+      },
+      {
+        "text": "to welcome New Year in — [встречать Новый год]"
+      },
+      {
+        "text": "to mark — [отмечать]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

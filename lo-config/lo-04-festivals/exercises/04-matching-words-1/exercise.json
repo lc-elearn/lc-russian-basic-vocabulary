@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 1",
+  "content": {
+    "items": [
+      {
+        "text": "to be glad — [радоваться]"
+      },
+      {
+        "text": "hospitality — [гостеприимство]"
+      },
+      {
+        "text": "to preserve — [сохранять]"
+      },
+      {
+        "text": "alcoholic drinks — [выпивка]"
+      },
+      {
+        "text": "pagan — [языческий]"
+      },
+      {
+        "text": "according to Russian custom — [по русскому обычаю]"
+      },
+      {
+        "text": "to unite — [объединять]"
+      },
+      {
+        "text": "to give presents — [дарить подарки]"
+      },
+      {
+        "text": "to create — [создавать]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}
