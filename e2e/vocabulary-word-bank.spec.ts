@@ -154,6 +154,28 @@ test('no horizontal scroll at 320px with words hidden, in both views', async ({ 
   expect(await overflow()).toBeLessThanOrEqual(0);
 });
 
+test('a very long term wraps inside the block instead of pushing the glosses out', async ({
+  page,
+}) => {
+  // Desktop width: the two-column layout. A term as long as Russian lesson 1's
+  // "относи́ться/отнести́сь (к + Dat) КАК (…)" once made the term column as wide as the
+  // term, and the glosses ran past the accordion's clipped edge.
+  await page.setViewportSize({ width: 1000, height: 800 });
+  const bank = await openWordBank(page);
+  const term = bank.locator('dt span[lang]', { hasText: FIRST_TERM });
+  await term.evaluate((span) => {
+    span.textContent = 'a very long placeholder term '.repeat(8).trim();
+  });
+
+  const spill = await bank.evaluate((root) => {
+    const edge = root.getBoundingClientRect().right;
+    return Math.max(
+      ...[...root.querySelectorAll('dd')].map((dd) => dd.getBoundingClientRect().right - edge),
+    );
+  });
+  expect(spill).toBeLessThanOrEqual(0);
+});
+
 for (const colorScheme of ['light', 'dark'] as const) {
   test.describe(`${colorScheme} mode`, () => {
     test.use({ colorScheme });
