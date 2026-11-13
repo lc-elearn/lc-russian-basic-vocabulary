@@ -17,10 +17,16 @@ import type { SelfTestState } from './vocabulary-self-test';
 import { VocabularyRow } from './VocabularyRow';
 import './vocabulary-block.css';
 
-/** Two columns from `sm`, the term's as wide as the longest term: today's list. */
-const LIST = 'grid gap-x-6 gap-y-2 sm:grid-cols-[max-content_1fr]';
+/**
+ * Two columns from `sm`, the term's as wide as the longest term but never more than half
+ * the block: a longer term wraps. `max-content` alone let one long phrase (Russian
+ * lesson 1's "относи́ться/отнести́сь (к + Dat) КАК (…)") widen the column past the
+ * block, and the accordion's clipped edge cut the glosses off.
+ */
+const COLUMNS = 'sm:grid-cols-[fit-content(50%)_minmax(0,1fr)]';
+const LIST = `grid gap-x-6 gap-y-2 ${COLUMNS}`;
 /** The same columns around sections, with more room between them. */
-const SECTIONS = 'grid gap-x-6 gap-y-4 sm:grid-cols-[max-content_1fr]';
+const SECTIONS = `grid gap-x-6 gap-y-4 ${COLUMNS}`;
 const HEADING = 'font-heading text-lg font-semibold text-foreground sm:col-span-2';
 
 /** An entry with its place in the authored list: its React key. */

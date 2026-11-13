@@ -118,7 +118,9 @@ describe('vocabulary word bank, first render', () => {
 
   test('a list without topics is still one <dl>, as before', () => {
     const html = renderToStaticMarkup(<VocabularyBlock content={{ items }} />);
-    expect(html).toContain('<dl class="grid gap-x-6 gap-y-2 sm:grid-cols-[max-content_1fr]">');
+    expect(html).toContain(
+      '<dl class="grid gap-x-6 gap-y-2 sm:grid-cols-[fit-content(50%)_minmax(0,1fr)]">',
+    );
     expect((html.match(/<dl/g) ?? []).length).toBe(1);
     expect(html).not.toContain('<h4');
   });
