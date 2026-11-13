@@ -11,6 +11,10 @@
       "whether it is possible to combine work and studies;",
       "how long we should work;",
       "children working versus child labour."
-    ]
+    ],
+    "image": {
+      "src": "images/lo-02-work-studies/card.jpg",
+      "alt": ""
+    }
   }
 }

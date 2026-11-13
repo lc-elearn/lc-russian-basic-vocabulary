@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 2",
+  "content": {
+    "instructions": "Notice the set expression with <em>жить</em> that describes how the couple get on.",
+    "items": [
+      {
+        "text": "— Прекрасно. Живут [рука в руку|как короли|*душа в душу]. Всё делают вместе. Ни минуты не могут прожить друг без друга."
+      }
+    ]
+  }
+}
