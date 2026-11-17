@@ -1,0 +1,685 @@
+{
+  "type": "vocabulary",
+  "title": "Vocabulary",
+  "options": {
+    "selfTest": true,
+    "letterHeadings": true
+  },
+  "content": {
+    "topics": [
+      {
+        "id": "routine",
+        "heading": "Lifestyle and daily routine · О́браз жи́зни и режи́м дня"
+      },
+      {
+        "id": "stress",
+        "heading": "Stress and tiredness · Стресс и уста́лость"
+      },
+      {
+        "id": "coping",
+        "heading": "Coping with stress · Борьба́ со стре́ссом"
+      },
+      {
+        "id": "activity",
+        "heading": "Sport and time outdoors · Спорт и прогу́лки"
+      },
+      {
+        "id": "diet",
+        "heading": "Diet and weight · Пита́ние и вес"
+      },
+      {
+        "id": "sleep",
+        "heading": "Sleep · Сон"
+      },
+      {
+        "id": "attitudes",
+        "heading": "Attitudes to health · Отноше́ние к здоро́вью"
+      },
+      {
+        "id": "habits",
+        "heading": "Bad habits · Вре́дные привы́чки"
+      }
+    ],
+    "items": [
+      {
+        "term": "о́браз жи́зни",
+        "gloss": "way of life",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_1.mp3",
+        "topic": "routine"
+      },
+      {
+        "term": "вести́ здоро́вый о́браз жи́зни",
+        "gloss": "to have a healthy lifestyle",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_2.mp3",
+        "topic": "routine"
+      },
+      {
+        "term": "брать/взять приме́р (с + Gen)",
+        "gloss": "to follow one’s example",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_3.mp3",
+        "topic": "routine"
+      },
+      {
+        "term": "следи́ть (impf only) (за здоро́вьем, фигу́рой, пита́нием)",
+        "gloss": "to take care of",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_4.mp3",
+        "topic": "routine",
+        "only": "topics"
+      },
+      {
+        "term": "забо́титься/позабо́титься (о + Prep)",
+        "gloss": "to look after, to take care of",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_5.mp3",
+        "topic": "routine"
+      },
+      {
+        "term": "режи́м дня",
+        "gloss": "daily routine",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_6.mp3",
+        "topic": "routine"
+      },
+      {
+        "term": "начина́ть/нача́ть день (с + Gen)",
+        "gloss": "to start the day",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_7.mp3",
+        "topic": "routine"
+      },
+      {
+        "term": "зака́нчивать/зако́нчить день (+ Inst)",
+        "gloss": "to finish the day; to end the day",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_8.mp3",
+        "topic": "routine"
+      },
+      {
+        "term": "сумасше́дший ритм",
+        "gloss": "feverish pace (lit. mad rhythm)",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_9.mp3",
+        "topic": "routine",
+        "only": "topics"
+      },
+      {
+        "term": "трудого́лик",
+        "gloss": "workaholic",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_10.mp3",
+        "topic": "routine"
+      },
+      {
+        "term": "переме́на",
+        "gloss": "change",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_11.mp3",
+        "topic": "routine"
+      },
+      {
+        "term": "пережива́ть/пережи́ть (стресс, испыта́ние)",
+        "gloss": "to endure; to go through stress",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_12.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "испы́тывать/испыта́ть",
+        "gloss": "to experience",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_13.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "подверга́ться/подве́ргнуться (+ Dat) (студе́нты подверга́ются стре́ссу во вре́мя экза́менов)",
+        "gloss": "to undergo; to experience (students experience stress during the exam period)",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_14.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "страда́ть (impf only) (+ Inst) (он страда́ет бессо́нницей)",
+        "gloss": "to be afflicted",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_15.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "страда́ть (impf only) (от + Gen) (он страда́ет от недосы́па)",
+        "gloss": "to suffer",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_16.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "волнова́ться/разволнова́ться",
+        "gloss": "to worry",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_17.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "беспоко́иться (impf only) (о + Prep)",
+        "gloss": "to be anxious; to worry",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_18.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "беспоко́иться по пустяка́м",
+        "gloss": "to worry over trifles",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_19.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "жа́ловаться/пожа́ловаться (на + Acc)",
+        "gloss": "to complain",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_20.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "чувстви́тельный",
+        "gloss": "sensitive",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_21.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "по приро́де",
+        "gloss": "by nature",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_22.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "у́ровень эне́ргии",
+        "gloss": "level of energy",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_23.mp3",
+        "topic": "stress",
+        "only": "topics"
+      },
+      {
+        "term": "акти́вность (f)",
+        "gloss": "energy, intensity",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_24.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "устава́ть/уста́ть (от + Gen)",
+        "gloss": "to get tired",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_25.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "уста́лость (f)",
+        "gloss": "tiredness",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_26.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "постоя́нный",
+        "gloss": "constant, permanent, continuous",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_27.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "хрони́ческое утомле́ние",
+        "gloss": "chronic fatigue",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_28.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "страх (Pl стра́хи)",
+        "gloss": "fear",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_29.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "давле́ние",
+        "gloss": "pressure",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_30.mp3",
+        "topic": "stress"
+      },
+      {
+        "term": "снима́ть/снять стресс",
+        "gloss": "to relieve stress",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_31.mp3",
+        "topic": "coping"
+      },
+      {
+        "term": "расслабля́ться/рассла́биться",
+        "gloss": "to relax",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_32.mp3",
+        "topic": "coping"
+      },
+      {
+        "term": "боро́ться (impf only) (с + Inst)",
+        "gloss": "to cope with (lit. to fight)",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_33.mp3",
+        "topic": "coping"
+      },
+      {
+        "term": "борьба́ (со стре́ссом, уста́лостью)",
+        "gloss": "coping, fight",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_34.mp3",
+        "topic": "coping"
+      },
+      {
+        "term": "предохраня́ть/предохрани́ть",
+        "gloss": "to guard against",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_35.mp3",
+        "topic": "coping",
+        "only": "topics"
+      },
+      {
+        "term": "справля́ться/спра́виться",
+        "gloss": "to cope",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_36.mp3",
+        "topic": "coping",
+        "only": "topics"
+      },
+      {
+        "term": "пыта́ться/попыта́ться",
+        "gloss": "to try; to attempt",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_37.mp3",
+        "topic": "coping",
+        "only": "topics"
+      },
+      {
+        "term": "сре́дство",
+        "gloss": "means",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_38.mp3",
+        "topic": "coping"
+      },
+      {
+        "term": "ра́ди (+ Gen)",
+        "gloss": "for the sake of",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_39.mp3",
+        "topic": "coping"
+      },
+      {
+        "term": "занима́ться/заня́ться спо́ртом",
+        "gloss": "to do sports",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_40.mp3",
+        "topic": "activity"
+      },
+      {
+        "term": "ви́ды спо́рта (я занима́юсь ра́зными ви́дами спо́рта)",
+        "gloss": "sports (I do different sports)",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_41.mp3",
+        "topic": "activity"
+      },
+      {
+        "term": "све́жий во́здух; на све́жем во́здухе",
+        "gloss": "fresh air; in fresh air (=outside)",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_42.mp3",
+        "topic": "activity"
+      },
+      {
+        "term": "быва́ть/быть на во́здухе",
+        "gloss": "to spend time outside",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_43.mp3",
+        "topic": "activity"
+      },
+      {
+        "term": "прогу́лка",
+        "gloss": "walk",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_44.mp3",
+        "topic": "activity"
+      },
+      {
+        "term": "в одино́честве",
+        "gloss": "alone",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_45.mp3",
+        "topic": "activity"
+      },
+      {
+        "term": "дома́шние живо́тные",
+        "gloss": "pets",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_46.mp3",
+        "topic": "activity"
+      },
+      {
+        "term": "пита́ние",
+        "gloss": "nutrition; diet",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_47.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "пита́ться (impf only) (+ Inst)",
+        "gloss": "to eat; to feed on",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_49.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "пи́ща",
+        "gloss": "foodstuff",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_48.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "понемно́гу",
+        "gloss": "in small portions",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_50.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "поле́зный",
+        "gloss": "useful",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_51.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "бога́тый (+ Inst: желе́зом, ка́льцием)",
+        "gloss": "to be rich in",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_52.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "усва́ивать/усво́ить",
+        "gloss": "to absorb",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_53.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "усвое́ние",
+        "gloss": "absorbtion",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_54.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "объеда́ться/объе́сться",
+        "gloss": "to overeat; to stuff oneself",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_55.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "сиде́ть на дие́те",
+        "gloss": "to be on a diet",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_56.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "сбра́сывать/сбро́сить ли́шний вес (coll.)",
+        "gloss": "to lose (lit. to drop) excess weight",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_57.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "поправля́ться/попра́виться",
+        "gloss": "1. to gain weight; 2. to recover",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_58.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "по́лный",
+        "gloss": "overweight",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_59.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "худе́ть/похуде́ть",
+        "gloss": "to lose weight",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_60.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "худо́й",
+        "gloss": "skinny",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_61.mp3",
+        "topic": "diet"
+      },
+      {
+        "term": "встава́ть/встать",
+        "gloss": "to get up",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_62.mp3",
+        "topic": "sleep"
+      },
+      {
+        "term": "ложи́ться/лечь спать",
+        "gloss": "to go to bed",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_63.mp3",
+        "topic": "sleep"
+      },
+      {
+        "term": "сон (сна, сну и т. д.)",
+        "gloss": "sleep",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_64.mp3",
+        "topic": "sleep"
+      },
+      {
+        "term": "бессо́нница",
+        "gloss": "insomnia",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_65.mp3",
+        "topic": "sleep"
+      },
+      {
+        "term": "недосы́п (у студе́нтов обы́чно большо́й недосы́п)",
+        "gloss": "lack of sleep",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_66.mp3",
+        "topic": "sleep"
+      },
+      {
+        "term": "высыпа́ться/вы́спаться",
+        "gloss": "to have enough sleep",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_67.mp3",
+        "topic": "sleep"
+      },
+      {
+        "term": "относи́ться/отнести́сь (к + Dat)",
+        "gloss": "to have a certain attitude to smth.",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_68.mp3",
+        "topic": "attitudes"
+      },
+      {
+        "term": "безразли́чно",
+        "gloss": "indifferently",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_69.mp3",
+        "topic": "attitudes"
+      },
+      {
+        "term": "обходи́ться/обойти́сь (без + Gen)",
+        "gloss": "to do without",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_70.mp3",
+        "topic": "attitudes"
+      },
+      {
+        "term": "прожи́ть (pf only) (без + Gen)",
+        "gloss": "to live without",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_71.mp3",
+        "topic": "attitudes"
+      },
+      {
+        "term": "отлича́ться (impf only) (от + Gen, + Inst)",
+        "gloss": "to be different; to differ",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_72.mp3",
+        "topic": "attitudes"
+      },
+      {
+        "term": "лень (+ Dat) (мне лень де́лать что-ли́бо)",
+        "gloss": "to be too lazy to do something (I can’t be bothered to do smth.)",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_73.mp3",
+        "topic": "attitudes"
+      },
+      {
+        "term": "мо́да; (не) в мо́де",
+        "gloss": "fashion; it is (not) fashionable",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_74.mp3",
+        "topic": "attitudes"
+      },
+      {
+        "term": "обяза́тельно",
+        "gloss": "necessarily",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_75.mp3",
+        "topic": "attitudes"
+      },
+      {
+        "term": "вреди́ть/навреди́ть (+ Dat)",
+        "gloss": "to harm",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_76.mp3",
+        "topic": "habits"
+      },
+      {
+        "term": "обезво́живать/обезво́дить",
+        "gloss": "to dehydrate",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_77.mp3",
+        "topic": "habits"
+      },
+      {
+        "term": "ослабева́ть/осла́бнуть",
+        "gloss": "to weaken",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_78.mp3",
+        "topic": "habits"
+      },
+      {
+        "term": "снижа́ть(ся)/сни́зить(ся)",
+        "gloss": "to decrease; to drop",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_79.mp3",
+        "topic": "habits"
+      },
+      {
+        "term": "меша́ть/помеша́ть (+ Dat)",
+        "gloss": "to interfere",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_80.mp3",
+        "topic": "habits"
+      },
+      {
+        "term": "вре́дные привы́чки",
+        "gloss": "bad habits",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_81.mp3",
+        "topic": "habits",
+        "only": "topics"
+      },
+      {
+        "term": "отка́зываться/отказа́ться (от + Gen)",
+        "gloss": "to give up",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_82.mp3",
+        "topic": "habits",
+        "only": "topics"
+      },
+      {
+        "term": "употребле́ние",
+        "gloss": "consumption",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_83.mp3",
+        "topic": "habits",
+        "only": "topics"
+      },
+      {
+        "term": "алкого́ль (m)",
+        "gloss": "alcohol",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_84.mp3",
+        "topic": "habits"
+      },
+      {
+        "term": "спиртно́е",
+        "gloss": "alcoholic drinks, booze",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_85.mp3",
+        "topic": "habits"
+      },
+      {
+        "term": "таба́к",
+        "gloss": "tobacco",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_86.mp3",
+        "topic": "habits"
+      },
+      {
+        "term": "нарко́тики",
+        "gloss": "drugs",
+        "audio": "audio/lo-05-lifestyle/vocab-semantic/ruvoc_u5_svocab_87.mp3",
+        "topic": "habits"
+      },
+      {
+        "term": "вес",
+        "gloss": "weight",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_12.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "вре́дный",
+        "gloss": "harmful",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_17.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "дие́та",
+        "gloss": "diet",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_21.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "лени́ться (impf only)",
+        "gloss": "not feel like doing smth.",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_28.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "лень (f)",
+        "gloss": "1. laziness; 2. to be lazy",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_29.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "ли́шний вес",
+        "gloss": "excess weight",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_31.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "отка́зываться/отказа́ться от привы́чки",
+        "gloss": "to give up a habit",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_45.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "предохраня́ть/предохрани́ть (от + Gen)",
+        "gloss": "to guard against",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_60.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "привы́чка",
+        "gloss": "habit",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_61.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "пустя́к",
+        "gloss": "trifle",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_64.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "следи́ть (impf only) (за + Inst) (за здоро́вьем, фигу́рой)",
+        "gloss": "to take care of",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_71.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "спо́собы борьбы́ (с + Inst)",
+        "gloss": "ways of fighting",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_76.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "справля́ться/спра́виться (с + Inst)",
+        "gloss": "to cope",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_77.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "сумасше́дший",
+        "gloss": "mad, crazy",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_82.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "употребле́ние (алкого́ля)",
+        "gloss": "consumption (of alcohol)",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_85.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "у́ровень (m)",
+        "gloss": "level",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_86.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "характе́рный (для же́нщин характе́рны заня́тия кулинари́ей)",
+        "gloss": "characteristic",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_91.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "эне́ргия",
+        "gloss": "energy",
+        "audio": "audio/lo-05-lifestyle/vocab-alphabetic/ruvoc_u5_avocab_96.mp3",
+        "only": "alphabetical"
+      }
+    ]
+  }
+}

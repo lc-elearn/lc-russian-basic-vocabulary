@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 2",
+  "content": {
+    "items": [
+      {
+        "text": "to follow one’s example — [брать пример]"
+      },
+      {
+        "text": "it is characteristic — [характерно]"
+      },
+      {
+        "text": "mad — [сумасшедший]"
+      },
+      {
+        "text": "walk — [прогулка]"
+      },
+      {
+        "text": "to give up (a habit) — [отказываться]"
+      },
+      {
+        "text": "for the sake — [ради]"
+      },
+      {
+        "text": "to guard against — [предохранять]"
+      },
+      {
+        "text": "to experience stress — [подвергаться стрессу]"
+      },
+      {
+        "text": "mental activity — [умственная активность]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}
