@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 1",
+  "content": {
+    "instructions": "Notice the expression Тимур uses to say the two sisters look exactly alike.",
+    "items": [
+      {
+        "text": "— Надо же, вы похожи как [два сапога пара|*две капли воды|семь пятниц на неделе]. Смотри, у неё и родинка на щеке, как у тебя."
+      }
+    ]
+  }
+}

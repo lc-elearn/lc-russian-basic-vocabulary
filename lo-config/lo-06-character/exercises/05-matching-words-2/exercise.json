@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 2",
+  "content": {
+    "items": [
+      {
+        "text": "blue-eyed — [голубоглазый]"
+      },
+      {
+        "text": "hypocritical — [лицемерный]"
+      },
+      {
+        "text": "appearance (image) — [внешний вид]"
+      },
+      {
+        "text": "condescending — [снисходительный]"
+      },
+      {
+        "text": "vain — [суетный]"
+      },
+      {
+        "text": "to sympathise — [сочувствовать]"
+      },
+      {
+        "text": "clear-thinking — [рассудительный]"
+      },
+      {
+        "text": "accordingly — [соответствующе]"
+      },
+      {
+        "text": "chin — [подбородок]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

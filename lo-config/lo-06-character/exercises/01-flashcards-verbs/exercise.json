@@ -1,0 +1,58 @@
+{
+  "type": "flashcards",
+  "title": "Verbs",
+  "content": {
+    "cards": [
+      {
+        "target": "сочу́вствовать/посочу́вствовать (+ Dat)",
+        "native": "to sympathise",
+        "audio": "audio/lo-06-character/verbs/ruvoc_u6_flashcards_1.mp3"
+      },
+      {
+        "target": "жале́ть/пожале́ть (+ Acc)",
+        "native": "to feel sorry",
+        "audio": "audio/lo-06-character/verbs/ruvoc_u6_flashcards_2.mp3"
+      },
+      {
+        "target": "быть скло́нным (к + Dat)",
+        "native": "to be prone",
+        "audio": "audio/lo-06-character/verbs/ruvoc_u6_flashcards_3.mp3"
+      },
+      {
+        "target": "быть похо́жим (на + Acc)",
+        "native": "to look/be like ",
+        "audio": "audio/lo-06-character/verbs/ruvoc_u6_flashcards_4.mp3"
+      },
+      {
+        "target": "открове́нничать (impf only)",
+        "native": "to be excessively frank",
+        "audio": "audio/lo-06-character/verbs/ruvoc_u6_flashcards_5.mp3"
+      },
+      {
+        "target": "болта́ть (impf only)",
+        "native": "to chat",
+        "audio": "audio/lo-06-character/verbs/ruvoc_u6_flashcards_6.mp3"
+      },
+      {
+        "target": "молча́ть (impf only)",
+        "native": "to be silent",
+        "audio": "audio/lo-06-character/verbs/ruvoc_u6_flashcards_7.mp3"
+      },
+      {
+        "target": "обща́ться/пообща́ться (с + Inst)",
+        "native": "to socialise",
+        "audio": "audio/lo-06-character/verbs/ruvoc_u6_flashcards_8.mp3"
+      },
+      {
+        "target": "вы́глядеть (impf and pf)",
+        "native": "to look like",
+        "audio": "audio/lo-06-character/verbs/ruvoc_u6_flashcards_9.mp3"
+      },
+      {
+        "target": "стро́ить/постро́ить отноше́ния",
+        "native": "to build a relationship",
+        "audio": "audio/lo-06-character/verbs/ruvoc_u6_flashcards_10.mp3"
+      }
+    ]
+  }
+}

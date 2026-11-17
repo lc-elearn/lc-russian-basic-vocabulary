@@ -1,0 +1,12 @@
+{
+  "type": "outcomes",
+  "presentation": "plain",
+  "content": {
+    "lead": "Once you have completed this unit, you should be able to discuss:",
+    "items": ["the character and appearance of people;", "different types of personality."],
+    "image": {
+      "src": "images/lo-06-character/card.jpg",
+      "alt": ""
+    }
+  }
+}

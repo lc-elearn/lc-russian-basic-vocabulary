@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 2",
+  "content": {
+    "instructions": "Notice the expression Мария uses to say they will get on with the new boss.",
+    "items": [
+      {
+        "text": "— Думаю, сумеем [*найти общий язык|называть вещи своими именами|поставить точку]."
+      }
+    ]
+  }
+}
