@@ -1,402 +1,588 @@
 {
   "type": "vocabulary",
   "title": "Vocabulary organised semantically",
+  "options": {
+    "selfTest": true,
+    "letterHeadings": true
+  },
   "content": {
+    "topics": [
+      {
+        "id": "housing",
+        "heading": "Types of housing · Ви́ды жилья́"
+      },
+      {
+        "id": "renting",
+        "heading": "Renting and responsibilities · Аре́нда и обя́занности"
+      },
+      {
+        "id": "residents",
+        "heading": "Residents · Жи́тели"
+      },
+      {
+        "id": "housework",
+        "heading": "Renovation and housework · Ремо́нт и убо́рка"
+      },
+      {
+        "id": "neighbours",
+        "heading": "Neighbours · Сосе́ди"
+      },
+      {
+        "id": "rooms",
+        "heading": "Rooms and amenities · Ко́мнаты и удо́бства"
+      },
+      {
+        "id": "pros-cons",
+        "heading": "Advantages and disadvantages · Преиму́щества и недоста́тки"
+      }
+    ],
     "items": [
       {
         "term": "жильё",
         "gloss": "accommodation",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_1.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_1.mp3",
+        "topic": "housing"
       },
       {
         "term": "со́бственный дом",
         "gloss": "one’s own house",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_2.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_2.mp3",
+        "topic": "housing",
+        "only": "topics"
       },
       {
         "term": "общежи́тие",
         "gloss": "hostel",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_3.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_3.mp3",
+        "topic": "housing"
       },
       {
         "term": "коммуна́льная кварти́ра (коммуна́лка)",
         "gloss": "communal flat",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_4.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_4.mp3",
+        "topic": "housing"
       },
       {
         "term": "отде́льная кварти́ра/ко́мната",
         "gloss": "separate flat/room",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_5.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_5.mp3",
+        "topic": "housing",
+        "only": "topics"
       },
       {
         "term": "двухко́мнатная кварти́ра",
         "gloss": "one-bedroom flat",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_6.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_6.mp3",
+        "topic": "housing"
       },
       {
         "term": "двухэта́жный дом",
         "gloss": "two-storey house",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_7.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_7.mp3",
+        "topic": "housing"
       },
       {
         "term": "многоэта́жный дом",
         "gloss": "multi-storey house",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_8.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_8.mp3",
+        "topic": "housing"
       },
       {
         "term": "пане́льный дом",
         "gloss": "panel building",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_9.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_9.mp3",
+        "topic": "housing"
       },
       {
         "term": "за го́род/за го́родом",
         "gloss": "to the country/in the country (out of town)",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_10.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_10.mp3",
+        "topic": "housing"
       },
       {
         "term": "за грани́цу/за грани́цей",
         "gloss": "[go] abroad/abroad",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_11.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_11.mp3",
+        "topic": "housing"
       },
       {
         "term": "аге́нтство недви́жимости",
         "gloss": "real estate agency",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_12.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_12.mp3",
+        "topic": "renting"
       },
       {
         "term": "обраща́ться/обрати́ться (к + Dat/в + Acc)",
         "gloss": "to turn to",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_13.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_13.mp3",
+        "topic": "renting"
       },
       {
         "term": "снима́ть/снять (кварти́ру)",
         "gloss": "to rent",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_14.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_14.mp3",
+        "topic": "renting"
       },
       {
         "term": "сдава́ть/сдать (кварти́ру)",
         "gloss": "to let, to rent out",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_15.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_15.mp3",
+        "topic": "renting"
       },
       {
         "term": "выполня́ть/вы́полнить обя́занности",
         "gloss": "to fulfil duties, obligations",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_16.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_16.mp3",
+        "topic": "renting",
+        "only": "topics"
       },
       {
         "term": "отве́тственность (f)",
         "gloss": "responsibility",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_17.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_17.mp3",
+        "topic": "renting"
       },
       {
         "term": "отве́тственный (за + Acc)",
         "gloss": "responsible",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_18.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_18.mp3",
+        "topic": "renting"
       },
       {
         "term": "чужо́й",
         "gloss": "another person’s",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_19.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_19.mp3",
+        "topic": "renting"
       },
       {
         "term": "предстоя́ть (+ Dat) (impf only) (Вам предстои́т жить с незнако́мыми людьми́)",
         "gloss": "to be imminent, lie ahead",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_20.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_20.mp3",
+        "topic": "renting"
       },
       {
         "term": "приходи́ться/прийти́сь (+ Dat) (Нам пришло́сь сде́лать ремо́нт)",
         "gloss": "to have to do smth.",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_21.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_21.mp3",
+        "topic": "renting"
       },
       {
         "term": "горожа́нин (горожа́не Pl)",
         "gloss": "townsman",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_22.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_22.mp3",
+        "topic": "residents"
       },
       {
         "term": "жи́тель (m)",
         "gloss": "inhabitant",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_23.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_23.mp3",
+        "topic": "residents"
       },
       {
         "term": "иногоро́дний",
         "gloss": "from another town",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_24.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_24.mp3",
+        "topic": "residents"
       },
       {
         "term": "кру́пный",
         "gloss": "big",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_25.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_25.mp3",
+        "topic": "residents"
       },
       {
         "term": "состоя́тельный",
         "gloss": "wealthy",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_26.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_26.mp3",
+        "topic": "residents"
       },
       {
         "term": "сели́ть(ся)/посели́ть(ся)",
         "gloss": "to house, to settle (oneself)",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_27.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_27.mp3",
+        "topic": "residents"
       },
       {
         "term": "ремо́нт",
         "gloss": "renovation, repair",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_28.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_28.mp3",
+        "topic": "housework"
       },
       {
         "term": "де́лать/сде́лать ремо́нт",
         "gloss": "to renovate",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_29.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_29.mp3",
+        "topic": "housework"
       },
       {
         "term": "ремонти́ровать/отремонти́ровать",
         "gloss": "to renovate, to repair",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_30.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_30.mp3",
+        "topic": "housework"
       },
       {
         "term": "убо́рка",
         "gloss": "cleaning, tidying up",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_31.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_31.mp3",
+        "topic": "housework"
       },
       {
         "term": "де́лать/сде́лать убо́рку",
         "gloss": "to clean, to tidy up",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_32.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_32.mp3",
+        "topic": "housework"
       },
       {
         "term": "убира́ть/убра́ть (кварти́ру)",
         "gloss": "to clean, to tidy up",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_33.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_33.mp3",
+        "topic": "housework"
       },
       {
         "term": "полива́ть/поли́ть цветы́",
         "gloss": "to water houseplants",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_34.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_34.mp3",
+        "topic": "housework"
       },
       {
         "term": "пылесо́сить/пропылесо́сить",
         "gloss": "to vacuum-clean",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_35.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_35.mp3",
+        "topic": "housework"
       },
       {
         "term": "мыть/вы́мыть посу́ду",
         "gloss": "to wash up",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_36.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_36.mp3",
+        "topic": "housework"
       },
       {
         "term": "новосе́лье",
         "gloss": "housewarming party",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_37.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_37.mp3",
+        "topic": "housework"
       },
       {
         "term": "устра́ивать/устро́ить",
         "gloss": "to arrange, to organise",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_38.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_38.mp3",
+        "topic": "housework"
       },
       {
         "term": "сосе́д (сосе́ди Pl)",
         "gloss": "neighbour",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_39.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_39.mp3",
+        "topic": "neighbours"
       },
       {
         "term": "вероиспове́дание",
         "gloss": "religious faith",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_40.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_40.mp3",
+        "topic": "neighbours"
       },
       {
         "term": "обща́ться/пообща́ться (с + Inst)",
         "gloss": "to socialise",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_42.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_42.mp3",
+        "topic": "neighbours"
       },
       {
         "term": "заводи́ть/завести́ (друзе́й/соба́ку)",
         "gloss": "to get, to acquire",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_43.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_43.mp3",
+        "topic": "neighbours"
       },
       {
         "term": "реша́ть/реши́ть вопро́сы",
         "gloss": "to solve problems",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_44.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_44.mp3",
+        "topic": "neighbours"
       },
       {
         "term": "выбира́ть/вы́брать",
         "gloss": "to choose",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_45.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_45.mp3",
+        "topic": "neighbours"
       },
       {
         "term": "голосова́ние",
         "gloss": "voting",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_46.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_46.mp3",
+        "topic": "neighbours"
       },
       {
         "term": "о́бщий",
         "gloss": "general, common",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_47.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_47.mp3",
+        "topic": "neighbours"
       },
       {
         "term": "ли́чный",
         "gloss": "personal",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_48.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_48.mp3",
+        "topic": "neighbours"
       },
       {
         "term": "ссо́ра",
         "gloss": "quarrel",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_49.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_49.mp3",
+        "topic": "neighbours"
       },
       {
         "term": "ссо́риться/поссо́риться (с + Inst)",
         "gloss": "to quarrel",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_50.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_50.mp3",
+        "topic": "neighbours"
       },
       {
         "term": "гости́ная",
         "gloss": "sitting room",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_51.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_51.mp3",
+        "topic": "rooms"
       },
       {
         "term": "столо́вая",
         "gloss": "dining room",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_52.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_52.mp3",
+        "topic": "rooms"
       },
       {
         "term": "спа́льня",
         "gloss": "bedroom",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_53.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_53.mp3",
+        "topic": "rooms"
       },
       {
         "term": "пере́дняя",
         "gloss": "hallway",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_54.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_54.mp3",
+        "topic": "rooms"
       },
       {
         "term": "коридо́р",
         "gloss": "corridor",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_55.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_55.mp3",
+        "topic": "rooms"
       },
       {
         "term": "ва́нная",
         "gloss": "bathroom",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_56.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_56.mp3",
+        "topic": "rooms"
       },
       {
         "term": "удо́бства (кварти́ра со все́ми удо́бствами)",
         "gloss": "facilities (a flat with all facilities)",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_57.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_57.mp3",
+        "topic": "rooms",
+        "only": "topics"
       },
       {
         "term": "ме́ста о́бщего по́льзования",
         "gloss": "shared facilities",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_58.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_58.mp3",
+        "topic": "rooms"
       },
       {
         "term": "кладо́вка",
         "gloss": "storeroom",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_59.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_59.mp3",
+        "topic": "rooms"
       },
       {
         "term": "фо́рточка",
         "gloss": "small hinged window (used for ventilation)",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_60.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_60.mp3",
+        "topic": "rooms"
       },
       {
         "term": "ме́бель (f)",
         "gloss": "furniture",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_61.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_61.mp3",
+        "topic": "rooms"
       },
       {
         "term": "холоди́льник",
         "gloss": "fridge",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_62.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_62.mp3",
+        "topic": "rooms"
       },
       {
         "term": "плита́",
         "gloss": "hob",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_63.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_63.mp3",
+        "topic": "rooms"
       },
       {
         "term": "ра́ковина",
         "gloss": "sink",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_64.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_64.mp3",
+        "topic": "rooms"
       },
       {
         "term": "унита́з",
         "gloss": "toilet bowl",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_65.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_65.mp3",
+        "topic": "rooms"
       },
       {
         "term": "ле́стница",
         "gloss": "staircase",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_66.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_66.mp3",
+        "topic": "rooms"
       },
       {
         "term": "пол",
         "gloss": "floor",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_67.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_67.mp3",
+        "topic": "rooms"
       },
       {
         "term": "потоло́к",
         "gloss": "ceiling",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_68.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_68.mp3",
+        "topic": "rooms"
       },
       {
         "term": "стена́",
         "gloss": "wall",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_69.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_69.mp3",
+        "topic": "rooms"
       },
       {
         "term": "кры́ша (под одно́й кры́шей)",
         "gloss": "roof (under one roof)",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_70.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_70.mp3",
+        "topic": "rooms",
+        "only": "topics"
       },
       {
         "term": "му́сор",
         "gloss": "rubbish",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_71.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_71.mp3",
+        "topic": "rooms"
       },
       {
         "term": "электри́чество",
         "gloss": "electricity",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_72.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_72.mp3",
+        "topic": "rooms"
       },
       {
         "term": "электросчётчик",
         "gloss": "electricity meter",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_73.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_73.mp3",
+        "topic": "rooms"
       },
       {
         "term": "плати́ть/заплати́ть за газ/электри́чество",
         "gloss": "to pay for gas/electricity",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_74.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_74.mp3",
+        "topic": "rooms",
+        "only": "topics"
       },
       {
         "term": "центра́льное отопле́ние",
         "gloss": "central heating",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_75.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_75.mp3",
+        "topic": "rooms"
       },
       {
         "term": "явля́ться/яви́ться (+ Inst)",
         "gloss": "to be",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_76.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_76.mp3",
+        "topic": "pros-cons"
       },
       {
         "term": "преиму́щество",
         "gloss": "advantage",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_77.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_77.mp3",
+        "topic": "pros-cons"
       },
       {
         "term": "недоста́ток",
         "gloss": "disadvantage, shortcoming",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_78.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_78.mp3",
+        "topic": "pros-cons"
       },
       {
         "term": "бомж (без определённого ме́ста жи́тельства)",
         "gloss": "rough sleeper (of no fixed abode)",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_79.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_79.mp3",
+        "topic": "pros-cons",
+        "only": "topics"
       },
       {
         "term": "бездо́мные",
         "gloss": "homeless people",
-        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_80.mp3"
+        "audio": "audio/lo-03-accommodation/vocab-semantic/ruvoc_u3_svocab_80.mp3",
+        "topic": "pros-cons"
+      },
+      {
+        "term": "бомж, coll., often derogatory (abbr. без определённого ме́ста жи́тельства)",
+        "gloss": "rough sleeper (of no fixed abode)",
+        "audio": "audio/lo-03-accommodation/vocab-alphabetic/ruvoc_u3_avocab_3.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "выполня́ть/вы́полнить",
+        "gloss": "to fulfil, to carry out",
+        "audio": "audio/lo-03-accommodation/vocab-alphabetic/ruvoc_u3_avocab_7.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "кры́ша",
+        "gloss": "roof",
+        "audio": "audio/lo-03-accommodation/vocab-alphabetic/ruvoc_u3_avocab_25.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "обя́занность",
+        "gloss": "duty, obligation",
+        "audio": "audio/lo-03-accommodation/vocab-alphabetic/ruvoc_u3_avocab_39.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "обяза́тельно",
+        "gloss": "obligatorily",
+        "audio": "audio/lo-03-accommodation/vocab-alphabetic/ruvoc_u3_avocab_40.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "отде́льный",
+        "gloss": "separate",
+        "audio": "audio/lo-03-accommodation/vocab-alphabetic/ruvoc_u3_avocab_43.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "отопле́ние",
+        "gloss": "heating",
+        "audio": "audio/lo-03-accommodation/vocab-alphabetic/ruvoc_u3_avocab_44.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "со́бственный (дом)",
+        "gloss": "one’s own (house)",
+        "audio": "audio/lo-03-accommodation/vocab-alphabetic/ruvoc_u3_avocab_63.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "удо́бства",
+        "gloss": "facilities",
+        "audio": "audio/lo-03-accommodation/vocab-alphabetic/ruvoc_u3_avocab_73.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "электри́ческий",
+        "gloss": "electric",
+        "audio": "audio/lo-03-accommodation/vocab-alphabetic/ruvoc_u3_avocab_82.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "эта́ж",
+        "gloss": "storey",
+        "audio": "audio/lo-03-accommodation/vocab-alphabetic/ruvoc_u3_avocab_83.mp3",
+        "only": "alphabetical"
       }
     ]
   }
