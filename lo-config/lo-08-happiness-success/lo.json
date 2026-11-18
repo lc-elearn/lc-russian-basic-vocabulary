@@ -1,0 +1,154 @@
+{
+  "title": "Happiness and success · Счастье и успех",
+  "description": "Discuss what success and happiness mean, and how our view of them changes over time.",
+  "image": "images/lo-08-happiness-success/card.jpg",
+  "hero": {
+    "src": "images/lo-08-happiness-success/hero.png"
+  },
+  "sections": [
+    {
+      "id": "introduction",
+      "label": "Introduction · Введение",
+      "navLabel": "Introduction",
+      "blocks": ["00-intro", "01-outcomes"]
+    },
+    {
+      "id": "vocabulary",
+      "label": "Vocabulary · Словарь",
+      "navLabel": "Vocabulary",
+      "blocks": ["02-vocabulary-intro", "03-vocabulary"]
+    },
+    {
+      "id": "exercises",
+      "label": "Exercises · Упражнения",
+      "navLabel": "Exercises",
+      "blocks": ["05-intro"],
+      "exercises": [
+        {
+          "title": "1. Flash cards",
+          "tabs": [
+            {
+              "exercise": "01-flashcards-verbs"
+            },
+            {
+              "exercise": "02-flashcards-nouns"
+            },
+            {
+              "exercise": "03-flashcards-adjectives"
+            }
+          ]
+        },
+        {
+          "title": "2. Matching words",
+          "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "04-matching-words-1"
+            },
+            {
+              "exercise": "05-matching-words-2"
+            },
+            {
+              "exercise": "06-matching-words-3"
+            }
+          ]
+        },
+        "07-multiple-choice",
+        {
+          "title": "4. Match the halves",
+          "instructions": "Find the matching half of each sentence by moving the phrases in the right-hand column. Start from the top. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "08-match-halves-1"
+            },
+            {
+              "exercise": "09-match-halves-2"
+            }
+          ]
+        },
+        {
+          "title": "5. Fill in the gaps",
+          "tabs": [
+            {
+              "exercise": "10-fill-gaps-1"
+            },
+            {
+              "exercise": "11-fill-gaps-2"
+            }
+          ]
+        },
+        {
+          "title": "6. Reconstruct the text",
+          "tabs": [
+            {
+              "exercise": "12-reconstruct-1"
+            },
+            {
+              "exercise": "13-reconstruct-2"
+            },
+            {
+              "exercise": "14-reconstruct-3"
+            }
+          ]
+        },
+        {
+          "title": "7. Set expressions",
+          "instructions": "Listen to each dialogue, then choose the set expression that fits the line. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "15-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-08-happiness-success/dialogue1.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-08-happiness-success/dialogues/ruvoc_u8_dia1.mp3",
+                  "label": "Диалог 1"
+                },
+                "transcript": [
+                  "— Ты чего такой грустный, Олег?",
+                  "— Я не грустный, просто расстроился. Вот почему так бывает: одним везёт, а другим нет?",
+                  "— Да ты объясни, в чём дело.",
+                  "— Я за билетами на концерт всю ночь в очереди стоял. Но они на мне закончились. А Денис билеты за две минуты выиграл.",
+                  "— Как это?",
+                  "— По радио разыгрывались билеты на концерт. Денис дозвонился и правильно ответил на вопрос ди-джея. Я тоже ответ знал, но я не дозвонился.",
+                  "— Да, повезло Денису. О таких говорят, родился под счастливой звездой. Но ты не вешай нос. В следующий раз тебе обязательно повезёт."
+                ]
+              }
+            },
+            {
+              "exercise": "16-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-08-happiness-success/dialogue2.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-08-happiness-success/dialogues/ruvoc_u8_dia2.mp3",
+                  "label": "Диалог 2"
+                },
+                "transcript": [
+                  "— Сергей, как капитан команды примите поздравления болельщиков с победой на чемпионате!",
+                  "— Спасибо!",
+                  "— Расскажите, что вы чувствовали после победного гола?",
+                  "— Эмоции были просто фантастические. Это не описать словами. Мы были на седьмом небе. Особенно наш тренер, Виктор Николаевич. Отдельное ему спасибо.",
+                  "— Ваша команда уже несколько сезонов показывает хорошие результаты. Так что успех можно назвать заслуженным. На следующий год вы будете в числе фаворитов. Не боитесь груза ответственности?",
+                  "— Нет, не боимся. Будем доказывать, что победа была не случайной.",
+                  "— Удачи!",
+                  "— Спасибо!"
+                ]
+              }
+            }
+          ]
+        },
+        "17-reading-1",
+        "18-reading-2"
+      ]
+    }
+  ],
+  "modals": ["credits"],
+  "credits": "credits"
+}
