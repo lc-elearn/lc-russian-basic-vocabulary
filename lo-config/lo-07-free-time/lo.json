@@ -1,0 +1,160 @@
+{
+  "title": "Free time · Свободное время",
+  "description": "Talk about hobbies and self-realisation, different types of holidays, and combining holidays with work and studies.",
+  "image": "images/lo-07-free-time/card.jpg",
+  "hero": {
+    "src": "images/lo-07-free-time/hero.png"
+  },
+  "sections": [
+    {
+      "id": "introduction",
+      "label": "Introduction · Введение",
+      "navLabel": "Introduction",
+      "blocks": ["00-intro", "01-outcomes"]
+    },
+    {
+      "id": "vocabulary",
+      "label": "Vocabulary · Словарь",
+      "navLabel": "Vocabulary",
+      "blocks": ["02-vocabulary-intro", "03-vocabulary"]
+    },
+    {
+      "id": "exercises",
+      "label": "Exercises · Упражнения",
+      "navLabel": "Exercises",
+      "blocks": ["05-intro"],
+      "exercises": [
+        {
+          "title": "1. Flash cards",
+          "tabs": [
+            {
+              "exercise": "01-flashcards-verbs"
+            },
+            {
+              "exercise": "02-flashcards-nouns"
+            },
+            {
+              "exercise": "03-flashcards-adjectives"
+            }
+          ]
+        },
+        {
+          "title": "2. Matching words",
+          "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "04-matching-words-1"
+            },
+            {
+              "exercise": "05-matching-words-2"
+            },
+            {
+              "exercise": "06-matching-words-3"
+            }
+          ]
+        },
+        "07-multiple-choice",
+        {
+          "title": "4. Match the halves",
+          "instructions": "Find the matching half of each sentence by moving the phrases in the right-hand column. Start from the top. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "08-match-halves-1"
+            },
+            {
+              "exercise": "09-match-halves-2"
+            }
+          ]
+        },
+        {
+          "title": "5. Fill in the gaps",
+          "tabs": [
+            {
+              "exercise": "10-fill-gaps-1"
+            },
+            {
+              "exercise": "11-fill-gaps-2"
+            }
+          ]
+        },
+        {
+          "title": "6. Reconstruct the text",
+          "tabs": [
+            {
+              "exercise": "12-reconstruct-1"
+            },
+            {
+              "exercise": "13-reconstruct-2"
+            },
+            {
+              "exercise": "14-reconstruct-3"
+            }
+          ]
+        },
+        {
+          "title": "7. Set expressions",
+          "instructions": "Listen to each dialogue, then choose the set expression that fits the line. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "15-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-07-free-time/dialogue1.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-07-free-time/dialogues/ruvoc_u7_dia1.mp3",
+                  "label": "Диалог 1"
+                },
+                "transcript": [
+                  "— Привет, Варя! Как дела? Мы с тобой почему-то совсем не видимся.",
+                  "— Привет, Даша! Я уже полгода работаю только полдня. Вот и видимся меньше.",
+                  "— Вот это новость! Почему? Расскажи!",
+                  "— Я работаю до обеда, а потом еду на курсы кондитеров.",
+                  "— Зачем тебе курсы? О твоих пирожках и пирожных легенды ходят!",
+                  "— Нет предела совершенству. А если серьёзно, я открываю своё кафе. Печь пирожки для друзей и на продажу — это разные вещи.",
+                  "— А как же твоя карьера? Ты ведь уже лет восемь у нас работаешь. Неужели бросишь всё?",
+                  "— Знаешь, Даша, хочу начать с чистого листа. Я если не попробую, потом всю жизнь жалеть буду.",
+                  "— Вот это да! Ты смелая! Я бы не решилась. На открытие кафе позовёшь?",
+                  "— Обязательно!",
+                  "— Удачи тебе!",
+                  "— Спасибо!"
+                ]
+              }
+            },
+            {
+              "exercise": "16-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-07-free-time/dialogue2.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-07-free-time/dialogues/ruvoc_u7_dia2.mp3",
+                  "label": "Диалог 2"
+                },
+                "transcript": [
+                  "Мама: Ребята, идите есть ягоды!",
+                  "Дочь: Ой, малина, сладкая какая!",
+                  "Сын: Ага, прямо сахарная!",
+                  "Дочь: Мама, это ты на рынке купила?",
+                  "Мама: Нет, бабушка с дачи привезла. Она с утра заезжала, когда вы на тренировке были.",
+                  "Дочь: Малина — пальчики оближешь!",
+                  "Сын: Интересно, почему бабушкина малина такая вкусная? Малина с рынка такой не бывает.",
+                  "Мама: Это потому, что бабушка в дачу всю душу вкладывает. Для неё садоводство — любимое увлечение, а не работа. А вы бы поехали, да и помогли ей в выходные. Там урожай большой!",
+                  "Дочь: Обязательно, мам.",
+                  "Сын: С удовольствием! И малины ещё поедим!"
+                ]
+              }
+            }
+          ]
+        },
+        "17-reading"
+      ]
+    }
+  ],
+  "modals": ["credits"],
+  "credits": "credits"
+}

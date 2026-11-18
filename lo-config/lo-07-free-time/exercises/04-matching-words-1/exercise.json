@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 1",
+  "content": {
+    "items": [
+      {
+        "text": "adventure — [приключение]"
+      },
+      {
+        "text": "to get experience — [получить опыт]"
+      },
+      {
+        "text": "at leisure — [на досуге]"
+      },
+      {
+        "text": "all inclusive — [всё включено]"
+      },
+      {
+        "text": "to be to one’s liking — [быть по душе]"
+      },
+      {
+        "text": "travel agency — [турагентство]"
+      },
+      {
+        "text": "tent — [палатка]"
+      },
+      {
+        "text": "to relax — [расслабляться]"
+      },
+      {
+        "text": "to realise a dream — [осуществить мечту]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

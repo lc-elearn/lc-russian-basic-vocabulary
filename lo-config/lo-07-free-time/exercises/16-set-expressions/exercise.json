@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 2",
+  "content": {
+    "instructions": "Notice the expression the mother uses to say that the grandmother puts her heart and soul into her dacha.",
+    "items": [
+      {
+        "text": "Мама: Это потому, что бабушка в дачу [вносит вклад|*всю душу вкладывает|уходит с головой]. Для неё садоводство — любимое увлечение, а не работа. А вы бы поехали, да и помогли ей в выходные. Там урожай большой!"
+      }
+    ]
+  }
+}

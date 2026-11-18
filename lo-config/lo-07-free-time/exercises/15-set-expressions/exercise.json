@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 1",
+  "content": {
+    "instructions": "Notice the expression Варя uses to say she wants to make a completely fresh start.",
+    "items": [
+      {
+        "text": "— Знаешь, Даша, хочу [*начать с чистого листа|взяться за ум|сказать своё слово]. Я если не попробую, потом всю жизнь жалеть буду."
+      }
+    ]
+  }
+}

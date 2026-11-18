@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 2",
+  "content": {
+    "items": [
+      {
+        "text": "mad money — [бешеные деньги]"
+      },
+      {
+        "text": "to attract — [привлекать]"
+      },
+      {
+        "text": "youth camp — [молодёжный лагерь]"
+      },
+      {
+        "text": "to entertain oneself — [развлекаться]"
+      },
+      {
+        "text": "mainly — [в основном]"
+      },
+      {
+        "text": "to develop oneself — [развиваться]"
+      },
+      {
+        "text": "diverse — [разнообразный]"
+      },
+      {
+        "text": "full of strength — [полный сил]"
+      },
+      {
+        "text": "excavations — [раскопки]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "type": "flashcards",
+  "title": "Verbs",
+  "content": {
+    "cards": [
+      {
+        "target": "совмеща́ть/совмести́ть (+ Acc с + Inst)",
+        "native": "to combine",
+        "audio": "audio/lo-07-free-time/verbs/ruvoc_u7_flashcards_1.mp3"
+      },
+      {
+        "target": "реализо́вывать/реализова́ть себя",
+        "native": "fulfil one's potential",
+        "audio": "audio/lo-07-free-time/verbs/ruvoc_u7_flashcards_2.mp3"
+      },
+      {
+        "target": "поправля́ться/попра́виться",
+        "native": "to gain weight",
+        "audio": "audio/lo-07-free-time/verbs/ruvoc_u7_flashcards_3.mp3"
+      },
+      {
+        "target": "подходи́ть/подойти́ (+ Dat)",
+        "native": "to suit",
+        "audio": "audio/lo-07-free-time/verbs/ruvoc_u7_flashcards_4.mp3"
+      },
+      {
+        "target": "устра́ивать/устро́ить",
+        "native": "to arrange",
+        "audio": "audio/lo-07-free-time/verbs/ruvoc_u7_flashcards_5.mp3"
+      },
+      {
+        "target": "учи́ться/научи́ться (+ Dat or + inf)",
+        "native": "to acquire skill",
+        "audio": "audio/lo-07-free-time/verbs/ruvoc_u7_flashcards_6.mp3"
+      },
+      {
+        "target": "наноси́ть/нанести́ уще́рб (+ Dat)",
+        "native": "to cause damage",
+        "audio": "audio/lo-07-free-time/verbs/ruvoc_u7_flashcards_7.mp3"
+      },
+      {
+        "target": "нужда́ться (impf only) (в + Prep)",
+        "native": "to be in need",
+        "audio": "audio/lo-07-free-time/verbs/ruvoc_u7_flashcards_8.mp3"
+      },
+      {
+        "target": "обходи́ться/обойти́сь (без + Gen)",
+        "native": "to do without",
+        "audio": "audio/lo-07-free-time/verbs/ruvoc_u7_flashcards_9.mp3"
+      },
+      {
+        "target": "по́ртить/испо́ртить",
+        "native": "to spoil",
+        "audio": "audio/lo-07-free-time/verbs/ruvoc_u7_flashcards_10.mp3"
+      }
+    ]
+  }
+}
