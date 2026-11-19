@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 1",
+  "content": {
+    "items": [
+      {
+        "text": "academic year — [учебный год]"
+      },
+      {
+        "text": "student (pupil) — [учащийся]"
+      },
+      {
+        "text": "to master — [овладеть]"
+      },
+      {
+        "text": "to sit exam — [сдавать экзамен]"
+      },
+      {
+        "text": "to pass exam — [сдать экзамен]"
+      },
+      {
+        "text": "to deprive — [лишать]"
+      },
+      {
+        "text": "internship — [стажировка]"
+      },
+      {
+        "text": "to apply oneself — [стараться]"
+      },
+      {
+        "text": "working efficiency — [работоспособность]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

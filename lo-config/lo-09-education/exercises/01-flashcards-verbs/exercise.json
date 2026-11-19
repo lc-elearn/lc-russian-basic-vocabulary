@@ -1,0 +1,58 @@
+{
+  "type": "flashcards",
+  "title": "Verbs",
+  "content": {
+    "cards": [
+      {
+        "target": "владе́ть/овладе́ть (+ Instr) (зна́ниями, языко́м)",
+        "native": "to master",
+        "audio": "audio/lo-09-education/verbs/ruvoc_u9_flashcards_1.mp3"
+      },
+      {
+        "target": "устра́иваться/устро́иться на рабо́ту",
+        "native": "to find job/employment",
+        "audio": "audio/lo-09-education/verbs/ruvoc_u9_flashcards_2.mp3"
+      },
+      {
+        "target": "лиша́ть/лиши́ть (+ Gen)",
+        "native": "to deprive",
+        "audio": "audio/lo-09-education/verbs/ruvoc_u9_flashcards_3.mp3"
+      },
+      {
+        "target": "осуществля́ть/осуществи́ть",
+        "native": "to realise, to implement",
+        "audio": "audio/lo-09-education/verbs/ruvoc_u9_flashcards_4.mp3"
+      },
+      {
+        "target": "выраба́тывать/вы́работать привы́чку",
+        "native": "to develop a habit",
+        "audio": "audio/lo-09-education/verbs/ruvoc_u9_flashcards_5.mp3"
+      },
+      {
+        "target": "обеспе́чивать/обеспе́чить (+ Acc + Inst)",
+        "native": "to provide",
+        "audio": "audio/lo-09-education/verbs/ruvoc_u9_flashcards_6.mp3"
+      },
+      {
+        "target": "учи́ть/научи́ть (+ Acc + Dat/+ inf)",
+        "native": "to teach",
+        "audio": "audio/lo-09-education/verbs/ruvoc_u9_flashcards_7.mp3"
+      },
+      {
+        "target": "учи́ть/вы́учить",
+        "native": "to learn",
+        "audio": "audio/lo-09-education/verbs/ruvoc_u9_flashcards_8.mp3"
+      },
+      {
+        "target": "воспи́тывать/воспита́ть",
+        "native": "to bring up, to raise",
+        "audio": "audio/lo-09-education/verbs/ruvoc_u9_flashcards_9.mp3"
+      },
+      {
+        "target": "изуча́ть/изучи́ть",
+        "native": "to study in depth",
+        "audio": "audio/lo-09-education/verbs/ruvoc_u9_flashcards_10.mp3"
+      }
+    ]
+  }
+}

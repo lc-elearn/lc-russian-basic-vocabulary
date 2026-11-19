@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 2",
+  "content": {
+    "instructions": "Notice the traditional good-luck wish before an exam, and the reply to it.",
+    "items": [
+      {
+        "text": "— Знаешь, что у нас перед экзаменом желают? [Ни то ни сё|*Ни пуха ни пера|Ни дать ни взять]!"
+      }
+    ]
+  }
+}
