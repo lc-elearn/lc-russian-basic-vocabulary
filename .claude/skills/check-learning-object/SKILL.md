@@ -1,6 +1,6 @@
 ---
 name: check-learning-object
-description: Use after adding or editing a lesson (a Learning Object under lo-config/), before committing it — "check this lesson", "check lo-04". Runs a script that finds stray stress accents and Latin letters inside Russian words, then lists what to review by eye. Read-only.
+description: Use after adding or editing a lesson (a Learning Object under lo-config/), before committing it — "check this lesson", "check lo-04". Runs a script that confirms the lesson has its card image and banner, then lists what a native speaker should review. Read-only.
 ---
 
 # Check a learning object
@@ -15,16 +15,14 @@ gate in [`AGENTS.md`](../../../AGENTS.md#verify-before-you-claim-done).
 bun .claude/skills/check-learning-object/check.mjs lo-NN-slug
 ```
 
-It reads every `.json` in `lo-config/lo-NN-slug/` and exits 1 on any of these:
+It reads `lo-config/lo-NN-slug/lo.json` and exits 1 if the lesson lacks its card
+image (`image`) or its banner (`hero.src`); every lesson has both.
 
-| Problem                       | Why it is checked                                                                                                                        |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| **stray accent**              | A combining stress mark (U+0301) not on a Cyrillic vowel. Lesson 2 shipped `(на ́ Acc)` for `(на + Acc)` in 26 places.                    |
-| **mixed Latin/Cyrillic word** | A Latin look-alike letter inside a Russian word (`Дeлая`, `отдельнo`, Latin `ë`). Invisible on screen, but it breaks search and grading. |
-| **no card image / banner**    | `lo.json` lacks `image` or `hero.src`; every lesson has both.                                                                            |
-| **invalid JSON**              | The file does not parse.                                                                                                                 |
+Stray stress accents and Latin letters inside Russian words are no longer checked here:
+the build does it for every lesson (guard i, `src/guards/text-integrity.ts`), and so does
+`bun run test`.
 
-Fix each finding at the source, then run it again until it prints "No problems found."
+Fix each finding at the source, then run it again until it prints "card and banner present."
 
 ## 2. Then run the suite and the build
 
