@@ -1,0 +1,369 @@
+{
+  "type": "vocabulary",
+  "title": "Vocabulary",
+  "options": {
+    "selfTest": true,
+    "letterHeadings": true
+  },
+  "content": {
+    "topics": [
+      {
+        "id": "achievement",
+        "heading": "Achievement and aspiration · Достиже́ния и стремле́ния"
+      },
+      {
+        "id": "luck",
+        "heading": "Luck and satisfaction · Уда́ча и удовлетворе́ние"
+      },
+      {
+        "id": "feelings",
+        "heading": "Feelings and disappointment · Чу́вства и разочарова́ние"
+      },
+      {
+        "id": "assessing",
+        "heading": "Defining and assessing · Определе́ние и оце́нка"
+      },
+      {
+        "id": "values",
+        "heading": "Values · Це́нности"
+      },
+      {
+        "id": "success",
+        "heading": "Success and goals · Успе́х и це́ли"
+      },
+      {
+        "id": "prosperity",
+        "heading": "Prosperity and consumption · Доста́ток и потребле́ние"
+      },
+      {
+        "id": "recognition",
+        "heading": "Career and recognition · Карье́ра и призна́ние"
+      },
+      {
+        "id": "caring",
+        "heading": "Charity and caring · Благотвори́тельность и забо́та"
+      }
+    ],
+    "items": [
+      {
+        "term": "добива́ться/доби́ться (+ Gen)",
+        "gloss": "to strive, to achieve",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_1.mp3",
+        "topic": "achievement"
+      },
+      {
+        "term": "достига́ть/дости́гнуть (дости́чь) (+ Gen)",
+        "gloss": "to achieve, to attain",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_2.mp3",
+        "topic": "achievement"
+      },
+      {
+        "term": "достиже́ние",
+        "gloss": "achievement",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_3.mp3",
+        "topic": "achievement"
+      },
+      {
+        "term": "стреми́ться (impf only) (к + Dat)",
+        "gloss": "to aspire, to strive",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_4.mp3",
+        "topic": "achievement"
+      },
+      {
+        "term": "стремле́ние",
+        "gloss": "aspiration",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_5.mp3",
+        "topic": "achievement"
+      },
+      {
+        "term": "заслу́живать/заслужи́ть",
+        "gloss": "to deserve",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_6.mp3",
+        "topic": "achievement"
+      },
+      {
+        "term": "дово́льный (+ Inst)",
+        "gloss": "satisfied, pleased",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_7.mp3",
+        "topic": "achievement"
+      },
+      {
+        "term": "по-настоя́щему",
+        "gloss": "genuinely",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_8.mp3",
+        "topic": "achievement"
+      },
+      {
+        "term": "везти́/повезти́ (+ Dat) (ему́ не везёт; мне повезло́)",
+        "gloss": "to have luck (he is unlucky; I was lucky)",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_9.mp3",
+        "topic": "luck"
+      },
+      {
+        "term": "уда́ча",
+        "gloss": "luck",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_10.mp3",
+        "topic": "luck"
+      },
+      {
+        "term": "неуда́чник",
+        "gloss": "loser, unlucky person",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_11.mp3",
+        "topic": "luck"
+      },
+      {
+        "term": "удовлетворе́ние (+ Inst)",
+        "gloss": "satisfaction",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_12.mp3",
+        "topic": "luck"
+      },
+      {
+        "term": "удово́льствие",
+        "gloss": "pleasure",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_13.mp3",
+        "topic": "luck"
+      },
+      {
+        "term": "выража́ть/вы́разить (чу́вства, эмо́ции)",
+        "gloss": "to express",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_14.mp3",
+        "topic": "feelings"
+      },
+      {
+        "term": "сде́рживать/сдержа́ть (чу́вства, эмо́ции)",
+        "gloss": "to control, to suppress, to restrain",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_15.mp3",
+        "topic": "feelings"
+      },
+      {
+        "term": "разочаро́вывать/разочарова́ть",
+        "gloss": "to disappoint",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_16.mp3",
+        "topic": "feelings"
+      },
+      {
+        "term": "разочарова́ние",
+        "gloss": "disappointment",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_17.mp3",
+        "topic": "feelings"
+      },
+      {
+        "term": "определя́ть/определи́ть",
+        "gloss": "to define",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_18.mp3",
+        "topic": "assessing"
+      },
+      {
+        "term": "оце́нивать/оцени́ть",
+        "gloss": "to assess",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_19.mp3",
+        "topic": "assessing"
+      },
+      {
+        "term": "сра́внивать/сравни́ть",
+        "gloss": "to compare",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_20.mp3",
+        "topic": "assessing"
+      },
+      {
+        "term": "по-сво́ему",
+        "gloss": "in one’s own way",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_21.mp3",
+        "topic": "assessing"
+      },
+      {
+        "term": "поня́тие",
+        "gloss": "concept",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_22.mp3",
+        "topic": "assessing"
+      },
+      {
+        "term": "при́знак",
+        "gloss": "sign",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_23.mp3",
+        "topic": "assessing"
+      },
+      {
+        "term": "показа́тель (m)",
+        "gloss": "indicator",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_24.mp3",
+        "topic": "assessing"
+      },
+      {
+        "term": "быть свя́занным",
+        "gloss": "to be connected, related to",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_25.mp3",
+        "topic": "assessing"
+      },
+      {
+        "term": "спи́сок це́нностей",
+        "gloss": "list of values",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_26.mp3",
+        "topic": "values",
+        "only": "topics"
+      },
+      {
+        "term": "це́нный",
+        "gloss": "valuable, precious",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_27.mp3",
+        "topic": "values"
+      },
+      {
+        "term": "своди́ться/свести́сь (к + Dat)",
+        "gloss": "to be reduced to",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_28.mp3",
+        "topic": "values"
+      },
+      {
+        "term": "исключи́тельно",
+        "gloss": "exclusively",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_29.mp3",
+        "topic": "values"
+      },
+      {
+        "term": "преуспева́ющий (челове́к)",
+        "gloss": "successful, prosperous",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_30.mp3",
+        "topic": "success"
+      },
+      {
+        "term": "побе́да",
+        "gloss": "victory",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_31.mp3",
+        "topic": "success"
+      },
+      {
+        "term": "побежда́ть/победи́ть",
+        "gloss": "to win, to be victorious",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_32.mp3",
+        "topic": "success"
+      },
+      {
+        "term": "реализо́вывать/реализова́ть себя́",
+        "gloss": "to fulfil one’s potential",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_33.mp3",
+        "topic": "success"
+      },
+      {
+        "term": "ста́вить/поста́вить (цель, зада́чу) (пе́ред + Inst)",
+        "gloss": "to set (a goal, task)",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_34.mp3",
+        "topic": "success"
+      },
+      {
+        "term": "благополу́чие",
+        "gloss": "well-being, welfare",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_35.mp3",
+        "topic": "prosperity"
+      },
+      {
+        "term": "доста́ток (жить в доста́тке)",
+        "gloss": "sufficiency (to be comfortably off)",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_36.mp3",
+        "topic": "prosperity"
+      },
+      {
+        "term": "состоя́тельный",
+        "gloss": "wealthy",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_37.mp3",
+        "topic": "prosperity"
+      },
+      {
+        "term": "обеспе́ченный",
+        "gloss": "well off",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_38.mp3",
+        "topic": "prosperity"
+      },
+      {
+        "term": "потребле́ние",
+        "gloss": "consumption, consuming",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_39.mp3",
+        "topic": "prosperity"
+      },
+      {
+        "term": "ли́шний",
+        "gloss": "superfluous, excess; spare",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_40.mp3",
+        "topic": "prosperity"
+      },
+      {
+        "term": "карье́ра",
+        "gloss": "career",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_41.mp3",
+        "topic": "recognition"
+      },
+      {
+        "term": "обще́ственное призна́ние",
+        "gloss": "public recognition",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_42.mp3",
+        "topic": "recognition"
+      },
+      {
+        "term": "обще́ние",
+        "gloss": "socialising, communication",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_43.mp3",
+        "topic": "recognition"
+      },
+      {
+        "term": "изве́стность (f)",
+        "gloss": "fame",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_44.mp3",
+        "topic": "recognition"
+      },
+      {
+        "term": "сла́ва",
+        "gloss": "glory, fame",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_45.mp3",
+        "topic": "recognition"
+      },
+      {
+        "term": "вне́шность (f)",
+        "gloss": "appearance (natural looks)",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_46.mp3",
+        "topic": "recognition"
+      },
+      {
+        "term": "благотвори́тельный",
+        "gloss": "charitable",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_47.mp3",
+        "topic": "caring"
+      },
+      {
+        "term": "забо́титься/позабо́титься (о + Prep)",
+        "gloss": "to take care (of)",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_48.mp3",
+        "topic": "caring"
+      },
+      {
+        "term": "уха́живать (impf only) (за + Inst)",
+        "gloss": "to look after",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_49.mp3",
+        "topic": "caring"
+      },
+      {
+        "term": "возника́ть/возни́кнуть",
+        "gloss": "to emerge",
+        "audio": "audio/lo-08-happiness-success/vocab-semantic/ruvoc_u8_svocab_50.mp3",
+        "topic": "caring"
+      },
+      {
+        "term": "распоряжа́ться/распоряди́ться (+ Inst) (деньга́ми, вре́менем)",
+        "gloss": "to manage, to be in charge of",
+        "audio": "audio/lo-08-happiness-success/vocab-alphabetic/ruvoc_u8_avocab_36.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "спи́сок",
+        "gloss": "list",
+        "audio": "audio/lo-08-happiness-success/vocab-alphabetic/ruvoc_u8_avocab_42.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "це́нность (f)",
+        "gloss": "value",
+        "audio": "audio/lo-08-happiness-success/vocab-alphabetic/ruvoc_u8_avocab_51.mp3",
+        "only": "alphabetical"
+      }
+    ]
+  }
+}

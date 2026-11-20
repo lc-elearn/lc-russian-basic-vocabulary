@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 3",
+  "content": {
+    "instructions": "Notice the expression Рита uses to praise her pies.",
+    "items": [
+      {
+        "text": "— Зря отказываешься. Пирожки вкуснейшие. [Держи карман шире|*Пальчики оближешь|Взгляд не оторвёшь]"
+      }
+    ]
+  }
+}

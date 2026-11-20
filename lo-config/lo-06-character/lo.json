@@ -1,0 +1,183 @@
+{
+  "title": "Character and appearance · Характер и внешность",
+  "description": "Describe what people look like and discuss character and different types of personality.",
+  "image": "images/lo-06-character/card.jpg",
+  "hero": {
+    "src": "images/lo-06-character/hero.png"
+  },
+  "sections": [
+    {
+      "id": "introduction",
+      "label": "Introduction · Введение",
+      "navLabel": "Introduction",
+      "blocks": ["00-intro", "01-outcomes"]
+    },
+    {
+      "id": "vocabulary",
+      "label": "Vocabulary · Словарь",
+      "navLabel": "Vocabulary",
+      "blocks": ["02-vocabulary-intro", "03-vocabulary"]
+    },
+    {
+      "id": "exercises",
+      "label": "Exercises · Упражнения",
+      "navLabel": "Exercises",
+      "blocks": ["05-intro"],
+      "exercises": [
+        {
+          "title": "1. Flash cards",
+          "tabs": [
+            {
+              "exercise": "01-flashcards-verbs"
+            },
+            {
+              "exercise": "02-flashcards-nouns"
+            },
+            {
+              "exercise": "03-flashcards-adjectives"
+            }
+          ]
+        },
+        {
+          "title": "2. Matching words",
+          "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "04-matching-words-1"
+            },
+            {
+              "exercise": "05-matching-words-2"
+            },
+            {
+              "exercise": "06-matching-words-3"
+            }
+          ]
+        },
+        "07-multiple-choice",
+        {
+          "title": "4. Match the halves",
+          "instructions": "Find the matching half of each sentence by moving the phrases in the right-hand column. Start from the top. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "08-match-halves-1"
+            },
+            {
+              "exercise": "09-match-halves-2"
+            }
+          ]
+        },
+        {
+          "title": "5. Fill in the gaps",
+          "tabs": [
+            {
+              "exercise": "10-fill-gaps-1"
+            },
+            {
+              "exercise": "11-fill-gaps-2"
+            }
+          ]
+        },
+        {
+          "title": "6. Reconstruct the text",
+          "tabs": [
+            {
+              "exercise": "12-reconstruct-1"
+            },
+            {
+              "exercise": "13-reconstruct-2"
+            },
+            {
+              "exercise": "14-reconstruct-3"
+            }
+          ]
+        },
+        {
+          "title": "7. Set expressions",
+          "instructions": "Listen to each dialogue, then choose the set expression that fits the line. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "15-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-06-character/dialogue1.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-06-character/dialogues/ruvoc_u6_dia1.mp3",
+                  "label": "Диалог 1"
+                },
+                "transcript": [
+                  "— Привет, девчонки, что это вы смотрите?",
+                  "— Привет, Тимур, Лада показывает свои летние фотографии.",
+                  "— А можно мне взглянуть?",
+                  "— Пожалуйста. Это мы в летнем лагере на Чёрном море.",
+                  "— Ух ты, Лада, это ты? Я тебя с такой причёской не сразу узнал.",
+                  "— Да это не я, а моя сестра Инга.",
+                  "— Надо же, вы похожи как две капли воды. Смотри, у неё и родинка на щеке, как у тебя.",
+                  "— Ага, только у неё на правой щеке, а у меня на левой. Можно сказать, Инга – моя копия.",
+                  "— Почему твоя?",
+                  "— А я старше её на две минуты.",
+                  "— Вы близнецы?",
+                  "— А как ты догадался?"
+                ]
+              }
+            },
+            {
+              "exercise": "16-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-06-character/dialogue2.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-06-character/dialogues/ruvoc_u6_dia2.mp3",
+                  "label": "Диалог 2"
+                },
+                "transcript": [
+                  "— Привет, Мария! Давно тебя не видел.",
+                  "— Здравствуй, Степан! Да, меня не было несколько дней. Я в командировке была. Только что вернулась.",
+                  "— Ты уже познакомилась с нашим новым начальником? Как он тебе? Думаешь, сработаемся?",
+                  "— Поживём-увидим. Но вообще, мне он симпатичен как человек. Он открытый, общительный.",
+                  "— Да, я заметил. Всем улыбается, женщинам комплименты говорит.",
+                  "— А тебе завидно? Главное, что он тактичный. К сотрудникам относится уважительно. Никого не оскорбляет. Замечания делает по делу.",
+                  "— Ну да, тут ты права. По крайней мере, конфликтов не ищет.",
+                  "— Думаю, сумеем найти общий язык.",
+                  "— Будем надеяться."
+                ]
+              }
+            },
+            {
+              "exercise": "17-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-06-character/dialogue3.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-06-character/dialogues/ruvoc_u6_dia3.mp3",
+                  "label": "Диалог 3"
+                },
+                "transcript": [
+                  "— Артур, где твоя белая рубашка? Давай я тебе её поглажу. Иначе в чём ты завтра пойдёшь с нами в театр на премьеру?",
+                  "— Мама, ты же знаешь, как я ненавижу рубашки и галстуки. Пойду в джинсах и свитере.",
+                  "— Ну вот ещё, не выдумывай! Одеться надо соответствующе.",
+                  "— Не хочу! Внешний вид не главное. Главное, что я вообще с вами в театр иду.",
+                  "— А тут ты не прав. Везде есть свой дресс-код.",
+                  "— Какой ещё дресс–код?",
+                  "— А ты попробуй прийти на футбольный матч в пиджаке и галстуке. И будешь там сидеть как белая ворона. Представил себе? Вот так же глупо ты будешь выглядеть в джинсах и свитере в театре.",
+                  "— Ладно, мама, вот моя рубашка. Только, пожалуйста, в следующий раз идите в театр без меня."
+                ]
+              }
+            }
+          ]
+        },
+        "18-reading"
+      ]
+    }
+  ],
+  "modals": ["credits"],
+  "credits": "credits"
+}

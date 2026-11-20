@@ -1,0 +1,668 @@
+{
+  "type": "vocabulary",
+  "title": "Vocabulary",
+  "options": {
+    "selfTest": true,
+    "letterHeadings": true
+  },
+  "content": {
+    "topics": [
+      {
+        "id": "looks",
+        "heading": "Appearance and personality · Вне́шность и ли́чность"
+      },
+      {
+        "id": "hair-face",
+        "heading": "Hair and face · Во́лосы и лицо́"
+      },
+      {
+        "id": "behaviour",
+        "heading": "Behaviour · Поведе́ние"
+      },
+      {
+        "id": "temperament",
+        "heading": "Manners and temperament · Воспи́танность и темпера́мент"
+      },
+      {
+        "id": "honesty",
+        "heading": "Hard work and honesty · Трудолю́бие и че́стность"
+      },
+      {
+        "id": "charm",
+        "heading": "Charm and sociability · Обая́ние и общи́тельность"
+      },
+      {
+        "id": "unpleasant",
+        "heading": "Unpleasant traits · Неприя́тные черты́"
+      }
+    ],
+    "items": [
+      {
+        "term": "вне́шний вид",
+        "gloss": "appearance (image)",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_1.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "вне́шность (f)",
+        "gloss": "appearance (natural looks)",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_2.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "вы́глядеть (impf and pf)",
+        "gloss": "to look like",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_3.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "ли́чность (f)",
+        "gloss": "personality",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_4.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "оде́жда (always Sg)",
+        "gloss": "clothes",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_5.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "рост (высо́кого/сре́днего/ма́ленького ро́ста)",
+        "gloss": "height (tall/of average height/short)",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_6.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "фигу́ра",
+        "gloss": "figure, shape",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_7.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "го́лос",
+        "gloss": "voice",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_8.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "при́знак",
+        "gloss": "sign, feature",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_9.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "характе́рные черты́",
+        "gloss": "characteristic features",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_10.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "черта́ (хара́ктера)",
+        "gloss": "trait/side/aspect of character/personality",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_11.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "похо́ж (-а, -е, -и) (на + Acc) (дочь похо́жа на отца́)",
+        "gloss": "to look/be like",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_12.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "скло́нный (к + Dat)",
+        "gloss": "prone",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_13.mp3",
+        "topic": "looks"
+      },
+      {
+        "term": "во́лосы (ры́жие/све́тлые/тёмные)",
+        "gloss": "ginger/fair/dark hair",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_14.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "блонди́н(ка)",
+        "gloss": "blonde",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_15.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "брюне́т(ка)",
+        "gloss": "brunet",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_16.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "шате́н(ка)",
+        "gloss": "chestnut-haired",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_17.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "лы́сый",
+        "gloss": "bald",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_18.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "седо́й",
+        "gloss": "grey-haired",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_19.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "причёска",
+        "gloss": "hairdo; hairstyle",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_20.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "глаза́ (ка́рие/голубы́е/се́рые/чёрные/зелёные)",
+        "gloss": "eyes (brown/blue/grey/black/green)",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_21.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "ресни́цы",
+        "gloss": "eyelashes",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_22.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "бро́ви",
+        "gloss": "eyebrows",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_23.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "лоб (высо́кий/ни́зкий)",
+        "gloss": "forehead (high/narrow)",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_24.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "борода́",
+        "gloss": "beard",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_25.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "подборо́док",
+        "gloss": "chin",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_26.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "усы́",
+        "gloss": "moustache",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_27.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "ро́динка",
+        "gloss": "mole",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_28.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "весну́шки",
+        "gloss": "freckles",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_29.mp3",
+        "topic": "hair-face"
+      },
+      {
+        "term": "положи́тельные черты́",
+        "gloss": "positive characteristics",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_30.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "отрица́тельные черты́",
+        "gloss": "negative characteristics",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_31.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "недоста́ток",
+        "gloss": "shortcoming; fault",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_32.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "стро́ить/постро́ить отноше́ния",
+        "gloss": "to build a relationship",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_33.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "вести́ себя́ соотве́тствующе",
+        "gloss": "to behave accordingly",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_34.mp3",
+        "topic": "behaviour",
+        "only": "topics"
+      },
+      {
+        "term": "поведе́ние",
+        "gloss": "behaviour",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_35.mp3",
+        "topic": "behaviour",
+        "only": "topics"
+      },
+      {
+        "term": "обижа́ться/оби́деться",
+        "gloss": "to feel offended",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_36.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "горди́ться (impf only) (+ Inst)",
+        "gloss": "to be proud",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_37.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "хвали́ть(ся)/похвали́ть(ся)",
+        "gloss": "to praise (oneself)",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_38.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "открове́нничать (impf only)",
+        "gloss": "to be excessively frank",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_39.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "открове́нный",
+        "gloss": "straightforward",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_40.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "болта́ть (impf only)",
+        "gloss": "to chat",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_41.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "болтли́вый",
+        "gloss": "talkative; chatty",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_42.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "молча́ть (impf only)",
+        "gloss": "to be silent",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_43.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "молчали́вый",
+        "gloss": "taciturn",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_44.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "жале́ть/пожале́ть (+ Acc)",
+        "gloss": "to feel sorry",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_45.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "сочу́вствовать/посочу́вствовать (+ Dat)",
+        "gloss": "to sympathise",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_46.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "сострада́тельный",
+        "gloss": "compassionate; merciful",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_47.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "снисходи́тельный",
+        "gloss": "patronising, condescending",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_48.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "усту́пчивый",
+        "gloss": "compliant",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_49.mp3",
+        "topic": "behaviour"
+      },
+      {
+        "term": "аккура́тный",
+        "gloss": "tidy, neat",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_50.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "воспи́танный",
+        "gloss": "well-mannered",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_51.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "ве́жливый",
+        "gloss": "polite",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_52.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "такти́чный",
+        "gloss": "tactful",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_53.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "великоду́шный",
+        "gloss": "generous; charitable",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_54.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "жа́дный",
+        "gloss": "greedy; stingy",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_55.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "терпели́вый",
+        "gloss": "patient",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_56.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "споко́йный",
+        "gloss": "calm",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_57.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "рассуди́тельный",
+        "gloss": "clear-thinking; reasonable",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_58.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "осторо́жный",
+        "gloss": "cautious",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_59.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "торопли́вый",
+        "gloss": "hasty",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_60.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "вспы́льчивый",
+        "gloss": "quick(hot)-tempered",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_61.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "до́брый",
+        "gloss": "kind",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_62.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "дове́рчивый",
+        "gloss": "trusting",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_63.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "простоду́шный",
+        "gloss": "simple-minded; guileless",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_64.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "бессерде́чный",
+        "gloss": "heartless",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_65.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "равноду́шный",
+        "gloss": "indifferent",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_66.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "злой",
+        "gloss": "spiteful; angry",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_67.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "злопа́мятный",
+        "gloss": "vindictive",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_68.mp3",
+        "topic": "temperament"
+      },
+      {
+        "term": "трудолюби́вый",
+        "gloss": "hardworking",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_69.mp3",
+        "topic": "honesty"
+      },
+      {
+        "term": "трудолю́бие",
+        "gloss": "industriousness",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_70.mp3",
+        "topic": "honesty"
+      },
+      {
+        "term": "тала́нтливый",
+        "gloss": "talented",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_71.mp3",
+        "topic": "honesty"
+      },
+      {
+        "term": "тала́нт (к + Dat)",
+        "gloss": "talent",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_72.mp3",
+        "topic": "honesty"
+      },
+      {
+        "term": "и́скренний",
+        "gloss": "sincere; frank",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_73.mp3",
+        "topic": "honesty"
+      },
+      {
+        "term": "чистосерде́чный",
+        "gloss": "open-hearted; frank",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_74.mp3",
+        "topic": "honesty"
+      },
+      {
+        "term": "лицеме́рный",
+        "gloss": "hypocritical",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_75.mp3",
+        "topic": "honesty"
+      },
+      {
+        "term": "поря́дочный",
+        "gloss": "decent",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_76.mp3",
+        "topic": "honesty"
+      },
+      {
+        "term": "постоя́нный (о челове́ке)",
+        "gloss": "true; reliable; loyal",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_77.mp3",
+        "topic": "honesty"
+      },
+      {
+        "term": "незави́симый",
+        "gloss": "independent",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_78.mp3",
+        "topic": "honesty"
+      },
+      {
+        "term": "симпати́чный (он мне симпати́чен – short form)",
+        "gloss": "pretty; likeable (I like him)",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_79.mp3",
+        "topic": "charm"
+      },
+      {
+        "term": "обая́тельный",
+        "gloss": "charming",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_80.mp3",
+        "topic": "charm"
+      },
+      {
+        "term": "привлека́тельный",
+        "gloss": "attractive; handsome",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_81.mp3",
+        "topic": "charm"
+      },
+      {
+        "term": "жизнера́достный",
+        "gloss": "cheerful",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_82.mp3",
+        "topic": "charm"
+      },
+      {
+        "term": "общи́тельный",
+        "gloss": "sociable; communicative",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_83.mp3",
+        "topic": "charm"
+      },
+      {
+        "term": "за́мкнутый",
+        "gloss": "withdrawn",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_84.mp3",
+        "topic": "charm"
+      },
+      {
+        "term": "гостеприи́мный",
+        "gloss": "hospitable",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_85.mp3",
+        "topic": "charm"
+      },
+      {
+        "term": "остроу́мие",
+        "gloss": "wit",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_86.mp3",
+        "topic": "charm"
+      },
+      {
+        "term": "остроу́мный",
+        "gloss": "witty",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_87.mp3",
+        "topic": "charm"
+      },
+      {
+        "term": "чу́вство ю́мора",
+        "gloss": "sense of humour",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_88.mp3",
+        "topic": "charm"
+      },
+      {
+        "term": "неприя́тный",
+        "gloss": "unpleasant",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_89.mp3",
+        "topic": "unpleasant"
+      },
+      {
+        "term": "самовлюблённый",
+        "gloss": "self-centred, conceited",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_90.mp3",
+        "topic": "unpleasant"
+      },
+      {
+        "term": "самоуве́ренный",
+        "gloss": "self-confident",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_91.mp3",
+        "topic": "unpleasant"
+      },
+      {
+        "term": "не́нависть (f)",
+        "gloss": "hatred",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_92.mp3",
+        "topic": "unpleasant"
+      },
+      {
+        "term": "за́висть (f)",
+        "gloss": "envy",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_93.mp3",
+        "topic": "unpleasant"
+      },
+      {
+        "term": "зави́стливый",
+        "gloss": "envious",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_94.mp3",
+        "topic": "unpleasant"
+      },
+      {
+        "term": "зави́довать/позави́довать (+ Dat)",
+        "gloss": "to envy",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_95.mp3",
+        "topic": "unpleasant"
+      },
+      {
+        "term": "су́етный",
+        "gloss": "earthly; vain",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_96.mp3",
+        "topic": "unpleasant"
+      },
+      {
+        "term": "глу́пый",
+        "gloss": "stupid",
+        "audio": "audio/lo-06-character/vocab-semantic/ruvoc_u6_svocab_97.mp3",
+        "topic": "unpleasant"
+      },
+      {
+        "term": "близне́ц (Pl близнецы́)",
+        "gloss": "twin(s)",
+        "audio": "audio/lo-06-character/vocab-alphabetic/ruvoc_u6_avocab_3.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "брезгли́вый",
+        "gloss": "fastidious; squeamish",
+        "audio": "audio/lo-06-character/vocab-alphabetic/ruvoc_u6_avocab_8.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "го́рдый",
+        "gloss": "proud",
+        "audio": "audio/lo-06-character/vocab-alphabetic/ruvoc_u6_avocab_24.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "промолча́ть (pf only)",
+        "gloss": "to refrain from responding",
+        "audio": "audio/lo-06-character/vocab-alphabetic/ruvoc_u6_avocab_66_a.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "скро́мный",
+        "gloss": "modest",
+        "audio": "audio/lo-06-character/vocab-alphabetic/ruvoc_u6_avocab_77.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "ску́чный",
+        "gloss": "boring",
+        "audio": "audio/lo-06-character/vocab-alphabetic/ruvoc_u6_avocab_78.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "соотве́тствующе",
+        "gloss": "accordingly",
+        "audio": "audio/lo-06-character/vocab-alphabetic/ruvoc_u6_avocab_80.mp3",
+        "only": "alphabetical"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "type": "flashcards",
+  "title": "Verbs",
+  "content": {
+    "cards": [
+      {
+        "target": "достига́ть/дости́гнуть (дости́чь) (+ Gen)",
+        "native": "to achieve, to attain",
+        "audio": "audio/lo-08-happiness-success/verbs/ruvoc_u8_flashcards_1.mp3"
+      },
+      {
+        "target": "определя́ть/определи́ть",
+        "native": "to define",
+        "audio": "audio/lo-08-happiness-success/verbs/ruvoc_u8_flashcards_2.mp3"
+      },
+      {
+        "target": "ста́вить/поста́вить цель (пе́ред + Inst)",
+        "native": "to set a goal",
+        "audio": "audio/lo-08-happiness-success/verbs/ruvoc_u8_flashcards_3.mp3"
+      },
+      {
+        "target": "разочаро́вывать/разочарова́ть",
+        "native": "to disappoint",
+        "audio": "audio/lo-08-happiness-success/verbs/ruvoc_u8_flashcards_4.mp3"
+      },
+      {
+        "target": "стреми́ться (impf only) (к + Dat)",
+        "native": "to aspire, to strive",
+        "audio": "audio/lo-08-happiness-success/verbs/ruvoc_u8_flashcards_5.mp3"
+      },
+      {
+        "target": "оце́нивать/оцени́ть",
+        "native": "to assess",
+        "audio": "audio/lo-08-happiness-success/verbs/ruvoc_u8_flashcards_6.mp3"
+      },
+      {
+        "target": "добива́ться/доби́ться (+ Gen)",
+        "native": "to strive, to achieve",
+        "audio": "audio/lo-08-happiness-success/verbs/ruvoc_u8_flashcards_7.mp3"
+      },
+      {
+        "target": "распоряжа́ться/распоряди́ться (+ Inst)",
+        "native": "to manage, to be in charge of",
+        "audio": "audio/lo-08-happiness-success/verbs/ruvoc_u8_flashcards_8.mp3"
+      },
+      {
+        "target": "своди́ться/свести́сь (к + Dat)",
+        "native": "to be reduced to",
+        "audio": "audio/lo-08-happiness-success/verbs/ruvoc_u8_flashcards_9.mp3"
+      },
+      {
+        "target": "выража́ть/вы́разить",
+        "native": "to express",
+        "audio": "audio/lo-08-happiness-success/verbs/ruvoc_u8_flashcards_10.mp3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 2",
+  "content": {
+    "items": [
+      {
+        "text": "to strive, to achieve — [добиваться]"
+      },
+      {
+        "text": "consumption — [потребление]"
+      },
+      {
+        "text": "exclusively — [исключительно]"
+      },
+      {
+        "text": "to be reduced to — [сводиться]"
+      },
+      {
+        "text": "concept — [понятие]"
+      },
+      {
+        "text": "to take care of — [заботиться]"
+      },
+      {
+        "text": "public recognition — [общественное признание]"
+      },
+      {
+        "text": "system of values — [система ценностей]"
+      },
+      {
+        "text": "successful (person) — [преуспевающий]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}
