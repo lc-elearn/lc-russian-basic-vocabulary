@@ -1,6 +1,6 @@
 {
   "type": "vocabulary",
-  "title": "Vocabulary organised semantically",
+  "title": "Vocabulary",
   "options": {
     "selfTest": true,
     "letterHeadings": true
@@ -13,7 +13,7 @@
       },
       {
         "id": "roles",
-        "heading": "Family roles · Роли в семье́"
+        "heading": "Family roles · Ро́ли в семье́"
       },
       {
         "id": "divorce",
@@ -21,7 +21,7 @@
       },
       {
         "id": "attitudes",
-        "heading": "Society and attitudes · О́бщество и отноше́ния"
+        "heading": "Society and relationships · О́бщество и отноше́ния"
       }
     ],
     "items": [
