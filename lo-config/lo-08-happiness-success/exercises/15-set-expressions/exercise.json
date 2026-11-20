@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 1",
+  "content": {
+    "instructions": "Notice the expression used for someone who is always lucky.",
+    "items": [
+      {
+        "text": "— Да, повезло Денису. О таких говорят, [знает себе цену|*родился под счастливой звездой|мастер на все руки]. Но ты не вешай нос. В следующий раз тебе обязательно повезёт."
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "outcomes",
+  "presentation": "plain",
+  "content": {
+    "lead": "Once you have completed this unit, you should be able to discuss:",
+    "items": [
+      "the meaning of success and happiness;",
+      "how our perception of success and happiness gradually changes."
+    ],
+    "image": {
+      "src": "images/lo-08-happiness-success/card.jpg",
+      "alt": ""
+    }
+  }
+}

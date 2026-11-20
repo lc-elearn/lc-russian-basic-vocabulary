@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 1",
+  "content": {
+    "items": [
+      {
+        "text": "to compare — [сравнивать]"
+      },
+      {
+        "text": "genuinely — [по-настоящему]"
+      },
+      {
+        "text": "to be in charge of — [распоряжаться]"
+      },
+      {
+        "text": "luck — [удача]"
+      },
+      {
+        "text": "achievement — [достижение]"
+      },
+      {
+        "text": "sign — [признак]"
+      },
+      {
+        "text": "similarly — [одинаково]"
+      },
+      {
+        "text": "glory, fame — [слава]"
+      },
+      {
+        "text": "to be disappointed — [разочароваться]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}
