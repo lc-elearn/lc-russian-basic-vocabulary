@@ -1,0 +1,17 @@
+{
+  "type": "outcomes",
+  "presentation": "plain",
+  "content": {
+    "lead": "Once you have completed this unit, you should be able to discuss:",
+    "items": [
+      "different lifestyles;",
+      "healthy and unhealthy habits;",
+      "how to cope with daily stress;",
+      "why and how our lifestyle is changing."
+    ],
+    "image": {
+      "src": "images/lo-05-lifestyle/card.jpg",
+      "alt": ""
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "type": "flashcards",
+  "title": "Verbs",
+  "content": {
+    "cards": [
+      {
+        "target": "снима́ть/снять стресс",
+        "native": "to relieve stress",
+        "audio": "audio/lo-05-lifestyle/verbs/ruvoc_u5_flashcards_1.mp3"
+      },
+      {
+        "target": "жа́ловаться/пожа́ловаться (на + Acc)",
+        "native": "to complain",
+        "audio": "audio/lo-05-lifestyle/verbs/ruvoc_u5_flashcards_2.mp3"
+      },
+      {
+        "target": "расслабля́ться/рассла́биться",
+        "native": "to relax",
+        "audio": "audio/lo-05-lifestyle/verbs/ruvoc_u5_flashcards_3.mp3"
+      },
+      {
+        "target": "подверга́ться/подве́ргнуться (+ Dat)",
+        "native": "to undergo",
+        "audio": "audio/lo-05-lifestyle/verbs/ruvoc_u5_flashcards_4.mp3"
+      },
+      {
+        "target": "страда́ть (impf only) (+ Inst/от + Gen)",
+        "native": "to be afflicted/to suffer",
+        "audio": "audio/lo-05-lifestyle/verbs/ruvoc_u5_flashcards_5.mp3"
+      },
+      {
+        "target": "отлича́ться (impf only) (от + Gen, + Inst)",
+        "native": "to be different, to differ",
+        "audio": "audio/lo-05-lifestyle/verbs/ruvoc_u5_flashcards_6.mp3"
+      },
+      {
+        "target": "вести́ здоро́вый о́браз жи́зни",
+        "native": "to have a healthy lifestyle",
+        "audio": "audio/lo-05-lifestyle/verbs/ruvoc_u5_flashcards_7.mp3"
+      },
+      {
+        "target": "боро́ться (impf only) (с + Inst)",
+        "native": "to cope with (lit. to fight)",
+        "audio": "audio/lo-05-lifestyle/verbs/ruvoc_u5_flashcards_8.mp3"
+      },
+      {
+        "target": "быва́ть/быть на во́здухе",
+        "native": "to spend time outside",
+        "audio": "audio/lo-05-lifestyle/verbs/ruvoc_u5_flashcards_9.mp3"
+      },
+      {
+        "target": "высыпа́ться/вы́спаться",
+        "native": "to have enough sleep",
+        "audio": "audio/lo-05-lifestyle/verbs/ruvoc_u5_flashcards_10.mp3"
+      }
+    ]
+  }
+}

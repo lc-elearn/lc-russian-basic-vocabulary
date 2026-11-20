@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 1",
+  "content": {
+    "items": [
+      {
+        "text": "to envy — [завидовать]"
+      },
+      {
+        "text": "hospitable — [гостеприимный]"
+      },
+      {
+        "text": "chestnut-haired — [шатен]"
+      },
+      {
+        "text": "brown eyes — [карие глаза]"
+      },
+      {
+        "text": "vindictive — [злопамятный]"
+      },
+      {
+        "text": "witty — [остроумный]"
+      },
+      {
+        "text": "to look/be like — [выглядеть]"
+      },
+      {
+        "text": "industriousness — [трудолюбие]"
+      },
+      {
+        "text": "to praise oneself — [хвалиться]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

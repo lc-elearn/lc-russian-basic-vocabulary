@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 3",
+  "content": {
+    "instructions": "Notice the expression the mother uses for someone who stands out from the crowd.",
+    "items": [
+      {
+        "text": "— А ты попробуй прийти на футбольный матч в пиджаке и галстуке. И будешь там сидеть как [важная птица|*белая ворона|восходящая звезда]. Представил себе? Вот так же глупо ты будешь выглядеть в джинсах и свитере в театре."
+      }
+    ]
+  }
+}

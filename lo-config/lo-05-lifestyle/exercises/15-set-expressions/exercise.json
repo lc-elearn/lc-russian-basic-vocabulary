@@ -1,0 +1,12 @@
+{
+  "type": "inline-choice",
+  "title": "Диалог 1",
+  "content": {
+    "instructions": "направление — ‘referral’. Notice the expression the doctor uses to avoid guessing at a diagnosis.",
+    "items": [
+      {
+        "text": "— Давайте не будем [долго разговаривать|забегать вперёд|*гадать на кофейной гуще], вот вам направление на анализы. Как сдадите, через три дня приходите ко мне."
+      }
+    ]
+  }
+}

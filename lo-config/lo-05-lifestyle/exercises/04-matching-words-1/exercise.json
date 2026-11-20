@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 1",
+  "content": {
+    "items": [
+      {
+        "text": "to take care of health — [следить за здоровьем]"
+      },
+      {
+        "text": "bad habits — [вредные привычки]"
+      },
+      {
+        "text": "constant — [постоянный]"
+      },
+      {
+        "text": "I can’t be bothered — [мне лень]"
+      },
+      {
+        "text": "excess weight — [лишний вес]"
+      },
+      {
+        "text": "drugs — [наркотики]"
+      },
+      {
+        "text": "foodstuff — [пища]"
+      },
+      {
+        "text": "ways of coping — [способы борьбы]"
+      },
+      {
+        "text": "to overeat — [объедаться]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}
