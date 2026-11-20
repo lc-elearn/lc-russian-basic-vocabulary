@@ -1,0 +1,16 @@
+{
+  "type": "outcomes",
+  "presentation": "plain",
+  "content": {
+    "lead": "Once you have completed this unit, you should be able to discuss:",
+    "items": [
+      "hobbies and self-realisation;",
+      "different types of holidays;",
+      "combining holidays with work and studies."
+    ],
+    "image": {
+      "src": "images/lo-07-free-time/card.jpg",
+      "alt": ""
+    }
+  }
+}
