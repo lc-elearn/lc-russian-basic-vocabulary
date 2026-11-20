@@ -1,0 +1,618 @@
+{
+  "type": "vocabulary",
+  "title": "Vocabulary",
+  "options": {
+    "selfTest": true,
+    "letterHeadings": true
+  },
+  "content": {
+    "topics": [
+      {
+        "id": "holidays",
+        "heading": "Holidays and relaxation · Кани́кулы и о́тдых"
+      },
+      {
+        "id": "experience",
+        "heading": "Experiences and enjoyment · Впечатле́ния и удово́льствие"
+      },
+      {
+        "id": "choosing",
+        "heading": "Choosing a holiday · Вы́бор о́тдыха"
+      },
+      {
+        "id": "weight",
+        "heading": "Weight and lifestyle · Вес и о́браз жи́зни"
+      },
+      {
+        "id": "active",
+        "heading": "Active holidays · Акти́вный о́тдых"
+      },
+      {
+        "id": "arrangements",
+        "heading": "Travel arrangements · Организа́ция пое́здки"
+      },
+      {
+        "id": "entertainment",
+        "heading": "Entertainment · Развлече́ния"
+      },
+      {
+        "id": "hobbies",
+        "heading": "Hobbies and self-realisation · Хо́бби и самореализа́ция"
+      }
+    ],
+    "items": [
+      {
+        "term": "кани́кулы",
+        "gloss": "vacations (for students)",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_1.mp3",
+        "topic": "holidays"
+      },
+      {
+        "term": "о́тпуск",
+        "gloss": "holiday (for employees)",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_2.mp3",
+        "topic": "holidays"
+      },
+      {
+        "term": "досу́г; на досу́ге",
+        "gloss": "leisure; during one’s leisure time",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_3.mp3",
+        "topic": "holidays"
+      },
+      {
+        "term": "отдыха́ть/отдохну́ть",
+        "gloss": "to rest; to relax",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_4.mp3",
+        "topic": "holidays"
+      },
+      {
+        "term": "расслабля́ться/рассла́биться",
+        "gloss": "to relax",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_5.mp3",
+        "topic": "holidays"
+      },
+      {
+        "term": "по́лный (сил, эне́ргии)",
+        "gloss": "full (of strength, energy)",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_6.mp3",
+        "topic": "holidays"
+      },
+      {
+        "term": "обстано́вка; в прия́тной обстано́вке",
+        "gloss": "ambience; in pleasant ambience",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_7.mp3",
+        "topic": "holidays"
+      },
+      {
+        "term": "получа́ть/получи́ть о́пыт",
+        "gloss": "to get experience",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_8.mp3",
+        "topic": "experience"
+      },
+      {
+        "term": "впечатле́ние",
+        "gloss": "impression",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_9.mp3",
+        "topic": "experience"
+      },
+      {
+        "term": "удово́льствие",
+        "gloss": "pleasure",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_10.mp3",
+        "topic": "experience"
+      },
+      {
+        "term": "удовлетворе́ние",
+        "gloss": "satisfaction",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_11.mp3",
+        "topic": "experience"
+      },
+      {
+        "term": "соверше́нно",
+        "gloss": "completely",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_12.mp3",
+        "topic": "experience"
+      },
+      {
+        "term": "проводи́ть/провести́ вре́мя с по́льзой",
+        "gloss": "to spend time usefully",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_13.mp3",
+        "topic": "experience",
+        "only": "topics"
+      },
+      {
+        "term": "тра́тить/потра́тить вре́мя зря",
+        "gloss": "to waste your time in vain",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_14.mp3",
+        "topic": "experience",
+        "only": "topics"
+      },
+      {
+        "term": "подходи́ть/подойти́ (+ Dat)",
+        "gloss": "to suit",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_15.mp3",
+        "topic": "experience"
+      },
+      {
+        "term": "быть по душе́ (+ Dat)",
+        "gloss": "to be to one’s liking (lit. to one’s soul)",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_16.mp3",
+        "topic": "experience"
+      },
+      {
+        "term": "привлека́ть/привле́чь",
+        "gloss": "to attract",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_17.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "пре́жде всего́",
+        "gloss": "above all",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_18.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "появля́ться/появи́ться",
+        "gloss": "to appear, to emerge",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_19.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "разнообра́зный",
+        "gloss": "diverse, versatile",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_20.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "спо́соб",
+        "gloss": "way, method",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_21.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "сто́ит (+ inf); не сто́ит (+ impf inf)",
+        "gloss": "it is (not) worth doing smth.",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_22.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "спрос",
+        "gloss": "demand",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_23.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "проверя́ть/прове́рить",
+        "gloss": "to test, to check",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_24.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "обнару́живать/обнару́жить",
+        "gloss": "to discover, to find out",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_25.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "совмеща́ть/совмести́ть (+ Acc с + Inst)",
+        "gloss": "to combine",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_26.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "преиму́щества и недоста́тки",
+        "gloss": "advantages and disadvantages",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_27.mp3",
+        "topic": "choosing",
+        "only": "topics"
+      },
+      {
+        "term": "наноси́ть/нанести́ уще́рб (+ Dat)",
+        "gloss": "to cause damage",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_28.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "нужда́ться (impf only) (в + Prep)",
+        "gloss": "to be in need",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_29.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "обходи́ться/обойти́сь (без + Gen)",
+        "gloss": "to do without",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_30.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "ограни́чивать/ограни́чить",
+        "gloss": "to limit",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_31.mp3",
+        "topic": "choosing"
+      },
+      {
+        "term": "поправля́ться/попра́виться",
+        "gloss": "to gain weight",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_32.mp3",
+        "topic": "weight"
+      },
+      {
+        "term": "сбра́сывать/сбро́сить ли́шний вес",
+        "gloss": "to lose excess weight",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_33.mp3",
+        "topic": "weight"
+      },
+      {
+        "term": "сидя́чий о́браз жи́зни",
+        "gloss": "sedentary way of life",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_34.mp3",
+        "topic": "weight"
+      },
+      {
+        "term": "в основно́м",
+        "gloss": "mainly",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_35.mp3",
+        "topic": "active"
+      },
+      {
+        "term": "есте́ственно",
+        "gloss": "naturally",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_36.mp3",
+        "topic": "active"
+      },
+      {
+        "term": "путеше́ствовать автосто́пом",
+        "gloss": "to hitch-hike",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_37.mp3",
+        "topic": "active",
+        "only": "topics"
+      },
+      {
+        "term": "ходи́ть/идти́ в похо́д",
+        "gloss": "to go hiking",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_38.mp3",
+        "topic": "active"
+      },
+      {
+        "term": "пала́тка",
+        "gloss": "tent",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_39.mp3",
+        "topic": "active"
+      },
+      {
+        "term": "приключе́ние",
+        "gloss": "adventure",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_40.mp3",
+        "topic": "active"
+      },
+      {
+        "term": "маршру́т",
+        "gloss": "route",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_41.mp3",
+        "topic": "active"
+      },
+      {
+        "term": "ла́герь (m) (Pl лагеря́) (ле́тний/студе́нческий/молодёжный ла́герь)",
+        "gloss": "camp",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_42.mp3",
+        "topic": "active"
+      },
+      {
+        "term": "ката́ться (на + Prep) (на лы́жах/на конька́х/на са́нках/на велосипе́де/на ло́шади)",
+        "gloss": "to ride",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_43.mp3",
+        "topic": "active"
+      },
+      {
+        "term": "волонтёр",
+        "gloss": "volunteer",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_44.mp3",
+        "topic": "active"
+      },
+      {
+        "term": "раско́пки",
+        "gloss": "excavations",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_45.mp3",
+        "topic": "active"
+      },
+      {
+        "term": "услу́ги тураге́нтства",
+        "gloss": "services of the travel agency",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_46.mp3",
+        "topic": "arrangements"
+      },
+      {
+        "term": "оформле́ние ви́зы",
+        "gloss": "visa processing; claiming a visa",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_47.mp3",
+        "topic": "arrangements"
+      },
+      {
+        "term": "страхо́вка",
+        "gloss": "insurance",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_48.mp3",
+        "topic": "arrangements"
+      },
+      {
+        "term": "пита́ние",
+        "gloss": "here: food",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_49.mp3",
+        "topic": "arrangements"
+      },
+      {
+        "term": "прожива́ние (в гости́нице, в общежи́тии)",
+        "gloss": "here: accommodation",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_50.mp3",
+        "topic": "arrangements"
+      },
+      {
+        "term": "всё включено́",
+        "gloss": "all inclusive",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_51.mp3",
+        "topic": "arrangements"
+      },
+      {
+        "term": "предлага́ть/предложи́ть",
+        "gloss": "to offer, to suggest",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_52.mp3",
+        "topic": "arrangements"
+      },
+      {
+        "term": "устра́ивать/устро́ить",
+        "gloss": "to arrange; to organise",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_53.mp3",
+        "topic": "arrangements"
+      },
+      {
+        "term": "бытовы́е пробле́мы",
+        "gloss": "domestic issues/problems (esp. problems with amenities)",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_54.mp3",
+        "topic": "arrangements"
+      },
+      {
+        "term": "по́ртить/испо́ртить",
+        "gloss": "to spoil",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_55.mp3",
+        "topic": "arrangements"
+      },
+      {
+        "term": "бе́шеные де́ньги",
+        "gloss": "tons of money (lit. mad sums of money)",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_56.mp3",
+        "topic": "arrangements"
+      },
+      {
+        "term": "развлека́тельный",
+        "gloss": "entertaining",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_57.mp3",
+        "topic": "entertainment"
+      },
+      {
+        "term": "развлека́ться/развле́чься",
+        "gloss": "to entertain oneself",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_58.mp3",
+        "topic": "entertainment",
+        "only": "topics"
+      },
+      {
+        "term": "развлече́ние",
+        "gloss": "entertainment",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_59.mp3",
+        "topic": "entertainment"
+      },
+      {
+        "term": "совреме́нный",
+        "gloss": "modern, contemporary",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_60.mp3",
+        "topic": "entertainment"
+      },
+      {
+        "term": "толпа́",
+        "gloss": "crowd",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_61.mp3",
+        "topic": "entertainment"
+      },
+      {
+        "term": "ма́ссовая культу́ра",
+        "gloss": "mass culture",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_62.mp3",
+        "topic": "entertainment"
+      },
+      {
+        "term": "хо́бби (undecl)",
+        "gloss": "hobby",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_63.mp3",
+        "topic": "hobbies"
+      },
+      {
+        "term": "увлече́ние",
+        "gloss": "interest, hobby",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_64.mp3",
+        "topic": "hobbies"
+      },
+      {
+        "term": "увлека́ться/увле́чься (+ Inst)",
+        "gloss": "to be fond of",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_65.mp3",
+        "topic": "hobbies"
+      },
+      {
+        "term": "скры́тый тала́нт",
+        "gloss": "hidden talent",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_66.mp3",
+        "topic": "hobbies",
+        "only": "topics"
+      },
+      {
+        "term": "спосо́бность (f)",
+        "gloss": "ability",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_67.mp3",
+        "topic": "hobbies"
+      },
+      {
+        "term": "скло́нный (к + Dat)",
+        "gloss": "prone",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_68.mp3",
+        "topic": "hobbies"
+      },
+      {
+        "term": "рука́ми; свои́ми рука́ми",
+        "gloss": "by hand; with one’s own (two) hands",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_69.mp3",
+        "topic": "hobbies"
+      },
+      {
+        "term": "разбира́ться/разобра́ться",
+        "gloss": "to be/become knowledgeable about smth.",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_70.mp3",
+        "topic": "hobbies"
+      },
+      {
+        "term": "учи́ться/научи́ться (+ Dat or + inf) (научи́ться рисова́нию/рисова́ть)",
+        "gloss": "to acquire skill, to learn",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_71.mp3",
+        "topic": "hobbies"
+      },
+      {
+        "term": "развива́ть(ся)/разви́ть(ся)",
+        "gloss": "to develop oneself",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_72.mp3",
+        "topic": "hobbies",
+        "only": "topics"
+      },
+      {
+        "term": "расширя́ть/расши́рить кругозо́р",
+        "gloss": "to broaden horizons",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_73.mp3",
+        "topic": "hobbies",
+        "only": "topics"
+      },
+      {
+        "term": "реализо́вывать/реализова́ть себя́",
+        "gloss": "to fulfil one’s potential",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_74.mp3",
+        "topic": "hobbies"
+      },
+      {
+        "term": "осуществля́ть/осуществи́ть (мечту́, пла́ны etc.)",
+        "gloss": "to realise",
+        "audio": "audio/lo-07-free-time/vocab-semantic/ruvoc_u7_svocab_75.mp3",
+        "topic": "hobbies"
+      },
+      {
+        "term": "автосто́п (путеше́ствовать автосто́пом)",
+        "gloss": "hitch-hike",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_1.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "влия́ть/повлия́ть (на + Acc)",
+        "gloss": "to influence",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_7.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "зря",
+        "gloss": "in vain, to no avail",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_12.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "кругозо́р",
+        "gloss": "horizons, outlook",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_15.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "недоста́ток",
+        "gloss": "disadvantage, fault",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_20.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "отдалённый",
+        "gloss": "remote",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_27.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "пое́здка",
+        "gloss": "trip",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_34.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "по́льза (проводи́ть/провести́ вре́мя с по́льзой)",
+        "gloss": "benefit (to spend time usefully)",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_37.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "преиму́щество",
+        "gloss": "advantage",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_43.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "развива́ть/разви́ть",
+        "gloss": "to develop",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_49.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "развлека́ть(ся)/развле́чь(ся)",
+        "gloss": "to entertain (oneself)",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_51.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "расширя́ть/расши́рить",
+        "gloss": "to widen, to broaden",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_56.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "скры́тый",
+        "gloss": "hidden (from скрыва́ть/скрыть)",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_62.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "собира́ться/собра́ться (+ inf)",
+        "gloss": "to be about to; to be going to",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_63.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "тра́тить/потра́тить вре́мя",
+        "gloss": "to waste one’s time",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_73.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "тураге́нтство",
+        "gloss": "travel agency",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_74.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "уголо́к (приро́ды, плане́ты)",
+        "gloss": "part (lit. corner)",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_77.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "услу́га",
+        "gloss": "service",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_80.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "хвата́ть/хвати́ть (+ Dat + Gen) (мне не хвата́ет свобо́дного вре́мени)",
+        "gloss": "to be enough (I don’t have enough free time)",
+        "audio": "audio/lo-07-free-time/vocab-alphabetic/ruvoc_u7_avocab_86.mp3",
+        "only": "alphabetical"
+      }
+    ]
+  }
+}

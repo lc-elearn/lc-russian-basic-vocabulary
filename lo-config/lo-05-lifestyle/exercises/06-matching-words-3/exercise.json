@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 3",
+  "content": {
+    "items": [
+      {
+        "text": "lack of sleep — [недосып]"
+      },
+      {
+        "text": "to be different — [отличаться]"
+      },
+      {
+        "text": "to experience stress — [испытывать стресс]"
+      },
+      {
+        "text": "sports — [виды спорта]"
+      },
+      {
+        "text": "to cope — [справляться]"
+      },
+      {
+        "text": "alcoholic drinks — [спиртное]"
+      },
+      {
+        "text": "outside — [на свежем воздухе]"
+      },
+      {
+        "text": "by nature — [по природе]"
+      },
+      {
+        "text": "to do without — [обходиться]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

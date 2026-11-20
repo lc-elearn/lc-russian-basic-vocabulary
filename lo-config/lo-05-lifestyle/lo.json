@@ -1,0 +1,189 @@
+{
+  "title": "Lifestyle · Образ жизни",
+  "description": "Discuss different lifestyles, healthy and unhealthy habits, coping with daily stress, and why and how our lifestyle is changing.",
+  "image": "images/lo-05-lifestyle/card.jpg",
+  "hero": {
+    "src": "images/lo-05-lifestyle/hero.png"
+  },
+  "sections": [
+    {
+      "id": "introduction",
+      "label": "Introduction · Введение",
+      "navLabel": "Introduction",
+      "blocks": ["00-intro", "01-outcomes"]
+    },
+    {
+      "id": "vocabulary",
+      "label": "Vocabulary · Словарь",
+      "navLabel": "Vocabulary",
+      "blocks": ["02-vocabulary-intro", "03-vocabulary"]
+    },
+    {
+      "id": "exercises",
+      "label": "Exercises · Упражнения",
+      "navLabel": "Exercises",
+      "blocks": ["05-intro"],
+      "exercises": [
+        {
+          "title": "1. Flash cards",
+          "tabs": [
+            {
+              "exercise": "01-flashcards-verbs"
+            },
+            {
+              "exercise": "02-flashcards-nouns"
+            },
+            {
+              "exercise": "03-flashcards-adjectives"
+            }
+          ]
+        },
+        {
+          "title": "2. Matching words",
+          "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "04-matching-words-1"
+            },
+            {
+              "exercise": "05-matching-words-2"
+            },
+            {
+              "exercise": "06-matching-words-3"
+            }
+          ]
+        },
+        "07-multiple-choice",
+        {
+          "title": "4. Match the halves",
+          "instructions": "Find the matching half of each sentence by moving the phrases in the right-hand column. Start from the top. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "08-match-halves-1"
+            },
+            {
+              "exercise": "09-match-halves-2"
+            }
+          ]
+        },
+        {
+          "title": "5. Fill in the gaps",
+          "tabs": [
+            {
+              "exercise": "10-fill-gaps-1"
+            },
+            {
+              "exercise": "11-fill-gaps-2"
+            }
+          ]
+        },
+        {
+          "title": "6. Reconstruct the text «Молодёжь и здоровый образ жизни»",
+          "tabs": [
+            {
+              "exercise": "12-reconstruct-1"
+            },
+            {
+              "exercise": "13-reconstruct-2"
+            },
+            {
+              "exercise": "14-reconstruct-3"
+            }
+          ]
+        },
+        {
+          "title": "7. Set expressions",
+          "instructions": "Listen to each dialogue, then choose the set expression that fits the line. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "15-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-05-lifestyle/dialogue1.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-05-lifestyle/dialogues/ruvoc_u5_dia1.mp3",
+                  "label": "Диалог 1"
+                },
+                "transcript": [
+                  "— Здравствуйте, доктор!",
+                  "— Здравствуйте, проходите, садитесь. На что жалуетесь?",
+                  "— Вы знаете, доктор, последнее время сплю плохо, аппетит пропал, голова часто кружится. Что это? Чем я болен?",
+                  "— Давайте не будем гадать на кофейной гуще, вот вам направление на анализы. Как сдадите, через три дня приходите ко мне.",
+                  "— Спасибо. До свидания."
+                ]
+              }
+            },
+            {
+              "exercise": "16-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-05-lifestyle/dialogue2.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-05-lifestyle/dialogues/ruvoc_u5_dia2.mp3",
+                  "label": "Диалог 2"
+                },
+                "transcript": [
+                  "— Доктор, ну что там? Какие результаты?",
+                  "— Анализы в норме. Волноваться не о чем.",
+                  "— Тогда почему у меня бессонница и аппетита нет?",
+                  "— Будем разбираться. Расскажите, какой у вас режим дня.",
+                  "— Встаю рано, ложусь поздно.",
+                  "— А как вы питаетесь?",
+                  "— По утрам вечно опаздываю на работу, поэтому мне не до завтраков. В обед перекусываю бутербродом за компьютером, вечером времени готовить нет, поэтому ем тоже бутерброды или заказываю пиццу.",
+                  "— Так. Понятно. Алкоголь употребляете?",
+                  "— Мы с коллегами после работы часто ходим в бар.",
+                  "— А спортом вы занимаетесь?",
+                  "— Да что вы! Я на работе по 12 часов провожу! Потом уже ни на что сил не хватает.",
+                  "— А в выходные?",
+                  "— В выходные я тоже часто работаю. Работы много.",
+                  "— Всё ясно. У вас, молодой человек, болезнь 21-го века. Вы трудоголик. И если дело так дальше пойдёт, вы наживёте себе серьёзные болезни. Нельзя так безразлично относиться к своему здоровью.",
+                  "— А конкретно что вы посоветуете?",
+                  "— Поменять режим дня. Следить за питанием. Заняться спортом.",
+                  "— А, может, лекарства?",
+                  "— Лекарства в вашем случае не помогут."
+                ]
+              }
+            },
+            {
+              "exercise": "17-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-05-lifestyle/dialogue3.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-05-lifestyle/dialogues/ruvoc_u5_dia3.mp3",
+                  "label": "Диалог 3"
+                },
+                "transcript": [
+                  "— Привет, Рита! Извини, что опоздала, я прямо с тренировки.",
+                  "— Привет, Соня! Ничего страшного. Проходи, садись за стол. Угощайся. Положить тебе пирожков?",
+                  "— Ой, нет, спасибо. Я только салатику поем.",
+                  "— Зря отказываешься. Пирожки вкуснейшие. Пальчики оближешь",
+                  "— Я знаю, Рита, но всё равно не буду. Я на диете.",
+                  "— Ты? Выглядишь нормально. Куда тебе худеть?",
+                  "— Я, когда экзамены сдавала, стресс шоколадом заедала. Поправилась. В любимые джинсы не влезаю.",
+                  "— А, кстати, на какую тренировку ты ходила?",
+                  "— Я в фитнес-центр записалась. Хожу в бассейн и на аэробику.",
+                  "— Ну и как?",
+                  "— Всё болит. И если честно, иногда хочется всё бросить. Но пока я держу себя в руках.",
+                  "— Ну, молодчина! Надо мне с тебя пример взять и тоже спортом заняться."
+                ]
+              }
+            }
+          ]
+        },
+        "18-reading"
+      ]
+    }
+  ],
+  "modals": ["credits"],
+  "credits": "credits"
+}

@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 3",
+  "content": {
+    "items": [
+      {
+        "text": "to cause damage — [наносить ущерб]"
+      },
+      {
+        "text": "insurance — [страховка]"
+      },
+      {
+        "text": "to waste time — [тратить время зря]"
+      },
+      {
+        "text": "impressions — [впечатления]"
+      },
+      {
+        "text": "remote corners — [отдалённые уголки]"
+      },
+      {
+        "text": "naturally — [естественно]"
+      },
+      {
+        "text": "to combine — [совмещать]"
+      },
+      {
+        "text": "volunteer — [волонтёр]"
+      },
+      {
+        "text": "to limit — [ограничивать]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

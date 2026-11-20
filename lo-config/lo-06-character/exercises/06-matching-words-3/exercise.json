@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 3",
+  "content": {
+    "items": [
+      {
+        "text": "fair-haired — [светловолосый]"
+      },
+      {
+        "text": "cautious — [осторожный]"
+      },
+      {
+        "text": "quick(hot)-tempered — [вспыльчивый]"
+      },
+      {
+        "text": "compassionate — [сострадательный]"
+      },
+      {
+        "text": "mole — [родинка]"
+      },
+      {
+        "text": "prone — [склонный]"
+      },
+      {
+        "text": "characteristic features — [характерные черты]"
+      },
+      {
+        "text": "he is short — [он небольшого роста]"
+      },
+      {
+        "text": "guileless — [простодушный]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}
