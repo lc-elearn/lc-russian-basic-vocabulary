@@ -1,0 +1,159 @@
+{
+  "title": "Education · Образование",
+  "description": "Discuss types of education, theoretical and practical knowledge, and different views of higher education.",
+  "image": "images/lo-09-education/card.jpg",
+  "hero": {
+    "src": "images/lo-09-education/hero.png"
+  },
+  "sections": [
+    {
+      "id": "introduction",
+      "label": "Introduction · Введение",
+      "navLabel": "Introduction",
+      "blocks": ["00-intro", "01-outcomes"]
+    },
+    {
+      "id": "vocabulary",
+      "label": "Vocabulary · Словарь",
+      "navLabel": "Vocabulary",
+      "blocks": ["02-vocabulary-intro", "03-vocabulary"]
+    },
+    {
+      "id": "exercises",
+      "label": "Exercises · Упражнения",
+      "navLabel": "Exercises",
+      "blocks": ["05-intro"],
+      "exercises": [
+        {
+          "title": "1. Flash cards",
+          "tabs": [
+            {
+              "exercise": "01-flashcards-verbs"
+            },
+            {
+              "exercise": "02-flashcards-nouns"
+            },
+            {
+              "exercise": "03-flashcards-adjectives"
+            }
+          ]
+        },
+        {
+          "title": "2. Matching words",
+          "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "04-matching-words-1"
+            },
+            {
+              "exercise": "05-matching-words-2"
+            },
+            {
+              "exercise": "06-matching-words-3"
+            }
+          ]
+        },
+        "07-multiple-choice",
+        {
+          "title": "4. Match the halves",
+          "instructions": "Find the matching half of each sentence by moving the phrases in the right-hand column. Start from the top. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "08-match-halves-1"
+            },
+            {
+              "exercise": "09-match-halves-2"
+            }
+          ]
+        },
+        {
+          "title": "5. Fill in the gaps",
+          "tabs": [
+            {
+              "exercise": "10-fill-gaps-1"
+            },
+            {
+              "exercise": "11-fill-gaps-2"
+            }
+          ]
+        },
+        {
+          "title": "6. Reconstruct the text",
+          "tabs": [
+            {
+              "exercise": "12-reconstruct-1"
+            },
+            {
+              "exercise": "13-reconstruct-2"
+            },
+            {
+              "exercise": "14-reconstruct-3"
+            }
+          ]
+        },
+        {
+          "title": "7. Set expressions",
+          "instructions": "Listen to each dialogue, then choose the set expression that fits the line. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "tabs": [
+            {
+              "exercise": "15-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-09-education/dialogue1.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-09-education/dialogues/ruvoc_u9_dia1.mp3",
+                  "label": "Диалог 1"
+                },
+                "transcript": [
+                  "— Здравствуйте, Нина Николаевна, я мама Саши Васильева. Вы хотели со мной поговорить?",
+                  "— Здравствуйте, Лидия Борисовна. Вы знаете, у Саши снизилась успеваемость. За последний месяц он получил три двойки по английскому.",
+                  "— Да, с английским ему трудно. Ему больше по душе естественные науки, а языки ему даются с трудом. Он жалуется, что не запоминает слова.",
+                  "— А как он делает домашнее задание?",
+                  "— Ммм… Он читает тексты, которые Вы задаёте, выписывает незнакомые слова, делает упражнения.",
+                  "— А он повторяет слова из прошлых уроков? Например, из текстов, которые мы разбирали неделю или, скажем, месяц назад?",
+                  "— Кажется, нет... По крайней мере, я не видела, чтобы он это делал или просил меня проверить его.",
+                  "— Ну, вот видите. Память надо тренировать. Вы ведь знаете, что повторение — мать учения. Обязательно нужно повторять слова. И делать это регулярно, а не от случая к случаю. Мы говорим об этом на уроках. Но, видимо, Саша не прислушивается к моим советам. Может быть, у Вас получится объяснить это Саше.",
+                  "— Я обязательно поговорю с ним."
+                ]
+              }
+            },
+            {
+              "exercise": "16-set-expressions",
+              "media": {
+                "image": {
+                  "kind": "portrait",
+                  "src": "images/lo-09-education/dialogue2.png",
+                  "alt": ""
+                },
+                "audio": {
+                  "src": "audio/lo-09-education/dialogues/ruvoc_u9_dia2.mp3",
+                  "label": "Диалог 2"
+                },
+                "transcript": [
+                  "— Привет, Стивен, ты чего такой бледный? Ты как себя чувствуешь? Ты не заболел?",
+                  "— Привет, Алёна, я сегодня почти не спал. Всю ночь повторял глаголы движения. У меня после обеда экзамен по русской грамматике. Волнуюсь ужасно!",
+                  "— Да не волнуйся ты так, ты ведь к экзамену не вчера готовиться начал, а весь семестр старательно занимался. Значит, сдашь.",
+                  "— Ты думаешь?",
+                  "— Я уверена. Только ты успокойся, волнение на экзамене не лучший помощник.",
+                  "— Я постараюсь.",
+                  "— Знаешь, что у нас перед экзаменом желают? Ни пуха ни пера!",
+                  "— Спасибо.",
+                  "— Эх ты, надо отвечать: «К чёрту!»",
+                  "— К чёрту!",
+                  "— Ну вот, совсем другое дело."
+                ]
+              }
+            }
+          ]
+        },
+        "17-reading-1",
+        "18-reading-2"
+      ]
+    }
+  ],
+  "modals": ["credits"],
+  "credits": "credits"
+}

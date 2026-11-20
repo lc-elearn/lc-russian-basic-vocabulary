@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 2",
+  "content": {
+    "items": [
+      {
+        "text": "vocational college — [училище]"
+      },
+      {
+        "text": "after graduation — [по окончании вуза]"
+      },
+      {
+        "text": "merit — [достоинство]"
+      },
+      {
+        "text": "highly-paid — [высокооплачиваемый]"
+      },
+      {
+        "text": "end of year work — [курсовая работа]"
+      },
+      {
+        "text": "studies — [учёба]"
+      },
+      {
+        "text": "to enter (university) — [поступить]"
+      },
+      {
+        "text": "hardworking — [трудолюбивый]"
+      },
+      {
+        "text": "academic performance — [успеваемость]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}

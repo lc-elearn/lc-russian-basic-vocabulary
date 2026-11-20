@@ -1,0 +1,731 @@
+{
+  "type": "vocabulary",
+  "title": "Vocabulary",
+  "options": {
+    "selfTest": true,
+    "letterHeadings": true
+  },
+  "content": {
+    "topics": [
+      {
+        "id": "types",
+        "heading": "Types of education · Ви́ды образова́ния"
+      },
+      {
+        "id": "schools",
+        "heading": "Schools and universities · Шко́лы и ву́зы"
+      },
+      {
+        "id": "sciences",
+        "heading": "Sciences · Нау́ки"
+      },
+      {
+        "id": "teachers",
+        "heading": "Pupils and teachers · Ученики́ и учителя́"
+      },
+      {
+        "id": "studies",
+        "heading": "Studies and timetable · Учёба и расписа́ние"
+      },
+      {
+        "id": "learning",
+        "heading": "Learning and teaching · Изуче́ние и преподава́ние"
+      },
+      {
+        "id": "admission",
+        "heading": "Getting into university · Поступле́ние в вуз"
+      },
+      {
+        "id": "years",
+        "heading": "University years and exams · Ку́рсы и экза́мены"
+      },
+      {
+        "id": "marks",
+        "heading": "Performance and marks · Успева́емость и отме́тки"
+      },
+      {
+        "id": "grants",
+        "heading": "Grants and earnings · Стипе́ндия и за́работок"
+      },
+      {
+        "id": "graduation",
+        "heading": "Graduation · Оконча́ние ву́за"
+      },
+      {
+        "id": "employment",
+        "heading": "Finding work · Трудоустро́йство"
+      },
+      {
+        "id": "skills",
+        "heading": "Experience and skills · О́пыт и на́выки"
+      },
+      {
+        "id": "qualities",
+        "heading": "Personal qualities · Ли́чные ка́чества"
+      },
+      {
+        "id": "development",
+        "heading": "Personal development · Разви́тие ли́чности"
+      },
+      {
+        "id": "pros-cons",
+        "heading": "Merits and shortcomings · Досто́инства и недоста́тки"
+      }
+    ],
+    "items": [
+      {
+        "term": "дневно́е/вече́рнее отделе́ние",
+        "gloss": "day-time (full-time)/evening-time (part-time) education",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_1.mp3",
+        "topic": "types",
+        "only": "topics"
+      },
+      {
+        "term": "о́чное/зао́чное обуче́ние",
+        "gloss": "full-time/distance learning",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_2.mp3",
+        "topic": "types",
+        "only": "topics"
+      },
+      {
+        "term": "пла́тное/беспла́тное образова́ние",
+        "gloss": "fee based/free education",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_3.mp3",
+        "topic": "types",
+        "only": "topics"
+      },
+      {
+        "term": "госуда́рственная/ча́стная шко́ла",
+        "gloss": "state/private school",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_4.mp3",
+        "topic": "types",
+        "only": "topics"
+      },
+      {
+        "term": "досту́пный",
+        "gloss": "accessible",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_5.mp3",
+        "topic": "types"
+      },
+      {
+        "term": "нача́льная шко́ла",
+        "gloss": "primary school",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_6.mp3",
+        "topic": "schools"
+      },
+      {
+        "term": "сре́дняя шко́ла",
+        "gloss": "secondary school",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_7.mp3",
+        "topic": "schools"
+      },
+      {
+        "term": "учи́лище",
+        "gloss": "vocational college (institution providing specialist instruction at secondary level)",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_8.mp3",
+        "topic": "schools"
+      },
+      {
+        "term": "вы́сшее уче́бное заведе́ние (вуз)",
+        "gloss": "institution of higher education",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_9.mp3",
+        "topic": "schools"
+      },
+      {
+        "term": "нау́ка",
+        "gloss": "science, scholarship",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_10.mp3",
+        "topic": "sciences"
+      },
+      {
+        "term": "нау́чный",
+        "gloss": "scientific; scholarly; academic",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_11.mp3",
+        "topic": "sciences"
+      },
+      {
+        "term": "учёный",
+        "gloss": "scientist, scholar",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_12.mp3",
+        "topic": ["sciences", "teachers"]
+      },
+      {
+        "term": "гуманита́рные нау́ки",
+        "gloss": "humanities",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_13.mp3",
+        "topic": "sciences"
+      },
+      {
+        "term": "есте́ственные нау́ки",
+        "gloss": "natural sciences",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_14.mp3",
+        "topic": "sciences"
+      },
+      {
+        "term": "учени́к",
+        "gloss": "pupil (at school)",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_15.mp3",
+        "topic": "teachers"
+      },
+      {
+        "term": "уча́щийся",
+        "gloss": "student, pupil",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_16.mp3",
+        "topic": "teachers"
+      },
+      {
+        "term": "учи́тель (m)",
+        "gloss": "teacher",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_18.mp3",
+        "topic": "teachers"
+      },
+      {
+        "term": "преподава́тель (m)",
+        "gloss": "teacher",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_19.mp3",
+        "topic": "teachers"
+      },
+      {
+        "term": "учёба",
+        "gloss": "studies",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_20.mp3",
+        "topic": "studies"
+      },
+      {
+        "term": "уче́бный год",
+        "gloss": "academic year",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_21.mp3",
+        "topic": "studies"
+      },
+      {
+        "term": "расписа́ние",
+        "gloss": "schedule, time-table",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_22.mp3",
+        "topic": "studies"
+      },
+      {
+        "term": "предме́т",
+        "gloss": "subject",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_23.mp3",
+        "topic": "studies"
+      },
+      {
+        "term": "уче́бник",
+        "gloss": "textbook",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_24.mp3",
+        "topic": "studies"
+      },
+      {
+        "term": "учи́ть/вы́учить (слова́, пра́вила и т. д.)",
+        "gloss": "to learn",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_25.mp3",
+        "topic": "learning"
+      },
+      {
+        "term": "учи́ть/научи́ть (+ Acc + Dat/+ inf) (научи́ть дете́й чте́нию/чита́ть)",
+        "gloss": "to teach (to teach children to read)",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_26.mp3",
+        "topic": "learning"
+      },
+      {
+        "term": "преподава́ть (impf only) (+ Dat + Acc) (преподава́ть де́тям литерату́ру)",
+        "gloss": "to teach",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_27.mp3",
+        "topic": "learning"
+      },
+      {
+        "term": "изуча́ть/изучи́ть (+ Acc) (Я изуча́ю ру́сскую литерату́ру и исто́рию)",
+        "gloss": "to study in depth",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_28.mp3",
+        "topic": "learning",
+        "only": "topics"
+      },
+      {
+        "term": "учи́ться (impf only) (+ where ?)",
+        "gloss": "to study, to be a student",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_29.mp3",
+        "topic": "learning"
+      },
+      {
+        "term": "учи́ться/научи́ться (+ Dat/+ inf) (научи́ться ру́сскому языку́/говори́ть по-ру́сски)",
+        "gloss": "to acquire skills",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_30.mp3",
+        "topic": "learning"
+      },
+      {
+        "term": "абитурие́нт",
+        "gloss": "prospective student",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_31.mp3",
+        "topic": "admission"
+      },
+      {
+        "term": "поступа́ть/поступи́ть (в университе́т, институ́т)",
+        "gloss": "to enter university, to matriculate",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_32.mp3",
+        "topic": "admission"
+      },
+      {
+        "term": "вступи́тельные экза́мены",
+        "gloss": "entrance (admission) examination",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_33.mp3",
+        "topic": "admission"
+      },
+      {
+        "term": "ЕГЭ (еди́ный госуда́рственный экза́мен)",
+        "gloss": "Unified State Exam (an equivalent of A-level)",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_34.mp3",
+        "topic": "admission"
+      },
+      {
+        "term": "курс (пе́рвый, второ́й и т. д.)",
+        "gloss": "year at university or institute",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_35.mp3",
+        "topic": "years"
+      },
+      {
+        "term": "одноку́рсник(и)",
+        "gloss": "student(s) in the same year",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_36.mp3",
+        "topic": "years"
+      },
+      {
+        "term": "первоку́рсник(и)",
+        "gloss": "first-year student(s)",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_37.mp3",
+        "topic": "years"
+      },
+      {
+        "term": "курсова́я рабо́та",
+        "gloss": "course work, end of year work",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_38.mp3",
+        "topic": "years"
+      },
+      {
+        "term": "дипло́мная рабо́та",
+        "gloss": "graduation thesis",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_39.mp3",
+        "topic": "years"
+      },
+      {
+        "term": "диссерта́ция",
+        "gloss": "PhD",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_40.mp3",
+        "topic": "years"
+      },
+      {
+        "term": "аспира́нт",
+        "gloss": "post-graduate student",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_41.mp3",
+        "topic": "years"
+      },
+      {
+        "term": "(экзаменацио́нная) се́ссия",
+        "gloss": "examination period",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_42.mp3",
+        "topic": "years"
+      },
+      {
+        "term": "сдава́ть экза́мен (impf only)",
+        "gloss": "to sit an exam",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_43.mp3",
+        "topic": "years"
+      },
+      {
+        "term": "сдать экза́мен (pf only)",
+        "gloss": "to pass an exam",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_44.mp3",
+        "topic": "years"
+      },
+      {
+        "term": "задава́ть/зада́ть (дома́шнее зада́ние) (Нам за́дали написа́ть сочине́ние)",
+        "gloss": "to set (homework)",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_45.mp3",
+        "topic": "years"
+      },
+      {
+        "term": "успева́емость (f)",
+        "gloss": "academic performance",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_46.mp3",
+        "topic": "marks"
+      },
+      {
+        "term": "у́ровень (m)",
+        "gloss": "level",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_47.mp3",
+        "topic": "marks"
+      },
+      {
+        "term": "отме́тка (also оце́нка)",
+        "gloss": "mark",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_48.mp3",
+        "topic": "marks"
+      },
+      {
+        "term": "пятёрка",
+        "gloss": "top mark in the Russian assessment system, first",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_49.mp3",
+        "topic": "marks"
+      },
+      {
+        "term": "отли́чник",
+        "gloss": "a pupil or a student who has only excellent marks",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_50.mp3",
+        "topic": "marks"
+      },
+      {
+        "term": "учи́ться на отли́чно",
+        "gloss": "to have only excellent marks",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_51.mp3",
+        "topic": "marks"
+      },
+      {
+        "term": "дво́йка",
+        "gloss": "worst mark in the Russian assessment system, fail",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_52.mp3",
+        "topic": "marks"
+      },
+      {
+        "term": "дво́ечник",
+        "gloss": "under-achiever, flunker",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_53.mp3",
+        "topic": "marks"
+      },
+      {
+        "term": "стипе́ндия",
+        "gloss": "scholarship, bursary",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_54.mp3",
+        "topic": "grants"
+      },
+      {
+        "term": "повы́шенная стипе́ндия",
+        "gloss": "increased scholarship, bursary",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_55.mp3",
+        "topic": "grants"
+      },
+      {
+        "term": "увели́чивать/увели́чить стипе́ндию",
+        "gloss": "to raise bursary",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_56.mp3",
+        "topic": "grants"
+      },
+      {
+        "term": "подраба́тывать/подрабо́тать",
+        "gloss": "to have an extra job; to earn extra money",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_57.mp3",
+        "topic": "grants"
+      },
+      {
+        "term": "дополни́тельный за́работок",
+        "gloss": "additional earnings",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_58.mp3",
+        "topic": "grants"
+      },
+      {
+        "term": "студе́нческие ски́дки",
+        "gloss": "student discounts",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_59.mp3",
+        "topic": "grants"
+      },
+      {
+        "term": "зака́нчивать/зако́нчить (Что вы зака́нчивали?)",
+        "gloss": "to graduate (Where did you graduate from?)",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_60.mp3",
+        "topic": "graduation"
+      },
+      {
+        "term": "выпускни́к",
+        "gloss": "graduant",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_61.mp3",
+        "topic": "graduation"
+      },
+      {
+        "term": "оконча́ние; по оконча́нии ву́за",
+        "gloss": "graduation; after graduation",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_62.mp3",
+        "topic": "graduation"
+      },
+      {
+        "term": "получа́ть/получи́ть дипло́м",
+        "gloss": "to qualify, to get a degree certificate",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_63.mp3",
+        "topic": "graduation"
+      },
+      {
+        "term": "специали́ст (по + Dat) (специали́ст ПО ру́сскому языку́)",
+        "gloss": "specialist, expert in smth.",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_64.mp3",
+        "topic": "graduation"
+      },
+      {
+        "term": "устра́иваться/устро́иться на рабо́ту",
+        "gloss": "to find job/employment",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_65.mp3",
+        "topic": "employment"
+      },
+      {
+        "term": "трудоустро́йство",
+        "gloss": "employment",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_66.mp3",
+        "topic": "employment"
+      },
+      {
+        "term": "высокоопла́чиваемая рабо́та",
+        "gloss": "highly paid job",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_67.mp3",
+        "topic": "employment"
+      },
+      {
+        "term": "рабо́та по специа́льности",
+        "gloss": "work in one’s profession",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_68.mp3",
+        "topic": "employment"
+      },
+      {
+        "term": "работода́тель (m)",
+        "gloss": "employer",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_69.mp3",
+        "topic": "employment"
+      },
+      {
+        "term": "собесе́дование",
+        "gloss": "(job/admission) interview",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_70.mp3",
+        "topic": "employment"
+      },
+      {
+        "term": "о́пыт",
+        "gloss": "1. experience; 2. experiment",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_71.mp3",
+        "topic": "skills"
+      },
+      {
+        "term": "на́вык",
+        "gloss": "skill",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_72.mp3",
+        "topic": "skills"
+      },
+      {
+        "term": "стажирова́ться (impf only)",
+        "gloss": "to intern",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_73.mp3",
+        "topic": "skills"
+      },
+      {
+        "term": "стажиро́вка",
+        "gloss": "internship",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_74.mp3",
+        "topic": "skills"
+      },
+      {
+        "term": "стажёр",
+        "gloss": "intern",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_75.mp3",
+        "topic": "skills"
+      },
+      {
+        "term": "самостоя́тельный",
+        "gloss": "independent, self-sufficient",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_76.mp3",
+        "topic": "qualities"
+      },
+      {
+        "term": "трудолюби́вый",
+        "gloss": "hardworking",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_77.mp3",
+        "topic": "qualities"
+      },
+      {
+        "term": "работоспосо́бность (f)",
+        "gloss": "working efficiency, capacity",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_78.mp3",
+        "topic": "qualities"
+      },
+      {
+        "term": "приле́жный",
+        "gloss": "diligent",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_79.mp3",
+        "topic": "qualities"
+      },
+      {
+        "term": "стара́тельный",
+        "gloss": "assiduous",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_80.mp3",
+        "topic": "qualities"
+      },
+      {
+        "term": "стара́ться/постара́ться",
+        "gloss": "to apply oneself, to do one’s best",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_81.mp3",
+        "topic": "qualities"
+      },
+      {
+        "term": "реализо́вывать/реализова́ть себя́",
+        "gloss": "to fulfil one’s potential",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_81a.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "расширя́ть/расши́рить кругозо́р",
+        "gloss": "to broaden horizons",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_82.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "ограни́чивать/ограни́чить",
+        "gloss": "to limit",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_83.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "владе́ть/овладе́ть (+ Instr) (зна́ниями, языко́м)",
+        "gloss": "to master",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_84.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "выраба́тывать/вы́работать привы́чку",
+        "gloss": "to develop a habit",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_85.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "заду́мываться/заду́маться (над + Inst)",
+        "gloss": "to ponder",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_86.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "развива́ться/разви́ться",
+        "gloss": "to develop (oneself)",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_87.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "разви́тие",
+        "gloss": "development",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_88.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "воспи́тывать/воспита́ть",
+        "gloss": "to bring up, to raise",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_89.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "нра́вственный",
+        "gloss": "moral",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_90.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "обеспе́чивать/обеспе́чить (+ Acc + Inst) (обеспе́чить ученико́в уче́бниками)",
+        "gloss": "to provide",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_91.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "обеспе́чивать/обеспе́чить (+ Dat + Acc) (обеспе́чить населе́нию рабо́ту)",
+        "gloss": "to guarantee, to ensure",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_92.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "лиша́ть/лиши́ть (+ Gen)",
+        "gloss": "to deprive",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_93.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "осуществля́ть/осуществи́ть",
+        "gloss": "to realise, to implement",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_94.mp3",
+        "topic": "development"
+      },
+      {
+        "term": "досто́инство",
+        "gloss": "merit",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_95.mp3",
+        "topic": "pros-cons"
+      },
+      {
+        "term": "недоста́ток",
+        "gloss": "shortcoming, fault",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_96.mp3",
+        "topic": "pros-cons"
+      },
+      {
+        "term": "отсу́тствие",
+        "gloss": "absence",
+        "audio": "audio/lo-09-education/vocab-semantic/ruvoc_u9_svocab_97.mp3",
+        "topic": "pros-cons"
+      },
+      {
+        "term": "беспла́тное образова́ние",
+        "gloss": "free education",
+        "audio": "audio/lo-09-education/vocab-alphabetic/ruvoc_u9_avocab_3.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "вече́рнее отделе́ние",
+        "gloss": "evening-time (ie part-time) education",
+        "audio": "audio/lo-09-education/vocab-alphabetic/ruvoc_u9_avocab_4.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "госуда́рственная шко́ла",
+        "gloss": "state school",
+        "audio": "audio/lo-09-education/vocab-alphabetic/ruvoc_u9_avocab_12.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "дипло́м",
+        "gloss": "degree certificate",
+        "audio": "audio/lo-09-education/vocab-alphabetic/ruvoc_u9_avocab_16.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "дневно́е отделе́ние",
+        "gloss": "day-time (full-time) education",
+        "audio": "audio/lo-09-education/vocab-alphabetic/ruvoc_u9_avocab_19.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "зао́чное обуче́ние",
+        "gloss": "distance learning",
+        "audio": "audio/lo-09-education/vocab-alphabetic/ruvoc_u9_avocab_28.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "изуча́ть/изучи́ть (Я изуча́ю ру́сскую литерату́ру и исто́рию)",
+        "gloss": "to study in depth",
+        "audio": "audio/lo-09-education/vocab-alphabetic/ruvoc_u9_avocab_29.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "обуча́ть/обучи́ть (+ Acc + Dat) (обуча́ть иностра́нцев ру́сскому языку́)",
+        "gloss": "to teach, to instruct",
+        "audio": "audio/lo-09-education/vocab-alphabetic/ruvoc_u9_avocab_41.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "о́чное обуче́ние",
+        "gloss": "full-time learning",
+        "audio": "audio/lo-09-education/vocab-alphabetic/ruvoc_u9_avocab_50.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "пла́тное образова́ние",
+        "gloss": "fee based education",
+        "audio": "audio/lo-09-education/vocab-alphabetic/ruvoc_u9_avocab_52.mp3",
+        "only": "alphabetical"
+      },
+      {
+        "term": "ча́стная шко́ла",
+        "gloss": "private school",
+        "audio": "audio/lo-09-education/vocab-alphabetic/ruvoc_u9_avocab_102.mp3",
+        "only": "alphabetical"
+      }
+    ]
+  }
+}

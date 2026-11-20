@@ -1,0 +1,16 @@
+{
+  "type": "outcomes",
+  "presentation": "plain",
+  "content": {
+    "lead": "Once you have completed this unit, you should be able to discuss:",
+    "items": [
+      "types of education;",
+      "theoretical vs. practical knowledge;",
+      "different opinions about higher education."
+    ],
+    "image": {
+      "src": "images/lo-09-education/card.jpg",
+      "alt": ""
+    }
+  }
+}

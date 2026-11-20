@@ -1,0 +1,38 @@
+{
+  "type": "drag-fill-gaps",
+  "title": "Part 3",
+  "content": {
+    "items": [
+      {
+        "text": "absence — [отсутствие]"
+      },
+      {
+        "text": "level — [уровень]"
+      },
+      {
+        "text": "pupil (at school) — [ученик]"
+      },
+      {
+        "text": "to limit — [ограничивать]"
+      },
+      {
+        "text": "scholar — [учёный]"
+      },
+      {
+        "text": "textbook — [учебник]"
+      },
+      {
+        "text": "employment — [трудоустройство]"
+      },
+      {
+        "text": "examination period — [сессия]"
+      },
+      {
+        "text": "to increase — [увеличить]"
+      }
+    ]
+  },
+  "options": {
+    "shuffle": true
+  }
+}
