@@ -1,15 +1,18 @@
 /**
  * line-match-schema.ts — the per-type `content` contract for the `line-match` engine
- * (#7). The learner matches each picture to its word. Scoring family: blank-grading
- * (one gradeable match per picture).
+ * (#7). The learner matches each picture, or each short text prompt, to its word.
+ * Scoring family: blank-grading (one gradeable match per item).
  *
  * Content shape:
- *   - items[]   one picture↔word pair each:
+ *   - items[]   one picture↔word or prompt↔word pair each:
  *       - id?            stable key used to pair picture with its word; falls back
  *                        to `label`. Labels must still look different:
  *                        the learner picks a word, and two alike could not both match.
  *       - label          the word the learner picks/connects (the answer).
- *       - image          the picture asset path.
+ *       - image?         the picture asset path, shown on the left.
+       - prompt?        a short text shown on the left instead of a picture, in the
+                        learner's own language (an English word for a Russian one).
+                        Each item has exactly one of `image` and `prompt`.
  *       - audio?         optional clip (e.g. hear the word).
  *       - alt?           accessibility alt text. IMPORTANT: never the `label` — a
  *                        screen-reader user would hear the answer. Describe the image
@@ -30,14 +33,26 @@ import { distinctLabelProblems } from '../lib/answer-checks';
 import { instructionsField } from '../lib/instructions';
 import { ExerciseConfigSchema } from '@/config/lo-schema';
 
-export const LineMatchItemSchema = z.object({
-  id: z.string().min(1).optional(),
-  label: z.string().min(1),
-  image: z.string().min(1),
-  audio: z.string().min(1).optional(),
-  alt: z.string().min(1).optional(),
-  localLanguage: z.string().min(1).optional(),
-});
+const NO_SOURCE_MESSAGE = 'Each line-match item needs a picture or a text prompt, not both.';
+
+export const LineMatchItemSchema = z
+  .object({
+    id: z.string().min(1).optional(),
+    label: z.string().min(1),
+    image: z.string().min(1).optional(),
+    prompt: z
+      .string()
+      .refine((value) => value.trim().length > 0, 'A line-match prompt cannot be blank.')
+      .optional(),
+    audio: z.string().min(1).optional(),
+    alt: z.string().min(1).optional(),
+    localLanguage: z.string().min(1).optional(),
+  })
+  // The left card shows one thing: a picture or a prompt. Neither leaves an empty card;
+  // both would leave the author unsure which one the learner sees.
+  .refine((item) => (item.image === undefined) !== (item.prompt === undefined), {
+    message: NO_SOURCE_MESSAGE,
+  });
 export type LineMatchItem = z.infer<typeof LineMatchItemSchema>;
 
 /** The key that pairs a picture with its word: explicit `id`, else the `label`. */

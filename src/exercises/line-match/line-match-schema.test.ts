@@ -64,6 +64,49 @@ describe('LineMatchContentSchema', () => {
   });
 });
 
+describe('LineMatchContentSchema — text prompts', () => {
+  test('parses items with a text prompt in place of a picture', () => {
+    const parsed = LineMatchContentSchema.parse({
+      items: [
+        { prompt: 'marriage', label: 'брак' },
+        { prompt: 'civil', label: 'гражданский' },
+      ],
+    });
+    expect(parsed.items[0].prompt).toBe('marriage');
+    expect(parsed.items[0].image).toBeUndefined();
+  });
+
+  test('rejects an item with neither a picture nor a prompt', () => {
+    expect(() =>
+      LineMatchContentSchema.parse({
+        items: [{ label: 'брак' }, { prompt: 'civil', label: 'гражданский' }],
+      }),
+    ).toThrow(/picture or a text prompt/);
+  });
+
+  test('rejects an item with both a picture and a prompt', () => {
+    expect(() =>
+      LineMatchContentSchema.parse({
+        items: [
+          { prompt: 'marriage', label: 'брак', image: 'a.svg' },
+          { prompt: 'civil', label: 'гражданский' },
+        ],
+      }),
+    ).toThrow(/picture or a text prompt/);
+  });
+
+  test('rejects a prompt that shows as nothing', () => {
+    expect(() =>
+      LineMatchContentSchema.parse({
+        items: [
+          { prompt: '   ', label: 'брак' },
+          { prompt: 'civil', label: 'гражданский' },
+        ],
+      }),
+    ).toThrow();
+  });
+});
+
 describe('LineMatchExerciseConfigSchema', () => {
   test('parses a full line-match envelope', () => {
     const parsed = LineMatchExerciseConfigSchema.parse({
