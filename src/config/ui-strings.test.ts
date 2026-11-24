@@ -82,6 +82,7 @@ test('ui-strings: the vocabulary block labels exist, view buttons as today', () 
   expect(resolveLabel('vocabularyRevealWord')).toBe('Reveal {language}, word {number}');
   expect(resolveLabel('vocabularyListenWord')).toBe('Listen: word {number}');
   expect(resolveLabel('vocabularyListen')).toBe('Listen: {term}');
+  expect(resolveLabel('listenAlongRow')).toBe('Play: {row}');
 });
 
 test('ui-strings: a block can rename the view buttons', () => {
@@ -95,6 +96,7 @@ test.each([
   ['vocabularyRevealWord', 'Reveal word {number}'],
   ['vocabularyListenWord', 'Listen'],
   ['vocabularyListen', 'Listen'],
+  ['listenAlongRow', 'Play'],
 ])('ui-strings: %s without its placeholders is rejected (%s)', (key, value) => {
   expect(UiStringsOverrideSchema.safeParse({ [key]: value }).success).toBe(false);
 });

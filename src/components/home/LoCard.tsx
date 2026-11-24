@@ -15,10 +15,13 @@
  * resolves against the CURRENT page URL and a root-absolute one 404s under a non-root
  * base (anti-pattern #28). Same rule for the image.
  *
- * Unlike the reference, links stay in this tab — the LO page header carries a link
- * home, so a new tab per lesson would only pile up windows.
+ * A lesson opens in a new tab (maintainer, 2026-11-19), so the course page stays
+ * open behind it; the card says so to a screen reader, as every new-tab link does
+ * (`opensInNewTab`). `noopener noreferrer` keeps the lesson from reaching back into
+ * this page. Whether the browser makes a tab or a window is the learner's setting.
  */
 import { BookOpenIcon, ArrowRightIcon } from 'lucide-react';
+import { resolveLabel } from '@/config/ui-strings';
 import { resolveAsset } from '@/lib/assets';
 import type { LoIndexEntry } from '@/lo/lo-index';
 
@@ -39,7 +42,12 @@ export default function LoCard({ lesson, index }: LoCardProps) {
       className="animate-in fade-in-0 slide-in-from-bottom-2 fill-mode-both duration-500 motion-reduce:animate-none"
       style={{ animationDelay: `${Math.min(index * STAGGER_STEP_MS, MAX_STAGGER_MS)}ms` }}
     >
-      <a href={resolveAsset(`${lesson.slug}.html`)} className="lo-card">
+      <a
+        href={resolveAsset(`${lesson.slug}.html`)}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="lo-card"
+      >
         {/* <div>s, not <span>s: the <h3> below is flow content, and a <span> may hold
             phrasing content only (html-validate, header a11y audit 2026-10-06). An <a>
             in an <li> is transparent to flow content, so this is valid here. */}
@@ -79,6 +87,7 @@ export default function LoCard({ lesson, index }: LoCardProps) {
           Start learning
           <ArrowRightIcon className="lo-card-cta-icon size-4" aria-hidden="true" />
         </span>
+        <span className="sr-only">{` ${resolveLabel('opensInNewTab')}`}</span>
       </a>
     </li>
   );

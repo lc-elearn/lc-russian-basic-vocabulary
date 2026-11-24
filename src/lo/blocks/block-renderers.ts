@@ -18,6 +18,7 @@
 import type { ComponentType } from 'react';
 import type { BlockConfig } from '@/config/lo-schema';
 import type { UiStringsOverride } from '@/config/ui-strings';
+import { ListenAlongBlock } from './ListenAlongBlock';
 import { OutcomesBlock } from './OutcomesBlock';
 import { SourcesBlock } from './SourcesBlock';
 import { TabsBlock } from './TabsBlock';
@@ -52,6 +53,7 @@ export const BLOCK_RENDERERS: Readonly<Record<string, BlockRenderer>> = {
   outcomes: OutcomesBlock,
   tabs: TabsBlock,
   sources: SourcesBlock,
+  'listen-along': ListenAlongBlock,
 };
 
 /** Resolve a block renderer by type, or `undefined` if no such type ships. */

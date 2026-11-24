@@ -9,9 +9,11 @@
  * with its caption, the player beneath at the same width.
  *
  * THE TRANSCRIPT TOGGLE IS NATIVE `<details>`. The summary carries BOTH labels, each
- * with its icon, and `group-open:` shows the right one, so the accessible name is
- * always the visible label. No React state: it works before hydration, the prerender
- * equals the first client render, and the browser announces expanded/collapsed.
+ * with its icon, and `group-open/transcript:` shows the right one, so the accessible
+ * name is always the visible label. No React state: it works before hydration, the
+ * prerender equals the first client render, and the browser announces expanded/collapsed.
+ * The group is NAMED because an unnamed `group-open:` matches ANY open `.group` above
+ * it, and LoAccordion is one: in a card the button read "Hide" while closed (2026-11-20).
  *
  * The player is `AudioClip`'s native variant inside `.rich-text-player`, the same
  * element a rich-text audio player renders, so the two look identical.
@@ -57,13 +59,13 @@ function MediaImg({ image, className }: { image: MediaImage; className: string }
 function Transcript({ entries }: { entries: readonly RichTextEntry[] }) {
   return (
     // `media-transcript`: the open/close slide in media-panel.css.
-    <details className="media-transcript group">
+    <details className="media-transcript group/transcript">
       <summary className={SUMMARY_CLASSES}>
-        <span className="inline-flex items-center gap-2 group-open:hidden">
+        <span className="inline-flex items-center gap-2 group-open/transcript:hidden">
           <Eye aria-hidden="true" className="size-4" />
           {resolveLabel('showTranscript')}
         </span>
-        <span className="hidden items-center gap-2 group-open:inline-flex">
+        <span className="hidden items-center gap-2 group-open/transcript:inline-flex">
           <EyeOff aria-hidden="true" className="size-4" />
           {resolveLabel('hideTranscript')}
         </span>

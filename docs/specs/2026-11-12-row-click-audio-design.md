@@ -30,6 +30,17 @@
 > row with the click is the outer bordered `<div>` holding the prompt and the
 > `<span data-gap-row>`, so a tap on the prompt plays too. (Recorded 2026-11-12.)
 
+> **Extended 2026-11-20: rich-text tables and lists (template issue 140).** A `<tr>` or
+> `<li>` in authored rich text (`src/lo/rich-text/RichTextEntries.tsx`: prose, grammar
+> and tab blocks, popups) that holds **exactly one** speaker is a clip row, with the same
+> helper, attribute and classes. A row with two speakers is left alone, since a row-wide
+> click cannot know which clip was meant; a row with none is unchanged. Which rows are
+> marked is read from the parsed nodes, so the prerender agrees with the first client
+> render. The table's focusable scroll container needs nothing more: §4 already matches
+> controls only inside the row. Tests: `RichTextEntries.test.tsx` ("row clips in rich
+> text") and `e2e/rich-text-row-clip.spec.ts` (a phone tap on the example lesson's
+> conjugation popup, chromium, firefox and webkit; shown to fail without the change).
+
 ## 1. Why
 
 A learner on a phone should be able to tap anywhere on a row that has its own recording

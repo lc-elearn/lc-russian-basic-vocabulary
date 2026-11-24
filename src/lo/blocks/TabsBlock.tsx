@@ -10,6 +10,7 @@
 import InstructionsCallout from '@/components/shell/InstructionsCallout';
 import { TabSet } from '@/components/shell/TabSet';
 import { RichTextEntries } from '../rich-text/RichTextEntries';
+import { ListenAlong } from './ListenAlong';
 import { MediaPanel } from './MediaPanel';
 import { parseBlockContent } from './parse-block-content';
 import { TabsBlockContentSchema } from './tabs-block-schema';
@@ -34,6 +35,9 @@ export function TabsBlock({ content }: { content: unknown }) {
               {/* The accordions' instruction box, first in every panel. */}
               <InstructionsCallout className="mt-0 mb-3">{tab.instructions}</InstructionsCallout>
               {tab.media === undefined ? null : <MediaPanel media={tab.media} className="mb-4" />}
+              {tab.listenAlong === undefined ? null : (
+                <ListenAlong list={tab.listenAlong} className="mb-4" />
+              )}
               <div className="space-y-3">
                 <RichTextEntries entries={tab.text} paragraphClassName="text-foreground" />
               </div>

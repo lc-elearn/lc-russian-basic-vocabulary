@@ -37,7 +37,10 @@ broken link; do not treat any of them as a page of the course.
 ## Content blocks
 
 An LO page is built from blocks declared in its JSON. Block types: `intro`,
-`prose`, `grammar`, `vocabulary`, `outcomes`, `tabs` and `sources`. A `tabs` block is a
+`prose`, `grammar`, `vocabulary`, `outcomes`, `tabs`, `sources` and `listen-along`. A
+`listen-along` block is one native audio player above one or two tables of rows; the
+row being heard is lit (visual only), and each row's speaker button plays just that row's
+part of the recording (a tab can hold one too). A `tabs` block is a
 WAI-ARIA tab set (arrow keys, Home/End); below 48rem of block width the tab row is
 hidden and a select dropdown (a combobox, named like the tablist) chooses the panel
 instead. Its panels hold rich text and optional media (an image, an audio player and a

@@ -11,6 +11,7 @@
 import { describe, expect, test } from 'vitest';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { courseConfig } from '@/config/course.config';
+import { resolveLabel } from '@/config/ui-strings';
 import type { LoIndexEntry } from '@/lo/lo-index';
 import { headingId } from '@/lib/heading-id';
 import CourseHome from './CourseHome';
@@ -151,5 +152,19 @@ describe('CourseHome', () => {
     const html = renderToStaticMarkup(<CourseHome lessons={[]} />);
 
     expect(html).not.toContain('aria-label="Back to top"');
+  });
+
+  // Maintainer, 2026-11-19: a lesson opens in a new tab, so the course page stays
+  // open behind it. The card says so to a screen reader, as every new-tab link does.
+  test('opens each lesson in a new tab, and says so', () => {
+    const html = renderToStaticMarkup(<CourseHome lessons={LESSONS} />);
+    const cards = html.match(/<a [^>]*class="lo-card"[^>]*>.*?<\/a>/gs) ?? [];
+
+    expect(cards).toHaveLength(LESSONS.length);
+    for (const card of cards) {
+      expect(card).toContain('target="_blank"');
+      expect(card).toContain('rel="noopener noreferrer"');
+      expect(card).toContain(`<span class="sr-only"> ${resolveLabel('opensInNewTab')}</span>`);
+    }
   });
 });

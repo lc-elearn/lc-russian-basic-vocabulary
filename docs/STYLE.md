@@ -230,7 +230,8 @@ A row that carries its own recording plays it when clicked or tapped anywhere on
 through `src/audio/row-clip.ts` (`onClick={playRowClip}`, `data-row-clip`,
 `ROW_CLIP_CLASSES`), never a copy of it. The speaker stays the keyboard path; the row gets
 no role or tab stop. Flashcards and memory match are the exception: a tap there turns the
-card over. Spec:
+card over. A table row or list item in authored rich text counts when it holds exactly
+one speaker. Spec:
 [`docs/specs/2026-11-12-row-click-audio-design.md`](specs/2026-11-12-row-click-audio-design.md).
 
 ## When unsure
