@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 2",
   "content": {
     "items": [
       {
-        "text": "moral — [нравственный]"
+        "prompt": "moral",
+        "label": "нравственный"
       },
       {
-        "text": "to marry (for a woman) — [выходить замуж]"
+        "prompt": "to marry (for a woman)",
+        "label": "выходить замуж"
       },
       {
-        "text": "attitude — [отношение]"
+        "prompt": "attitude",
+        "label": "отношение"
       },
       {
-        "text": "dissatisfied — [недовольный]"
+        "prompt": "dissatisfied",
+        "label": "недовольный"
       },
       {
-        "text": "to be afraid of — [бояться]"
+        "prompt": "to be afraid of",
+        "label": "бояться"
       },
       {
-        "text": "modern — [современный]"
+        "prompt": "modern",
+        "label": "современный"
       },
       {
-        "text": "to make decisions — [принимать решения]"
+        "prompt": "to make decisions",
+        "label": "принимать решения"
       },
       {
-        "text": "everyday routine — [быт]"
+        "prompt": "everyday routine",
+        "label": "быт"
       },
       {
-        "text": "to limit — [ограничивать]"
+        "prompt": "to limit",
+        "label": "ограничивать"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

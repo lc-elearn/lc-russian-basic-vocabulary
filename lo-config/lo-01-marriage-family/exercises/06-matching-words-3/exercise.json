@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 3",
   "content": {
     "items": [
       {
-        "text": "equal rights — [равноправие]"
+        "prompt": "equal rights",
+        "label": "равноправие"
       },
       {
-        "text": "to marry (for a man) — [жениться]"
+        "prompt": "to marry (for a man)",
+        "label": "жениться"
       },
       {
-        "text": "negative — [отрицательный]"
+        "prompt": "negative",
+        "label": "отрицательный"
       },
       {
-        "text": "to keep house — [вести хозяйство]"
+        "prompt": "to keep house",
+        "label": "вести хозяйство"
       },
       {
-        "text": "wedding — [свадьба]"
+        "prompt": "wedding",
+        "label": "свадьба"
       },
       {
-        "text": "to have a certain attitude — [относиться]"
+        "prompt": "to have a certain attitude",
+        "label": "относиться"
       },
       {
-        "text": "unequal — [неравный]"
+        "prompt": "unequal",
+        "label": "неравный"
       },
       {
-        "text": "professional growth — [профессиональный рост]"
+        "prompt": "professional growth",
+        "label": "профессиональный рост"
       },
       {
-        "text": "to worry — [беспокоить]"
+        "prompt": "to worry",
+        "label": "беспокоить"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }
