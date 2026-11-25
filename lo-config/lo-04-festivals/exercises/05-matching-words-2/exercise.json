@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 2",
   "content": {
     "items": [
       {
-        "text": "orthodoxy — [православие]"
+        "prompt": "orthodoxy",
+        "label": "православие"
       },
       {
-        "text": "to decorate — [украшать]"
+        "prompt": "to decorate",
+        "label": "украшать"
       },
       {
-        "text": "to become a thing of the past — [уходить в прошлое]"
+        "prompt": "to become a thing of the past",
+        "label": "уходить в прошлое"
       },
       {
-        "text": "jubilee — [юбилей]"
+        "prompt": "jubilee",
+        "label": "юбилей"
       },
       {
-        "text": "state — [государственный]"
+        "prompt": "state",
+        "label": "государственный"
       },
       {
-        "text": "to cause smb. to feel smth. — [вызывать эмоции]"
+        "prompt": "to cause smb. to feel smth.",
+        "label": "вызывать эмоции"
       },
       {
-        "text": "positive — [положительный]"
+        "prompt": "positive",
+        "label": "положительный"
       },
       {
-        "text": "to welcome New Year in — [встречать Новый год]"
+        "prompt": "to welcome New Year in",
+        "label": "встречать Новый год"
       },
       {
-        "text": "to mark — [отмечать]"
+        "prompt": "to mark",
+        "label": "отмечать"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }
