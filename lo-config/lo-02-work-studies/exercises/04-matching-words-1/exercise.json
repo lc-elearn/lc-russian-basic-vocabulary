@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 1",
   "content": {
     "items": [
       {
-        "text": "to earn — [зарабатывать]"
+        "prompt": "to earn",
+        "label": "зарабатывать"
       },
       {
-        "text": "income — [доход]"
+        "prompt": "income",
+        "label": "доход"
       },
       {
-        "text": "paltry — [мизерный]"
+        "prompt": "paltry",
+        "label": "мизерный"
       },
       {
-        "text": "to raise — [повышать]"
+        "prompt": "to raise",
+        "label": "повышать"
       },
       {
-        "text": "unemployed — [безработный]"
+        "prompt": "unemployed",
+        "label": "безработный"
       },
       {
-        "text": "it is forbidden — [запрещено]"
+        "prompt": "it is forbidden",
+        "label": "запрещено"
       },
       {
-        "text": "reduction — [сокращение]"
+        "prompt": "reduction",
+        "label": "сокращение"
       },
       {
-        "text": "to spend (money) — [тратить]"
+        "prompt": "to spend (money)",
+        "label": "тратить"
       },
       {
-        "text": "additional — [дополнительный]"
+        "prompt": "additional",
+        "label": "дополнительный"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }
