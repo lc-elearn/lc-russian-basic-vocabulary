@@ -1,9 +1,9 @@
 {
   "title": "Work and studies · Работа и учёба",
   "description": "Discuss earning money, main and extra work, unemployment, how students support themselves, working hours and child labour.",
-  "image": "images/lo-02-work-studies/card.jpg",
+  "image": "images/lo-02-work-studies/card.webp",
   "hero": {
-    "src": "images/lo-02-work-studies/hero.png"
+    "src": "images/lo-02-work-studies/hero.webp"
   },
   "sections": [
     {
@@ -100,7 +100,7 @@
               "media": {
                 "image": {
                   "kind": "portrait",
-                  "src": "images/lo-02-work-studies/dialogue1.png",
+                  "src": "images/lo-02-work-studies/dialogue1.webp",
                   "alt": ""
                 },
                 "audio": {
@@ -121,7 +121,7 @@
               "media": {
                 "image": {
                   "kind": "portrait",
-                  "src": "images/lo-02-work-studies/dialogue2.png",
+                  "src": "images/lo-02-work-studies/dialogue2.webp",
                   "alt": ""
                 },
                 "audio": {
