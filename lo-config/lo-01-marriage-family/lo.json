@@ -1,9 +1,9 @@
 {
   "title": "Marriage and family · Брак и семья",
   "description": "Discuss marriage, divorce and having children, sharing domestic responsibilities and equal rights for men and women.",
-  "image": "images/lo-01-marriage-family/card.jpg",
+  "image": "images/lo-01-marriage-family/card.webp",
   "hero": {
-    "src": "images/lo-01-marriage-family/hero.png"
+    "src": "images/lo-01-marriage-family/hero.webp"
   },
   "sections": [
     {
@@ -97,7 +97,7 @@
               "media": {
                 "image": {
                   "kind": "portrait",
-                  "src": "images/lo-01-marriage-family/dialogue1.png",
+                  "src": "images/lo-01-marriage-family/dialogue1.webp",
                   "alt": ""
                 },
                 "audio": {
@@ -121,7 +121,7 @@
               "media": {
                 "image": {
                   "kind": "portrait",
-                  "src": "images/lo-01-marriage-family/dialogue2.png",
+                  "src": "images/lo-01-marriage-family/dialogue2.webp",
                   "alt": ""
                 },
                 "audio": {
