@@ -15,15 +15,17 @@ type InlineChoiceConfigInput = z.input<typeof InlineChoiceExerciseConfigSchema>;
 export const inlineChoiceFixtures: ShowcaseFixture[] = [
   {
     id: 'inline-choice',
-    title: 'inline-choice — radio pills (shuffled)',
+    title: 'inline-choice — radio pills (shuffled, explanations)',
     type: 'inline-choice',
     config: {
       type: 'inline-choice',
       content: {
         items: [
-          { text: 'Nosotros [*somos|sois|son] estudiantes.' },
-          { text: 'Vosotros [somos|*sois|son] de México.' },
-          { text: 'Ellas [somos|sois|*son] muy simpáticas.' },
+          // `explanation` shows beside its sentence only after a WRONG check (as
+          // radio-quiz's), so it stays with the sentence when `sampleSize` draws a subset.
+          { text: 'Nosotros [*somos|sois|son] estudiantes.', explanation: 'nosotros → somos' },
+          { text: 'Vosotros [somos|*sois|son] de México.', explanation: 'vosotros → sois' },
+          { text: 'Ellas [somos|sois|*son] muy simpáticas.', explanation: 'ellas → son' },
         ],
         footnote: 'Demo hint line — choose the correct option.',
       },

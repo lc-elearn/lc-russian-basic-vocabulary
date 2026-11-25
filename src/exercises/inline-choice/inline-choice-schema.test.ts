@@ -73,3 +73,22 @@ describe('InlineChoiceExerciseConfigSchema', () => {
     ).toThrow();
   });
 });
+
+// 2026-11-24 (Russian lesson 1): a hint beside its own sentence, shown after a wrong
+// Check, replaces one numbered footnote that no longer lines up once items are sampled.
+describe('InlineChoiceItemSchema explanation', () => {
+  test('accepts an optional per-item explanation', () => {
+    const parsed = InlineChoiceContentSchema.parse({
+      items: [{ text: 'Он женился [*на ней|её].', explanation: 'на + Prep' }, { text: '[*a|b]' }],
+    });
+    expect(parsed.items[0].explanation).toBe('на + Prep');
+    expect(parsed.items[1].explanation).toBeUndefined();
+  });
+
+  test('rejects an empty explanation', () => {
+    const result = InlineChoiceContentSchema.safeParse({
+      items: [{ text: '[*a|b]', explanation: '' }],
+    });
+    expect(result.error?.issues[0].path).toEqual(['items', 0, 'explanation']);
+  });
+});

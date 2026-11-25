@@ -26,8 +26,9 @@
  *
  * Spec: docs/specs/2026-06-19-exercise-engines-design.md §2, §5.2, §5.3, §7, §8.
  */
-import { useReducer, type DragEvent } from 'react';
+import { useReducer, type CSSProperties, type DragEvent } from 'react';
 import { playRowClip, ROW_CLIP_CLASSES } from '@/audio/row-clip';
+import { SquareDashedMousePointer } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { AudioClip } from '@/components/audio/AudioClip';
 import { ExerciseOptionsSchema } from '@/config/lo-schema';
@@ -273,8 +274,14 @@ export default function DragFillGapsExercise({ config }: ExerciseComponentProps)
   const hasPlacedAny = placedTileIds.size > 0 || nCorrect > 0;
   const showReset = hasPlacedAny || hasChecked || ownAtReveal !== null;
 
+  // The longest tile, in characters (not UTF-16 units), so each gap can be sized to
+  // fit it from CSS. Counted, not measured: the prerendered markup must equal the
+  // first client render, and a count is the same on both.
+  const longestTile = tiles.reduce((longest, tile) => Math.max(longest, [...tile.word].length), 0);
+  const rootStyle = { '--drag-fill-gaps-longest': `${longestTile}ch` } as CSSProperties;
+
   return (
-    <div className="drag-fill-gaps">
+    <div className="drag-fill-gaps" style={rootStyle}>
       <div
         className="drag-fill-gaps-bank"
         aria-label="Word bank"
@@ -337,7 +344,14 @@ export default function DragFillGapsExercise({ config }: ExerciseComponentProps)
                     onDragOver={(event) => handleSlotDragOver(event, slotId)}
                     onDrop={(event) => handleSlotDrop(event, slotId)}
                   >
-                    {placedTile ? placedTile.word : ' '}
+                    {placedTile ? (
+                      placedTile.word
+                    ) : (
+                      <SquareDashedMousePointer
+                        aria-hidden="true"
+                        className="drag-fill-gaps-slot-icon"
+                      />
+                    )}
                   </button>
                 );
               })}

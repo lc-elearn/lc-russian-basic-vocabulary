@@ -9,6 +9,9 @@
  * inline radio-pill group instead of a dropdown. The content shape is therefore
  * even simpler than select's — there is NO layoutMode (blanks always flow inline):
  *   - items[]   one sentence per entry; blanks are `[a|*b|c]` (`*` = correct).
+ *   - items[].explanation  optional note beside that sentence, shown only after
+ *               Check has marked it wrong (as radio-quiz's; 2026-11-24). Unlike a
+ *               numbered footnote it stays with its sentence when items are sampled.
  *   - footnote  optional plain-text note under the exercise.
  *
  * Per-item `audio` is accepted but NOT rendered yet (mirrors select): the audio
@@ -36,6 +39,8 @@ export const InlineChoiceItemSchema = z.object({
   text: sentenceWithBlanks(choiceBlankProblems),
   /** Reserved asset ref; playback deferred until the audio subsystem is ported. */
   audio: z.string().min(1).optional(),
+  /** A note shown beside this sentence only after Check marks it wrong (2026-11-24). */
+  explanation: z.string().min(1).optional(),
 });
 export type InlineChoiceItem = z.infer<typeof InlineChoiceItemSchema>;
 

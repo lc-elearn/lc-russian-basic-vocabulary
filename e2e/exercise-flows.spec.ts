@@ -26,7 +26,7 @@ test.describe('radio-quiz: answer, check, edit, reveal, reset', () => {
     quiz.getByRole('radiogroup', { name: `Choose answer for question ${n}` });
   const pick = (n: number, label: string): Promise<void> =>
     question(n).getByRole('radio', { name: label, exact: true }).click();
-  const explanation1 = (): Locator => quiz.getByText('«Buenos días» es formal');
+  const explanation1 = (): Locator => quiz.getByText('“Buenos días” is formal');
 
   test.beforeEach(async ({ page }) => {
     await page.goto('example.html');
@@ -45,7 +45,9 @@ test.describe('radio-quiz: answer, check, edit, reveal, reset', () => {
     await button(quiz, 'Check').click();
     await expect(progress(quiz)).toHaveText('1 correct out of 2');
     await expect(explanation1()).toBeVisible();
-    await expect(quiz.getByText('«Martes» es un día')).toHaveCount(0);
+    // The note describes its question's group, so a screen reader reads it there.
+    await expect(question(1)).toHaveAccessibleDescription(/“Buenos días” is formal/);
+    await expect(quiz.getByText('“Martes” is a day')).toHaveCount(0);
     await expect(button(quiz, 'Show answers')).toBeVisible();
   });
 

@@ -95,10 +95,16 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 4.5em;
+
+    /* At least 60% of the longest tile (its characters plus the tile's 0.85rem
+       padding each side), never wider than its line: a tile visibly fits the gap. */
+    min-width: max(4.5em, calc(0.6 * (var(--drag-fill-gaps-longest, 0ch) + 1.7rem)));
+    max-width: 100%;
     margin: 0 0.15em;
     padding: 0.15em 0.5em;
-    border: 1px dashed var(--border);
+
+    /* Not var(--border): that is 12% white in dark mode, which hid an empty gap. */
+    border: 1px dashed color-mix(in oklab, var(--muted-foreground) 70%, transparent);
     border-radius: calc(var(--radius) - 4px);
     background-color: var(--card);
     color: var(--card-foreground);
@@ -115,6 +121,13 @@
        compositor-friendly properties. A hover-only token colour is safe; the
        base-state declaration is what strands. */
     transition: box-shadow 150ms ease;
+  }
+
+  /* The drop icon in an empty gap: says "something goes here" in both themes. */
+  .drag-fill-gaps-slot-icon {
+    width: 1.1em;
+    height: 1.1em;
+    color: var(--muted-foreground);
   }
 
   .drag-fill-gaps-slot:focus-visible {

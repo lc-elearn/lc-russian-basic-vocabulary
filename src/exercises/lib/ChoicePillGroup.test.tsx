@@ -100,3 +100,19 @@ describe('ChoicePillGroup layout', () => {
     expect(separator).toContain('border-inline-end: 0;');
   });
 });
+
+// 2026-11-24: a note shown under the item after a wrong Check (ItemExplanation) is
+// tied to the group, so a screen reader reads it on entering the group.
+describe('ChoicePillGroup description', () => {
+  test('describedBy becomes the radiogroup aria-describedby', () => {
+    const html = renderToStaticMarkup(<ChoicePillGroup {...props} describedBy="q1-explanation" />);
+
+    expect(html).toMatch(
+      /role="radiogroup"[^>]*aria-describedby="q1-explanation"|aria-describedby="q1-explanation"[^>]*role="radiogroup"/,
+    );
+  });
+
+  test('without describedBy the group has no aria-describedby', () => {
+    expect(renderToStaticMarkup(<ChoicePillGroup {...props} />)).not.toContain('aria-describedby');
+  });
+});

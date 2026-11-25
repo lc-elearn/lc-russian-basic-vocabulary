@@ -28,6 +28,9 @@
  * always flow inline. Progress is the shared ProgressMeter, as in every scored
  * engine (french-lo-1's ProgressDots, ported 2026-10-09).
  *
+ * A sentence's `explanation` (2026-11-24) shows under it, inside its card, once Check
+ * has marked it wrong: the shared ItemExplanation, as radio-quiz's.
+ *
  * Deliberately NOT ported yet (YAGNI; see inline-choice-schema.ts): the audio
  * subsystem, rich-HTML content (no DOMPurify), per-row click-to-play.
  *
@@ -59,6 +62,7 @@ import {
   type PrepareChoiceOptions,
 } from '@/exercises/lib/prepare-choice-items';
 import { ChoicePillGroup } from '@/exercises/lib/ChoicePillGroup';
+import { ItemExplanation } from '@/exercises/lib/ItemExplanation';
 import { ExerciseFooter } from '@/exercises/lib/ExerciseFooter';
 import { ResultSlot } from '@/exercises/lib/ResultSlot';
 import { useExerciseScaffold } from '@/exercises/lib/exercise-scaffold';
@@ -132,7 +136,11 @@ export default function InlineChoiceExercise({ config }: ExerciseComponentProps)
   // One blank's renderer: the shared ChoicePillGroup wrapped in an inline `<span>`
   // so the pills flow mid-sentence. The verdict (correct/incorrect/ungraded) maps
   // this blank's checkedResults entry onto the group's coloring.
-  const renderChoiceGroup = (blankIndex: number, blanksMeta: ChoiceMeta[]): ReactNode => {
+  const renderChoiceGroup = (
+    blankIndex: number,
+    blanksMeta: ChoiceMeta[],
+    describedBy: string | undefined,
+  ): ReactNode => {
     const meta = blanksMeta[blankIndex];
     if (!meta) return null;
 
@@ -146,6 +154,7 @@ export default function InlineChoiceExercise({ config }: ExerciseComponentProps)
       <span className="mx-1 inline-flex align-middle" key={groupId}>
         <ChoicePillGroup
           contentLang={TARGET_LANG}
+          describedBy={describedBy}
           groupId={groupId}
           groupLabel={`Choose answer for blank ${blankIndex + 1}`}
           onSelect={(optionIndex) => handleChoiceChange(blankIndex, String(optionIndex))}
@@ -190,9 +199,18 @@ export default function InlineChoiceExercise({ config }: ExerciseComponentProps)
       .filter((segment): segment is ChoiceSegment => segment.type === 'choice')
       .map((segment) => segment.blankIndex);
 
+    // The sentence's note shows after a Check ONLY while one of its blanks is wrong
+    // (derived, as radio-quiz's): a re-answer clears that verdict and Show answers marks
+    // everything correct, so both hide it with no extra state.
+    const { explanation } = state.preparedItems[i];
+    const showExplanation =
+      Boolean(explanation) && rowBlankIndices.some((idx) => state.checkedResults[idx] === false);
+    const explanationId = `${uid}-item-${i}-explanation`;
+    const describedBy = showExplanation ? explanationId : undefined;
+
     const nodes = segments.map((segment) =>
       segment.type === 'choice' ? (
-        renderChoiceGroup(segment.blankIndex, blanksMeta)
+        renderChoiceGroup(segment.blankIndex, blanksMeta, describedBy)
       ) : (
         <span key={(segment as TextSegment).key} lang={TARGET_LANG}>
           {(segment as TextSegment).value}
@@ -210,6 +228,7 @@ export default function InlineChoiceExercise({ config }: ExerciseComponentProps)
           <span className="min-w-0">{nodes}</span>
           {renderResultSlot(rowBlankIndices)}
         </div>
+        <ItemExplanation id={explanationId} isShown={showExplanation} text={explanation} />
       </div>,
     );
   }

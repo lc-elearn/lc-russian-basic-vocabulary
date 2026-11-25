@@ -454,21 +454,48 @@ are refused on any other exercise.
 "options": { "shuffle": true, "showAnswersAfter": 2 }
 ```
 
-| Field              | Type             | Default   | Effect                                                      |
-| ------------------ | ---------------- | --------- | ----------------------------------------------------------- |
-| `shuffle`          | boolean          | `false`   | Randomise the order of the choices; Reset re-shuffles.      |
-| `sampleSize`       | positive integer | show all  | Show a random N of the items.                               |
-| `allowShowAnswers` | boolean          | `true`    | `false` removes the Show answers control entirely (a game). |
-| `showAnswersAfter` | integer ≥ 1      | see below | Failed tries before Show answers appears.                   |
-| `caseSensitive`    | boolean          | `false`   | Typed answers only: capitals count. Accents always count.   |
+| Field              | Type             | Default   | Effect                                                             |
+| ------------------ | ---------------- | --------- | ------------------------------------------------------------------ |
+| `shuffle`          | boolean          | `false`   | Randomise the order of the choices (see below); Reset re-shuffles. |
+| `sampleSize`       | positive integer | show all  | Show N of the items: a random N with `shuffle`, else the first N.  |
+| `allowShowAnswers` | boolean          | `true`    | `false` removes the Show answers control entirely (a game).        |
+| `showAnswersAfter` | integer ≥ 1      | see below | Failed tries before Show answers appears.                          |
+| `caseSensitive`    | boolean          | `false`   | Typed answers only: capitals count. Accents always count.          |
 
 A failed try is a Check with anything wrong, a missed pair in memory-match, or a wrong
 click in word-spot. `showAnswersAfter` defaults to 1, or 2 for word-order,
 phrase-reorder, drag-fill-gaps and memory-match. Show answers only ever appears while
-something is still wrong. Each type's `content` shape is its
+something is still wrong.
+
+In select and inline-choice, `shuffle` reorders the sentences as well as the options inside
+each blank, so `"shuffle": true, "sampleSize": 10` gives the learner a random 10 of the
+sentences in a random order, and a new 10 on Reset. Use it only when each sentence stands
+on its own; without `shuffle` the sentences keep their written order and `sampleSize` takes
+the first N. Radio-quiz shuffles the options of each question but keeps its questions in
+order.
+
+Each type's `content` shape is its
 `src/exercises/<type>/<type>-schema.ts`, with a working example in `<type>.fixture.ts`.
 Design: [`docs/specs/2026-06-19-exercise-engines-design.md`](docs/specs/2026-06-19-exercise-engines-design.md)
 §5–6; the schema is `ExerciseOptionsSchema` in `src/config/lo-schema.ts`.
+
+### A note after a wrong answer
+
+A radio-quiz question and an inline-choice sentence may carry an `explanation`: a short
+note, such as a grammar hint, shown under that item only after Check has marked it wrong.
+It is hidden before Check, when the item is right, once the learner changes the answer,
+and after Show answers. Write it in the language the course is taught in, not the one
+being learnt: a screen reader reads it in the page's voice.
+
+```json
+{
+  "text": "Мой друг женился [мою сестру|с моей сестрой|*на моей сестре].",
+  "explanation": "на + Prep"
+}
+```
+
+Prefer it to a numbered hint list in `footnote`: the note stays beside its sentence when
+`shuffle` and `sampleSize` change which sentences show and in what order.
 
 ### More than one right answer
 

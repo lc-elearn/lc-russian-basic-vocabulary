@@ -69,6 +69,12 @@ interface ChoicePillGroupProps {
    * `hasLongOption` (`long-options.ts`), so one exercise never mixes rows and lists.
    */
   stacked?: boolean;
+  /**
+   * Id of a note that describes this group (ItemExplanation, shown after a wrong
+   * Check), set as the radiogroup's `aria-describedby` so a screen reader reads it on
+   * entering the group. Omit while no note shows.
+   */
+  describedBy?: string;
 }
 
 /** One outer border, outer corners rounded; the separators come with the layout. */
@@ -102,6 +108,7 @@ export function ChoicePillGroup({
   contentLang,
   stacksWhenNarrow = false,
   stacked = false,
+  describedBy,
 }: ChoicePillGroupProps) {
   // One button per option, so a key press can move focus along with the selection.
   const pillRefs = useRef<(HTMLButtonElement | null)[]>([]);
@@ -147,6 +154,7 @@ export function ChoicePillGroup({
 
   const group = (
     <div
+      aria-describedby={describedBy}
       aria-label={groupLabel}
       className={`${stackingClasses(stacksWhenNarrow, stacked)} ${GROUP_BASE}`}
       role="radiogroup"
