@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 3",
   "content": {
     "items": [
       {
-        "text": "self-confidence — [уверенность в себе]"
+        "prompt": "self-confidence",
+        "label": "уверенность в себе"
       },
       {
-        "text": "to emerge — [возникать]"
+        "prompt": "to emerge",
+        "label": "возникать"
       },
       {
-        "text": "satisfied — [довольный]"
+        "prompt": "satisfied",
+        "label": "довольный"
       },
       {
-        "text": "well-being — [благополучие]"
+        "prompt": "well-being",
+        "label": "благополучие"
       },
       {
-        "text": "sufficiency — [достаток]"
+        "prompt": "sufficiency",
+        "label": "достаток"
       },
       {
-        "text": "to deserve — [заслуживать]"
+        "prompt": "to deserve",
+        "label": "заслуживать"
       },
       {
-        "text": "fame — [известность]"
+        "prompt": "fame",
+        "label": "известность"
       },
       {
-        "text": "aspiration — [стремление]"
+        "prompt": "aspiration",
+        "label": "стремление"
       },
       {
-        "text": "to assess — [оценивать]"
+        "prompt": "to assess",
+        "label": "оценивать"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }
