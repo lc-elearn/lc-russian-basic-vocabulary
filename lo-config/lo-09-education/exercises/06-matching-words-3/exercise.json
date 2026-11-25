@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 3",
   "content": {
     "items": [
       {
-        "text": "absence — [отсутствие]"
+        "prompt": "absence",
+        "label": "отсутствие"
       },
       {
-        "text": "level — [уровень]"
+        "prompt": "level",
+        "label": "уровень"
       },
       {
-        "text": "pupil (at school) — [ученик]"
+        "prompt": "pupil (at school)",
+        "label": "ученик"
       },
       {
-        "text": "to limit — [ограничивать]"
+        "prompt": "to limit",
+        "label": "ограничивать"
       },
       {
-        "text": "scholar — [учёный]"
+        "prompt": "scholar",
+        "label": "учёный"
       },
       {
-        "text": "textbook — [учебник]"
+        "prompt": "textbook",
+        "label": "учебник"
       },
       {
-        "text": "employment — [трудоустройство]"
+        "prompt": "employment",
+        "label": "трудоустройство"
       },
       {
-        "text": "examination period — [сессия]"
+        "prompt": "examination period",
+        "label": "сессия"
       },
       {
-        "text": "to increase — [увеличить]"
+        "prompt": "to increase",
+        "label": "увеличить"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

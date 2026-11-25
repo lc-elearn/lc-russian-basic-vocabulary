@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 1",
   "content": {
     "items": [
       {
-        "text": "academic year — [учебный год]"
+        "prompt": "academic year",
+        "label": "учебный год"
       },
       {
-        "text": "student (pupil) — [учащийся]"
+        "prompt": "student (pupil)",
+        "label": "учащийся"
       },
       {
-        "text": "to master — [овладеть]"
+        "prompt": "to master",
+        "label": "овладеть"
       },
       {
-        "text": "to sit exam — [сдавать экзамен]"
+        "prompt": "to sit exam",
+        "label": "сдавать экзамен"
       },
       {
-        "text": "to pass exam — [сдать экзамен]"
+        "prompt": "to pass exam",
+        "label": "сдать экзамен"
       },
       {
-        "text": "to deprive — [лишать]"
+        "prompt": "to deprive",
+        "label": "лишать"
       },
       {
-        "text": "internship — [стажировка]"
+        "prompt": "internship",
+        "label": "стажировка"
       },
       {
-        "text": "to apply oneself — [стараться]"
+        "prompt": "to apply oneself",
+        "label": "стараться"
       },
       {
-        "text": "working efficiency — [работоспособность]"
+        "prompt": "working efficiency",
+        "label": "работоспособность"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }
