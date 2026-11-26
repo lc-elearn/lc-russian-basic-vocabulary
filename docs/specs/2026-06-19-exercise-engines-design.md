@@ -43,7 +43,7 @@ same style already seeded in `lo-schema.ts`).
 | 7   | `word-order`      | WordOrderExercise      | Drags word cards into correct sentence order                           | Word-order rules                  | sequence       |
 | 8   | `phrase-reorder`  | PhraseReorderExercise  | Reorders a phrase to the expected order                                | Phrase-level syntax               | sequence       |
 | 9   | `drag-fill-gaps`  | DraggableFillGaps      | Drags word tiles into table/phrase slots                               | Vocab + agreement (kinesthetic)   | sequence       |
-| 10  | `line-match`      | LineMatch              | Draws connector lines image ↔ word                                     | Vocab recognition + visual memory | blank-grading  |
+| 10  | `line-match`      | LineMatch              | Draws connector lines image ↔ word, or text prompt ↔ word (2026-11-24) | Vocab recognition + visual memory | blank-grading  |
 | 11  | `memory-match`    | MemoryMatchGame        | Flips cards to pair image ↔ text                                       | Vocab retention (game)            | (own model)    |
 | 12  | `word-spot`       | WordSpotExercise       | Clicks bracketed part-words to mark a target sound                     | Phonetic recognition              | (own model)    |
 

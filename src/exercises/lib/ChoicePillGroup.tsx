@@ -69,13 +69,37 @@ interface ChoicePillGroupProps {
    * `hasLongOption` (`long-options.ts`), so one exercise never mixes rows and lists.
    */
   stacked?: boolean;
+  /**
+   * Id of a note that describes this group (ItemExplanation, shown after a wrong
+   * Check), set as the radiogroup's `aria-describedby` so a screen reader reads it on
+   * entering the group. Omit while no note shows.
+   */
+  describedBy?: string;
 }
 
 /** One outer border, outer corners rounded; the separators come with the layout. */
 const GROUP_BASE =
   'items-stretch overflow-hidden rounded-lg border border-border bg-background align-middle';
-/** The connected row at every width: `divide-x` draws the separators. */
-const GROUP_ROW = 'inline-flex divide-x divide-border';
+/**
+ * The connected row (inline-choice). While a line has room it is one row; when it has
+ * not (long options at 320 or 375px, 2026-11-25) the pills wrap onto further lines
+ * rather than run past the card and under the row's tick/cross. `max-w-full` keeps it
+ * inside its line. `divide-x` draws no line between wrapped lines, so each pill draws
+ * its own separators (`PILL_ROW`).
+ */
+const GROUP_ROW = 'inline-flex max-w-full flex-wrap';
+
+/**
+ * A row pill's separators: a hairline shadow to its left and above, outside the pill.
+ * The group's overflow-hidden clips the ones at its own edge, so only the lines between
+ * pills, and between wrapped lines, show. `grow` fills each wrapped line, so no gap is
+ * left unlined; a pill still wraps inside itself only when it alone is wider than the
+ * line. `px-2.5`, not the list's `px-3`, keeps "безнравственными" whole on a 320px
+ * showcase line. A word wider than its line hyphenates by the option's `lang`
+ * (`hyphens-auto`), and `overflow-wrap: anywhere` breaks one that cannot.
+ */
+const PILL_ROW =
+  'shadow-[-1px_-1px_0_var(--border)] grow justify-center px-2.5 hyphens-auto [overflow-wrap:anywhere]';
 
 /**
  * Segment base — layout + inset focus ring (--ring). No border/radius of its own;
@@ -84,7 +108,7 @@ const GROUP_ROW = 'inline-flex divide-x divide-border';
  * neighbouring divider. State colours are appended per segment.
  */
 const PILL_BASE =
-  'inline-flex min-h-8 cursor-pointer items-center px-3 py-1 text-sm font-medium transition-colors duration-200 ease-out select-none focus-visible:relative focus-visible:z-10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring';
+  'inline-flex min-h-8 cursor-pointer items-center py-1 text-sm font-medium transition-colors duration-200 ease-out select-none focus-visible:relative focus-visible:z-10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring';
 
 /** The group's layout classes: utilities for a row, or the stylesheet's own. */
 function stackingClasses(stacksWhenNarrow: boolean, stacked: boolean): string {
@@ -102,6 +126,7 @@ export function ChoicePillGroup({
   contentLang,
   stacksWhenNarrow = false,
   stacked = false,
+  describedBy,
 }: ChoicePillGroupProps) {
   // One button per option, so a key press can move focus along with the selection.
   const pillRefs = useRef<(HTMLButtonElement | null)[]>([]);
@@ -145,8 +170,11 @@ export function ChoicePillGroup({
     pillRefs.current[nextIndex]?.focus();
   };
 
+  const pillLayout = stacksWhenNarrow ? 'px-3' : PILL_ROW;
+
   const group = (
     <div
+      aria-describedby={describedBy}
       aria-label={groupLabel}
       className={`${stackingClasses(stacksWhenNarrow, stacked)} ${GROUP_BASE}`}
       role="radiogroup"
@@ -170,7 +198,7 @@ export function ChoicePillGroup({
         return (
           <button
             aria-checked={isSelected}
-            className={`${PILL_BASE} ${stateClasses}`}
+            className={`${PILL_BASE} ${pillLayout} ${stateClasses}`}
             key={`${groupId}-${optionIndex}`}
             onClick={() => onSelect(optionIndex)}
             onKeyDown={(event) => handleKeyDown(optionIndex, event)}

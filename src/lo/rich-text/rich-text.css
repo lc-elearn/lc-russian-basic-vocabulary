@@ -146,11 +146,13 @@
 
   /* A wide table scrolls sideways inside its region instead of widening a popup or the
      page column. The region is a tab stop (see RichTextEntries), so it owns a focus
-     outline — the shared 2px `--ring` shape from focus-outline.ts. */
+     outline — the shared 2px `--ring` shape from focus-outline.ts.
+     Square-cornered on purpose (template issue 156): `overflow-x: auto` clips in both
+     directions, so a radius here cut off the table's outer cell borders, which sit on
+     the region's edge, at its corners (e2e/rich-text-table.spec.ts). */
   .rich-text-table-scroll {
     max-width: 100%;
     overflow-x: auto;
-    border-radius: calc(var(--radius) * 0.6);
   }
 
   .rich-text-table-scroll:focus-visible {

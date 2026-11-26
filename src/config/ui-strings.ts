@@ -102,6 +102,9 @@ export const UiStringsSchema = z.strictObject({
   vocabularyRevealWord: labelWith('language', 'number'),
   vocabularyListen: labelWith('term'),
   vocabularyListenWord: labelWith('number'),
+  // The listen-along list (E66, spec 2026-11-20-listen-along-design §6): each row's
+  // speaker. {row} is the row's cells, joined by spaces.
+  listenAlongRow: labelWith('row'),
 });
 
 /** Full required map (Layer 1). */
@@ -158,6 +161,7 @@ const raw: UiStrings = {
   vocabularyRevealWord: 'Reveal {language}, word {number}',
   vocabularyListen: 'Listen: {term}',
   vocabularyListenWord: 'Listen: word {number}',
+  listenAlongRow: 'Play: {row}',
 };
 
 /** Validate at load. A missing/blank/typo key throws here → build dies immediately. */

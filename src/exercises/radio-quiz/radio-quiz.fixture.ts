@@ -29,22 +29,22 @@ export const radioQuizFixtures: ShowcaseFixture[] = [
           {
             prompt: '¿Cuál de estos saludos es formal?',
             options: ['¡Hola!', '*Buenos días', '¿Qué tal?'],
-            explanation: '«Buenos días» es formal; «¡Hola!» y «¿Qué tal?» son informales.',
+            explanation: '“Buenos días” is formal; “¡Hola!” and “¿Qué tal?” are informal.',
           },
           {
             prompt: 'En español, ¿qué palabra NO es un color?',
             options: ['rojo', '*martes', 'verde'],
-            explanation: '«Martes» es un día de la semana; «rojo» y «verde» son colores.',
+            explanation: '“Martes” is a day of the week; “rojo” and “verde” are colours.',
           },
           {
             prompt: '¿Qué significa «gracias» en inglés?',
             options: ['please', 'sorry', '*thank you'],
-            explanation: '«Gracias» se traduce como «thank you».',
+            explanation: '“Gracias” means “thank you”.',
           },
           {
             prompt: 'Son las 14:00. ¿Cómo se dice la hora?',
             options: ['Es la una', '*Son las dos de la tarde', 'Son las cuatro'],
-            explanation: 'Las 14:00 son «las dos de la tarde» (formato de 12 horas).',
+            explanation: '14:00 is “las dos de la tarde” (the 12-hour clock).',
           },
         ],
         footnote: 'Demo hint line — each question has one correct answer.',

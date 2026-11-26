@@ -393,6 +393,53 @@ has one in its last section, Sources (`blocks/08-sources/`).
 Plan and decisions:
 [`docs/process/2026-10-12-sources-block-plan.md`](docs/process/2026-10-12-sources-block-plan.md).
 
+### Listen-along list
+
+One recording and a list of what it says, row by row: an alphabet, numbers, a word
+list. While the recording plays, the row being heard is lit. A click anywhere on a row,
+or on its speaker, moves the player to that row and plays only that row, then stops. A
+list of 8 rows or more sits in two columns on a wide screen (first half, second half)
+and one on a phone. Add it as a `blocks/NN-listen-along/block.json` folder, or inside a
+tab as `listenAlong` (below).
+
+```json
+{
+  "type": "listen-along",
+  "presentation": "plain",
+  "content": {
+    "instructions": "Listen to the letter names. Click a letter to hear it again.",
+    "audio": { "src": "audio/lo-01-…/alphabet.mp3", "label": "Listen to the alphabet" },
+    "caption": "The German alphabet",
+    "headings": ["Letter", "Name"],
+    "rows": [
+      { "cells": ["A", "ah"], "start": 0.4 },
+      { "cells": ["B", "beh"], "start": 2.1 }
+    ],
+    "end": 51.8
+  }
+}
+```
+
+- `start` is the second in the recording where the row begins. The learner never sees
+  it. Each start must be later than the one before; a row ends where the next begins.
+- `end` (optional) is where the last row ends. Use it when the recording goes on after
+  the list (a name spelled aloud after the alphabet): that part lights no row. Without
+  it the last row runs to the end of the file.
+- `cells`: one to four plain-text cells per row, the same number on every row, and one
+  per heading when there are `headings`. The first cell heads its row for a screen
+  reader. `headings` are optional; `caption` and the player's `label` are required.
+- **In a tab:** put the same object, without `instructions`, under the tab's
+  `listenAlong`. It shows after the tab's `media` and before its `text`.
+- **Finding the starts:** play the file in any player that shows seconds, and write
+  down where each row begins, a little before its sound. A helper that proposes them
+  from the pauses is planned.
+- The speaker's name is the UI string `listenAlongRow` (`Play: {row}`), which a block's
+  `labels` can reword.
+
+Spec and plan:
+[`docs/specs/2026-11-20-listen-along-design.md`](docs/specs/2026-11-20-listen-along-design.md),
+[`docs/process/2026-11-20-listen-along-plan.md`](docs/process/2026-11-20-listen-along-plan.md).
+
 ### Exercise options
 
 Any `exercise.json` may add an `options` object beside `content`. Every exercise type
@@ -407,21 +454,48 @@ are refused on any other exercise.
 "options": { "shuffle": true, "showAnswersAfter": 2 }
 ```
 
-| Field              | Type             | Default   | Effect                                                      |
-| ------------------ | ---------------- | --------- | ----------------------------------------------------------- |
-| `shuffle`          | boolean          | `false`   | Randomise the order of the choices; Reset re-shuffles.      |
-| `sampleSize`       | positive integer | show all  | Show a random N of the items.                               |
-| `allowShowAnswers` | boolean          | `true`    | `false` removes the Show answers control entirely (a game). |
-| `showAnswersAfter` | integer ≥ 1      | see below | Failed tries before Show answers appears.                   |
-| `caseSensitive`    | boolean          | `false`   | Typed answers only: capitals count. Accents always count.   |
+| Field              | Type             | Default   | Effect                                                             |
+| ------------------ | ---------------- | --------- | ------------------------------------------------------------------ |
+| `shuffle`          | boolean          | `false`   | Randomise the order of the choices (see below); Reset re-shuffles. |
+| `sampleSize`       | positive integer | show all  | Show N of the items: a random N with `shuffle`, else the first N.  |
+| `allowShowAnswers` | boolean          | `true`    | `false` removes the Show answers control entirely (a game).        |
+| `showAnswersAfter` | integer ≥ 1      | see below | Failed tries before Show answers appears.                          |
+| `caseSensitive`    | boolean          | `false`   | Typed answers only: capitals count. Accents always count.          |
 
 A failed try is a Check with anything wrong, a missed pair in memory-match, or a wrong
 click in word-spot. `showAnswersAfter` defaults to 1, or 2 for word-order,
 phrase-reorder, drag-fill-gaps and memory-match. Show answers only ever appears while
-something is still wrong. Each type's `content` shape is its
+something is still wrong.
+
+In select and inline-choice, `shuffle` reorders the sentences as well as the options inside
+each blank, so `"shuffle": true, "sampleSize": 10` gives the learner a random 10 of the
+sentences in a random order, and a new 10 on Reset. Use it only when each sentence stands
+on its own; without `shuffle` the sentences keep their written order and `sampleSize` takes
+the first N. Radio-quiz shuffles the options of each question but keeps its questions in
+order.
+
+Each type's `content` shape is its
 `src/exercises/<type>/<type>-schema.ts`, with a working example in `<type>.fixture.ts`.
 Design: [`docs/specs/2026-06-19-exercise-engines-design.md`](docs/specs/2026-06-19-exercise-engines-design.md)
 §5–6; the schema is `ExerciseOptionsSchema` in `src/config/lo-schema.ts`.
+
+### A note after a wrong answer
+
+A radio-quiz question and an inline-choice sentence may carry an `explanation`: a short
+note, such as a grammar hint, shown under that item only after Check has marked it wrong.
+It is hidden before Check, when the item is right, once the learner changes the answer,
+and after Show answers. Write it in the language the course is taught in, not the one
+being learnt: a screen reader reads it in the page's voice.
+
+```json
+{
+  "text": "Мой друг женился [мою сестру|с моей сестрой|*на моей сестре].",
+  "explanation": "на + Prep"
+}
+```
+
+Prefer it to a numbered hint list in `footnote`: the note stays beside its sentence when
+`shuffle` and `sampleSize` change which sentences show and in what order.
 
 ### More than one right answer
 

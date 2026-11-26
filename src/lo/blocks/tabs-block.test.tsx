@@ -262,3 +262,51 @@ test('narrow shows the dropdown, @3xl shows the tab row — never both', () => {
   const box = html.slice(0, html.indexOf('role="combobox"'));
   expect(box.slice(box.lastIndexOf('<div'))).toMatch(/class="[^"]*@3xl:hidden\b/);
 });
+
+const listenAlong = {
+  audio: { src: 'audio/x/alphabet.mp3', label: 'Listen to the alphabet' },
+  caption: 'The alphabet',
+  rows: [
+    { cells: ['A', 'ah'], start: 0.4 },
+    { cells: ['B', 'beh'], start: 2.1 },
+  ],
+};
+
+const vowelsTab = { label: 'Vowels', instructions: 'Listen.', text: ['A, E, I, O, U.'] };
+
+/** A tab with media, a listen-along list and text, in the order an author writes them. */
+function alphabetTab(list: object) {
+  return {
+    label: 'Alphabet',
+    instructions: 'Listen to the letter names.',
+    media: {
+      audio: { src: 'audio/x/intro.mp3', label: 'Introduction' },
+      transcript: ['The letters of the alphabet.'],
+    },
+    listenAlong: list,
+    text: ['Y is called Üpsilon.'],
+  };
+}
+
+const listenTabs = { label: 'Alphabet and sounds', tabs: [alphabetTab(listenAlong), vowelsTab] };
+
+test('a tab may carry a listen-along list, which takes no instructions of its own', () => {
+  expect(TabsBlockContentSchema.safeParse(listenTabs).success).toBe(true);
+  const withInstructions = {
+    ...listenTabs,
+    tabs: [alphabetTab({ ...listenAlong, instructions: 'No.' }), vowelsTab],
+  };
+  expect(TabsBlockContentSchema.safeParse(withInstructions).success).toBe(false);
+});
+
+test('a tab renders its listen-along list after its media and before its text', () => {
+  const Renderer = getBlockRenderer('tabs');
+  if (!Renderer) throw new Error('no renderer for "tabs"');
+  const html = renderToStaticMarkup(<Renderer content={listenTabs} />);
+  const media = html.indexOf('intro.mp3');
+  const list = html.indexOf('The alphabet</figcaption>');
+  const text = html.indexOf('Y is called Üpsilon.');
+  expect(media).toBeGreaterThan(-1);
+  expect(list).toBeGreaterThan(media);
+  expect(text).toBeGreaterThan(list);
+});

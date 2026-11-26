@@ -18,9 +18,10 @@ next.
 > **2026-11-11**: template `d33ecb5` (E54 and E55) was merged into `sync-template` in all four courses, all clean
 > (TODO, update of that day), and Russian merged its PR 10 that morning. Later that day template `40419ee`
 > (E56–E59, exercise sets and credits) went onto a fresh Russian `sync-template` (`6282270`) with issue 14 (TODO,
-> update of that day), and template `41f1e56` onto Spanish, French and German's `sync-template`, all clean. Next: the authors open (Spanish, pilot R13;
-> German; Russian, from issue 14) or merge (French PR 4) those update pull requests, then the rest of the rules
-> pilot.
+> update of that day), and template `41f1e56` onto Spanish, French and German's `sync-template`, all clean. From then on,
+> each template update and its course pull requests are recorded only in [`process/TODO.md`](process/TODO.md) (its dated
+> entries); this banner no longer tracks them. **2026-11-24**: German merged template `2c85be4` (PR 8); Spanish and Russian
+> took the 19 Nov update; French is deferred by the maintainer, its 16 Nov update (issue 5) not started.
 >
 > **Decided 2026-10-12:** the template stayed under `pedbad` until the remaining template
 > work was finished. Tick to ✅ once the first course repo is working.

@@ -16,9 +16,12 @@
 
 /* The debug pages' header is pinned (src/sandbox/DebugPageHeader.tsx), so a jump-link
    target or a focused control scrolled into view must land BELOW it, not under it
-   (WCAG 2.4.11). The header publishes its measured height; 0 until it has. */
+   (WCAG 2.4.11). The header publishes its measured height; 0 until it has. It pins
+   from 48rem (Tailwind's `md`) up only, so the padding starts at the same width. */
 @layer base {
-  html {
-    scroll-padding-top: calc(var(--debug-header-height, 0rem) + 1rem);
+  @media (width >= 48rem) {
+    html {
+      scroll-padding-top: calc(var(--debug-header-height, 0rem) + 1rem);
+    }
   }
 }

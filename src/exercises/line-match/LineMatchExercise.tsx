@@ -1,6 +1,8 @@
 /**
  * LineMatchExercise.tsx — engine #7 of 12 (spec §2, §8). The learner matches each
  * picture to its word. Scoring family: blank-grading (one match per picture).
+ * An item may carry a text `prompt` instead of a picture (an English word matched to
+ * its Russian equivalent): the left card then shows that text where the picture was.
  *
  * Ported from french-lo-1's LineMatch. Two layouts, chosen by viewport:
  *   - mobile (<980px): each picture row picks its word with a <Select> dropdown.
@@ -358,13 +360,28 @@ export default function LineMatchExercise({ config }: ExerciseComponentProps) {
   const wordLabel = (wordKey: string): string =>
     state.wordBank.find((option) => lineMatchItemKey(option) === wordKey)?.label ?? '';
 
+  /** What the left card shows: the item's picture, or its text prompt. */
+  const renderSource = (item: LineMatchItem): ReactNode =>
+    item.prompt === undefined ? (
+      <img
+        alt={item.alt ?? item.localLanguage ?? ''}
+        className="aspect-square w-16 shrink-0 rounded-lg border border-border bg-background object-contain p-1"
+        loading="lazy"
+        src={resolveAsset(item.image ?? '')}
+      />
+    ) : (
+      <span className="min-w-0 text-left font-semibold text-foreground">{item.prompt}</span>
+    );
+
   // ---- Mobile layout: picture + <Select> dropdown ----
-  const renderMobileRow = (item: LineMatchItem): ReactNode => {
+  const renderMobileRow = (item: LineMatchItem, index: number): ReactNode => {
     const key = lineMatchItemKey(item);
     const picked = state.values[key] ?? '';
     const result = state.checkedResults[key];
     const hasResult = state.hasChecked && typeof result === 'boolean';
-    const selectId = `${uid}-match-${key}`;
+    // By position, not by key: a key is an author's word and may hold a space
+    // ("содержать семью"), which no id may (it splits the label's `for`).
+    const selectId = `${uid}-match-${index}`;
 
     return (
       // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions, jsx-a11y/click-events-have-key-events -- pointer-only enhancement (mouse and touch) over the speaker <button>, which is the keyboard path; see src/audio/row-clip.ts
@@ -384,17 +401,13 @@ export default function LineMatchExercise({ config }: ExerciseComponentProps) {
             soundFile={item.audio}
           />
         ) : null}
-        <img
-          alt={item.alt ?? item.localLanguage ?? ''}
-          className="aspect-square w-16 shrink-0 rounded-lg border border-border bg-background object-contain p-1"
-          loading="lazy"
-          src={resolveAsset(item.image)}
-        />
+        {renderSource(item)}
         <div className="min-w-0 flex-1">
-          <label
-            className="sr-only"
-            htmlFor={selectId}
-          >{`Word matching picture: ${item.localLanguage ?? key}`}</label>
+          <label className="sr-only" htmlFor={selectId}>
+            {item.prompt === undefined
+              ? `Word matching picture: ${item.localLanguage ?? key}`
+              : `Word matching: ${item.prompt}`}
+          </label>
           <Select value={picked} onValueChange={(next) => handleSelectChange(key, next ?? '')}>
             <SelectTrigger id={selectId} className="w-full">
               <SelectValue placeholder="Choose the matching word">
@@ -439,17 +452,16 @@ export default function LineMatchExercise({ config }: ExerciseComponentProps) {
       <li key={`lm-src-${key}`}>
         <button
           type="button"
-          aria-label={`Picture ${index + 1}${item.localLanguage ? ` (${item.localLanguage})` : ''}: select to connect`}
+          aria-label={
+            item.prompt === undefined
+              ? `Picture ${index + 1}${item.localLanguage ? ` (${item.localLanguage})` : ''}: select to connect`
+              : `Item ${index + 1}: ${item.prompt}: select to connect`
+          }
           aria-pressed={isActive}
           onClick={() => handleSourceActivate(key)}
           className={`flex h-full w-full items-center gap-3 rounded-xl border px-3 py-2 transition ${isCorrect ? 'border-success bg-success/10' : isActive ? 'border-primary bg-primary/10' : connected ? 'border-primary/50 bg-card' : 'border-border/70 bg-card hover:bg-accent/40'}`}
         >
-          <img
-            alt={item.alt ?? item.localLanguage ?? ''}
-            className="aspect-square w-16 shrink-0 rounded-lg border border-border bg-background object-contain p-1"
-            loading="lazy"
-            src={resolveAsset(item.image)}
-          />
+          {renderSource(item)}
           <span className="ml-auto" ref={(node) => setSourceNode(key, node)}>
             <span aria-hidden="true" className={dotClass(tone)} />
           </span>
