@@ -16,6 +16,9 @@ import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, test } from 'vitest';
 import { ChoicePillGroup } from './ChoicePillGroup';
 
+/** A left and top hairline, outside the pill: overflow-hidden clips them at the group's edge. */
+const PILL_SEPARATOR = 'shadow-[-1px_-1px_0_var(--border)]';
+
 const props = {
   options: ['En bicicleta', 'En coche', 'En autobús'],
   selectedIndex: -1,
@@ -41,8 +44,40 @@ describe('ChoicePillGroup layout', () => {
   test('is one connected inline row by default, at every width', () => {
     const html = renderToStaticMarkup(<ChoicePillGroup {...props} />);
 
-    expect(groupClasses(html)).toEqual(expect.arrayContaining(['inline-flex', 'divide-x']));
+    expect(groupClasses(html)).toContain('inline-flex');
     expect(html).not.toContain('choice-pills');
+  });
+
+  // 2026-11-25: inline-choice's row, with long options at 320/375px, was wider than
+  // its sentence column. It ran past the card and under the row's tick/cross, and
+  // pills wrapped inside themselves. Now the row wraps its pills onto further lines
+  // instead, and never grows wider than its line.
+  test('the inline row wraps its pills onto further lines, never wider than its line', () => {
+    const html = renderToStaticMarkup(<ChoicePillGroup {...props} />);
+
+    expect(groupClasses(html)).toEqual(expect.arrayContaining(['flex-wrap', 'max-w-full']));
+    // divide-x draws no line between wrapped lines; each pill draws its own instead.
+    expect(groupClasses(html)).not.toContain('divide-x');
+  });
+
+  test('each pill of the inline row draws its separators and fills its line', () => {
+    const html = renderToStaticMarkup(<ChoicePillGroup {...props} />);
+    const pills = [...html.matchAll(/<button[^>]*class="([^"]*)"/g)].map((match) =>
+      match[1].split(' '),
+    );
+
+    expect(pills).toHaveLength(3);
+    for (const pill of pills) {
+      expect(pill).toEqual(
+        expect.arrayContaining([PILL_SEPARATOR, 'grow', 'justify-center', 'hyphens-auto']),
+      );
+    }
+  });
+
+  test('a stacking group keeps its separators in CSS, not on its pills', () => {
+    const html = renderToStaticMarkup(<ChoicePillGroup {...props} stacksWhenNarrow />);
+
+    expect(html).not.toContain(PILL_SEPARATOR);
   });
 
   test('stacksWhenNarrow: the group sits in a container and owns its layout in CSS', () => {

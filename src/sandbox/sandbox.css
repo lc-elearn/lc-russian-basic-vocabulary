@@ -122,6 +122,22 @@
     font-size: 0.9em;
   }
 
+  /* LONG INLINE CODE BREAKS (2026-11-26). A repo path or a GitHub URL is one unbroken
+     word, and at 320px it ran past the page: 96px of sideways scroll on the Claude
+     skills page. `anywhere`, not `break-word`, because it also lowers the word's
+     min-content width, so a grid card holding it no longer grows past the screen.
+     A <pre> never soft-wraps, so its code is untouched; a table cell keeps its code
+     whole, since the table scrolls in its own wrapper instead. */
+  .doc-prose code,
+  .doc-prose .doc-path {
+    overflow-wrap: anywhere;
+  }
+
+  .doc-prose td code,
+  .doc-prose th code {
+    overflow-wrap: normal;
+  }
+
   .doc-prose pre {
     overflow-x: auto;
     padding: 0.9rem 1rem;

@@ -37,7 +37,9 @@ export default function ClaudeSkills() {
           description, or you can call one by name.
         </p>
 
-        <div className="mt-8 grid gap-6">
+        {/* grid-cols-1 is minmax(0,1fr): an open recipe's code block scrolls inside its
+            card instead of widening the grid's `auto` track past a 320px screen. */}
+        <div className="mt-8 grid grid-cols-1 gap-6">
           {CLAUDE_SKILLS.skills.map((skill) => (
             <section
               key={skill.id}

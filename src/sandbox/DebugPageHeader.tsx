@@ -17,6 +17,11 @@
  * `debug.css` pads the page's scrolling by that much. Measured, not fixed: the row wraps
  * on a narrow screen, and a guessed height would be wrong at one width or another.
  *
+ * NOT ON PHONES (maintainer, 2026-11-26): pinned from 48rem (`md:`) up only. At 320px
+ * the wrapped title, description and eight links took half the screen, pinned over every
+ * card. Below 48rem the bar scrolls away with the page, and debug.css drops the scroll
+ * padding there too, since nothing covers a target any more.
+ *
  * TWO ROWS (maintainer, 2026-10-16): the title, this page's tools and the theme switch
  * share the top row, the switch at its right end; the nav takes the row below. Source
  * order matches, so tabbing reaches the switch before the nav.
@@ -134,7 +139,7 @@ export function DebugPageHeader({
 }: DebugPageHeaderProps) {
   const headerRef = usePublishedHeight();
   return (
-    <header ref={headerRef} className="sticky top-0 z-40 border-b border-border bg-card">
+    <header ref={headerRef} className="top-0 z-40 border-b border-border bg-card md:sticky">
       <div className="page-frame flex flex-wrap items-start gap-x-6 gap-y-3 py-4">
         <div className="min-w-0 flex-1 basis-64">
           <h1 className="font-heading text-2xl font-bold">{title}</h1>

@@ -33,4 +33,29 @@ export const inlineChoiceFixtures: ShowcaseFixture[] = [
       options: { shuffle: true },
     } satisfies InlineChoiceConfigInput,
   },
+  {
+    // Long options (2026-11-25), from Russian lesson 1's "3. Multiple choice": at 320
+    // and 375px a row of these was wider than its sentence, ran past the card and under
+    // the tick/cross. e2e/debug/inline-choice-narrow.spec.ts measures both fixtures.
+    id: 'inline-choice-long',
+    title: 'inline-choice — long options (wrap at phone widths)',
+    type: 'inline-choice',
+    config: {
+      type: 'inline-choice',
+      content: {
+        items: [
+          { text: 'Мой друг женился [мою сестру|с моей сестрой|*на моей сестре].' },
+          {
+            text: 'Многие считают, что молодые люди стали [*безнравственными|безнравственных|безнравственные].',
+          },
+          {
+            text: 'Кухня, уборка, стирка требуют [силу и время|*сил и времени|силами и временем].',
+          },
+          {
+            text: 'Моя подруга по уши влюблена [с известным артистом|*в известного артиста|известный артист].',
+          },
+        ],
+      },
+    } satisfies InlineChoiceConfigInput,
+  },
 ];
