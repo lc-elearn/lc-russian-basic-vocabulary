@@ -1,9 +1,9 @@
 {
   "title": "Character and appearance · Характер и внешность",
   "description": "Describe what people look like and discuss character and different types of personality.",
-  "image": "images/lo-06-character/card.jpg",
+  "image": "images/lo-06-character/card.webp",
   "hero": {
-    "src": "images/lo-06-character/hero.png"
+    "src": "images/lo-06-character/hero.webp"
   },
   "sections": [
     {

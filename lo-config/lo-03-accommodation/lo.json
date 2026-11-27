@@ -1,9 +1,9 @@
 {
   "title": "Accommodation · Жильё",
   "description": "Discuss types of accommodation and their conveniences, life in the city and the countryside, finding a place to live, your dream house and homelessness.",
-  "image": "images/lo-03-accommodation/card.jpg",
+  "image": "images/lo-03-accommodation/card.webp",
   "hero": {
-    "src": "images/lo-03-accommodation/hero.png"
+    "src": "images/lo-03-accommodation/hero.webp"
   },
   "sections": [
     {
