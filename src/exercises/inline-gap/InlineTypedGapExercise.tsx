@@ -208,7 +208,10 @@ export default function InlineTypedGapExercise({ config }: ExerciseComponentProp
           placeholder={meta?.placeholder || 'Type…'}
           aria-invalid={isWrong}
           className={`inline-flex h-9 cursor-text transition-colors hover:border-primary/60 hover:bg-muted/40 ${isRight ? 'border-success' : ''}`}
-          style={{ width: `${meta?.widthCh ?? 8}ch`, maxWidth: '100%' }}
+          style={{
+            width: `calc(${meta?.widthCh ?? 8}ch + var(--gap-input-chrome))`,
+            maxWidth: '100%',
+          }}
         />
         {state.hasChecked && feedback ? (
           // Hangs under the blank without widening it (inline-gap.css, useHangUnder).

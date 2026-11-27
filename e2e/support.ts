@@ -214,7 +214,9 @@ export type PixelPoint = readonly [x: number, y: number];
  * screenshot (for a translucent colour, which only the paint itself shows blended). For a
  * fault only the paint shows — a border corner a mitre or a clip cuts off — where computed
  * style is right and the pixels are wrong (template issue 156). Decoded on a canvas in the
- * page itself, so no image library is needed. Run such a spec at `deviceScaleFactor: 1`:
+ * page itself, so no image library is needed: an `<img>` and a plain `<canvas>`, never
+ * `OffscreenCanvas` or `createImageBitmap`, which Playwright's WebKit on Windows lacks
+ * (Russian course PR 41; `e2e/pixels-at.spec.ts`). Run such a spec at `deviceScaleFactor: 1`:
  * at 2 (the WebKit project) an edge on a fractional CSS position downsamples to a blended
  * row.
  */
@@ -228,15 +230,19 @@ export async function pixelsAt(
   );
   return element.page().evaluate(
     async ({ png, points, reference }) => {
-      const blob = await (await fetch(`data:image/png;base64,${png}`)).blob();
-      const bitmap = await createImageBitmap(blob);
-      const canvas = new OffscreenCanvas(bitmap.width, bitmap.height);
+      const image = new Image();
+      image.src = `data:image/png;base64,${png}`;
+      await image.decode();
+      const { naturalWidth: width, naturalHeight: height } = image;
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
       const context = canvas.getContext('2d', { willReadFrequently: true });
       if (!context) throw new Error('no 2d canvas');
-      context.drawImage(bitmap, 0, 0);
+      context.drawImage(image, 0, 0);
       const at = ([x, y]: readonly [number, number]): number[] => [
         ...context
-          .getImageData(x < 0 ? bitmap.width + x : x, y < 0 ? bitmap.height + y : y, 1, 1)
+          .getImageData(x < 0 ? width + x : x, y < 0 ? height + y : y, 1, 1)
           .data.slice(0, 3),
       ];
       const pixels = points.map(at);

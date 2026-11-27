@@ -160,7 +160,8 @@ export interface InputMeta {
   /** Every answer the blank accepts, decoded, in authored order (TODO §E54). */
   accepted: string[];
   placeholder: string;
-  /** Suggested input width in `ch`: the longest answer, floored at 6, plus 2 padding. */
+  /** Text width in `ch`: the longest answer or the hint, floored at 6, plus 2 for wide
+   *  letters. The view adds the input's own padding and border on top (inline-gap.css). */
   widthCh: number;
 }
 
@@ -184,7 +185,8 @@ function splitInputBlank(rawInner: string): { answer: string; hint: string } {
  * into the answers the blank accepts (TODO §E54), and only then is each entity-decoded
  * and trimmed, so `&#124;` is a `|` the learner types. `expected` is the first, preferred
  * answer. `widthCh` sizes the input to the LONGEST answer (min 6 chars), so the width
- * does not give the preferred one away.
+ * does not give the preferred one away, or to the hint when that is longer: the hint
+ * shows inside the empty box, and a shorter box cut it off.
  */
 export function parseInputBlank(
   rawInner: string,
@@ -193,7 +195,10 @@ export function parseInputBlank(
   const { answer, hint } = splitInputBlank(rawInner);
   const accepted = splitAlternatives(answer).map((written) => decodeHtmlEntities(written).trim());
   const placeholder = decodeHtmlEntities(hint).trim();
-  const longest = Math.max(...accepted.map((alternative) => alternative.length));
+  const longest = Math.max(
+    placeholder.length,
+    ...accepted.map((alternative) => alternative.length),
+  );
 
   return {
     meta: { expected: accepted[0], accepted, placeholder, widthCh: Math.max(longest, 6) + 2 },

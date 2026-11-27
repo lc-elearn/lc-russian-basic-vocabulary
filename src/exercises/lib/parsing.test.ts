@@ -86,6 +86,13 @@ describe('parseInputBlank', () => {
     expect(parseInputBlank('va|anticonstitutionnel', 0).meta.widthCh).toBe(21); // 19+2
   });
 
+  // Maintainer, 2026-11-27: Russian's "is in love head over heels" hint was cut off in
+  // a box sized to its 8-letter answer. The hint shows in the box, so it must fit too.
+  test('widthCh fits a hint longer than the answer', () => {
+    expect(parseInputBlank('влюблена::is in love head over heels', 0).meta.widthCh).toBe(28); // 26+2
+    expect(parseInputBlank('anticonstitutionnel::hint', 0).meta.widthCh).toBe(21); // answer wins
+  });
+
   test('decodes each answer after the split: &#124; is text, never an "or"', () => {
     expect(parseInputBlank('a&#124;b|caf&eacute;', 0).meta.accepted).toEqual(['a|b', 'café']);
   });

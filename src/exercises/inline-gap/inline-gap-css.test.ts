@@ -34,6 +34,15 @@ describe('inline-gap.css', () => {
     expect(line).toMatch(/inset-inline-start: var\(--gap-hang-offset, 0\);/);
   });
 
+  // Maintainer, 2026-11-27: "wedding" was cut off in a 9ch box. `ch` sized the text but
+  // not the input's own padding and border, so the box adds them on top of its text width.
+  test('the input is its text width plus its own padding and border', () => {
+    expect(css).toMatch(/\.gap-blank\s*\{[^}]*--gap-input-chrome: calc\(2 \* 0\.625rem \+ 2px\);/);
+    expect(read('InlineTypedGapExercise.tsx')).toContain(
+      'width: `calc(${meta?.widthCh ?? 8}ch + var(--gap-input-chrome))`',
+    );
+  });
+
   test('the engine imports it and wraps each feedback line in .gap-hang', () => {
     const view = read('InlineTypedGapExercise.tsx');
     expect(view).toContain("import './inline-gap.css';");

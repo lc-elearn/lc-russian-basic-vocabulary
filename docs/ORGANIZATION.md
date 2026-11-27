@@ -474,6 +474,7 @@ course:
 | `lc-french-academic-reading`  | `french-academic-reading`  | its author                              |
 | `lc-german-basic`             | `german-basic`             | its author                              |
 | `lc-russian-basic-vocabulary` | `russian-basic-vocabulary` | its author (the French course's author) |
+| `lc-greek-new-testament`      | `greek-new-testament`      | its author                              |
 
 Every course belongs to the **Language Centre, University of Cambridge**, the copyright
 holder in [`LICENSE`](../LICENSE) and every course's footer, whoever writes it. Where no
@@ -535,6 +536,18 @@ rulesets, the effective rules on `main`; `CODEOWNERS` errors none. Team
 course's author, already in the organisation, so added directly with no invitation; they
 stay in `french-academic-reading`. `pedbad` was removed from the new team. It started after
 the lesson-image fix, so it needs no `sync-template` update.
+
+**Done 2026-11-26** (a fifth course, adapting a 2014 New Testament Greek course to the
+template): `lc-greek-new-testament`, forked through the API from template `main` at `c084992`
+(its push CI, run 45822084059, green). `gh repo edit` set merge commits only, head branches
+deleted, not a template, issues on. Rulesets A and B were copied as JSON from
+`lc-russian-basic-vocabulary` (IDs dropped), and the effective rules on `main` read back
+identical to that repo's; `CODEOWNERS` errors none. Pages was switched on through the API
+(`POST …/pages` with `build_type=workflow`), so item 6 needs no website visit. Team
+`greek-new-testament`, Visible, **Write** on that repo only; creating it and granting the repo
+worked with the token's existing scopes, but the invitation needs `admin:org`. **Still to do:**
+enable Actions on the website (item 1), invite the author into the team, remove `pedbad` from
+the team once they are in, and read back the team and the pending invitations.
 
 ## Step 8 — The colleague's setup
 

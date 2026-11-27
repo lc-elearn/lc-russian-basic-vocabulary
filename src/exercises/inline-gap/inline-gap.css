@@ -13,8 +13,13 @@
   /* Baseline, not middle: an inline-flex box's baseline is its input's, so the input
      stays on the sentence's line and feedback only grows the box downward. Middle-
      aligned, a taller box (answer + key) rode up past its neighbour, and two lines on
-     one text line no longer shared a top. */
+     one text line no longer shared a top.
+     `--gap-input-chrome` is the input's padding (`px-2.5`, 0.625rem a side) and 1px
+     border, which its `ch` width leaves out: the engine adds it so the text inside is
+     never cut off (maintainer, 2026-11-27). */
   .gap-blank {
+    --gap-input-chrome: calc(2 * 0.625rem + 2px);
+
     vertical-align: baseline;
   }
 
