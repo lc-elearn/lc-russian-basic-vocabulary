@@ -185,21 +185,27 @@ describe('DebugPageHeader', () => {
 
   // §E18 follow-up (maintainer, 2026-10-16): the bar holding the jump menu, the palette
   // drop-down and the theme switch stays in view while a debug page scrolls.
-  test('is pinned to the top of the page, over the content it scrolls past', () => {
+  // Phones (maintainer, 2026-11-26): from 48rem up only. At 320px the wrapped bar took
+  // half the screen, so below that it scrolls away with the page.
+  test('is pinned to the top of the page from 48rem up, over the content it scrolls past', () => {
     const header = /<header class="([^"]*)"/.exec(html)?.[1] ?? '';
-    expect(header).toMatch(/\bsticky\b/);
+    expect(header).toMatch(/(?:^|\s)md:sticky\b/);
+    expect(header).not.toMatch(/(?:^|\s)sticky\b/);
     expect(header).toMatch(/\btop-0\b/);
     expect(header).toMatch(/\bz-\d+\b/);
     expect(header).toMatch(/\bbg-card\b/);
   });
 
   // A pinned bar would cover a jump-link target and a focused control (WCAG 2.4.11).
-  // The header publishes its measured height; debug.css pads the page's scroll by it.
-  test('debug.css keeps anchors and focus clear of the pinned bar', () => {
+  // The header publishes its measured height; debug.css pads the page's scroll by it,
+  // at the same width the bar pins from, and not below it, where nothing covers them.
+  test('debug.css keeps anchors and focus clear of the pinned bar, only while it is pinned', () => {
     const debugCss = readFileSync(path.resolve(import.meta.dirname, '../debug.css'), 'utf8');
     const layered = /@layer base\s*\{([\s\S]*?)\n\}/.exec(debugCss)?.[1] ?? '';
     expect(layered).toMatch(
-      new RegExp(`html\\s*\\{[^}]*scroll-padding-top:[^;]*var\\(${DEBUG_HEADER_HEIGHT_VAR}`),
+      new RegExp(
+        `@media \\(width >= 48rem\\)\\s*\\{\\s*html\\s*\\{[^}]*scroll-padding-top:[^;]*var\\(${DEBUG_HEADER_HEIGHT_VAR}`,
+      ),
     );
   });
 });

@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 2",
   "content": {
     "items": [
       {
-        "text": "main — [основной]"
+        "prompt": "main",
+        "label": "основной"
       },
       {
-        "text": "to increase — [увеличивать]"
+        "prompt": "to increase",
+        "label": "увеличивать"
       },
       {
-        "text": "expenses — [расходы]"
+        "prompt": "expenses",
+        "label": "расходы"
       },
       {
-        "text": "unpaid — [бесплатно]"
+        "prompt": "unpaid",
+        "label": "бесплатно"
       },
       {
-        "text": "to get tired — [уставать]"
+        "prompt": "to get tired",
+        "label": "уставать"
       },
       {
-        "text": "salary — [зарплата]"
+        "prompt": "salary",
+        "label": "зарплата"
       },
       {
-        "text": "to find extra job — [подрабатывать]"
+        "prompt": "to find extra job",
+        "label": "подрабатывать"
       },
       {
-        "text": "to refuse — [отказываться]"
+        "prompt": "to refuse",
+        "label": "отказываться"
       },
       {
-        "text": "financial situation — [финансовое положение]"
+        "prompt": "financial situation",
+        "label": "финансовое положение"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

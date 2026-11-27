@@ -84,6 +84,17 @@ test('the transcript sits closed behind a summary carrying both labels', () => {
   expect(html.indexOf('Bonjour, je suis Claire.')).toBeGreaterThan(html.indexOf('</summary>'));
 });
 
+test('the labels follow their own toggle, never the open accordion around it', () => {
+  const html = render({ audio, transcript });
+
+  // An unnamed `group-open:` matches ANY open `.group` above it, and LoAccordion is
+  // one, so in a card the label read "Hide" while closed (e2e/transcript-toggle.spec.ts).
+  expect(html).toMatch(/<details[^>]*class="[^"]*\bgroup\/transcript\b/);
+  const summary = /<summary[^>]*>([\s\S]*?)<\/summary>/.exec(html)?.[1] ?? '';
+  expect(summary).not.toMatch(/\bgroup-open:/);
+  expect(summary.match(/group-open\/transcript:/g)).toHaveLength(2);
+});
+
 test('a portrait row is top-aligned, so a tall photo never pushes the player down', () => {
   const html = render({
     image: { kind: 'portrait', src: 'images/x/speaker.svg', alt: '' },

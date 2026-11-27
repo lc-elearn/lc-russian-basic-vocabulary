@@ -53,4 +53,22 @@ export const lineMatchFixtures: ShowcaseFixture[] = [
       },
     } satisfies LineMatchConfigInput,
   },
+  {
+    id: 'line-match-words',
+    title: 'line-match — match each English word to its translation',
+    type: 'line-match',
+    config: {
+      type: 'line-match',
+      content: {
+        // Text prompts in place of pictures: the English word sits on the left and
+        // the learner connects it to the course-language word on the right.
+        items: [
+          { prompt: 'marriage', label: 'el matrimonio' },
+          { prompt: 'relationship', label: 'la relación' },
+          { prompt: 'to divorce', label: 'divorciarse' },
+          { prompt: 'in love', label: 'enamorado' },
+        ],
+      },
+    } satisfies LineMatchConfigInput,
+  },
 ];

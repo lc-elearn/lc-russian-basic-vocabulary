@@ -22,12 +22,18 @@
  * rendered after the instruction box and before the text. Its rules live in
  * `media-schema.ts` (spec docs/specs/2026-10-07-tabs-media-design.md §3).
  *
+ * `listenAlong` is OPTIONAL: one recording above rows that light as it plays, each row
+ * able to play its own slice (E66). Same schema as the `listen-along` block, without the
+ * block's `instructions`: the tab has its own
+ * (spec docs/specs/2026-11-20-listen-along-design.md §3.1).
+ *
  * STRICT, so a misspelt key (`tabz`) fails at build time instead of silently
  * rendering nothing.
  *
  * Spec: docs/specs/2026-10-07-tabs-block-design.md §3.
  */
 import { z } from 'zod';
+import { ListenAlongSchema } from './listen-along-schema';
 import { MediaSchema } from './media-schema';
 import { TextBlockContentSchema } from './text-block-schema';
 
@@ -41,6 +47,8 @@ export const TabSchema = z.strictObject({
   instructions: z.string().min(1),
   /** Optional image and/or audio with transcript, after the instructions. */
   media: MediaSchema.optional(),
+  /** Optional listen-along list (E66), after the media and before the text. */
+  listenAlong: ListenAlongSchema.optional(),
   /** The panel body: one entry per paragraph or block. */
   text: RichTextEntriesSchema,
 });

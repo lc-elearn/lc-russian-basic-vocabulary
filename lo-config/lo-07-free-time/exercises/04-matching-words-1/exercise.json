@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 1",
   "content": {
     "items": [
       {
-        "text": "adventure — [приключение]"
+        "prompt": "adventure",
+        "label": "приключение"
       },
       {
-        "text": "to get experience — [получить опыт]"
+        "prompt": "to get experience",
+        "label": "получить опыт"
       },
       {
-        "text": "at leisure — [на досуге]"
+        "prompt": "at leisure",
+        "label": "на досуге"
       },
       {
-        "text": "all inclusive — [всё включено]"
+        "prompt": "all inclusive",
+        "label": "всё включено"
       },
       {
-        "text": "to be to one’s liking — [быть по душе]"
+        "prompt": "to be to one’s liking",
+        "label": "быть по душе"
       },
       {
-        "text": "travel agency — [турагентство]"
+        "prompt": "travel agency",
+        "label": "турагентство"
       },
       {
-        "text": "tent — [палатка]"
+        "prompt": "tent",
+        "label": "палатка"
       },
       {
-        "text": "to relax — [расслабляться]"
+        "prompt": "to relax",
+        "label": "расслабляться"
       },
       {
-        "text": "to realise a dream — [осуществить мечту]"
+        "prompt": "to realise a dream",
+        "label": "осуществить мечту"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

@@ -243,8 +243,8 @@ lo-config/lo-01-salutations/
   counterpart of the exercise registry (`src/exercises/lazy-registry.ts`), not the same map: blocks are content,
   not engines. Shipped types (amended 2026-10-13 — seven, not three): `prose`
   (UI-language commentary), `intro` (UI-language page copy), `grammar`
-  (target-language prose), `vocabulary` (term/gloss `<dl>`), `outcomes`, `tabs` and
-  `sources`. An unregistered `type` renders a visible error, never silence.
+  (target-language prose), `vocabulary` (term/gloss `<dl>`), `outcomes`, `tabs`,
+  `sources` and `listen-along` (amended 2026-11-20, E66). An unregistered `type` renders a visible error, never silence.
 - `title` → the accordion's `<h3>` inside `<summary>`. Required for a `card` block,
   same reasoning as `label` above; a `plain` block has no accordion, so Zod rejects a
   `title` on one.
@@ -309,8 +309,9 @@ the UI language — `lang` is per-part, not per-block.
   `config.labels?.check ?? uiStrings.check` (spec §9) decides the Check
   button's text.
 
-Still open: block types beyond the seven shipped ones (`prose`, `intro`, `grammar`,
-`vocabulary`, `outcomes`, `tabs`, `sources` — amended 2026-10-13) — pronunciation,
+Still open: block types beyond the eight shipped ones (`prose`, `intro`, `grammar`,
+`vocabulary`, `outcomes`, `tabs`, `sources`, `listen-along` — amended 2026-10-13 and
+2026-11-20) — pronunciation,
 dialogue and monologue blocks each need a `type` string, a `content` schema and a
 registry entry when they arrive. The envelope (`type`, `title`, `defaultOpen`,
 `labels?`, `content`) is locked — since extended with `presentation` (`card` |

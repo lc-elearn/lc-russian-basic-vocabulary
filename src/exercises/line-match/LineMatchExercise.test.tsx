@@ -31,3 +31,28 @@ describe('LineMatchExercise desktop stage', () => {
     for (const button of buttons) expect(button).toMatch(/class="[^"]*\bh-full\b/);
   });
 });
+
+describe('LineMatchExercise text prompts', () => {
+  const textFixture = lineMatchFixtures.find((fixture) => fixture.id === 'line-match-words');
+  const textHtml = renderToStaticMarkup(
+    <LineMatchExercise config={textFixture?.config as never} />,
+  );
+
+  test('a text-prompt fixture exists for the showcase', () => {
+    expect(textFixture).toBeDefined();
+  });
+
+  test('shows each prompt as text and no picture', () => {
+    expect(textHtml).not.toContain('<img');
+    expect(textHtml).toContain('>marriage<');
+  });
+
+  test('names each source card by its prompt, not as a picture', () => {
+    expect(textHtml).toMatch(/aria-label="Item \d: marriage: select to connect"/);
+    expect(textHtml).not.toMatch(/aria-label="Picture /);
+  });
+
+  test('labels each mobile dropdown with its prompt', () => {
+    expect(textHtml).toContain('Word matching: marriage');
+  });
+});

@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 3",
   "content": {
     "items": [
       {
-        "text": "it is customary — [принято]"
+        "prompt": "it is customary",
+        "label": "принято"
       },
       {
-        "text": "feast — [застолье]"
+        "prompt": "feast",
+        "label": "застолье"
       },
       {
-        "text": "to send a card — [посылать открытку]"
+        "prompt": "to send a card",
+        "label": "посылать открытку"
       },
       {
-        "text": "negative — [отрицательный]"
+        "prompt": "negative",
+        "label": "отрицательный"
       },
       {
-        "text": "to reflect — [отражать]"
+        "prompt": "to reflect",
+        "label": "отражать"
       },
       {
-        "text": "to celebrate — [праздновать]"
+        "prompt": "to celebrate",
+        "label": "праздновать"
       },
       {
-        "text": "generation — [поколение]"
+        "prompt": "generation",
+        "label": "поколение"
       },
       {
-        "text": "reception (of guests) — [приём гостей]"
+        "prompt": "reception (of guests)",
+        "label": "приём гостей"
       },
       {
-        "text": "to arrange — [устраивать]"
+        "prompt": "to arrange",
+        "label": "устраивать"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

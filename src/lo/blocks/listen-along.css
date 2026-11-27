@@ -1,0 +1,72 @@
+/*
+ * listen-along.css — a listen-along list (E66, spec §5): the player, then one or two
+ * tables. A split list sits in two columns on a wide screen and stacks on a phone. The
+ * lit row is a primary tint with a bar on its leading edge; it snaps, never fades (TODO
+ * §D8: a token colour declared in a base state is never transitioned).
+ */
+@layer components {
+  .listen-along {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .listen-along-caption {
+    color: var(--foreground);
+    font-weight: 600;
+  }
+
+  .listen-along-player audio {
+    display: block;
+    width: 100%;
+    max-width: 28rem;
+    margin-top: 0.375rem;
+  }
+
+  .listen-along-columns {
+    display: grid;
+    gap: 1rem 1.5rem;
+    align-items: start;
+  }
+
+  @media (width >= 48rem) {
+    .listen-along-columns[data-split] {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  .listen-along-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .listen-along-table th,
+  .listen-along-table td {
+    padding: 0.375rem 0.75rem;
+    border: 1px solid var(--border);
+    text-align: start;
+    vertical-align: middle;
+  }
+
+  .listen-along-table thead th {
+    background-color: var(--muted);
+    color: var(--foreground);
+    font-weight: 600;
+  }
+
+  .listen-along-table tbody th {
+    font-weight: 600;
+  }
+
+  /* As narrow as the speaker: the text cells take the rest. */
+  .listen-along-speaker {
+    width: 1%;
+  }
+
+  .listen-along-row[data-lit] {
+    background-color: color-mix(in oklab, var(--primary) 14%, var(--card));
+  }
+
+  .listen-along-row[data-lit] > :first-child {
+    box-shadow: inset 3px 0 0 var(--primary);
+  }
+}

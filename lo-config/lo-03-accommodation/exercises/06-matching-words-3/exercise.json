@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 3",
   "content": {
     "items": [
       {
-        "text": "tidying up — [уборка]"
+        "prompt": "tidying up",
+        "label": "уборка"
       },
       {
-        "text": "to water houseplants — [поливать цветы]"
+        "prompt": "to water houseplants",
+        "label": "поливать цветы"
       },
       {
-        "text": "advantage — [преимущество]"
+        "prompt": "advantage",
+        "label": "преимущество"
       },
       {
-        "text": "multi-storey — [многоэтажный]"
+        "prompt": "multi-storey",
+        "label": "многоэтажный"
       },
       {
-        "text": "disadvantage — [недостаток]"
+        "prompt": "disadvantage",
+        "label": "недостаток"
       },
       {
-        "text": "one’s own — [собственный]"
+        "prompt": "one’s own",
+        "label": "собственный"
       },
       {
-        "text": "to choose — [выбирать]"
+        "prompt": "to choose",
+        "label": "выбирать"
       },
       {
-        "text": "big — [крупный]"
+        "prompt": "big",
+        "label": "крупный"
       },
       {
-        "text": "housewarming party — [новоселье]"
+        "prompt": "housewarming party",
+        "label": "новоселье"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 3",
   "content": {
     "items": [
       {
-        "text": "to cause damage — [наносить ущерб]"
+        "prompt": "to cause damage",
+        "label": "наносить ущерб"
       },
       {
-        "text": "insurance — [страховка]"
+        "prompt": "insurance",
+        "label": "страховка"
       },
       {
-        "text": "to waste time — [тратить время зря]"
+        "prompt": "to waste time",
+        "label": "тратить время зря"
       },
       {
-        "text": "impressions — [впечатления]"
+        "prompt": "impressions",
+        "label": "впечатления"
       },
       {
-        "text": "remote corners — [отдалённые уголки]"
+        "prompt": "remote corners",
+        "label": "отдалённые уголки"
       },
       {
-        "text": "naturally — [естественно]"
+        "prompt": "naturally",
+        "label": "естественно"
       },
       {
-        "text": "to combine — [совмещать]"
+        "prompt": "to combine",
+        "label": "совмещать"
       },
       {
-        "text": "volunteer — [волонтёр]"
+        "prompt": "volunteer",
+        "label": "волонтёр"
       },
       {
-        "text": "to limit — [ограничивать]"
+        "prompt": "to limit",
+        "label": "ограничивать"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

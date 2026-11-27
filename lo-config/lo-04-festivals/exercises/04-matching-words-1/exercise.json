@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 1",
   "content": {
     "items": [
       {
-        "text": "to be glad — [радоваться]"
+        "prompt": "to be glad",
+        "label": "радоваться"
       },
       {
-        "text": "hospitality — [гостеприимство]"
+        "prompt": "hospitality",
+        "label": "гостеприимство"
       },
       {
-        "text": "to preserve — [сохранять]"
+        "prompt": "to preserve",
+        "label": "сохранять"
       },
       {
-        "text": "alcoholic drinks — [выпивка]"
+        "prompt": "alcoholic drinks",
+        "label": "выпивка"
       },
       {
-        "text": "pagan — [языческий]"
+        "prompt": "pagan",
+        "label": "языческий"
       },
       {
-        "text": "according to Russian custom — [по русскому обычаю]"
+        "prompt": "according to Russian custom",
+        "label": "по русскому обычаю"
       },
       {
-        "text": "to unite — [объединять]"
+        "prompt": "to unite",
+        "label": "объединять"
       },
       {
-        "text": "to give presents — [дарить подарки]"
+        "prompt": "to give presents",
+        "label": "дарить подарки"
       },
       {
-        "text": "to create — [создавать]"
+        "prompt": "to create",
+        "label": "создавать"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

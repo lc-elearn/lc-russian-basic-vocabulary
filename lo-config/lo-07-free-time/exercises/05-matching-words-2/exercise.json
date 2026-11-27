@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 2",
   "content": {
     "items": [
       {
-        "text": "mad money — [бешеные деньги]"
+        "prompt": "mad money",
+        "label": "бешеные деньги"
       },
       {
-        "text": "to attract — [привлекать]"
+        "prompt": "to attract",
+        "label": "привлекать"
       },
       {
-        "text": "youth camp — [молодёжный лагерь]"
+        "prompt": "youth camp",
+        "label": "молодёжный лагерь"
       },
       {
-        "text": "to entertain oneself — [развлекаться]"
+        "prompt": "to entertain oneself",
+        "label": "развлекаться"
       },
       {
-        "text": "mainly — [в основном]"
+        "prompt": "mainly",
+        "label": "в основном"
       },
       {
-        "text": "to develop oneself — [развиваться]"
+        "prompt": "to develop oneself",
+        "label": "развиваться"
       },
       {
-        "text": "diverse — [разнообразный]"
+        "prompt": "diverse",
+        "label": "разнообразный"
       },
       {
-        "text": "full of strength — [полный сил]"
+        "prompt": "full of strength",
+        "label": "полный сил"
       },
       {
-        "text": "excavations — [раскопки]"
+        "prompt": "excavations",
+        "label": "раскопки"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

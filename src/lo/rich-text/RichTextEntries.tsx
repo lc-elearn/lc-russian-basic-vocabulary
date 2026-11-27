@@ -13,13 +13,55 @@
  * name. `useId` keeps the caption id identical in the prerender and the first client
  * render.
  *
+ * ROW CLIPS (template issue 140, extending E62): a table row or list item holding
+ * exactly one speaker plays it when clicked or tapped anywhere on the row, by pressing
+ * that speaker (`playRowClip`). A row with two speakers is left alone: a row-wide click
+ * cannot know which clip was meant. A mouse and touch convenience only; the speaker
+ * stays the keyboard and screen-reader path. Decided from the authored nodes, so the
+ * prerender and the first client render agree.
+ *
  * Styling: rich-text.css.
  */
-import { useId } from 'react';
+import { useId, type ReactNode } from 'react';
 import { AudioClip } from '@/components/audio/AudioClip';
+import { playRowClip, ROW_CLIP_CLASSES } from '@/audio/row-clip';
 import { RichText } from './RichText';
-import type { RichTextEntry, TableCell, TableEntry } from './rich-text-nodes';
+import {
+  collectAudioPaths,
+  type RichTextEntry,
+  type RichTextNode,
+  type TableCell,
+  type TableEntry,
+} from './rich-text-nodes';
 import './rich-text.css';
+
+/** A row plays its clip only when it holds exactly one speaker. */
+function hasOneClip(nodes: readonly RichTextNode[]): boolean {
+  return collectAudioPaths(nodes).length === 1;
+}
+
+/** The props that make a row a clip row; none for a row without exactly one clip. */
+function rowClipProps(nodes: readonly RichTextNode[]) {
+  return hasOneClip(nodes)
+    ? { onClick: playRowClip, 'data-row-clip': '', className: ROW_CLIP_CLASSES }
+    : {};
+}
+
+/**
+ * A `<tr>` or `<li>`, marked as a clip row when it holds one speaker. No role, tabIndex
+ * or key handler: pointer-only, over the speaker <button> (src/audio/row-clip.ts).
+ */
+function ClipRow({
+  as: Row,
+  nodes,
+  children,
+}: {
+  as: 'tr' | 'li';
+  nodes: readonly RichTextNode[];
+  children: ReactNode;
+}) {
+  return <Row {...rowClipProps(nodes)}>{children}</Row>;
+}
 
 function Cell({ cell }: { cell: TableCell }) {
   const body = <RichText nodes={cell.children} />;
@@ -29,11 +71,11 @@ function Cell({ cell }: { cell: TableCell }) {
 function Rows({ rows }: { rows: readonly (readonly TableCell[])[] }) {
   // Static authored config, never reordered — index keys are stable.
   return rows.map((row, rowIndex) => (
-    <tr key={rowIndex}>
+    <ClipRow as="tr" key={rowIndex} nodes={row.flatMap((cell) => cell.children)}>
       {row.map((cell, cellIndex) => (
         <Cell key={cellIndex} cell={cell} />
       ))}
-    </tr>
+    </ClipRow>
   ));
 }
 
@@ -93,9 +135,9 @@ function EntryView({
         <List className="rich-text-list">
           {entry.items.map((item, index) => (
             // Static authored config, never reordered — index keys are stable.
-            <li key={index}>
+            <ClipRow as="li" key={index} nodes={item}>
               <RichText nodes={item} />
-            </li>
+            </ClipRow>
           ))}
         </List>
       );

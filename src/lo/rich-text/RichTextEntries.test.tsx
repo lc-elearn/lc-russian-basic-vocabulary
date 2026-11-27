@@ -110,3 +110,50 @@ describe('headings (popups only, E56)', () => {
     );
   });
 });
+
+// Template issue 140: E62's "tap anywhere on the row" for rich-text tables and lists.
+// The click itself is `playRowClip`'s job (src/audio/row-clip.test.ts); here, which rows
+// are marked as clip rows, and that a row without one is left exactly as it was.
+describe('row clips in rich text (issue 140)', () => {
+  const SPEAKER = `<span data-audio="${AUDIO}"></span>`;
+  const CLIP_ROW = /<(tr|li) data-row-clip="" class="cursor-pointer hover:bg-muted">/g;
+
+  test('a table row with one speaker is a clip row', () => {
+    const html = renderAuthored(
+      `<table><caption>c</caption><tr><td>ä</td><td>${SPEAKER}</td></tr></table>`,
+    );
+    expect(html.match(CLIP_ROW)).toHaveLength(1);
+  });
+
+  test('a speaker nested in a cell’s formatting still marks the row', () => {
+    const html = renderAuthored(
+      `<table><caption>c</caption><tr><td><strong>ich ${SPEAKER}</strong></td></tr></table>`,
+    );
+    expect(html.match(CLIP_ROW)).toHaveLength(1);
+  });
+
+  test('a list item with one speaker is a clip row', () => {
+    const html = renderAuthored(`<ul><li>Haus ${SPEAKER}</li><li>Maus</li></ul>`);
+    expect(html.match(CLIP_ROW)).toHaveLength(1);
+    expect(html).toContain('<li>Maus</li>');
+  });
+
+  test('a row without a speaker is unchanged: no marker, no class', () => {
+    const html = renderAuthored(
+      `<table><caption>c</caption><thead><tr><th>Letter</th><th>Listen</th></tr></thead>` +
+        `<tbody><tr><td>ä</td><td>${SPEAKER}</td></tr><tr><td>ö</td><td></td></tr></tbody></table>`,
+    );
+    expect(html).toContain('<tr><th scope="col">Letter</th>');
+    expect(html).toContain('<tr><td>ö</td>');
+    expect(html.match(CLIP_ROW)).toHaveLength(1);
+  });
+
+  // A row-wide click cannot know which of two clips was meant, so it plays neither; each
+  // speaker still plays on its own.
+  test('a row with two speakers is not a clip row', () => {
+    const html = renderAuthored(
+      `<table><caption>c</caption><tr><td>Kind ${SPEAKER}</td><td>Kinder ${SPEAKER}</td></tr></table>`,
+    );
+    expect(html).not.toContain('data-row-clip=""');
+  });
+});

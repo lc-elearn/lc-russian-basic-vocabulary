@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 3",
   "content": {
     "items": [
       {
-        "text": "fair-haired — [светловолосый]"
+        "prompt": "fair-haired",
+        "label": "светловолосый"
       },
       {
-        "text": "cautious — [осторожный]"
+        "prompt": "cautious",
+        "label": "осторожный"
       },
       {
-        "text": "quick(hot)-tempered — [вспыльчивый]"
+        "prompt": "quick(hot)-tempered",
+        "label": "вспыльчивый"
       },
       {
-        "text": "compassionate — [сострадательный]"
+        "prompt": "compassionate",
+        "label": "сострадательный"
       },
       {
-        "text": "mole — [родинка]"
+        "prompt": "mole",
+        "label": "родинка"
       },
       {
-        "text": "prone — [склонный]"
+        "prompt": "prone",
+        "label": "склонный"
       },
       {
-        "text": "characteristic features — [характерные черты]"
+        "prompt": "characteristic features",
+        "label": "характерные черты"
       },
       {
-        "text": "he is short — [он небольшого роста]"
+        "prompt": "he is short",
+        "label": "он небольшого роста"
       },
       {
-        "text": "guileless — [простодушный]"
+        "prompt": "guileless",
+        "label": "простодушный"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

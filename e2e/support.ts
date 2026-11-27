@@ -20,6 +20,17 @@ const isCancelled = (errorText: string | undefined): boolean =>
   /aborted|cancelled/i.test(errorText ?? '');
 
 /**
+ * Firefox's own version of the same thing: when an <audio> element's data is already in
+ * its media cache, it drops the network request and reports it as failed with
+ * `NS_ERROR_PARSED_DATA_CACHED`. The file was served and plays. Seen on and off on the
+ * Russian course's dialogue audio (2026-11-19), a different file each run, never in
+ * Chromium or WebKit. Excused for media requests only: the same code on a script,
+ * stylesheet or page is still a failure.
+ */
+const isFirefoxMediaCacheHit = (resourceType: string, errorText: string | undefined): boolean =>
+  resourceType === 'media' && errorText === 'NS_ERROR_PARSED_DATA_CACHED';
+
+/**
  * Where the licensed Feijoa files exist (never in CI: they are never committed), Firefox
  * discards an unsupported `kern` table from the Bold cut, logs it as a console error, and
  * uses the font anyway. Known and harmless, so exactly those two messages are ignored.
@@ -43,7 +54,8 @@ export function watchForProblems(page: Page): string[] {
   page.on('pageerror', (error) => problems.push(`uncaught: ${error.message}`));
   page.on('requestfailed', (request) => {
     const errorText = request.failure()?.errorText;
-    if (!isCancelled(errorText)) problems.push(`request failed: ${request.url()} (${errorText})`);
+    if (isCancelled(errorText) || isFirefoxMediaCacheHit(request.resourceType(), errorText)) return;
+    problems.push(`request failed: ${request.url()} (${errorText})`);
   });
   page.on('response', (response) => {
     if (response.status() >= 400) problems.push(`HTTP ${response.status()}: ${response.url()}`);
@@ -191,3 +203,65 @@ export async function expectNoAxeViolations(page: Page, scope?: string): Promise
  * passes stay green without it.
  */
 const BASE_UI_FOCUS_GUARD = '[data-base-ui-focus-guard]';
+
+/** A point in an element's own box, in CSS pixels; a negative value counts back from the far edge (-1 is the last pixel). */
+export type PixelPoint = readonly [x: number, y: number];
+
+/**
+ * The colour drawn at each point of an element, read from a screenshot of it, and the
+ * colour it should be: `reference` is either a CSS colour (converted on a canvas, so an
+ * `oklch()` token compares as the RGB the browser paints) or a point of the same
+ * screenshot (for a translucent colour, which only the paint itself shows blended). For a
+ * fault only the paint shows — a border corner a mitre or a clip cuts off — where computed
+ * style is right and the pixels are wrong (template issue 156). Decoded on a canvas in the
+ * page itself, so no image library is needed. Run such a spec at `deviceScaleFactor: 1`:
+ * at 2 (the WebKit project) an edge on a fractional CSS position downsamples to a blended
+ * row.
+ */
+export async function pixelsAt(
+  element: Locator,
+  points: readonly PixelPoint[],
+  reference: string | PixelPoint,
+): Promise<{ pixels: number[][]; expected: number[] }> {
+  const png = (await element.screenshot({ scale: 'css', animations: 'disabled' })).toString(
+    'base64',
+  );
+  return element.page().evaluate(
+    async ({ png, points, reference }) => {
+      const blob = await (await fetch(`data:image/png;base64,${png}`)).blob();
+      const bitmap = await createImageBitmap(blob);
+      const canvas = new OffscreenCanvas(bitmap.width, bitmap.height);
+      const context = canvas.getContext('2d', { willReadFrequently: true });
+      if (!context) throw new Error('no 2d canvas');
+      context.drawImage(bitmap, 0, 0);
+      const at = ([x, y]: readonly [number, number]): number[] => [
+        ...context
+          .getImageData(x < 0 ? bitmap.width + x : x, y < 0 ? bitmap.height + y : y, 1, 1)
+          .data.slice(0, 3),
+      ];
+      const pixels = points.map(at);
+      if (typeof reference !== 'string') return { pixels, expected: at(reference) };
+      context.fillStyle = reference;
+      context.fillRect(0, 0, 1, 1);
+      return { pixels, expected: at([0, 0]) };
+    },
+    { png, points, reference },
+  );
+}
+
+/** Every point is drawn in the reference colour, give or take a step of rounding per channel. */
+export async function expectPixels(
+  element: Locator,
+  points: readonly PixelPoint[],
+  reference: string | PixelPoint,
+  label: string,
+): Promise<void> {
+  const { pixels, expected } = await pixelsAt(element, points, reference);
+  pixels.forEach((pixel, index) => {
+    const off = Math.max(...pixel.map((channel, c) => Math.abs(channel - (expected[c] ?? 0))));
+    expect(
+      off,
+      `${label} at ${points[index]}: rgb(${pixel}) vs rgb(${expected})`,
+    ).toBeLessThanOrEqual(3);
+  });
+}

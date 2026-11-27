@@ -23,7 +23,9 @@
  *   - Explanation reveal: a question's `explanation` shows after Check ONLY when that
  *     question is WRONG (matches french). It is DERIVED from checkedResults — no
  *     extra state field — so a re-answer (which clears that verdict) or Show-answers
- *     (which marks everything correct) hides it automatically.
+ *     (which marks everything correct) hides it automatically. Rendered by the shared
+ *     ItemExplanation (2026-11-24): page language, tied to the group by
+ *     aria-describedby.
  *   - Layout: stem above, ChoicePillGroup below, and a fixed-width ResultSlot column
  *     on the right (`grid-cols-[minmax(0,1fr)_2.5rem]`), so the tick/cross never
  *     shifts the card — the same no-jiggle row as select/inline.
@@ -49,6 +51,7 @@ import {
 } from '@/exercises/lib/scoring';
 import { mulberry32, shuffle } from '@/exercises/lib/shuffle';
 import { ChoicePillGroup } from '@/exercises/lib/ChoicePillGroup';
+import { ItemExplanation } from '@/exercises/lib/ItemExplanation';
 import { hasLongOption } from '@/exercises/lib/long-options';
 import { ExerciseFooter } from '@/exercises/lib/ExerciseFooter';
 import { ResultSlot } from '@/exercises/lib/ResultSlot';
@@ -196,6 +199,7 @@ export default function RadioQuizExercise({ config }: ExerciseComponentProps) {
     // Explanation shows after a Check ONLY when this question is wrong (derived, no
     // extra state) — Show-answers marks everything correct, so it hides there.
     const showExplanation = result === false && Boolean(question.explanation);
+    const explanationId = `${groupId}-explanation`;
 
     return (
       <div
@@ -216,15 +220,16 @@ export default function RadioQuizExercise({ config }: ExerciseComponentProps) {
                 options={question.options}
                 selectedIndex={selectedIndex}
                 stacked={stacked}
+                describedBy={showExplanation ? explanationId : undefined}
                 stacksWhenNarrow
                 verdict={verdict}
               />
             </div>
-            {showExplanation ? (
-              <p className="mt-2 text-sm text-muted-foreground" lang={TARGET_LANG}>
-                {question.explanation}
-              </p>
-            ) : null}
+            <ItemExplanation
+              id={explanationId}
+              isShown={showExplanation}
+              text={question.explanation}
+            />
           </div>
           <ResultSlot hasResult={hasResult} isCorrect={verdict === true} />
         </div>
