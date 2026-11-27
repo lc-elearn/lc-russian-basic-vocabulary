@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 2",
   "content": {
     "items": [
       {
-        "text": "vocational college — [училище]"
+        "prompt": "vocational college",
+        "label": "училище"
       },
       {
-        "text": "after graduation — [по окончании вуза]"
+        "prompt": "after graduation",
+        "label": "по окончании вуза"
       },
       {
-        "text": "merit — [достоинство]"
+        "prompt": "merit",
+        "label": "достоинство"
       },
       {
-        "text": "highly-paid — [высокооплачиваемый]"
+        "prompt": "highly-paid",
+        "label": "высокооплачиваемый"
       },
       {
-        "text": "end of year work — [курсовая работа]"
+        "prompt": "end of year work",
+        "label": "курсовая работа"
       },
       {
-        "text": "studies — [учёба]"
+        "prompt": "studies",
+        "label": "учёба"
       },
       {
-        "text": "to enter (university) — [поступить]"
+        "prompt": "to enter (university)",
+        "label": "поступить"
       },
       {
-        "text": "hardworking — [трудолюбивый]"
+        "prompt": "hardworking",
+        "label": "трудолюбивый"
       },
       {
-        "text": "academic performance — [успеваемость]"
+        "prompt": "academic performance",
+        "label": "успеваемость"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

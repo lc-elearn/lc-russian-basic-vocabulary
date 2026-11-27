@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 3",
   "content": {
     "items": [
       {
-        "text": "lack of sleep — [недосып]"
+        "prompt": "lack of sleep",
+        "label": "недосып"
       },
       {
-        "text": "to be different — [отличаться]"
+        "prompt": "to be different",
+        "label": "отличаться"
       },
       {
-        "text": "to experience stress — [испытывать стресс]"
+        "prompt": "to experience stress",
+        "label": "испытывать стресс"
       },
       {
-        "text": "sports — [виды спорта]"
+        "prompt": "sports",
+        "label": "виды спорта"
       },
       {
-        "text": "to cope — [справляться]"
+        "prompt": "to cope",
+        "label": "справляться"
       },
       {
-        "text": "alcoholic drinks — [спиртное]"
+        "prompt": "alcoholic drinks",
+        "label": "спиртное"
       },
       {
-        "text": "outside — [на свежем воздухе]"
+        "prompt": "outside",
+        "label": "на свежем воздухе"
       },
       {
-        "text": "by nature — [по природе]"
+        "prompt": "by nature",
+        "label": "по природе"
       },
       {
-        "text": "to do without — [обходиться]"
+        "prompt": "to do without",
+        "label": "обходиться"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

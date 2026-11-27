@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 1",
   "content": {
     "items": [
       {
-        "text": "to envy — [завидовать]"
+        "prompt": "to envy",
+        "label": "завидовать"
       },
       {
-        "text": "hospitable — [гостеприимный]"
+        "prompt": "hospitable",
+        "label": "гостеприимный"
       },
       {
-        "text": "chestnut-haired — [шатен]"
+        "prompt": "chestnut-haired",
+        "label": "шатен"
       },
       {
-        "text": "brown eyes — [карие глаза]"
+        "prompt": "brown eyes",
+        "label": "карие глаза"
       },
       {
-        "text": "vindictive — [злопамятный]"
+        "prompt": "vindictive",
+        "label": "злопамятный"
       },
       {
-        "text": "witty — [остроумный]"
+        "prompt": "witty",
+        "label": "остроумный"
       },
       {
-        "text": "to look/be like — [выглядеть]"
+        "prompt": "to look/be like",
+        "label": "выглядеть"
       },
       {
-        "text": "industriousness — [трудолюбие]"
+        "prompt": "industriousness",
+        "label": "трудолюбие"
       },
       {
-        "text": "to praise oneself — [хвалиться]"
+        "prompt": "to praise oneself",
+        "label": "хвалиться"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

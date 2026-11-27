@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 2",
   "content": {
     "items": [
       {
-        "text": "religious faith — [вероисповедание]"
+        "prompt": "religious faith",
+        "label": "вероисповедание"
       },
       {
-        "text": "to let a flat — [сдать квартиру]"
+        "prompt": "to let a flat",
+        "label": "сдать квартиру"
       },
       {
-        "text": "to turn to — [обращаться]"
+        "prompt": "to turn to",
+        "label": "обращаться"
       },
       {
-        "text": "homeless — [бездомный]"
+        "prompt": "homeless",
+        "label": "бездомный"
       },
       {
-        "text": "to quarrel — [ссориться]"
+        "prompt": "to quarrel",
+        "label": "ссориться"
       },
       {
-        "text": "neighbours — [соседи]"
+        "prompt": "neighbours",
+        "label": "соседи"
       },
       {
-        "text": "voting — [голосование]"
+        "prompt": "voting",
+        "label": "голосование"
       },
       {
-        "text": "to socialise — [общаться]"
+        "prompt": "to socialise",
+        "label": "общаться"
       },
       {
-        "text": "sink — [раковина]"
+        "prompt": "sink",
+        "label": "раковина"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }
