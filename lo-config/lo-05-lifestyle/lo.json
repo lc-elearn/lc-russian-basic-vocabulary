@@ -1,9 +1,9 @@
 {
   "title": "Lifestyle · Образ жизни",
   "description": "Discuss different lifestyles, healthy and unhealthy habits, coping with daily stress, and why and how our lifestyle is changing.",
-  "image": "images/lo-05-lifestyle/card.jpg",
+  "image": "images/lo-05-lifestyle/card.webp",
   "hero": {
-    "src": "images/lo-05-lifestyle/hero.png"
+    "src": "images/lo-05-lifestyle/hero.webp"
   },
   "sections": [
     {

@@ -1,9 +1,9 @@
 {
   "title": "Education · Образование",
   "description": "Discuss types of education, theoretical and practical knowledge, and different views of higher education.",
-  "image": "images/lo-09-education/card.jpg",
+  "image": "images/lo-09-education/card.webp",
   "hero": {
-    "src": "images/lo-09-education/hero.png"
+    "src": "images/lo-09-education/hero.webp"
   },
   "sections": [
     {
