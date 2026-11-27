@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 2",
   "content": {
     "items": [
       {
-        "text": "blue-eyed — [голубоглазый]"
+        "prompt": "blue-eyed",
+        "label": "голубоглазый"
       },
       {
-        "text": "hypocritical — [лицемерный]"
+        "prompt": "hypocritical",
+        "label": "лицемерный"
       },
       {
-        "text": "appearance (image) — [внешний вид]"
+        "prompt": "appearance (image)",
+        "label": "внешний вид"
       },
       {
-        "text": "condescending — [снисходительный]"
+        "prompt": "condescending",
+        "label": "снисходительный"
       },
       {
-        "text": "vain — [суетный]"
+        "prompt": "vain",
+        "label": "суетный"
       },
       {
-        "text": "to sympathise — [сочувствовать]"
+        "prompt": "to sympathise",
+        "label": "сочувствовать"
       },
       {
-        "text": "clear-thinking — [рассудительный]"
+        "prompt": "clear-thinking",
+        "label": "рассудительный"
       },
       {
-        "text": "accordingly — [соответствующе]"
+        "prompt": "accordingly",
+        "label": "соответствующе"
       },
       {
-        "text": "chin — [подбородок]"
+        "prompt": "chin",
+        "label": "подбородок"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

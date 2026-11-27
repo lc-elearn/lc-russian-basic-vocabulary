@@ -40,7 +40,7 @@
         },
         {
           "title": "2. Matching words",
-          "instructions": "Drag the Russian equivalent to each English word. Select Check to mark your answers, Reset to start over, or Show answers to reveal them.",
+          "instructions": "Match each English word with its Russian equivalent: select a word on the left, then its pair on the right. Select Check to mark your matches, Reset to clear them, or Show answers to reveal the correct pairs.",
           "tabs": [
             {
               "exercise": "04-matching-words-1"

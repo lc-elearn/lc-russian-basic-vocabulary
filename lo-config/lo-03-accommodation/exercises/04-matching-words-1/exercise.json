@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 1",
   "content": {
     "items": [
       {
-        "text": "to wash up — [мыть посуду]"
+        "prompt": "to wash up",
+        "label": "мыть посуду"
       },
       {
-        "text": "facilities — [удобства]"
+        "prompt": "facilities",
+        "label": "удобства"
       },
       {
-        "text": "separate room — [отдельная комната]"
+        "prompt": "separate room",
+        "label": "отдельная комната"
       },
       {
-        "text": "to vacuum-clean — [пылесосить]"
+        "prompt": "to vacuum-clean",
+        "label": "пылесосить"
       },
       {
-        "text": "from another town — [иногородний]"
+        "prompt": "from another town",
+        "label": "иногородний"
       },
       {
-        "text": "to rent a flat — [снимать квартиру]"
+        "prompt": "to rent a flat",
+        "label": "снимать квартиру"
       },
       {
-        "text": "dining room — [столовая]"
+        "prompt": "dining room",
+        "label": "столовая"
       },
       {
-        "text": "responsibility — [ответственность]"
+        "prompt": "responsibility",
+        "label": "ответственность"
       },
       {
-        "text": "hob — [плита]"
+        "prompt": "hob",
+        "label": "плита"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

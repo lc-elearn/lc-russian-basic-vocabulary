@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 3",
   "content": {
     "items": [
       {
-        "text": "unemployment — [безработица]"
+        "prompt": "unemployment",
+        "label": "безработица"
       },
       {
-        "text": "experienced — [опытный]"
+        "prompt": "experienced",
+        "label": "опытный"
       },
       {
-        "text": "to get used to — [привыкать]"
+        "prompt": "to get used to",
+        "label": "привыкать"
       },
       {
-        "text": "to fulfil — [выполнять]"
+        "prompt": "to fulfil",
+        "label": "выполнять"
       },
       {
-        "text": "elderly — [пожилой]"
+        "prompt": "elderly",
+        "label": "пожилой"
       },
       {
-        "text": "to demand — [требовать]"
+        "prompt": "to demand",
+        "label": "требовать"
       },
       {
-        "text": "on average — [в среднем]"
+        "prompt": "on average",
+        "label": "в среднем"
       },
       {
-        "text": "to pay — [платить]"
+        "prompt": "to pay",
+        "label": "платить"
       },
       {
-        "text": "well off — [обеспеченный]"
+        "prompt": "well off",
+        "label": "обеспеченный"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }
