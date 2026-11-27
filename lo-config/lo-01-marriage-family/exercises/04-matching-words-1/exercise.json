@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 1",
   "content": {
     "items": [
       {
-        "text": "marriage — [брак]"
+        "prompt": "marriage",
+        "label": "брак"
       },
       {
-        "text": "civil — [гражданский]"
+        "prompt": "civil",
+        "label": "гражданский"
       },
       {
-        "text": "obligation — [обязанность]"
+        "prompt": "obligation",
+        "label": "обязанность"
       },
       {
-        "text": "to interfere with — [мешать]"
+        "prompt": "to interfere with",
+        "label": "мешать"
       },
       {
-        "text": "relationship — [отношения]"
+        "prompt": "relationship",
+        "label": "отношения"
       },
       {
-        "text": "to divorce — [разводиться]"
+        "prompt": "to divorce",
+        "label": "разводиться"
       },
       {
-        "text": "in love — [влюблённый]"
+        "prompt": "in love",
+        "label": "влюблённый"
       },
       {
-        "text": "to provide for the family — [содержать семью]"
+        "prompt": "to provide for the family",
+        "label": "содержать семью"
       },
       {
-        "text": "positive — [положительный]"
+        "prompt": "positive",
+        "label": "положительный"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

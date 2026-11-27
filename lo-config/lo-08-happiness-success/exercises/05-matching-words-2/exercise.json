@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 2",
   "content": {
     "items": [
       {
-        "text": "to strive, to achieve — [добиваться]"
+        "prompt": "to strive, to achieve",
+        "label": "добиваться"
       },
       {
-        "text": "consumption — [потребление]"
+        "prompt": "consumption",
+        "label": "потребление"
       },
       {
-        "text": "exclusively — [исключительно]"
+        "prompt": "exclusively",
+        "label": "исключительно"
       },
       {
-        "text": "to be reduced to — [сводиться]"
+        "prompt": "to be reduced to",
+        "label": "сводиться"
       },
       {
-        "text": "concept — [понятие]"
+        "prompt": "concept",
+        "label": "понятие"
       },
       {
-        "text": "to take care of — [заботиться]"
+        "prompt": "to take care of",
+        "label": "заботиться"
       },
       {
-        "text": "public recognition — [общественное признание]"
+        "prompt": "public recognition",
+        "label": "общественное признание"
       },
       {
-        "text": "system of values — [система ценностей]"
+        "prompt": "system of values",
+        "label": "система ценностей"
       },
       {
-        "text": "successful (person) — [преуспевающий]"
+        "prompt": "successful (person)",
+        "label": "преуспевающий"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

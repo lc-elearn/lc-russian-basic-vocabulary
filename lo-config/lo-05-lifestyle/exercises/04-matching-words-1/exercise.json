@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 1",
   "content": {
     "items": [
       {
-        "text": "to take care of health — [следить за здоровьем]"
+        "prompt": "to take care of health",
+        "label": "следить за здоровьем"
       },
       {
-        "text": "bad habits — [вредные привычки]"
+        "prompt": "bad habits",
+        "label": "вредные привычки"
       },
       {
-        "text": "constant — [постоянный]"
+        "prompt": "constant",
+        "label": "постоянный"
       },
       {
-        "text": "I can’t be bothered — [мне лень]"
+        "prompt": "I can’t be bothered",
+        "label": "мне лень"
       },
       {
-        "text": "excess weight — [лишний вес]"
+        "prompt": "excess weight",
+        "label": "лишний вес"
       },
       {
-        "text": "drugs — [наркотики]"
+        "prompt": "drugs",
+        "label": "наркотики"
       },
       {
-        "text": "foodstuff — [пища]"
+        "prompt": "foodstuff",
+        "label": "пища"
       },
       {
-        "text": "ways of coping — [способы борьбы]"
+        "prompt": "ways of coping",
+        "label": "способы борьбы"
       },
       {
-        "text": "to overeat — [объедаться]"
+        "prompt": "to overeat",
+        "label": "объедаться"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }

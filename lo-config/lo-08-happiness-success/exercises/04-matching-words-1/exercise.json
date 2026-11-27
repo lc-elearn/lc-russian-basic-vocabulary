@@ -1,38 +1,44 @@
 {
-  "type": "drag-fill-gaps",
+  "type": "line-match",
   "title": "Part 1",
   "content": {
     "items": [
       {
-        "text": "to compare — [сравнивать]"
+        "prompt": "to compare",
+        "label": "сравнивать"
       },
       {
-        "text": "genuinely — [по-настоящему]"
+        "prompt": "genuinely",
+        "label": "по-настоящему"
       },
       {
-        "text": "to be in charge of — [распоряжаться]"
+        "prompt": "to be in charge of",
+        "label": "распоряжаться"
       },
       {
-        "text": "luck — [удача]"
+        "prompt": "luck",
+        "label": "удача"
       },
       {
-        "text": "achievement — [достижение]"
+        "prompt": "achievement",
+        "label": "достижение"
       },
       {
-        "text": "sign — [признак]"
+        "prompt": "sign",
+        "label": "признак"
       },
       {
-        "text": "similarly — [одинаково]"
+        "prompt": "similarly",
+        "label": "одинаково"
       },
       {
-        "text": "glory, fame — [слава]"
+        "prompt": "glory, fame",
+        "label": "слава"
       },
       {
-        "text": "to be disappointed — [разочароваться]"
+        "prompt": "to be disappointed",
+        "label": "разочароваться"
       }
     ]
-  },
-  "options": {
-    "shuffle": true
   }
 }
